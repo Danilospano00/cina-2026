@@ -1,0 +1,212 @@
+{
+  "city": "Hong Kong",
+  "city_zh": "香港",
+  "slug": "hongkong",
+  "tappa": "25-26 novembre 2026 (2 notti) — arrivo G905 a West Kowloon alle 15:57 del 25",
+  "checkin": "2026-11-25",
+  "checkout": "2026-11-27",
+  "center": [22.2880, 114.1620],
+  "zoom": 13,
+  "note": "Coordinate WGS-84. A Hong Kong Google Maps funziona e non serve VPN: qui il problema GCJ-02 non ti riguarda, i link Amap restano solo per coerenza con le altre mappe.",
+  "zones": [
+    {
+      "id": "central-lkf-soho",
+      "nome": "Central: Lan Kwai Fong + SoHo",
+      "nome_zh": "中環 / 蘭桂坊 / 蘇豪",
+      "distretto": "Central & Western",
+      "rank": 1,
+      "colore": "#e03131",
+      "verdetto": "Per due notti sole non c'è discussione. Tutto quello che hai in programma il 26 parte da qui, e la sera scendi le scale e sei nei locali.",
+      "perche": [
+        "Lan Kwai Fong: un isolato in salita, decine di bar e club su più piani, la zona da uscita più densa dell'Asia",
+        "SoHo attaccato, sulle Mid-Levels Escalators: cocktail bar seri (Quinary, COA, The Old Man) invece del chiasso di LKF",
+        "Peak Tram e Star Ferry entrambi a piedi: la tua giornata piena del 26 comincia sotto l'hotel",
+        "Dim sum e cha chaan teng ovunque intorno, aperti presto: colazione risolta prima del volo del 27"
+      ],
+      "contro": [
+        "La zona più cara di Hong Kong per dormire, e Hong Kong è già cara: aspettati camere piccole",
+        "Chiasso fino alle 3-4, soprattutto giovedì e venerdì",
+        "Tutto in salita: dal molo alle stradine di SoHo si sale parecchio"
+      ],
+      "dormi_qui": [22.2825, 114.1540],
+      "raggio_m": 450,
+      "metro": ["Central 中環 (Island/Tsuen Wan)", "Sheung Wan 上環 (Island)", "Hong Kong 香港 (Airport Express)"],
+      "poly": [
+        [22.2855, 114.1490], [22.2855, 114.1600], [22.2790, 114.1600], [22.2790, 114.1490]
+      ]
+    },
+    {
+      "id": "wanchai",
+      "nome": "Wan Chai",
+      "nome_zh": "灣仔",
+      "distretto": "Wan Chai",
+      "rank": 2,
+      "colore": "#f08c00",
+      "verdetto": "La versione economica di Central. Stessa isola, due fermate di metro, hotel che costano il 30-40% in meno e una vita notturna sua, più ruvida.",
+      "perche": [
+        "Lockhart, Jaffe e Luard Road: bar, live music e locali aperti fino all'alba",
+        "The Wanch, live house dal 1987: band ogni sera, ingresso libero",
+        "Central è a 2 fermate di Island Line o 20 min a piedi lungo le passerelle sopraelevate",
+        "Rapporto qualità/prezzo migliore delle tre zone per una camera privata decente"
+      ],
+      "contro": [
+        "Parte di Lockhart Road è la vecchia zona a luci rosse: girls bar e PR insistenti, la sera si nota",
+        "Meno bello da camminare di Central: palazzoni e traffico",
+        "Dal Peak e dallo Star Ferry sei comunque un po' più lontano"
+      ],
+      "dormi_qui": [22.2785, 114.1725],
+      "raggio_m": 500,
+      "metro": ["Wan Chai 灣仔 (Island)", "Admiralty 金鐘 (Island/Tsuen Wan/South Island)"],
+      "poly": [
+        [22.2820, 114.1680], [22.2820, 114.1790], [22.2755, 114.1790], [22.2755, 114.1680]
+      ]
+    },
+    {
+      "id": "tst",
+      "nome": "Tsim Sha Tsui",
+      "nome_zh": "尖沙咀",
+      "distretto": "Yau Tsim Mong",
+      "rank": 3,
+      "colore": "#1971c2",
+      "verdetto": "Il lato Kowloon. Arrivi a West Kowloon alle 15:57 del 25 e sei qui in 5 minuti: è la scelta pratica se non vuoi trascinare il trolley attraverso il porto appena sceso dal treno di 7 ore.",
+      "perche": [
+        "West Kowloon Station a 1,5 km: una fermata di metro col bagaglio dopo sette ore di treno",
+        "Star Ferry a piedi: la traversata verso Central è il modo giusto di iniziare il 26",
+        "Waterfront con lo skyline di fronte, Symphony of Lights alle 20:00",
+        "Knutsford Terrace: la stradina di bar di TST, compatta e senza pretese",
+        "Hotel decisamente più economici che a Central, e più camere grandi"
+      ],
+      "contro": [
+        "La scena serale è più povera: qualche bar, niente di paragonabile a LKF",
+        "Molto turistico e molto affollato di giorno",
+        "Ogni giro sull'isola richiede la metro o il traghetto"
+      ],
+      "dormi_qui": [22.2970, 114.1720],
+      "raggio_m": 500,
+      "metro": ["Tsim Sha Tsui 尖沙咀 (Tsuen Wan)", "East Tsim Sha Tsui 尖東 (Tuen Ma)", "Austin 柯士甸 (Tuen Ma), per West Kowloon"],
+      "poly": [
+        [22.3020, 114.1650], [22.3020, 114.1790], [22.2920, 114.1790], [22.2920, 114.1650]
+      ]
+    },
+    {
+      "id": "kennedy-town",
+      "nome": "Kennedy Town + Sai Ying Pun",
+      "nome_zh": "堅尼地城 / 西營盤",
+      "distretto": "Central & Western",
+      "rank": 99,
+      "colore": "#868e96",
+      "verdetto": "NON dormirci per due notti. Bar ottimi e zona dove vivono gli espatriati, ma sei all'estremità ovest dell'isola e con così poco tempo il tragitto te lo mangia.",
+      "perche": [
+        "Craft beer e bar di quartiere veri, senza turisti",
+        "Lungomare per l'aperitivo al tramonto"
+      ],
+      "contro": [
+        "20-25 min di metro da tutto quello che hai in programma",
+        "Con due notti sole ogni spostamento pesa il doppio",
+        "La sera chiude presto rispetto a Central"
+      ],
+      "dormi_qui": null,
+      "raggio_m": 0,
+      "metro": ["Kennedy Town 堅尼地城 (Island)", "HKU 香港大學 (Island)"],
+      "poly": [
+        [22.2860, 114.1240], [22.2860, 114.1340], [22.2790, 114.1340], [22.2790, 114.1240]
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "nome": "Lan Kwai Fong", "nome_zh": "蘭桂坊",
+      "tipo": "club", "zona": "central-lkf-soho",
+      "coord": [22.28084, 114.15538], "precisione": "poi",
+      "indirizzo": "D'Aguilar Street / Lan Kwai Fong, Central",
+      "vibe": "Non un locale ma un isolato: due strade in salita a L con bar e club su ogni piano di ogni palazzo. Ci si arriva e si decide sul posto. Giovedì e venerdì è pieno fino a strabordare in strada, martedì è tranquillo.",
+      "prezzo": "80-150 HKD a birra, cocktail 120-180",
+      "orari": "dalle 18:00 fino alle 4-5",
+      "stato": "aperto"
+    },
+    {
+      "nome": "Quinary", "nome_zh": "",
+      "tipo": "pub", "zona": "central-lkf-soho",
+      "coord": [22.28330, 114.15300], "precisione": "approssimativa",
+      "indirizzo": "56-58 Hollywood Road, Central",
+      "vibe": "Cocktail bar da classifica mondiale, famoso per l'Earl Grey Caviar Martini. Serve prenotare o arrivare presto. Il pin è sulla via, non sul civico.",
+      "prezzo": "cocktail 140-180 HKD",
+      "orari": "17:00-01:00",
+      "stato": "aperto — posizione da confermare"
+    },
+    {
+      "nome": "COA", "nome_zh": "",
+      "tipo": "pub", "zona": "central-lkf-soho",
+      "coord": [22.28400, 114.15100], "precisione": "approssimativa",
+      "indirizzo": "6 Shin Hing Street, Central (SoHo)",
+      "vibe": "Agave bar, mezcal e tequila, tra i primi bar al mondo nelle classifiche. Piccolo, in un vicolo, spesso pieno. Il pin è sulla via, non sul civico.",
+      "prezzo": "cocktail 130-180 HKD",
+      "orari": "18:00-01:00",
+      "stato": "aperto — posizione da confermare"
+    },
+    {
+      "nome": "The Old Man", "nome_zh": "",
+      "tipo": "pub", "zona": "central-lkf-soho",
+      "coord": [22.28380, 114.15080], "precisione": "approssimativa",
+      "indirizzo": "37 Aberdeen Street, Central (SoHo)",
+      "vibe": "Cocktail bar a tema Hemingway, minuscolo, uno dei nomi ricorrenti nelle liste dei migliori bar d'Asia. A 100 m da COA: se uno è pieno vai nell'altro.",
+      "prezzo": "cocktail 130-170 HKD",
+      "orari": "17:00-01:00",
+      "stato": "aperto — posizione da confermare"
+    },
+    {
+      "nome": "The Wanch", "nome_zh": "",
+      "tipo": "live", "zona": "wanchai",
+      "coord": [22.27780, 114.17200], "precisione": "approssimativa",
+      "indirizzo": "54 Jaffe Road, Wan Chai",
+      "vibe": "Live music bar aperto dal 1987, band ogni sera e niente ingresso. Piccolo, senza pretese, il posto dove finisci a parlare col chitarrista. Il pin è sulla via.",
+      "prezzo": "birra 60-90 HKD, ingresso libero",
+      "orari": "17:00-02:00, band dalle 21",
+      "stato": "aperto — posizione da confermare"
+    },
+    {
+      "nome": "Lockhart Road (fascia bar)", "nome_zh": "駱克道",
+      "tipo": "club", "zona": "wanchai",
+      "coord": [22.27800, 114.17300], "precisione": "approssimativa",
+      "indirizzo": "Lockhart Road / Luard Road, Wan Chai",
+      "vibe": "La strada delle uscite di Wan Chai: club, sports bar, locali che chiudono all'alba. Meno curata di LKF e più economica. Attenzione, una parte è la vecchia zona a luci rosse con PR insistenti: se ti fermano, tira dritto.",
+      "prezzo": "birra 50-80 HKD, ingressi spesso gratis",
+      "orari": "fino alle 5",
+      "stato": "aperto"
+    },
+    {
+      "nome": "Knutsford Terrace", "nome_zh": "諾士佛臺",
+      "tipo": "expat", "zona": "tst",
+      "coord": [22.30150, 114.17250], "precisione": "approssimativa",
+      "indirizzo": "Knutsford Terrace, Tsim Sha Tsui",
+      "vibe": "Terrazza pedonale sopra TST con una decina di bar e ristoranti, tavoli all'aperto. È il concentrato di vita notturna del lato Kowloon: molto più piccolo di LKF ma comodo se dormi qui la sera del 25.",
+      "prezzo": "birra 60-90 HKD",
+      "orari": "18:00-02:00",
+      "stato": "aperto"
+    },
+    {
+      "nome": "Ozone (ICC 118F)", "nome_zh": "天際100 一帶",
+      "tipo": "expat", "zona": null,
+      "coord": [22.30350, 114.16050], "precisione": "approssimativa",
+      "indirizzo": "ICC, 1 Austin Road West, 118° piano — Ritz-Carlton",
+      "vibe": "Il bar più alto del mondo, 118° piano dell'ICC. Ci vai per la vista sul porto, non per il drink. A 10 min a piedi da West Kowloon: opzione realistica per la sera del 25 se scendi dal treno stanco e non vuoi attraversare. Dress code, niente infradito.",
+      "prezzo": "cocktail 180-250 HKD",
+      "orari": "17:00-01:00",
+      "stato": "aperto — posizione da confermare"
+    }
+  ],
+  "metro": [
+    {"nome": "Central 中環", "linee": "Island / Tsuen Wan", "coord": [22.28183, 114.15828]},
+    {"nome": "Sheung Wan 上環", "linee": "Island", "coord": [22.28652, 114.15021]},
+    {"nome": "Wan Chai 灣仔", "linee": "Island", "coord": [22.27901, 114.17248]},
+    {"nome": "Causeway Bay 銅鑼灣", "linee": "Island", "coord": [22.28090, 114.18707]},
+    {"nome": "Tsim Sha Tsui 尖沙咀", "linee": "Tsuen Wan", "coord": [22.29887, 114.17412]},
+    {"nome": "Kennedy Town 堅尼地城", "linee": "Island", "coord": [22.28243, 114.12842]},
+    {"nome": "Austin 柯士甸 / West Kowloon", "linee": "Tuen Ma + alta velocità", "coord": [22.30408, 114.16650]}
+  ],
+  "landmarks": [
+    {"nome": "West Kowloon Station 西九龍 — arrivo G905", "coord": [22.30408, 114.16650]},
+    {"nome": "Star Ferry TST 天星碼頭", "coord": [22.29354, 114.16799]},
+    {"nome": "Victoria Peak 太平山頂", "coord": [22.27604, 114.14546]}
+  ]
+}

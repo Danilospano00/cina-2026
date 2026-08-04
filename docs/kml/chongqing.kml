@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Chongqing — nightlife e zone dove dormire</name>
+<description>22-24 novembre 2026 (3 notti) — partenza G905 il 25 da Chongqing West. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
+<Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
+<Style id="t_expat"><IconStyle><color>ffad9810</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffad9810</color><width>3</width></LineStyle><PolyStyle><color>26ad9810</color></PolyStyle></Style>
+<Style id="z_jiefangbei"><IconStyle><color>ff3131e0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff3131e0</color><width>3</width></LineStyle><PolyStyle><color>263131e0</color></PolyStyle></Style>
+<Style id="z_guanyinqiao-jiujie"><IconStyle><color>ff008cf0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff008cf0</color><width>3</width></LineStyle><PolyStyle><color>26008cf0</color></PolyStyle></Style>
+<Style id="z_longmenhao"><IconStyle><color>ffc27119</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffc27119</color><width>3</width></LineStyle><PolyStyle><color>26c27119</color></PolyStyle></Style>
+<Style id="z_beibin"><IconStyle><color>ff968e86</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff968e86</color><width>3</width></LineStyle><PolyStyle><color>26968e86</color></PolyStyle></Style>
+<Style id="metro"><IconStyle><color>ff333333</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff333333</color><width>3</width></LineStyle><PolyStyle><color>26333333</color></PolyStyle></Style>
+<Folder><name>Zone dove dormire</name>
+<Placemark><name>#1 Jiefangbei + Jiaochangkou</name><description>#1 — Yuzhong
+
+La base giusta. Non è la zona con più club, ma è l&#x27;unica dove le cose da vedere di giorno e i locali della sera stanno nello stesso chilometro quadrato.
+
+PRO
+· Hongya Cave a 600 m: la vedi illuminata la sera senza organizzare nulla
+· Gli imbarchi della crociera notturna sul Yangtze partono da qui (Chaotianmen, 1,5 km)
+· MAO Livehouse su Minquan Road e Ain&#x27;t Hipster a Jiaochangkou, entrambi a piedi
+· Metro L1/L2 a Jiaochangkou: Liziba (il monorail che attraversa il palazzo) è a 3 fermate
+· Il 25 devi essere a Chongqing West alle 08:44: da qui sono ~25 min di metro L1+L12 o 20 di Didi
+
+CONTRO
+· Zona pedonale commerciale: la sera si riempie di turisti cinesi e di insegne al neon
+· I club veri sono a Jiangbei, dall&#x27;altra parte del fiume: 15-20 min di Didi
+· Chongqing è verticale — «a 300 m» sulla mappa può voler dire due rampe di scale e un ascensore
+
+Metro: Jiaochangkou 较场口 (L1/L2) · Xiaoshizi 小什字 (L1/L6) · Linjiangmen 临江门 (L2)</description><styleUrl>#z_jiefangbei</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>106.567,29.568,0 106.581,29.568,0 106.581,29.553,0 106.567,29.553,0 106.567,29.568,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>106.567,29.568,0 106.581,29.568,0 106.581,29.553,0 106.567,29.553,0 106.567,29.568,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Jiefangbei + Jiaochangkou</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~500 m a piedi.</description><styleUrl>#z_jiefangbei</styleUrl><Point><coordinates>106.574,29.56,0</coordinates></Point></Placemark>
+<Placemark><name>#2 Guanyinqiao + Jiujie</name><description>#2 — Jiangbei
+
+Qui sta la vita notturna vera di Chongqing. Jiujie («le nove strade») è un isolato di club uno sopra l&#x27;altro. Come base però ti allontana da tutto il resto.
+
+PRO
+· Densità di club più alta della città: NUTS, Inward, La Factory, LIV, tutti entro 500 m
+· NUTS e Inward sono nello stesso edificio (Longhu Xinyijie, 1° e 2° piano): due locali, un ascensore
+· Si esce fino alle 4-5 del mattino, è la zona dove escono i ventenni di Chongqing
+· Beicheng Tianjie: mall e street food aperti tardi, mangi prima di entrare
+
+CONTRO
+· Di giorno è un distretto commerciale moderno: niente da vedere
+· Hongya Cave, Chaotianmen e la crociera sono tutti dall&#x27;altra parte del fiume
+· Il 25 mattina per Chongqing West parti da più lontano
+
+Metro: Guanyinqiao 观音桥 (L3) · Hongqihegou 红旗河沟 (L3/L6)</description><styleUrl>#z_guanyinqiao-jiujie</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>106.528,29.59,0 106.542,29.59,0 106.542,29.576,0 106.528,29.576,0 106.528,29.59,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>106.528,29.59,0 106.542,29.59,0 106.542,29.576,0 106.528,29.576,0 106.528,29.59,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Guanyinqiao + Jiujie</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~600 m a piedi.</description><styleUrl>#z_guanyinqiao-jiujie</styleUrl><Point><coordinates>106.5345,29.583,0</coordinates></Point></Placemark>
+<Placemark><name>#3 Longmenhao Old Street</name><description>#3 — Nan&#x27;an
+
+La riva sud, di fronte allo skyline. Bella e tranquilla, pochi locali. Da scegliere se vuoi la vista, non se vuoi la serata.
+
+PRO
+· Il punto da cui si guarda lo skyline di Yuzhong illuminato: è la cartolina di Chongqing
+· Cici Park nel parco dell&#x27;ex concessione: club in un contesto che vale la visita anche di giorno
+· Case coloniali restaurate, caffè, molto meno caotica di Jiefangbei
+
+CONTRO
+· Tre o quattro locali in tutto: finiti quelli devi attraversare il fiume
+· Salite ripide ovunque
+· Meno scelta di hotel, quasi tutti piccoli
+
+Metro: Shangxinjie 上新街 (L6) · Longmenhao 龙门浩 (L6)</description><styleUrl>#z_longmenhao</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>106.586,29.564,0 106.598,29.564,0 106.598,29.554,0 106.586,29.554,0 106.586,29.564,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>106.586,29.564,0 106.598,29.564,0 106.598,29.554,0 106.586,29.554,0 106.586,29.564,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Longmenhao Old Street</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~400 m a piedi.</description><styleUrl>#z_longmenhao</styleUrl><Point><coordinates>106.5912,29.5588,0</coordinates></Point></Placemark>
+<Placemark><name>NON DORMIRCI Beibin Road (lungofiume nord)</name><description>NON DORMIRCI — Jiangbei
+
+NON dormirci. Strada lungo il fiume con qualche bar sparso su 5 km, zero pedonalità. Ci vai per un locale preciso e torni in Didi.
+
+PRO
+· Taps CQ, uno dei pochi craft beer decenti della città, sta qui
+
+CONTRO
+· I locali sono distanti l&#x27;uno dall&#x27;altro: non si passeggia, si prende il taxi tra un bar e l&#x27;altro
+· Niente metro dentro la zona
+· Di giorno è una strada a scorrimento veloce
+
+Metro: Nessuna fermata dentro la zona</description><styleUrl>#z_beibin</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>106.535,29.576,0 106.552,29.576,0 106.552,29.57,0 106.535,29.57,0 106.535,29.576,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>106.535,29.576,0 106.552,29.576,0 106.552,29.57,0 106.535,29.57,0 106.535,29.576,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+</Folder>
+<Folder><name>Club / elettronica</name>
+<Placemark><name>Ain&#x27;t Hipster</name><description>
+渝中区较场口得意世界 LG-17 — Deyi World, Jiaochangkou
+
+Club piccolo dentro il complesso Deyi World, a due passi da Jiefangbei. Elettronica, il tipo di posto dove il DJ è anche il proprietario. Comodo se dormi in Yuzhong e non vuoi attraversare il fiume.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.57,29.5565,0</coordinates></Point></Placemark>
+<Placemark><name>Inward Club</name><description>
+江北区龙湖新壹街C馆2楼 — Longhu Xinyijie Bldg C, 2F
+
+Techno e house, sopra NUTS. Uno dei due o tre posti a Chongqing dove la musica conta più del tavolo. Piano di serata efficiente: concerto sotto, club sopra.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:30-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.53712,29.58505,0</coordinates></Point></Placemark>
+<Placemark><name>La Factory</name><description>
+江北区北城天街48号附1-2号 九街东区二楼 — Beicheng Tianjie 48, Jiujie East 2F
+
+Nel cuore di Jiujie, sopra il mall. Elettronica e hip hop, pubblico giovane e numeroso, weekend pieno.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.53395,29.58273,0</coordinates></Point></Placemark>
+<Placemark><name>LIV Show Club</name><description>
+江北区世纪金源酒店B1 — Sunworld Dynasty Hotel B1
+
+Club da hotel, formato grande: bottle service, EDM, luci. Commerciale ma è quello che riempie di più nel weekend. La posizione sulla mappa è dedotta dal nome dell&#x27;hotel: confermala su Amap.
+
+Prezzo: ingresso 100-200 RMB, tavolo molto di più
+Orari: 22:00-04:00
+Stato: attivo su RA — indirizzo da riverificare
+Posizione: NON verificata</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.536,29.581,0</coordinates></Point></Placemark>
+<Placemark><name>Camp North</name><description>
+江北区洋河北路79号 — Yanghe North Rd 79
+
+Elettronica, formato piccolo. La via non è stata trovata su OpenStreetMap: il pin è nell&#x27;area giusta ma non sul civico. Verifica su Amap prima di muoverti.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-04:00
+Stato: attivo su RA — posizione da riverificare
+Posizione: NON verificata</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.54,29.589,0</coordinates></Point></Placemark>
+<Placemark><name>Cici Park</name><description>
+南岸区马鞍山56号 开埠遗址公园 — Kaibu Heritage Park, Ma&#x27;anshan 56
+
+Dentro il parco dell&#x27;ex concessione, sulla riva sud. Contesto migliore di qualunque altro club di Chongqing: edifici storici e skyline di fronte. Elettronica, pubblico più adulto.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 21:00-03:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.5912,29.5588,0</coordinates></Point></Placemark>
+<Placemark><name>Eling Factory (Testbed 2)</name><description>鹅岭二厂
+渝中区鹅岭正街1号 — Eling Zhengjie 1, ex stamperia riconvertita
+
+Ex tipografia di stato diventata parco creativo: terrazze, bar, qualche serata elettronica. Ci si va soprattutto al tramonto per la vista sul fiume. La posizione non è stata confermata su OpenStreetMap.
+
+Prezzo: ingresso variabile, spesso gratis
+Orari: bar dal pomeriggio, serate nel weekend
+Stato: aperto — posizione da riverificare
+Posizione: NON verificata</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.5382,29.5497,0</coordinates></Point></Placemark>
+<Placemark><name>Roots</name><description>
+江北区黄泥磅皇冠自由城 — Huangnibang
+
+Fuori dai circuiti, a nord di Guanyinqiao. Ci vai solo se c&#x27;è una serata che ti interessa. Posizione dedotta dal quartiere.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-04:00
+Stato: attivo su RA — posizione da riverificare
+Posizione: NON verificata</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.5265,29.5985,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Pub / craft beer</name>
+<Placemark><name>Taps CQ</name><description>
+江北区北滨一路 — Beibin Rd 1
+
+Craft beer sul lungofiume nord. Chongqing non è una città da birra artigianale e questo è uno dei pochi posti seri. Vista sul fiume, terrazza.
+
+Prezzo: 45-80 RMB a birra
+Orari: 17:00-01:00
+Stato: aperto
+Posizione: livello strada</description><styleUrl>#t_pub</styleUrl><Point><coordinates>106.54173,29.57148,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Livehouse / band</name>
+<Placemark><name>MAO Livehouse Chongqing</name><description>重庆MAO Livehouse
+渝中区民权路89号附1号 日月光广场1楼 — Sun Moon Light Plaza 1F, Minquan Rd 89
+
+La catena MAO è il circuito livehouse più grande della Cina e questa è la sala di Chongqing. Rock e indie cinese, calendario fitto. Dentro un centro commerciale, il che a Chongqing è normale.
+
+Prezzo: biglietti 100-250 RMB
+Orari: concerti dalle 20:00
+Stato: aperto
+Posizione: livello strada</description><styleUrl>#t_live</styleUrl><Point><coordinates>106.5729,29.5594,0</coordinates></Point></Placemark>
+<Placemark><name>NUTS Livehouse</name><description>坚果
+江北区龙湖新壹街C馆1楼 — Longhu Xinyijie Bldg C, 1F
+
+La livehouse storica di Chongqing, aperta dal 2010. Band cinesi in tour ci passano tutte. Stesso edificio di Inward Club: concerto al primo piano, club al secondo.
+
+Prezzo: biglietti 100-220 RMB
+Orari: concerti dalle 20:00
+Stato: aperto
+Posizione: approssimativa</description><styleUrl>#t_live</styleUrl><Point><coordinates>106.537,29.585,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Expat / internazionale</name>
+<Placemark><name>Chongqing Tiandi</name><description>重庆天地
+渝中区化龙桥 — Hualongqiao
+
+Complesso in stile Xintiandi di Shanghai: bar e ristoranti internazionali, la zona dove bevono gli stranieri di Chongqing. Menu in inglese garantito. Posizione approssimativa, verifica su Amap.
+
+Prezzo: 60-110 RMB a drink
+Orari: 18:00-01:00
+Stato: aperto — posizione da riverificare
+Posizione: NON verificata</description><styleUrl>#t_expat</styleUrl><Point><coordinates>106.523,29.5605,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Metro</name>
+<Placemark><name>M Jiaochangkou 较场口</name><description>L1/L2</description><styleUrl>#metro</styleUrl><Point><coordinates>106.57084,29.55673,0</coordinates></Point></Placemark>
+<Placemark><name>M Guanyinqiao 观音桥 (sotto Beicheng Tianjie)</name><description>L3</description><styleUrl>#metro</styleUrl><Point><coordinates>106.53395,29.58273,0</coordinates></Point></Placemark>
+<Placemark><name>M Hongqihegou 红旗河沟</name><description>L3/L6</description><styleUrl>#metro</styleUrl><Point><coordinates>106.52253,29.58806,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

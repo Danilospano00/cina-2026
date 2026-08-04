@@ -1,0 +1,311 @@
+/* Sud della Cina — foglio di stile condiviso */
+
+:root {
+  --bg: #f6f5f3;
+  --card: #ffffff;
+  --ink: #1b1b1d;
+  --ink-2: #5e5e63;
+  --ink-3: #8b8b91;
+  --line: #e3e2df;
+  --accent: #c2410c;
+  --accent-soft: #fff2ea;
+  --ok: #2b6d3f;
+  --ko: #9e3131;
+  --warn-bg: #fff4e6;
+  --warn-line: #f76707;
+  --warn-ink: #7a3d00;
+  --link: #1560bd;
+  --link-bg: #f3f8ff;
+  --link-line: #d4e2f5;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 6px 18px rgba(0, 0, 0, .05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16161a;
+    --card: #1f1f24;
+    --ink: #ececee;
+    --ink-2: #a8a8b0;
+    --ink-3: #77777f;
+    --line: #2e2e35;
+    --accent: #ff7a45;
+    --accent-soft: #33221a;
+    --ok: #6ec48a;
+    --ko: #ef8a8a;
+    --warn-bg: #33270f;
+    --warn-line: #d9821a;
+    --warn-ink: #f3d3a8;
+    --link: #6aa9ff;
+    --link-bg: #1b2432;
+    --link-line: #2b3a52;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 18px rgba(0, 0, 0, .28);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-wrap: break-word;
+}
+
+a { color: var(--link); }
+
+/* --- intestazione ------------------------------------------------------- */
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+  padding-top: env(safe-area-inset-top);
+}
+
+.top-in {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 11px 16px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand b { font-size: 16.5px; letter-spacing: -.15px; }
+.brand span { font-size: 12.5px; color: var(--ink-3); }
+
+nav {
+  display: flex;
+  gap: 3px;
+  margin-top: 9px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+nav::-webkit-scrollbar { display: none; }
+
+nav a {
+  flex: 0 0 auto;
+  padding: 8px 12px 9px;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--ink-2);
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+nav a:hover { color: var(--ink); }
+
+nav a.on {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+/* --- corpo -------------------------------------------------------------- */
+main { flex: 1; min-height: 0; }
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 26px 16px calc(60px + env(safe-area-inset-bottom));
+}
+
+.narrow { max-width: 780px; }
+
+h1 { font-size: 26px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -.4px; }
+h2 { font-size: 19px; margin: 34px 0 12px; letter-spacing: -.2px; }
+h3 { font-size: 16px; margin: 0 0 6px; }
+.lede { color: var(--ink-2); font-size: 15px; margin: 0 0 22px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 15px 17px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+
+.warn {
+  background: var(--warn-bg);
+  border-left: 3px solid var(--warn-line);
+  color: var(--warn-ink);
+  padding: 12px 14px;
+  border-radius: 0 6px 6px 0;
+  font-size: 14px;
+  margin: 18px 0;
+}
+
+.warn b { color: inherit; }
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: var(--accent);
+  color: #fff;
+  vertical-align: 2px;
+}
+
+.tag.soft { background: var(--accent-soft); color: var(--accent); }
+.tag.grey { background: var(--line); color: var(--ink-2); }
+.tag.ok   { background: var(--ok); color: #fff; }
+
+ul { margin: 0 0 10px; padding-left: 19px; }
+li { margin-bottom: 3px; }
+.pro li { color: var(--ok); }
+.con li { color: var(--ko); }
+
+.muted { color: var(--ink-3); font-size: 13px; }
+
+/* --- tabelle ------------------------------------------------------------ */
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 14px; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 560px;
+  font-size: 14px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Tabelle con poche colonne corte: stanno in un telefono senza scorrimento. */
+table.tight { min-width: 0; }
+table.tight th, table.tight td { padding: 9px 8px; }
+
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); }
+th { background: var(--bg); font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--ink-3); }
+tr:last-child td { border-bottom: 0; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* --- link a bottone ----------------------------------------------------- */
+.links { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+
+.btn {
+  font-size: 13.5px;
+  text-decoration: none;
+  color: var(--link);
+  background: var(--link-bg);
+  border: 1px solid var(--link-line);
+  padding: 7px 12px;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.btn:hover { filter: brightness(.97); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* --- tappe -------------------------------------------------------------- */
+.stops { display: grid; gap: 11px; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); }
+
+.stop-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.stop-head h3 { margin: 0; font-size: 17px; }
+.stop-head .zh { color: var(--ink-3); font-size: 14px; font-weight: 400; }
+.stop-head .when { margin-left: auto; font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
+
+.arrivo { font-size: 13.5px; color: var(--ink-2); margin: 0 0 9px; }
+
+/* --- checklist ---------------------------------------------------------- */
+.check { display: flex; gap: 11px; align-items: flex-start; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.check:last-child { border-bottom: 0; }
+.check input { width: 21px; height: 21px; margin: 1px 0 0; flex: 0 0 auto; accent-color: var(--accent); }
+.check label { flex: 1; cursor: pointer; }
+.check .t { font-size: 15px; display: block; }
+.check .d { font-size: 13px; color: var(--ink-2); display: block; margin-top: 2px; }
+.check.done .t { text-decoration: line-through; color: var(--ink-3); }
+.check.done .d { color: var(--ink-3); }
+
+.progress { height: 5px; background: var(--line); border-radius: 3px; overflow: hidden; margin: 6px 0 2px; }
+.progress i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+
+/* --- mappa -------------------------------------------------------------- */
+/* Su schermo largo la pagina mappa non scorre: scorre solo la colonna delle
+   zone. Serve un'altezza definita, altrimenti #side (alto quanto il suo
+   contenuto) trascina #map a migliaia di pixel e la vista finisce fuori bersaglio. */
+@media (min-width: 861px) {
+  body.mapbody { height: 100vh; overflow: hidden; }
+  body.mapbody main.mapmain { min-height: 0; }
+}
+
+#wrap { display: flex; height: 100%; min-height: 0; }
+
+#side {
+  width: 400px;
+  min-width: 400px;
+  overflow-y: auto;
+  background: var(--card);
+  border-right: 1px solid var(--line);
+  padding: 18px 18px 60px;
+}
+
+#map { flex: 1; min-width: 0; background: var(--bg); }
+
+main.mapmain { display: flex; flex-direction: column; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 9px; margin: 8px 0 14px; font-size: 12.5px; }
+.legend i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+
+.zcard {
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--zc, var(--accent));
+  border-radius: 8px;
+  padding: 13px 15px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  background: var(--card);
+  transition: .12s;
+}
+
+.zcard:hover { box-shadow: var(--shadow); transform: translateY(-1px); }
+.zcard.off { opacity: .62; }
+.zcard ul { font-size: 13px; }
+.rk { background: var(--zc); color: #fff; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 3px; letter-spacing: .4px; }
+
+.leaflet-popup-content { margin: 11px 13px; font-size: 13.5px; max-width: 290px; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--ink); }
+.pt { font-weight: 700; font-size: 14.5px; }
+.pzh { color: var(--ink-3); font-weight: 400; font-size: 12.5px; }
+.padr { color: var(--ink-2); font-size: 12.5px; margin: 5px 0; }
+.pmeta { font-size: 12px; color: var(--ink-2); border-top: 1px solid var(--line); padding-top: 6px; margin-top: 7px; }
+.prec { display: inline-block; font-size: 10.5px; padding: 1px 6px; border-radius: 9px; background: var(--line); color: var(--ink-2); margin-top: 5px; }
+.prec.bad { background: #ffe3e3; color: #a02b2b; }
+
+@media (prefers-color-scheme: dark) {
+  .prec.bad { background: #47222a; color: #ff9c9c; }
+  .leaflet-tile { filter: brightness(.82) saturate(.85); }
+}
+
+@media (max-width: 860px) {
+  /* column-reverse: nel DOM #side viene prima, ma su telefono la mappa deve
+     stare in cima — aprire una pagina «mappa» e non vederla è assurdo. */
+  #wrap { flex-direction: column-reverse; height: auto; }
+  #side { width: 100%; min-width: 0; border-right: 0; border-top: 1px solid var(--line); padding-bottom: 24px; }
+  #map { height: 68vh; min-height: 340px; }
+  main.mapmain { display: block; }
+}
+
+@media (max-width: 560px) {
+  h1 { font-size: 22px; }
+  .page { padding: 20px 13px calc(50px + env(safe-area-inset-bottom)); }
+  .stops { grid-template-columns: 1fr; }
+}

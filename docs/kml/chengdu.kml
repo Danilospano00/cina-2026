@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Chengdu — nightlife e zone dove dormire</name>
+<description>17-19 novembre 2026 (3 notti). Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
+<Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
+<Style id="t_expat"><IconStyle><color>ffad9810</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffad9810</color><width>3</width></LineStyle><PolyStyle><color>26ad9810</color></PolyStyle></Style>
+<Style id="z_yulin-kehua"><IconStyle><color>ff3131e0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff3131e0</color><width>3</width></LineStyle><PolyStyle><color>263131e0</color></PolyStyle></Style>
+<Style id="z_kuixinglou"><IconStyle><color>ff008cf0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff008cf0</color><width>3</width></LineStyle><PolyStyle><color>26008cf0</color></PolyStyle></Style>
+<Style id="z_lkf-jiuyanqiao"><IconStyle><color>ffc27119</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffc27119</color><width>3</width></LineStyle><PolyStyle><color>26c27119</color></PolyStyle></Style>
+<Style id="z_chenghua"><IconStyle><color>ff968e86</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff968e86</color><width>3</width></LineStyle><PolyStyle><color>26968e86</color></PolyStyle></Style>
+<Style id="metro"><IconStyle><color>ff333333</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff333333</color><width>3</width></LineStyle><PolyStyle><color>26333333</color></PolyStyle></Style>
+<Folder><name>Zone dove dormire</name>
+<Placemark><name>#1 Yulin + Kehua North Road</name><description>#1 — Wuhou
+
+La scelta migliore. Massima densità di locali di tutta Chengdu, quartiere vero e non turistico, hotel più economici che a Taikoo Li.
+
+PRO
+· Due cluster a 2 km: Kehua North Road (club, elettronica) e Yulin (bar indie, live folk, Little Bar)
+· Dormi in mezzo, vicino al metro Shengtiyuguan: 20 min a piedi a Yulin, 2 fermate di L1 a Kehua
+· Yulin è il quartiere di ristoranti e bar dove escono i chengdunesi, non i turisti
+· Metro L1 diretta: colleghi entrambi i cluster e scendi in centro in 10 min
+· Coda sud a Tongzilin (1 fermata da Nijiaqiao): quartiere degli stranieri, craft beer e menu in inglese se una sera vuoi il pilota automatico
+
+CONTRO
+· Nessuno dei due cluster è sotto l&#x27;hotel: serve sempre 15-20 min a piedi o una fermata di metro
+· Kehua è zona uffici/università: di giorno anonima
+
+Metro: Shengtiyuguan 省体育馆 (L1/L3) · Nijiaqiao 倪家桥 (L1) · Mozi Bridge 磨子桥 (L1) · Tongzilin 桐梓林 (L1)</description><styleUrl>#z_yulin-kehua</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>104.07,30.6425,0 104.0795,30.6425,0 104.0795,30.624,0 104.07,30.624,0 104.07,30.612,0 104.049,30.612,0 104.049,30.635,0 104.062,30.636,0 104.07,30.6425,0 104.07,30.6425,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>104.07,30.6425,0 104.0795,30.6425,0 104.0795,30.624,0 104.07,30.624,0 104.07,30.612,0 104.049,30.612,0 104.049,30.635,0 104.062,30.636,0 104.07,30.6425,0 104.07,30.6425,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Yulin + Kehua North Road</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~700 m a piedi.</description><styleUrl>#z_yulin-kehua</styleUrl><Point><coordinates>104.0625,30.6345,0</coordinates></Point></Placemark>
+<Placemark><name>#2 Kuixinglou + Kuanzhai Alley</name><description>#2 — Qingyang
+
+La più compatta: tutto entro 600 m. Meno club, ma livehouse e craft beer sotto casa e centro storico a piedi.
+
+PRO
+· NU SPACE e Xiongmao Live nello stesso edificio (Mingtang), la livehouse migliore della città
+· Kuixinglou è una via di street food: mangi ed esci senza spostarti
+· Kuanzhai Alley, People&#x27;s Park e Tianfu Square tutti a piedi: buono per le mattine in visita
+· Craft beer a 300 m (Yuanshi su Paotongshu, Wonderhouse su Shangye Houjie)
+
+CONTRO
+· Zona turistica: hotel più cari a parità di categoria
+· Niente club techno veri: per quelli servono 20 min di taxi verso Kehua
+
+Metro: Kuanzhai Xiangzi 宽窄巷子 (L4) · People&#x27;s Park 人民公园 (L2/L4)</description><styleUrl>#z_kuixinglou</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>104.0455,30.6735,0 104.0585,30.6735,0 104.0585,30.665,0 104.0455,30.665,0 104.0455,30.6735,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>104.0455,30.6735,0 104.0585,30.6735,0 104.0585,30.665,0 104.0455,30.665,0 104.0455,30.6735,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Kuixinglou + Kuanzhai Alley</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~450 m a piedi.</description><styleUrl>#z_kuixinglou</styleUrl><Point><coordinates>104.0518,30.6692,0</coordinates></Point></Placemark>
+<Placemark><name>#3 Lan Kwai Fong + Jiuyanqiao</name><description>#3 — Jinjiang
+
+Lungofiume, la zona da bere più concentrata. Ma è il circuito commerciale: caro, rumoroso, pieno di turisti cinesi.
+
+PRO
+· Lan Kwai Fong: complesso di club su più piani, tutto in un isolato
+· Jiuyanqiao: la storica strada dei bar sul fiume, aperta fino a tardi
+· Taikoo Li a 1,2 km a piedi: shopping, Bubble Ranger craft beer, dim sum
+
+CONTRO
+· Rumore fino alle 3: se lavori la sera e dormi presto, zona sbagliata
+· Prezzi da zona turistica su drink e hotel
+· Nessuna fermata di metro dentro la zona: Chunxi Road è a 1,5 km
+
+Metro: Chunxi Road 春熙路 (L2/L3), 1,5 km</description><styleUrl>#z_lkf-jiuyanqiao</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>104.0775,30.6565,0 104.089,30.6565,0 104.089,30.64,0 104.08,30.64,0 104.0775,30.6565,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>104.0775,30.6565,0 104.089,30.6565,0 104.089,30.64,0 104.08,30.64,0 104.0775,30.6565,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Lan Kwai Fong + Jiuyanqiao</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~600 m a piedi.</description><styleUrl>#z_lkf-jiuyanqiao</styleUrl><Point><coordinates>104.082,30.648,0</coordinates></Point></Placemark>
+<Placemark><name>NON DORMIRCI Dongjiao Jiyi + Wanxiangcheng</name><description>NON DORMIRCI — Chenghua
+
+NON dormirci. Ci sono locali veri ma è periferia est, 8-12 km dal centro. Vacci in Didi e torna in Didi.
+
+PRO
+· Dongjiao Jiyi (ex fabbrica) ospita Panda Club ed Echo Retro
+· Little Bar Space, la sede grande del Little Bar, è dentro il mall Wanxiangcheng
+
+CONTRO
+· Lontanissima da tutto il resto dell&#x27;itinerario Chengdu
+· Di giorno non c&#x27;è nulla da vedere se non l&#x27;ex area industriale
+
+Metro: Dongjiao Jiyi 东郊记忆 (L8) · Wannianchang 万年场 (L4/L8)</description><styleUrl>#z_chenghua</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>104.088,30.676,0 104.133,30.676,0 104.133,30.645,0 104.088,30.645,0 104.088,30.676,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>104.088,30.676,0 104.133,30.676,0 104.133,30.645,0 104.088,30.645,0 104.088,30.676,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+</Folder>
+<Folder><name>Club / elettronica</name>
+<Placemark><name>TAI-GA Club</name><description>泰嘎
+科华北路143号 蓝色加勒比广场2楼 — Blue Caribbean Plaza 2F
+
+Club di riferimento su Kehua. House e techno, impianto serio, pubblico misto locale e studenti universitari.
+
+Prezzo: ingresso 50-100 RMB, drink 60-90
+Orari: 22:00-04:00, forte ven/sab
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.0743,30.6365,0</coordinates></Point></Placemark>
+<Placemark><name>Hakkabar</name><description>院吧
+科华北路 沸城A座1201 — Feicheng Bldg A, 12F
+
+Club in appartamento all&#x27;ultimo piano, si entra col citofono. Techno e minimal, capienza piccola, pubblico che ci va per la musica.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 23:00-05:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.0744,30.635,0</coordinates></Point></Placemark>
+<Placemark><name>GUANXI</name><description>关系
+武侯区科华北路2号 王府井 A59 Space 5F
+
+Uno dei nomi più ricorrenti nella scena elettronica di Chengdu. Passano anche DJ internazionali.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 22:30-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.0739,30.6385,0</coordinates></Point></Placemark>
+<Placemark><name>Echo Cube</name><description>
+武侯区锦绣路1号 保利中心A座21层 — Poly Center, Jinxiu Rd 1
+
+Club al 21esimo piano di una torre uffici. Elettronica, vista sulla città.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.07164,30.62759,0</coordinates></Point></Placemark>
+<Placemark><name>Here We Go (HWG)</name><description>黑尾狗
+锦绣路1号保利中心3栋A座2103-2104 — stessa torre di Echo Cube
+
+Hip hop e house, stessa torre di Echo Cube: due locali in un ascensore.
+
+Prezzo: ingresso 60-100 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.07185,30.6277,0</coordinates></Point></Placemark>
+<Placemark><name>Cue</name><description>
+科华街8-1号 — Kehua St 8-1
+
+Club piccolo sull&#x27;estremità sud del corridoio Kehua.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-03:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.07599,30.62617,0</coordinates></Point></Placemark>
+<Placemark><name>Jellyfish LKF</name><description>水母
+锦江区滨江东路水津街1号 兰桂坊 2-3栋A座 — Lan Kwai Fong
+
+Dentro il complesso Lan Kwai Fong. Commerciale, EDM e bottle service, molto affollato nel weekend.
+
+Prezzo: ingresso 80-150 RMB, drink 80-120
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.08195,30.64714,0</coordinates></Point></Placemark>
+<Placemark><name>A.D.C</name><description>
+水津街1号1栋6层 兰桂坊 — Lan Kwai Fong, Shuijin St 1, 6F
+
+Stesso complesso, piano diverso. Elettronica più selettiva di Jellyfish.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 22:30-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.08215,30.647,0</coordinates></Point></Placemark>
+<Placemark><name>Lantown</name><description>
+九眼桥 好望角广场2楼 — Cape of Good Hope Plaza 2F, Jiuyan Bridge
+
+Sul lungofiume di Jiuyanqiao, la strada dei bar storica di Chengdu. Più mainstream.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 21:00-03:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.08633,30.64237,0</coordinates></Point></Placemark>
+<Placemark><name>Hemp House</name><description>
+东门大桥 东方时代广场3楼 — Oriental Times Plaza 3F, Dongmen Bridge
+
+A metà strada tra Taikoo Li e Lan Kwai Fong. Elettronica.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: esatta</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.0833,30.65286,0</coordinates></Point></Placemark>
+<Placemark><name>AXIS</name><description>
+成华区望平街23号 — Wangping St 23
+
+Techno seria. Su Wangping Street, lungo il fiume nella zona Mengzhuiwan. Non è propriamente centro ma neanche lontanissima: 20 min a piedi da Taikoo Li.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 23:00-05:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.08813,30.65748,0</coordinates></Point></Placemark>
+<Placemark><name>NOX</name><description>
+成华区蒙追湾街96号 四川广播电视塔 — sotto la torre TV
+
+Alla base della torre della TV del Sichuan, sul fiume.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: esatta</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.09206,30.66467,0</coordinates></Point></Placemark>
+<Placemark><name>Panda Club</name><description>熊猫
+东郊记忆 东区音乐公园30/31栋 — East Music Park Bldg 30/31
+
+Dentro l&#x27;ex area industriale di Dongjiao Jiyi, riconvertita a parco musicale.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: esatta</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.12634,30.67083,0</coordinates></Point></Placemark>
+<Placemark><name>Echo Retro</name><description>
+东郊记忆 56栋 — Eastern Suburb Memory, Bldg 56
+
+Stesso complesso di Panda Club. Se ci vai, fai le due cose nella stessa sera.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: esatta</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.1266,30.6709,0</coordinates></Point></Placemark>
+<Placemark><name>gong</name><description>工gong
+锦江区东二环路五段313号 (东湖公园内) — Donghu Park, E 2nd Ring Rd Sec 5 no.313
+
+Il club più seguito di Chengdu su Resident Advisor. Techno, dentro il parco Donghu. Fuori da ogni zona pedonale: si arriva in Didi.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 23:00-05:00
+Stato: attivo su Resident Advisor — il più seguito in città
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.08509,30.61922,0</coordinates></Point></Placemark>
+<Placemark><name>NU LAB</name><description>
+锦江区永安路666号 NuLab B馆 — Yong&#x27;an Rd 666
+
+Secondo club più seguito su Resident Advisor. Formato warehouse, in periferia sud. La posizione sulla mappa è derivata dalla via, non confermata: verifica su Amap prima di prendere il Didi.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 23:00-06:00
+Stato: attivo su RA — indirizzo da riverificare
+Posizione: NON verificata</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.07636,30.59092,0</coordinates></Point></Placemark>
+<Placemark><name>AMO MIO Dreamworks</name><description>
+少城路10号 — Shaocheng Rd 10, vicino People&#x27;s Park
+
+A metà tra People&#x27;s Park e Tianfu Square, raggiungibile a piedi dalla zona Kuixinglou.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>104.0525,30.6615,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Pub / craft beer</name>
+<Placemark><name>Yuanshi</name><description>原石
+泡桐树街20号附7号 — Paotongshu St 20-7
+
+Oltre 200 birre di importazione, 60+ IPA. Fanno birre col pepe di Sichuan e zenzero (Majiang Xiaozi). Piccolo, da appassionati.
+
+Prezzo: 50-90 RMB a birra
+Orari: 19:00-01:00
+Stato: aperto
+Posizione: livello strada</description><styleUrl>#t_pub</styleUrl><Point><coordinates>104.05118,30.6679,0</coordinates></Point></Placemark>
+<Placemark><name>Wonderhouse</name><description>万事屋
+商业后街90号附1号 — Shangye Houjie 90-1
+
+Aperto nel 2012, uno dei primi craft bar di Chengdu ed è ancora tra i più frequentati dai locali. Niente pose, si beve e si parla.
+
+Prezzo: 45-75 RMB a birra
+Orari: 18:00-02:00
+Stato: aperto
+Posizione: livello strada</description><styleUrl>#t_pub</styleUrl><Point><coordinates>104.05576,30.66876,0</coordinates></Point></Placemark>
+<Placemark><name>Yitong Vinyl &amp; Drinks</name><description>一同
+武侯区科华北路60号A座1204 — Kehua North Rd 60, Bldg A 12F
+
+Bar a vinili, si ascolta e si beve. Alternativa tranquilla ai club della stessa strada: buono se vuoi una serata senza pista.
+
+Prezzo: 60-100 RMB a drink
+Orari: 20:00-02:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>104.0742,30.6375,0</coordinates></Point></Placemark>
+<Placemark><name>Bubble Ranger</name><description>泡沫游侠
+远洋太古里二至三楼商业2316号 — Taikoo Li 2-3F
+
+Aperto fine 2017, il craft bar più visibile della città perché sta dentro Taikoo Li. Ottima selezione, prezzi da mall.
+
+Prezzo: 60-110 RMB a birra
+Orari: 14:00-01:00
+Stato: aperto
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>104.0796,30.6564,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Livehouse / band</name>
+<Placemark><name>Little Bar</name><description>小酒馆 (玉林西路店)
+玉林西路55号 — Yulin West Rd 55
+
+L&#x27;istituzione di Chengdu, aperta dal 1997. Folk e indie cinese, la sede originale. Resa famosa dalla canzone Chengdu di Zhao Lei: aspettati cinesi che si fanno la foto fuori.
+
+Prezzo: 40-80 RMB drink, concerti 80-150 RMB
+Orari: 15:00-02:00
+Stato: aperto (confermato)
+Posizione: livello strada</description><styleUrl>#t_live</styleUrl><Point><coordinates>104.05355,30.63183,0</coordinates></Point></Placemark>
+<Placemark><name>NU SPACE</name><description>纽空间
+青羊区奎星楼街55号 明堂创意工作区 — Mingtang Creative Area, Kuixinglou St 55
+
+La livehouse di riferimento per indie e rock cinese. Dentro un complesso creativo con libreria e mostre. Programmazione fitta, pubblico giovane locale.
+
+Prezzo: 100-200 RMB biglietto
+Orari: concerti dalle 20:00
+Stato: aperto
+Posizione: esatta</description><styleUrl>#t_live</styleUrl><Point><coordinates>104.05041,30.67097,0</coordinates></Point></Placemark>
+<Placemark><name>Xiongmao Live</name><description>熊猫
+奎星楼街55号 明堂 — stesso complesso di NU SPACE
+
+Sala più piccola nello stesso cortile di NU SPACE. Band emergenti, spesso serate gratis o a offerta.
+
+Prezzo: 0-100 RMB
+Orari: sera
+Stato: aperto
+Posizione: esatta</description><styleUrl>#t_live</styleUrl><Point><coordinates>104.0506,30.6709,0</coordinates></Point></Placemark>
+<Placemark><name>Little Bar Space</name><description>小酒馆 (万象城店)
+成华区双庆路8号 万象城一期B1 喷泉广场B120 — Vientiane City B1
+
+La sala grande del Little Bar: qui suonano i nomi veri, mentre su Yulin West Rd c&#x27;è il locale storico piccolo. Controlla il calendario prima di scegliere quale.
+
+Prezzo: biglietti 100-250 RMB
+Orari: concerti dalle 20:00
+Stato: aperto
+Posizione: esatta</description><styleUrl>#t_live</styleUrl><Point><coordinates>104.11276,30.6512,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Expat / internazionale</name>
+<Placemark><name>Nanmen Craft</name><description>南门精酿啤酒餐吧
+桐梓林南路8号一层附8号 — Tongzilin South Rd 8
+
+Tongzilin è il quartiere dove vivono gli stranieri a Chengdu: consolati, scuole internazionali. Qui si beve e si mangia in inglese senza sforzo.
+
+Prezzo: 50-80 RMB a birra
+Orari: 17:00-01:00
+Stato: aperto
+Posizione: livello strada</description><styleUrl>#t_expat</styleUrl><Point><coordinates>104.05912,30.61416,0</coordinates></Point></Placemark>
+<Placemark><name>HUG Craft Beer</name><description>雨果精酿啤酒馆
+高新区紫杉路步行街22号 (紫荆南路上海花园) — zona Zijing/Tongzilin
+
+Aperto nel 2015, uno dei craft bar storici, nella zona expat. Pubblico misto stranieri e cinesi.
+
+Prezzo: 45-80 RMB a birra
+Orari: 18:00-02:00
+Stato: aperto
+Posizione: approssimativa</description><styleUrl>#t_expat</styleUrl><Point><coordinates>104.05112,30.62223,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Metro</name>
+<Placemark><name>M Shengtiyuguan 省体育馆</name><description>L1/L3</description><styleUrl>#metro</styleUrl><Point><coordinates>104.0639,30.63554,0</coordinates></Point></Placemark>
+<Placemark><name>M Nijiaqiao 倪家桥</name><description>L1</description><styleUrl>#metro</styleUrl><Point><coordinates>104.06247,30.62739,0</coordinates></Point></Placemark>
+<Placemark><name>M Mozi Bridge 磨子桥</name><description>L1</description><styleUrl>#metro</styleUrl><Point><coordinates>104.07344,30.63996,0</coordinates></Point></Placemark>
+<Placemark><name>M Tongzilin 桐梓林</name><description>L1</description><styleUrl>#metro</styleUrl><Point><coordinates>104.06459,30.61774,0</coordinates></Point></Placemark>
+<Placemark><name>M Kuanzhai Xiangzi 宽窄巷子</name><description>L4</description><styleUrl>#metro</styleUrl><Point><coordinates>104.04792,30.66777,0</coordinates></Point></Placemark>
+<Placemark><name>M Tianfu Square 天府广场</name><description>L1/L2</description><styleUrl>#metro</styleUrl><Point><coordinates>104.06385,30.65992,0</coordinates></Point></Placemark>
+<Placemark><name>M Chunxi Road 春熙路</name><description>L2/L3</description><styleUrl>#metro</styleUrl><Point><coordinates>104.07428,30.65769,0</coordinates></Point></Placemark>
+<Placemark><name>M Dongjiao Jiyi 东郊记忆</name><description>L8</description><styleUrl>#metro</styleUrl><Point><coordinates>104.12634,30.67083,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

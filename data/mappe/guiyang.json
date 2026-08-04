@@ -1,0 +1,95 @@
+{
+  "city": "Guiyang",
+  "city_zh": "贵阳",
+  "slug": "guiyang",
+  "tappa": "14-16 novembre 2026 (3 notti) — weekend 14-15",
+  "checkin": "2026-11-14",
+  "checkout": "2026-11-17",
+  "center": [26.5790, 106.7110],
+  "zoom": 14,
+  "note": "Coordinate WGS-84 (Nominatim/OSM). NON sono GCJ-02: se le incolli in Amap/Baidu risultano spostate di ~300-600 m.",
+  "zones": [
+    {
+      "id": "qingyun-jiaxiu",
+      "nome": "Qingyun Road + Jiaxiu Tower",
+      "nome_zh": "青云路 / 甲秀楼",
+      "distretto": "Nanming",
+      "rank": 1,
+      "colore": "#e03131",
+      "verdetto": "La zona giusta, ma mettila in chiaro: a Guiyang la sera si mangia, non si balla. Qingyun Road è il mercato notturno migliore del Guizhou e sta a 800 m da Jiaxiu Tower.",
+      "perche": [
+        "Qingyun Market: due piani di street food aperti fino a notte, birra al tavolo, è LA cosa da fare a Guiyang la sera",
+        "Jiaxiu Tower sul fiume Nanming a 10 min a piedi: illuminata di sera, è la tua tappa da itinerario",
+        "Zuppa acida di pesce, spiedini, tofu fermentato — la cucina Guizhou si mangia qui, non nei ristoranti",
+        "Corridoio compatto: mangi, cammini lungo il fiume, torni in hotel senza taxi"
+      ],
+      "contro": [
+        "Zero club e una sola livehouse decente in tutta la città: se cerchi techno, Guiyang è la tappa sbagliata dell'itinerario",
+        "Qingyun Market chiude verso l'una: dopo non c'è quasi niente",
+        "Rumore fino a tarda ora sulla via del mercato: chiedi una camera sul retro"
+      ],
+      "dormi_qui": [26.5710, 106.7150],
+      "raggio_m": 550,
+      "metro": ["Dashizi 大十字 (L1/L2), 1,2 km a nord"],
+      "poly": [
+        [26.5790, 106.7100], [26.5790, 106.7200], [26.5640, 106.7200], [26.5640, 106.7100]
+      ]
+    },
+    {
+      "id": "dashizi-penshuichi",
+      "nome": "Dashizi + Penshuichi",
+      "nome_zh": "大十字 / 喷水池",
+      "distretto": "Yunyan",
+      "rank": 2,
+      "colore": "#f08c00",
+      "verdetto": "Il centro amministrativo e commerciale. Più hotel, più metro, meno anima. Da scegliere se dai priorità alla comodità di spostamento.",
+      "perche": [
+        "Incrocio delle due linee di metro: dalla stazione nord e da qualunque punto della città arrivi diretto",
+        "Sounth Park Club, il solo club elettronico serio di Guiyang, è su Zhonghua North Road",
+        "Zhonghua Road: negozi, catene, la fascia di hotel più larga della città",
+        "Qingyun Road resta a 1,2 km: 15 min a piedi o 8 di Didi"
+      ],
+      "contro": [
+        "La sera si svuota: è zona uffici e negozi, non di locali",
+        "Da qui per mangiare bene ti sposti comunque",
+        "Non prenotare invece intorno alla stazione Guiyang North: costa poco ma è 8 km fuori e di notte è deserta"
+      ],
+      "dormi_qui": [26.5845, 106.7070],
+      "raggio_m": 500,
+      "metro": ["Dashizi 大十字 (L1/L2)", "Penshuichi 喷水池 (L1)"],
+      "poly": [
+        [26.5930, 106.7020], [26.5930, 106.7140], [26.5780, 106.7140], [26.5780, 106.7020]
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "nome": "Qingyun Market", "nome_zh": "青云市集",
+      "tipo": "pub", "zona": "qingyun-jiaxiu",
+      "coord": [26.56790, 106.71402], "precisione": "strada",
+      "indirizzo": "南明区青云路 — Qingyun Road",
+      "vibe": "Mercato notturno su due piani, ristrutturato nel 2021: non è la solita bancarella, ci sono banconi, sedute e birra. È il posto dove i guiyanghesi passano la sera. Zuppa acida, spiedini alla griglia, riso glutinoso. Il tuo weekend del 14-15 va speso qui.",
+      "prezzo": "60-120 RMB per mangiare e bere",
+      "orari": "17:00-01:00, punta verso le 21",
+      "stato": "aperto"
+    },
+    {
+      "nome": "Sounth Park Club", "nome_zh": "",
+      "tipo": "club", "zona": "dashizi-penshuichi",
+      "coord": [26.58800, 106.70600], "precisione": "approssimativa",
+      "indirizzo": "云岩区中华北路5号 — Zhonghua North Rd 5",
+      "vibe": "L'unico club di Guiyang censito su Resident Advisor. Elettronica, formato piccolo. Il civico 5 sta all'estremità sud di Zhonghua North Road, verso Penshuichi: il pin è nell'area, non sul portone.",
+      "prezzo": "ingresso 50-100 RMB",
+      "orari": "22:00-03:00",
+      "stato": "attivo su RA — indirizzo da riverificare"
+    }
+  ],
+  "metro": [
+    {"nome": "Dashizi 大十字", "linee": "L1/L2", "coord": [26.58214, 106.70785]},
+    {"nome": "Penshuichi 喷水池", "linee": "L1", "coord": [26.58717, 106.70654]}
+  ],
+  "landmarks": [
+    {"nome": "Jiaxiu Tower 甲秀楼", "coord": [26.57495, 106.71593]},
+    {"nome": "Zhonghua North Rd 中华北路", "coord": [26.59939, 106.70532]}
+  ]
+}

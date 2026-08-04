@@ -1,0 +1,83 @@
+{
+  "titolo": "Volo internazionale",
+  "obiettivo": "A/R sotto 1000€, economy, max 1 scalo. Preferire Star Alliance per accumulo Miles&Smiles.",
+  "nota": "Prezzi verificati ad agosto 2026 su campione 5-27 nov, origine Milano, con filtro durata ≤18-19h su ENTRAMBE le tratte. Snapshot live: da ricontrollare.",
+  "scelta": "hongkong-rt",
+  "opzioni": [
+    {
+      "id": "hongkong-rt",
+      "titolo": "Round-trip Milano ⇄ Hong Kong",
+      "prezzo": "540-620€",
+      "consigliata": true,
+      "come_funziona": "Entri da HK, in treno a Shenzhen in 15-30 min, giro sud-est → nord-ovest fino a Chongqing, e torni a HK col G905. Combacia esattamente con l'itinerario confermato.",
+      "vettori": [
+        {"nome": "Air China", "prezzo": "540€", "durata": "16h30 via Pechino", "alleanza": "Star Alliance", "nota": "Minimo assoluto con entrambe le tratte pulite"},
+        {"nome": "SWISS", "prezzo": "620€", "durata": "15h15 via Zurigo", "alleanza": "Star Alliance", "nota": "Più comodo, scalo europeo"},
+        {"nome": "Cathay Pacific", "prezzo": "752€", "durata": "11h35 nonstop", "alleanza": "Oneworld", "nota": "Diretto, zero scali. Niente miglia M&S"}
+      ],
+      "pro": ["Il più economico e il più pulito", "Air China e SWISS accumulano Miles&Smiles", "Nessun volo interno necessario: il rientro è il G905"],
+      "contro": ["Dipendi dal G905, treno unico giornaliero"]
+    },
+    {
+      "id": "chongqing-rt",
+      "titolo": "Round-trip Milano ⇄ Chongqing",
+      "prezzo": "~637€",
+      "consigliata": false,
+      "come_funziona": "Entri da Chongqing e fai il giro al contrario, nord-ovest → sud-est. Richiede di ribaltare tutto l'itinerario.",
+      "vettori": [
+        {"nome": "Air China", "prezzo": "637€", "durata": "15h10 / 16h15 via Pechino", "alleanza": "Star Alliance", "nota": "Routing bilanciato"}
+      ],
+      "pro": ["Star Alliance, miglia M&S", "Durate delle tratte equilibrate"],
+      "contro": ["Costa ~100€ in più", "Ribalta l'itinerario già chiuso", "Serve comunque un hop domestico per chiudere il giro"]
+    },
+    {
+      "id": "open-jaw",
+      "titolo": "Open-jaw (entri da A, esci da B)",
+      "prezzo": "710-866€",
+      "consigliata": false,
+      "come_funziona": "Sulla carta è la soluzione elegante per un itinerario lineare. In pratica no: i ritorni one-way Cina → Europa economici non esistono.",
+      "vettori": [
+        {"nome": "Chongqing → Shenzhen", "prezzo": "710€", "durata": "1 scalo", "alleanza": "—", "nota": "+85€ rispetto al round-trip"},
+        {"nome": "Chongqing → Hong Kong", "prezzo": "828€", "durata": "15h10 / 19h45 via Doha", "alleanza": "—", "nota": "Ritorno di 19h45"},
+        {"nome": "Chongqing → Xiamen", "prezzo": "866€", "durata": "1 scalo via Bruxelles", "alleanza": "—", "nota": "Uscita da Xiamen carissima"}
+      ],
+      "pro": ["Nessun trasferimento di rientro"],
+      "contro": ["Sempre sopra il budget", "Peggiore del round-trip + hop domestico in ogni combinazione testata"]
+    }
+  ],
+  "gateway": [
+    {"citta": "Hong Kong (HKG)", "prezzo": "540€", "andata": "16h30 via PEK", "ritorno": "~16h", "vettore": "Air China", "giudizio": "ottimo", "nota": "Minimo assoluto pulito"},
+    {"citta": "Chongqing (CKG)", "prezzo": "637€", "andata": "15h10 via PEK", "ritorno": "16h15 via PEK", "vettore": "Air China", "giudizio": "buono", "nota": "Capo nord-ovest del giro"},
+    {"citta": "Shenzhen (SZX)", "prezzo": "580€", "andata": "18h55 via TFU", "ritorno": "≤19h", "vettore": "Air China", "giudizio": "medio", "nota": "Con andata ≤18h sale a 673€"},
+    {"citta": "Guangzhou (CAN)", "prezzo": "741€", "andata": "15h25 via BEG", "ritorno": "≤19h", "vettore": "Air Serbia", "giudizio": "scarso", "nota": "Il 556€ che si vede in giro ha il ritorno oltre 19h"},
+    {"citta": "Kunming (KMG)", "prezzo": ">800€", "andata": "2 scali", "ritorno": "—", "vettore": "varie", "giudizio": "evita", "nota": "Meglio arrivarci in treno"},
+    {"citta": "Guilin (KWL)", "prezzo": "706€+", "andata": "20-27h", "ritorno": "—", "vettore": "Air China", "giudizio": "evita", "nota": "Meglio arrivarci in treno"},
+    {"citta": "Xiamen (XMN)", "prezzo": "~866€", "andata": "—", "ritorno": "—", "vettore": "Brussels / Hainan", "giudizio": "evita", "nota": "Fuori mercato"}
+  ],
+  "date": {
+    "regola": "Per restare economici il RIENTRO deve cadere entro novembre. Dicembre costa 800-1.200€. Quindi si parte nei primi ~8 giorni del mese.",
+    "finestra": "Partenza 3-8 nov, rientro 23-30 nov",
+    "coppie": [
+      {"partenza": "lun 3 nov", "rientro": "ven 27 nov", "giorni": 24, "esito": "scelto", "nota": "Le date del viaggio confermato"},
+      {"partenza": "lun 3 nov", "rientro": "lun 23 nov", "giorni": 20, "esito": "ok", "nota": "Tutto in novembre"},
+      {"partenza": "gio 5 nov", "rientro": "ven 27 nov", "giorni": 22, "esito": "ok", "nota": "Su queste date sono stati verificati i prezzi"},
+      {"partenza": "gio 5 nov", "rientro": "lun 30 nov", "giorni": 25, "esito": "ok", "nota": "Tutto in novembre"},
+      {"partenza": "lun 9 nov", "rientro": "mar 1 dic", "giorni": 22, "esito": "caro", "nota": "Il rientro sconfina a dicembre"},
+      {"partenza": "gio 12 nov", "rientro": "gio 3 dic", "giorni": 21, "esito": "evita", "nota": "Rientro a dicembre, prezzo doppio"}
+    ]
+  },
+  "metodo": [
+    "Filtro «durata ≤18-19h» applicato sia all'andata sia al ritorno: taglia le tratte assurde.",
+    "Le tariffe civetta più basse (Canton e Shenzhen a 555-560€) abbinano un'andata corta a un ritorno di 20-27h. Scartate.",
+    "La chiusura dello spazio aereo russo allunga le rotte: ricontrolla le durate, non solo il prezzo.",
+    "Air China e SWISS sono Star Alliance: accumuli su Miles&Smiles. Cathay no.",
+    "Controlla sempre anche Roma (FCO/CIA), non solo Milano."
+  ],
+  "ricerche": [
+    {"nome": "Google Flights", "url": "https://www.google.com/travel/flights?q=Flights%20to%20HKG%20from%20MXP%20on%202026-11-03%20through%202026-11-27"},
+    {"nome": "Skyscanner MXP → HKG", "url": "https://www.skyscanner.it/trasporto/voli/mxp/hkg/261103/261127/"},
+    {"nome": "Skyscanner FCO → HKG", "url": "https://www.skyscanner.it/trasporto/voli/fco/hkg/261103/261127/"},
+    {"nome": "Kayak MXP → HKG", "url": "https://www.kayak.it/flights/MXP-HKG/2026-11-03/2026-11-27"},
+    {"nome": "Turkish Airlines — Miles&Smiles", "url": "https://www.turkishairlines.com/it-it/miles-and-smiles/"}
+  ]
+}

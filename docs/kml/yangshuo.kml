@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Yangshuo — nightlife e zone dove dormire</name>
+<description>9-11 novembre 2026 (3 notti). Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
+<Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
+<Style id="t_expat"><IconStyle><color>ffad9810</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffad9810</color><width>3</width></LineStyle><PolyStyle><color>26ad9810</color></PolyStyle></Style>
+<Style id="z_west-street"><IconStyle><color>ff3131e0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff3131e0</color><width>3</width></LineStyle><PolyStyle><color>263131e0</color></PolyStyle></Style>
+<Style id="z_binjiang"><IconStyle><color>ff008cf0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff008cf0</color><width>3</width></LineStyle><PolyStyle><color>26008cf0</color></PolyStyle></Style>
+<Style id="z_campagna"><IconStyle><color>ff968e86</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff968e86</color><width>3</width></LineStyle><PolyStyle><color>26968e86</color></PolyStyle></Style>
+<Style id="metro"><IconStyle><color>ff333333</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff333333</color><width>3</width></LineStyle><PolyStyle><color>26333333</color></PolyStyle></Style>
+<Folder><name>Zone dove dormire</name>
+<Placemark><name>#1 West Street</name><description>#1 — Centro di Yangshuo
+
+Qui non scegli una zona, scegli una via. West Street è 500 m di bar e ristoranti e contiene tutta la vita notturna di Yangshuo. Dormi entro 200 m e hai finito.
+
+PRO
+· Ogni locale della città sta su questa via o nelle traverse: non esiste un secondo polo
+· Bar sui tetti con vista sui carsi illuminati — è la cosa che ricorderai, più dei locali in sé
+· Scena arrampicatori: bar gestiti da climber, dove trovi stranieri e informazioni sulle vie
+· Tutto a piedi, niente taxi, niente metro: la tappa più semplice dell&#x27;itinerario
+
+CONTRO
+· Turistica al 100% e lo sa: karaoke a volume alto, insegne al neon, PR che ti fermano
+· Rumore fino alle 2 sotto le finestre. Se lavori la sera, prendi camera su una traversa o sul lungofiume
+· La stazione AV 阳朔站 è a ~25 km dal paese, verso Xingping: metti in conto 30-40 min di bus o taxi all&#x27;arrivo e alla partenza
+· Il WiFi degli hotel piccoli qui è la variabile più debole delle nove tappe: verifica le recensioni prima di prenotare
+
+Metro: Nessuna metro — Yangshuo si gira a piedi</description><styleUrl>#z_west-street</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>110.488,24.781,0 110.4935,24.781,0 110.4935,24.7755,0 110.488,24.7755,0 110.488,24.781,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>110.488,24.781,0 110.4935,24.781,0 110.4935,24.7755,0 110.488,24.7755,0 110.488,24.781,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — West Street</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~350 m a piedi.</description><styleUrl>#z_west-street</styleUrl><Point><coordinates>110.4906,24.7782,0</coordinates></Point></Placemark>
+<Placemark><name>#2 Lungofiume Binjiang</name><description>#2 — Riva del Li
+
+Stessa città, 300 m più in là e molto più silenziosa. La scelta giusta se le sere le passi a lavorare e vuoi solo poter scendere a bere quando ti va.
+
+PRO
+· Vista sul fiume Li e sui picchi carsici dalla camera, a parità di prezzo con West Street
+· West Street resta a 5 min a piedi: ci vai quando vuoi, non ce l&#x27;hai sotto il cuscino
+· Punto di partenza per la crociera in bambù e per l&#x27;escursione a Xingping
+· Hotel mediamente più recenti e camere più grandi
+
+CONTRO
+· Sul lungofiume di locali ce ne sono pochi: si beve a West Street
+· Alcune strutture sono a un livello sotto la strada, con scale scomode
+
+Metro: Nessuna metro</description><styleUrl>#z_binjiang</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>110.49,24.7855,0 110.4948,24.7855,0 110.4948,24.779,0 110.49,24.779,0 110.49,24.7855,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>110.49,24.7855,0 110.4948,24.7855,0 110.4948,24.779,0 110.49,24.779,0 110.49,24.7855,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Lungofiume Binjiang</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~400 m a piedi.</description><styleUrl>#z_binjiang</styleUrl><Point><coordinates>110.4935,24.7825,0</coordinates></Point></Placemark>
+<Placemark><name>NON DORMIRCI Campagna del Yulong</name><description>NON DORMIRCI — Sud-ovest di Yangshuo
+
+NON dormirci per questa tappa. Guesthouse bellissime tra le risaie, ma dopo il tramonto sei bloccato: nessun locale, strade non illuminate, taxi difficili. Vacci in bici di giorno.
+
+PRO
+· È la Yangshuo delle foto: risaie, fiume Yulong, ponti di pietra, giri in bici
+· Di giorno è esattamente dove vuoi essere
+
+CONTRO
+· Zero vita notturna, zero ristoranti dopo le 21
+· 20-40 min di scooter o taxi per tornare in paese, di notte al buio
+· WiFi debole nelle guesthouse isolate: incompatibile con le sere di lavoro
+· Il poligono qui è indicativo: la campagna si estende ben oltre, non è un confine reale
+
+Metro: Nessuna</description><styleUrl>#z_campagna</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>110.46,24.76,0 110.482,24.76,0 110.482,24.73,0 110.46,24.73,0 110.46,24.76,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>110.46,24.76,0 110.482,24.76,0 110.482,24.73,0 110.46,24.73,0 110.46,24.76,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+</Folder>
+<Folder><name>Pub / craft beer</name>
+<Placemark><name>Xiaoma&#x27;s Sky Bar</name><description>小马的天台
+西街 — West Street, terrazza sul tetto
+
+Bar sul tetto, il motivo per cui ci sali è la vista sui carsi al tramonto e non la carta dei drink. Ambiente misto stranieri e cinesi. Posizione indicativa: West Street è lunga 500 m, lo trovi camminando.
+
+Prezzo: 35-60 RMB a drink
+Orari: 17:00-01:00
+Stato: aperto — posizione da confermare in loco
+Posizione: NON verificata</description><styleUrl>#t_pub</styleUrl><Point><coordinates>110.4908,24.7785,0</coordinates></Point></Placemark>
+<Placemark><name>Golden Fish Sky Bar</name><description>
+西街 — West Street, terrazza sul tetto
+
+L&#x27;altra terrazza di riferimento. Stessa logica: si va per la vista e per il tramonto, si resta perché non c&#x27;è fretta. Posizione indicativa sulla via.
+
+Prezzo: 35-60 RMB a drink
+Orari: 16:00-00:30
+Stato: aperto — posizione da confermare in loco
+Posizione: NON verificata</description><styleUrl>#t_pub</styleUrl><Point><coordinates>110.4912,24.778,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Livehouse / band</name>
+<Placemark><name>Tianya Bar</name><description>天涯
+西街 — West Street
+
+Musica dal vivo tutte le sere, cover e folk cinese. È il formato standard dei bar di West Street: band, birra, tavoli fuori. Posizione indicativa sulla via.
+
+Prezzo: 40-70 RMB a drink, niente ingresso
+Orari: 20:00-02:00
+Stato: aperto — posizione da confermare in loco
+Posizione: NON verificata</description><styleUrl>#t_live</styleUrl><Point><coordinates>110.4899,24.7783,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Expat / internazionale</name>
+<Placemark><name>WHISKY Magpie</name><description>
+西街, zona ovest — West Street
+
+Whisky bar piccolo, gestione che parla inglese, pubblico di stranieri residenti e arrampicatori. Il posto dove chiedere consigli sulle vie di arrampicata e sui sentieri. Posizione indicativa sulla via.
+
+Prezzo: 50-90 RMB a drink
+Orari: 19:00-02:00
+Stato: aperto — posizione da confermare in loco
+Posizione: NON verificata</description><styleUrl>#t_expat</styleUrl><Point><coordinates>110.4901,24.7779,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

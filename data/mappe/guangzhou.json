@@ -1,0 +1,309 @@
+{
+  "city": "Guangzhou",
+  "city_zh": "广州",
+  "slug": "guangzhou",
+  "tappa": "6-8 novembre 2026 (3 notti) — con il weekend 7-8 sulle visite",
+  "checkin": "2026-11-06",
+  "checkout": "2026-11-09",
+  "center": [23.118, 113.285],
+  "zoom": 12,
+  "note": "Coordinate WGS-84 (Nominatim/OSM). NON sono GCJ-02: se le incolli in Amap/Baidu risultano spostate di ~300-600 m.",
+  "zones": [
+    {
+      "id": "yanjiang-beijinglu",
+      "nome": "Yanjiang Road + Beijing Road",
+      "nome_zh": "沿江路 / 北京路",
+      "distretto": "Yuexiu",
+      "rank": 1,
+      "colore": "#e03131",
+      "verdetto": "Il miglior compromesso della città: lungofiume con la sua fila di bar, e a piedi arrivi sia a Shamian sia a Yongqingfang, che sono le due cose che hai in programma di giorno.",
+      "perche": [
+        "Shamian Island a 2 km lungo il fiume, Yongqingfang a 3,5 km: entrambe raggiungibili a piedi o con una fermata di metro",
+        "Sul lungofiume ci sono Hyper Club, True Color e Rendezvous, più Babyface poco più a ovest su Changdi",
+        "Beijing Road pedonale a due passi: mangi e cammini la sera senza pianificare nulla",
+        "Metro L2 e L6 vicine: Party Pier è a 15 min, Dongshankou a 10"
+      ],
+      "contro": [
+        "I locali del lungofiume sono più da bere che da ballare: per i club veri devi andare a Party Pier",
+        "Zona vecchia e centrale: gli hotel sono più datati che a Zhujiang New Town"
+      ],
+      "dormi_qui": [23.1170, 113.2650],
+      "raggio_m": 700,
+      "metro": ["Beijing Road 北京路 (L6)", "Haizhu Square 海珠广场 (L2/L6)", "Gongyuanqian 公园前 (L1/L2)"],
+      "poly": [
+        [23.1245, 113.2490], [23.1245, 113.2790], [23.1105, 113.2790],
+        [23.1105, 113.2490]
+      ]
+    },
+    {
+      "id": "party-pier",
+      "nome": "Party Pier — Zhujiang Beer Culture Zone",
+      "nome_zh": "珠江琶醍",
+      "distretto": "Haizhu",
+      "rank": 2,
+      "colore": "#f08c00",
+      "verdetto": "L'ex birrificio Zhujiang sul fiume, oggi la concentrazione di club più alta di Canton. È il posto giusto per una serata, quello sbagliato per tre notti.",
+      "perche": [
+        "Quattro locali affacciati sulla stessa passeggiata lungofiume: Club Rio, Sense, Suns Bar, Partypier Warehouse",
+        "Formato internazionale e aperto agli stranieri, tra i due posti più expat-friendly della città",
+        "Vista sul fiume e sulla Canton Tower: la passeggiata da sola vale la sera"
+      ],
+      "contro": [
+        "Zona di intrattenimento, non quartiere: pochissimi hotel e niente vita di giorno",
+        "Lontana da Shamian e Yongqingfang, che sono il motivo per cui sei a Canton",
+        "Metro Pazhou/Modiesha ai margini: la sera tardi si torna in Didi"
+      ],
+      "dormi_qui": [23.1095, 113.3340],
+      "raggio_m": 500,
+      "metro": ["Modiesha 磨碟沙 (L8)", "Pazhou 琶洲 (L8)"],
+      "poly": [
+        [23.1135, 113.3290], [23.1135, 113.3440], [23.1055, 113.3440],
+        [23.1055, 113.3290]
+      ]
+    },
+    {
+      "id": "dongshankou",
+      "nome": "Dongshankou + Guangzhou Avenue Middle",
+      "nome_zh": "东山口 / 广州大道中",
+      "distretto": "Yuexiu",
+      "rank": 3,
+      "colore": "#9c36b5",
+      "verdetto": "Il quartiere hip di Canton: ville anni Venti, vicoli stretti, speakeasy minuscoli. E a 2 km c'è T:Union, la livehouse storica della città.",
+      "perche": [
+        "Dongshankou è architettura coloniale riconvertita in bar e caffè: la zona più bella dove camminare la sera",
+        "T:Union e Talk Bar allo stesso indirizzo su Guangzhou Avenue Middle: concerti indie e rock cinese",
+        "289 Art Space con Rozz-Tox e Bad Habit: cluster piccolo ma di carattere",
+        "Molti locali qui vogliono la prenotazione: non è nightlife da entrare a caso, ma la qualità è alta"
+      ],
+      "contro": [
+        "Sparpagliato: Dongshankou e Guangzhou Avenue Middle sono due poli a 2 km, non un unico quartiere",
+        "Lontano dal fiume e da Shamian",
+        "Speakeasy su prenotazione: da solo e senza cinese, qualcuno non te lo fai"
+      ],
+      "dormi_qui": [23.1271, 113.2911],
+      "raggio_m": 650,
+      "metro": ["Dongshankou 东山口 (L1/L6)", "Yangji 杨箕 (L1/L5)"],
+      "poly": [
+        [23.1330, 113.2840], [23.1330, 113.3130], [23.1210, 113.3130],
+        [23.1210, 113.2840]
+      ]
+    },
+    {
+      "id": "huanshi-dong",
+      "nome": "Huanshi East Road — Taojin",
+      "nome_zh": "环市东路 / 淘金",
+      "distretto": "Yuexiu",
+      "rank": 4,
+      "colore": "#1098ad",
+      "verdetto": "La vecchia zona expat di Canton, intorno ai consolati. Sopravvive per inerzia: comoda se vuoi bere in inglese, ma non è più il centro di nulla.",
+      "perche": [
+        "Hangover Bar, Between e In.Side sul mezzo chilometro di Huanshi East Road",
+        "Zona consolati e alberghi internazionali: inglese ovunque, nessun attrito"
+      ],
+      "contro": [
+        "La scena si è spostata a Party Pier e Dongshankou: qui è rimasto il fondo del barile",
+        "Strada a scorrimento veloce, brutta da camminare"
+      ],
+      "dormi_qui": [23.1376, 113.2816],
+      "raggio_m": 500,
+      "metro": ["Taojin 淘金 (L3)", "Guangzhou Railway Station 广州火车站 (L2/L5)"],
+      "poly": [
+        [23.1425, 113.2740], [23.1425, 113.2890], [23.1330, 113.2890],
+        [23.1330, 113.2740]
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "nome": "Hyper Club", "nome_zh": "",
+      "tipo": "club", "zona": "yanjiang-beijinglu",
+      "coord": [23.11807, 113.27323], "precisione": "strada",
+      "indirizzo": "越秀区沿江中路241号 — Yanjiang Middle Rd 241",
+      "vibe": "Sul lungofiume, uno dei locali storici della fila di Yanjiang Road. Formato club medio, pubblico cinese giovane.",
+      "prezzo": "ingresso 80-150 RMB",
+      "orari": "22:00-04:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "True Color", "nome_zh": "真彩",
+      "tipo": "club", "zona": "yanjiang-beijinglu",
+      "coord": [23.11790, 113.27100], "precisione": "strada",
+      "indirizzo": "越秀区沿江中路276号 近文德南路 — Yanjiang Middle Rd 276",
+      "vibe": "A 300 m da Hyper sulla stessa strada. Insieme fanno la spina dorsale della serata sul lungofiume.",
+      "prezzo": "ingresso 80-150 RMB",
+      "orari": "22:00-04:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Rendezvous", "nome_zh": "",
+      "tipo": "expat", "zona": "yanjiang-beijinglu",
+      "coord": [23.11750, 113.27500], "precisione": "approssimativa",
+      "indirizzo": "滨江中路272号 — Binjiang Middle Rd 272",
+      "vibe": "Sulla riva sud, di fronte agli altri. Formato bar internazionale, buon posto per una serata senza pretese.",
+      "prezzo": "drink 50-90 RMB",
+      "orari": "18:00-02:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Babyface Guangzhou", "nome_zh": "",
+      "tipo": "club", "zona": "yanjiang-beijinglu",
+      "coord": [23.11269, 113.25180], "precisione": "strada",
+      "indirizzo": "越秀区长堤大马路83号 — Changdi Da Ma Lu 83",
+      "vibe": "Catena nazionale, formato grande e commerciale. Sul lungofiume verso ovest, in direzione Shamian.",
+      "prezzo": "ingresso 100-180 RMB",
+      "orari": "22:00-04:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Club Rio", "nome_zh": "",
+      "tipo": "club", "zona": "party-pier",
+      "coord": [23.11043, 113.33423], "precisione": "poi",
+      "indirizzo": "海珠区珠江啤酒博物馆1楼 琶醍A区 — Zhujiang Beer Museum 1F, Party Pier Area A",
+      "vibe": "Dentro il museo della birra Zhujiang, sulla passeggiata. Il nome più riconoscibile di Party Pier.",
+      "prezzo": "ingresso 100-180 RMB",
+      "orari": "22:00-04:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Sense Club", "nome_zh": "",
+      "tipo": "club", "zona": "party-pier",
+      "coord": [23.10950, 113.33600], "precisione": "approssimativa",
+      "indirizzo": "海珠区阅江西路 琶醍B区中段 — Party Pier Area B, Yuejiang West Rd",
+      "vibe": "Zona centrale della passeggiata. Elettronica più selettiva rispetto ai vicini.",
+      "prezzo": "ingresso 80-150 RMB",
+      "orari": "22:30-04:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Partypier Warehouse", "nome_zh": "",
+      "tipo": "club", "zona": "party-pier",
+      "coord": [23.10900, 113.33750], "precisione": "approssimativa",
+      "indirizzo": "海珠区阅江西路 珠江琶醍 — Zhujiang Party Pier, Yuejiang West Rd",
+      "vibe": "Formato warehouse dentro il complesso: il posto dove finiscono le serate più lunghe.",
+      "prezzo": "ingresso 80-150 RMB",
+      "orari": "23:00-05:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Suns Bar Lounge", "nome_zh": "",
+      "tipo": "expat", "zona": "party-pier",
+      "coord": [23.10861, 113.34057], "precisione": "strada",
+      "indirizzo": "海珠区阅江西路 珠江啤酒厂 琶醍B25-26 — Party Pier B25-26",
+      "vibe": "Lounge sulla passeggiata, formato da bere e parlare. Buon punto di partenza prima dei club.",
+      "prezzo": "drink 60-100 RMB",
+      "orari": "19:00-02:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "T:Union", "nome_zh": "凸空间",
+      "tipo": "live", "zona": "dongshankou",
+      "coord": [23.12750, 113.30300], "precisione": "approssimativa",
+      "indirizzo": "越秀区广州大道中361-365号 东方花园1楼 — Dongfang Garden 1F, Guangzhou Ave Middle 361-365",
+      "vibe": "La livehouse di riferimento di Canton per indie e rock cinese. Se c'è un concerto nelle tue tre sere, è la cosa più interessante della città.",
+      "prezzo": "biglietti 100-250 RMB",
+      "orari": "concerti dalle 20:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Talk Bar", "nome_zh": "",
+      "tipo": "pub", "zona": "dongshankou",
+      "coord": [23.12740, 113.30330], "precisione": "approssimativa",
+      "indirizzo": "广州大道中361-365号 东方花园1楼 — stesso edificio di T:Union",
+      "vibe": "Stesso indirizzo di T:Union: ci si beve prima e dopo il concerto senza spostarsi.",
+      "prezzo": "drink 50-90 RMB",
+      "orari": "19:00-02:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Rozz-Tox 289", "nome_zh": "",
+      "tipo": "pub", "zona": "dongshankou",
+      "coord": [23.12700, 113.30000], "precisione": "approssimativa",
+      "indirizzo": "越秀区广州大道中289号 289艺术空间一楼 (tra Wuyangcun e Yangji) — 289 Art Space 1F",
+      "vibe": "Dentro il complesso artistico 289, tra le fermate Wuyangcun e Yangji. Bar e spazio culturale, pubblico che ci va per le mostre e resta a bere.",
+      "prezzo": "drink 50-90 RMB",
+      "orari": "18:00-01:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Bad Habit by ROZZ-TOX", "nome_zh": "",
+      "tipo": "pub", "zona": "dongshankou",
+      "coord": [23.12690, 113.30060], "precisione": "approssimativa",
+      "indirizzo": "广州大道中293号 琥珀广场204铺 — Shop 204, Amber Plaza, Guangzhou Ave Middle 293",
+      "vibe": "Seconda insegna dello stesso gruppo di Rozz-Tox, porta accanto. Formato piccolo, cocktail.",
+      "prezzo": "drink 70-120 RMB",
+      "orari": "19:00-02:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Aurora", "nome_zh": "Aurora宫",
+      "tipo": "club", "zona": "dongshankou",
+      "coord": [23.12730, 113.29050], "precisione": "approssimativa",
+      "indirizzo": "越秀区东山口署前路1街 — Shuqian Rd 1st St, Dongshankou",
+      "vibe": "Nel cuore di Dongshankou, tra le ville anni Venti. Formato piccolo e curato.",
+      "prezzo": "ingresso 60-120 RMB",
+      "orari": "22:00-03:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Pop Cafe/Bar", "nome_zh": "",
+      "tipo": "pub", "zona": "dongshankou",
+      "coord": [23.12760, 113.29200], "precisione": "approssimativa",
+      "indirizzo": "越秀区东山口寺贝通津26号 — Sibei Tongjin 26, Dongshankou",
+      "vibe": "Caffè di giorno e bar la sera in una delle vie più belle di Dongshankou. Formato piccolo, pubblico locale.",
+      "prezzo": "drink 45-85 RMB",
+      "orari": "11:00-01:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "C:union", "nome_zh": "",
+      "tipo": "live", "zona": null,
+      "coord": [23.13953, 113.30451], "precisione": "strada",
+      "indirizzo": "天河区水荫路115号 城市汇后面 — Shuiyin Rd 115, behind Cheng Shi Hui",
+      "vibe": "Seconda livehouse della città, a Tianhe. Fuori dalle zone consigliate: ci si va per un concerto preciso, non per caso.",
+      "prezzo": "biglietti 100-200 RMB",
+      "orari": "concerti dalle 20:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Hangover Bar", "nome_zh": "",
+      "tipo": "expat", "zona": "huanshi-dong",
+      "coord": [23.13757, 113.28155], "precisione": "strada",
+      "indirizzo": "越秀区环市东路474-1号 东环大厦B1 — Donghuan Bldg B1, Huanshi East Rd 474-1",
+      "vibe": "Uno dei pilastri della vecchia zona expat. Formato pub, sportivo, molti stranieri residenti di lungo corso.",
+      "prezzo": "drink 50-90 RMB",
+      "orari": "18:00-03:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "Between", "nome_zh": "",
+      "tipo": "expat", "zona": "huanshi-dong",
+      "coord": [23.13800, 113.28300], "precisione": "approssimativa",
+      "indirizzo": "越秀区环市东路412号 远洋宾馆北附楼2楼 — Ocean Hotel Annex 2F, Huanshi East Rd 412",
+      "vibe": "Stessa strada, formato lounge. Comodo se alloggi da queste parti, non vale il viaggio.",
+      "prezzo": "drink 60-100 RMB",
+      "orari": "19:00-02:00",
+      "stato": "attivo su Resident Advisor"
+    },
+    {
+      "nome": "La Villa Noire", "nome_zh": "",
+      "tipo": "club", "zona": null,
+      "coord": [23.12100, 113.31700], "precisione": "approssimativa",
+      "indirizzo": "天河区珠江新城珠江西路 花城广场内 (di fronte alla torre IFC) — Huacheng Square, Zhujiang New Town",
+      "vibe": "Nel CBD di Zhujiang New Town, dentro Huacheng Square. Zona di grattacieli: elegante, cara, senza carattere di quartiere.",
+      "prezzo": "ingresso 100-200 RMB",
+      "orari": "22:00-04:00",
+      "stato": "attivo su Resident Advisor"
+    }
+  ],
+  "metro": [
+    {"nome": "Beijing Road 北京路", "linee": "L6", "coord": [23.12164, 113.26502]},
+    {"nome": "Dongshankou 东山口", "linee": "L1/L6", "coord": [23.12709, 113.29109]},
+    {"nome": "Tiyu Xilu 体育西路", "linee": "L1/L3", "coord": [23.13348, 113.31605]},
+    {"nome": "Pazhou / Party Pier 琶醍", "linee": "L8", "coord": [23.11043, 113.33423]}
+  ],
+  "landmarks": [
+    {"nome": "Shamian Island 沙面", "coord": [23.10947, 113.23932]},
+    {"nome": "Yongqingfang 永庆坊", "coord": [23.11750, 113.23290]},
+    {"nome": "Zhujiang New Town 珠江新城", "coord": [23.12198, 113.31580]}
+  ]
+}

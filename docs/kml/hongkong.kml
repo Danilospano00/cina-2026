@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Hong Kong — nightlife e zone dove dormire</name>
+<description>25-26 novembre 2026 (2 notti) — arrivo G905 a West Kowloon alle 15:57 del 25. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
+<Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
+<Style id="t_expat"><IconStyle><color>ffad9810</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffad9810</color><width>3</width></LineStyle><PolyStyle><color>26ad9810</color></PolyStyle></Style>
+<Style id="z_central-lkf-soho"><IconStyle><color>ff3131e0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff3131e0</color><width>3</width></LineStyle><PolyStyle><color>263131e0</color></PolyStyle></Style>
+<Style id="z_wanchai"><IconStyle><color>ff008cf0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff008cf0</color><width>3</width></LineStyle><PolyStyle><color>26008cf0</color></PolyStyle></Style>
+<Style id="z_tst"><IconStyle><color>ffc27119</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffc27119</color><width>3</width></LineStyle><PolyStyle><color>26c27119</color></PolyStyle></Style>
+<Style id="z_kennedy-town"><IconStyle><color>ff968e86</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff968e86</color><width>3</width></LineStyle><PolyStyle><color>26968e86</color></PolyStyle></Style>
+<Style id="metro"><IconStyle><color>ff333333</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff333333</color><width>3</width></LineStyle><PolyStyle><color>26333333</color></PolyStyle></Style>
+<Folder><name>Zone dove dormire</name>
+<Placemark><name>#1 Central: Lan Kwai Fong + SoHo</name><description>#1 — Central &amp; Western
+
+Per due notti sole non c&#x27;è discussione. Tutto quello che hai in programma il 26 parte da qui, e la sera scendi le scale e sei nei locali.
+
+PRO
+· Lan Kwai Fong: un isolato in salita, decine di bar e club su più piani, la zona da uscita più densa dell&#x27;Asia
+· SoHo attaccato, sulle Mid-Levels Escalators: cocktail bar seri (Quinary, COA, The Old Man) invece del chiasso di LKF
+· Peak Tram e Star Ferry entrambi a piedi: la tua giornata piena del 26 comincia sotto l&#x27;hotel
+· Dim sum e cha chaan teng ovunque intorno, aperti presto: colazione risolta prima del volo del 27
+
+CONTRO
+· La zona più cara di Hong Kong per dormire, e Hong Kong è già cara: aspettati camere piccole
+· Chiasso fino alle 3-4, soprattutto giovedì e venerdì
+· Tutto in salita: dal molo alle stradine di SoHo si sale parecchio
+
+Metro: Central 中環 (Island/Tsuen Wan) · Sheung Wan 上環 (Island) · Hong Kong 香港 (Airport Express)</description><styleUrl>#z_central-lkf-soho</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>114.149,22.2855,0 114.16,22.2855,0 114.16,22.279,0 114.149,22.279,0 114.149,22.2855,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>114.149,22.2855,0 114.16,22.2855,0 114.16,22.279,0 114.149,22.279,0 114.149,22.2855,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Central: Lan Kwai Fong + SoHo</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~450 m a piedi.</description><styleUrl>#z_central-lkf-soho</styleUrl><Point><coordinates>114.154,22.2825,0</coordinates></Point></Placemark>
+<Placemark><name>#2 Wan Chai</name><description>#2 — Wan Chai
+
+La versione economica di Central. Stessa isola, due fermate di metro, hotel che costano il 30-40% in meno e una vita notturna sua, più ruvida.
+
+PRO
+· Lockhart, Jaffe e Luard Road: bar, live music e locali aperti fino all&#x27;alba
+· The Wanch, live house dal 1987: band ogni sera, ingresso libero
+· Central è a 2 fermate di Island Line o 20 min a piedi lungo le passerelle sopraelevate
+· Rapporto qualità/prezzo migliore delle tre zone per una camera privata decente
+
+CONTRO
+· Parte di Lockhart Road è la vecchia zona a luci rosse: girls bar e PR insistenti, la sera si nota
+· Meno bello da camminare di Central: palazzoni e traffico
+· Dal Peak e dallo Star Ferry sei comunque un po&#x27; più lontano
+
+Metro: Wan Chai 灣仔 (Island) · Admiralty 金鐘 (Island/Tsuen Wan/South Island)</description><styleUrl>#z_wanchai</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>114.168,22.282,0 114.179,22.282,0 114.179,22.2755,0 114.168,22.2755,0 114.168,22.282,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>114.168,22.282,0 114.179,22.282,0 114.179,22.2755,0 114.168,22.2755,0 114.168,22.282,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Wan Chai</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~500 m a piedi.</description><styleUrl>#z_wanchai</styleUrl><Point><coordinates>114.1725,22.2785,0</coordinates></Point></Placemark>
+<Placemark><name>#3 Tsim Sha Tsui</name><description>#3 — Yau Tsim Mong
+
+Il lato Kowloon. Arrivi a West Kowloon alle 15:57 del 25 e sei qui in 5 minuti: è la scelta pratica se non vuoi trascinare il trolley attraverso il porto appena sceso dal treno di 7 ore.
+
+PRO
+· West Kowloon Station a 1,5 km: una fermata di metro col bagaglio dopo sette ore di treno
+· Star Ferry a piedi: la traversata verso Central è il modo giusto di iniziare il 26
+· Waterfront con lo skyline di fronte, Symphony of Lights alle 20:00
+· Knutsford Terrace: la stradina di bar di TST, compatta e senza pretese
+· Hotel decisamente più economici che a Central, e più camere grandi
+
+CONTRO
+· La scena serale è più povera: qualche bar, niente di paragonabile a LKF
+· Molto turistico e molto affollato di giorno
+· Ogni giro sull&#x27;isola richiede la metro o il traghetto
+
+Metro: Tsim Sha Tsui 尖沙咀 (Tsuen Wan) · East Tsim Sha Tsui 尖東 (Tuen Ma) · Austin 柯士甸 (Tuen Ma), per West Kowloon</description><styleUrl>#z_tst</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>114.165,22.302,0 114.179,22.302,0 114.179,22.292,0 114.165,22.292,0 114.165,22.302,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>114.165,22.302,0 114.179,22.302,0 114.179,22.292,0 114.165,22.292,0 114.165,22.302,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Tsim Sha Tsui</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~500 m a piedi.</description><styleUrl>#z_tst</styleUrl><Point><coordinates>114.172,22.297,0</coordinates></Point></Placemark>
+<Placemark><name>NON DORMIRCI Kennedy Town + Sai Ying Pun</name><description>NON DORMIRCI — Central &amp; Western
+
+NON dormirci per due notti. Bar ottimi e zona dove vivono gli espatriati, ma sei all&#x27;estremità ovest dell&#x27;isola e con così poco tempo il tragitto te lo mangia.
+
+PRO
+· Craft beer e bar di quartiere veri, senza turisti
+· Lungomare per l&#x27;aperitivo al tramonto
+
+CONTRO
+· 20-25 min di metro da tutto quello che hai in programma
+· Con due notti sole ogni spostamento pesa il doppio
+· La sera chiude presto rispetto a Central
+
+Metro: Kennedy Town 堅尼地城 (Island) · HKU 香港大學 (Island)</description><styleUrl>#z_kennedy-town</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>114.124,22.286,0 114.134,22.286,0 114.134,22.279,0 114.124,22.279,0 114.124,22.286,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>114.124,22.286,0 114.134,22.286,0 114.134,22.279,0 114.124,22.279,0 114.124,22.286,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+</Folder>
+<Folder><name>Club / elettronica</name>
+<Placemark><name>Lan Kwai Fong</name><description>蘭桂坊
+D&#x27;Aguilar Street / Lan Kwai Fong, Central
+
+Non un locale ma un isolato: due strade in salita a L con bar e club su ogni piano di ogni palazzo. Ci si arriva e si decide sul posto. Giovedì e venerdì è pieno fino a strabordare in strada, martedì è tranquillo.
+
+Prezzo: 80-150 HKD a birra, cocktail 120-180
+Orari: dalle 18:00 fino alle 4-5
+Stato: aperto
+Posizione: esatta</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.15538,22.28084,0</coordinates></Point></Placemark>
+<Placemark><name>Lockhart Road (fascia bar)</name><description>駱克道
+Lockhart Road / Luard Road, Wan Chai
+
+La strada delle uscite di Wan Chai: club, sports bar, locali che chiudono all&#x27;alba. Meno curata di LKF e più economica. Attenzione, una parte è la vecchia zona a luci rosse con PR insistenti: se ti fermano, tira dritto.
+
+Prezzo: birra 50-80 HKD, ingressi spesso gratis
+Orari: fino alle 5
+Stato: aperto
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.173,22.278,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Pub / craft beer</name>
+<Placemark><name>Quinary</name><description>
+56-58 Hollywood Road, Central
+
+Cocktail bar da classifica mondiale, famoso per l&#x27;Earl Grey Caviar Martini. Serve prenotare o arrivare presto. Il pin è sulla via, non sul civico.
+
+Prezzo: cocktail 140-180 HKD
+Orari: 17:00-01:00
+Stato: aperto — posizione da confermare
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>114.153,22.2833,0</coordinates></Point></Placemark>
+<Placemark><name>COA</name><description>
+6 Shin Hing Street, Central (SoHo)
+
+Agave bar, mezcal e tequila, tra i primi bar al mondo nelle classifiche. Piccolo, in un vicolo, spesso pieno. Il pin è sulla via, non sul civico.
+
+Prezzo: cocktail 130-180 HKD
+Orari: 18:00-01:00
+Stato: aperto — posizione da confermare
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>114.151,22.284,0</coordinates></Point></Placemark>
+<Placemark><name>The Old Man</name><description>
+37 Aberdeen Street, Central (SoHo)
+
+Cocktail bar a tema Hemingway, minuscolo, uno dei nomi ricorrenti nelle liste dei migliori bar d&#x27;Asia. A 100 m da COA: se uno è pieno vai nell&#x27;altro.
+
+Prezzo: cocktail 130-170 HKD
+Orari: 17:00-01:00
+Stato: aperto — posizione da confermare
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>114.1508,22.2838,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Livehouse / band</name>
+<Placemark><name>The Wanch</name><description>
+54 Jaffe Road, Wan Chai
+
+Live music bar aperto dal 1987, band ogni sera e niente ingresso. Piccolo, senza pretese, il posto dove finisci a parlare col chitarrista. Il pin è sulla via.
+
+Prezzo: birra 60-90 HKD, ingresso libero
+Orari: 17:00-02:00, band dalle 21
+Stato: aperto — posizione da confermare
+Posizione: approssimativa</description><styleUrl>#t_live</styleUrl><Point><coordinates>114.172,22.2778,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Expat / internazionale</name>
+<Placemark><name>Knutsford Terrace</name><description>諾士佛臺
+Knutsford Terrace, Tsim Sha Tsui
+
+Terrazza pedonale sopra TST con una decina di bar e ristoranti, tavoli all&#x27;aperto. È il concentrato di vita notturna del lato Kowloon: molto più piccolo di LKF ma comodo se dormi qui la sera del 25.
+
+Prezzo: birra 60-90 HKD
+Orari: 18:00-02:00
+Stato: aperto
+Posizione: approssimativa</description><styleUrl>#t_expat</styleUrl><Point><coordinates>114.1725,22.3015,0</coordinates></Point></Placemark>
+<Placemark><name>Ozone (ICC 118F)</name><description>天際100 一帶
+ICC, 1 Austin Road West, 118° piano — Ritz-Carlton
+
+Il bar più alto del mondo, 118° piano dell&#x27;ICC. Ci vai per la vista sul porto, non per il drink. A 10 min a piedi da West Kowloon: opzione realistica per la sera del 25 se scendi dal treno stanco e non vuoi attraversare. Dress code, niente infradito.
+
+Prezzo: cocktail 180-250 HKD
+Orari: 17:00-01:00
+Stato: aperto — posizione da confermare
+Posizione: approssimativa</description><styleUrl>#t_expat</styleUrl><Point><coordinates>114.1605,22.3035,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Metro</name>
+<Placemark><name>M Central 中環</name><description>Island / Tsuen Wan</description><styleUrl>#metro</styleUrl><Point><coordinates>114.15828,22.28183,0</coordinates></Point></Placemark>
+<Placemark><name>M Sheung Wan 上環</name><description>Island</description><styleUrl>#metro</styleUrl><Point><coordinates>114.15021,22.28652,0</coordinates></Point></Placemark>
+<Placemark><name>M Wan Chai 灣仔</name><description>Island</description><styleUrl>#metro</styleUrl><Point><coordinates>114.17248,22.27901,0</coordinates></Point></Placemark>
+<Placemark><name>M Causeway Bay 銅鑼灣</name><description>Island</description><styleUrl>#metro</styleUrl><Point><coordinates>114.18707,22.2809,0</coordinates></Point></Placemark>
+<Placemark><name>M Tsim Sha Tsui 尖沙咀</name><description>Tsuen Wan</description><styleUrl>#metro</styleUrl><Point><coordinates>114.17412,22.29887,0</coordinates></Point></Placemark>
+<Placemark><name>M Kennedy Town 堅尼地城</name><description>Island</description><styleUrl>#metro</styleUrl><Point><coordinates>114.12842,22.28243,0</coordinates></Point></Placemark>
+<Placemark><name>M Austin 柯士甸 / West Kowloon</name><description>Tuen Ma + alta velocità</description><styleUrl>#metro</styleUrl><Point><coordinates>114.1665,22.30408,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

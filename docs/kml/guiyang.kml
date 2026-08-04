@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Guiyang — nightlife e zone dove dormire</name>
+<description>14-16 novembre 2026 (3 notti) — weekend 14-15. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
+<Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
+<Style id="t_expat"><IconStyle><color>ffad9810</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffad9810</color><width>3</width></LineStyle><PolyStyle><color>26ad9810</color></PolyStyle></Style>
+<Style id="z_qingyun-jiaxiu"><IconStyle><color>ff3131e0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff3131e0</color><width>3</width></LineStyle><PolyStyle><color>263131e0</color></PolyStyle></Style>
+<Style id="z_dashizi-penshuichi"><IconStyle><color>ff008cf0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff008cf0</color><width>3</width></LineStyle><PolyStyle><color>26008cf0</color></PolyStyle></Style>
+<Style id="metro"><IconStyle><color>ff333333</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff333333</color><width>3</width></LineStyle><PolyStyle><color>26333333</color></PolyStyle></Style>
+<Folder><name>Zone dove dormire</name>
+<Placemark><name>#1 Qingyun Road + Jiaxiu Tower</name><description>#1 — Nanming
+
+La zona giusta, ma mettila in chiaro: a Guiyang la sera si mangia, non si balla. Qingyun Road è il mercato notturno migliore del Guizhou e sta a 800 m da Jiaxiu Tower.
+
+PRO
+· Qingyun Market: due piani di street food aperti fino a notte, birra al tavolo, è LA cosa da fare a Guiyang la sera
+· Jiaxiu Tower sul fiume Nanming a 10 min a piedi: illuminata di sera, è la tua tappa da itinerario
+· Zuppa acida di pesce, spiedini, tofu fermentato — la cucina Guizhou si mangia qui, non nei ristoranti
+· Corridoio compatto: mangi, cammini lungo il fiume, torni in hotel senza taxi
+
+CONTRO
+· Zero club e una sola livehouse decente in tutta la città: se cerchi techno, Guiyang è la tappa sbagliata dell&#x27;itinerario
+· Qingyun Market chiude verso l&#x27;una: dopo non c&#x27;è quasi niente
+· Rumore fino a tarda ora sulla via del mercato: chiedi una camera sul retro
+
+Metro: Dashizi 大十字 (L1/L2), 1,2 km a nord</description><styleUrl>#z_qingyun-jiaxiu</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>106.71,26.579,0 106.72,26.579,0 106.72,26.564,0 106.71,26.564,0 106.71,26.579,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>106.71,26.579,0 106.72,26.579,0 106.72,26.564,0 106.71,26.564,0 106.71,26.579,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Qingyun Road + Jiaxiu Tower</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~550 m a piedi.</description><styleUrl>#z_qingyun-jiaxiu</styleUrl><Point><coordinates>106.715,26.571,0</coordinates></Point></Placemark>
+<Placemark><name>#2 Dashizi + Penshuichi</name><description>#2 — Yunyan
+
+Il centro amministrativo e commerciale. Più hotel, più metro, meno anima. Da scegliere se dai priorità alla comodità di spostamento.
+
+PRO
+· Incrocio delle due linee di metro: dalla stazione nord e da qualunque punto della città arrivi diretto
+· Sounth Park Club, il solo club elettronico serio di Guiyang, è su Zhonghua North Road
+· Zhonghua Road: negozi, catene, la fascia di hotel più larga della città
+· Qingyun Road resta a 1,2 km: 15 min a piedi o 8 di Didi
+
+CONTRO
+· La sera si svuota: è zona uffici e negozi, non di locali
+· Da qui per mangiare bene ti sposti comunque
+· Non prenotare invece intorno alla stazione Guiyang North: costa poco ma è 8 km fuori e di notte è deserta
+
+Metro: Dashizi 大十字 (L1/L2) · Penshuichi 喷水池 (L1)</description><styleUrl>#z_dashizi-penshuichi</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>106.702,26.593,0 106.714,26.593,0 106.714,26.578,0 106.702,26.578,0 106.702,26.593,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>106.702,26.593,0 106.714,26.593,0 106.714,26.578,0 106.702,26.578,0 106.702,26.593,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Dashizi + Penshuichi</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~500 m a piedi.</description><styleUrl>#z_dashizi-penshuichi</styleUrl><Point><coordinates>106.707,26.5845,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Club / elettronica</name>
+<Placemark><name>Sounth Park Club</name><description>
+云岩区中华北路5号 — Zhonghua North Rd 5
+
+L&#x27;unico club di Guiyang censito su Resident Advisor. Elettronica, formato piccolo. Il civico 5 sta all&#x27;estremità sud di Zhonghua North Road, verso Penshuichi: il pin è nell&#x27;area, non sul portone.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-03:00
+Stato: attivo su RA — indirizzo da riverificare
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>106.706,26.588,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Pub / craft beer</name>
+<Placemark><name>Qingyun Market</name><description>青云市集
+南明区青云路 — Qingyun Road
+
+Mercato notturno su due piani, ristrutturato nel 2021: non è la solita bancarella, ci sono banconi, sedute e birra. È il posto dove i guiyanghesi passano la sera. Zuppa acida, spiedini alla griglia, riso glutinoso. Il tuo weekend del 14-15 va speso qui.
+
+Prezzo: 60-120 RMB per mangiare e bere
+Orari: 17:00-01:00, punta verso le 21
+Stato: aperto
+Posizione: livello strada</description><styleUrl>#t_pub</styleUrl><Point><coordinates>106.71402,26.5679,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Metro</name>
+<Placemark><name>M Dashizi 大十字</name><description>L1/L2</description><styleUrl>#metro</styleUrl><Point><coordinates>106.70785,26.58214,0</coordinates></Point></Placemark>
+<Placemark><name>M Penshuichi 喷水池</name><description>L1</description><styleUrl>#metro</styleUrl><Point><coordinates>106.70654,26.58717,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>

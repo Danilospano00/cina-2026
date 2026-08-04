@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document>
+<name>Shenzhen — nightlife e zone dove dormire</name>
+<description>3-5 novembre 2026 (3 notti) — prima tappa, arrivo in treno da Hong Kong. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
+<Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
+<Style id="t_expat"><IconStyle><color>ffad9810</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffad9810</color><width>3</width></LineStyle><PolyStyle><color>26ad9810</color></PolyStyle></Style>
+<Style id="z_futian-cbd"><IconStyle><color>ff3131e0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff3131e0</color><width>3</width></LineStyle><PolyStyle><color>263131e0</color></PolyStyle></Style>
+<Style id="z_oct-loft"><IconStyle><color>ff008cf0</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff008cf0</color><width>3</width></LineStyle><PolyStyle><color>26008cf0</color></PolyStyle></Style>
+<Style id="z_chegongmiao"><IconStyle><color>ffc27119</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffc27119</color><width>3</width></LineStyle><PolyStyle><color>26c27119</color></PolyStyle></Style>
+<Style id="z_shekou"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
+<Style id="metro"><IconStyle><color>ff333333</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff333333</color><width>3</width></LineStyle><PolyStyle><color>26333333</color></PolyStyle></Style>
+<Folder><name>Zone dove dormire</name>
+<Placemark><name>#1 Futian CBD — Coco Park e Shopping Park</name><description>#1 — Futian
+
+La scelta ovvia per 3 notti. Una dozzina di locali in due isolati, tre linee di metro sotto i piedi e sei a 15 minuti dal valico di Futian da cui arrivi da Hong Kong.
+
+PRO
+· Coco Park e Shopping Park sono due centri commerciali affiancati con una vera strada di bar al piano terra: esci dall&#x27;hotel e ci sei
+· Densità più alta di Shenzhen: Bang, Fun Hua, O!Garden, Circle, Viva, Pepper, Sicilia, Mad Bar tutti entro 400 m
+· Metro Shopping Park, Gangxia e Convention Center: da qui prendi la L1 per OCT-LOFT in 20 min e la L2 per Shekou
+· Sei nel CBD: è la zona con più hotel di catena e WiFi affidabile, e ti serve per lavorare la sera
+
+CONTRO
+· È nightlife da centro commerciale: bottle service, EDM, prezzi alti. Di carattere ne ha poco
+· Per techno vera devi spostarti a Chegongmiao (OIL Club), 15 min di metro
+
+Metro: Shopping Park 购物公园 (L1/L9) · Gangxia 岗厦 (L2/L3) · Convention Center 会展中心 (L1/L4)</description><styleUrl>#z_futian-cbd</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>114.042,22.5455,0 114.056,22.5455,0 114.056,22.533,0 114.042,22.533,0 114.042,22.5455,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>114.042,22.5455,0 114.056,22.5455,0 114.056,22.533,0 114.042,22.533,0 114.042,22.5455,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Futian CBD — Coco Park e Shopping Park</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~600 m a piedi.</description><styleUrl>#z_futian-cbd</styleUrl><Point><coordinates>114.048,22.54,0</coordinates></Point></Placemark>
+<Placemark><name>#2 OCT-LOFT — Overseas Chinese Town</name><description>#2 — Nanshan
+
+Ex fabbrica riconvertita, già sul tuo itinerario di giorno. La sera diventa la zona di chi preferisce una birra artigianale in cortile a una pista da ballo.
+
+PRO
+· B-10 è la livehouse storica di Shenzhen, dentro il complesso: jazz, sperimentale, indie
+· Birrifici e caffè con terrazza nello stesso isolato, tutto pedonale e tranquillo
+· Lo visiti comunque di giorno (è nel tuo itinerario): dormendo qui non ci torni apposta
+· Molto più silenzioso del CBD: se lavori la sera e vuoi dormire, qui ci riesci
+
+CONTRO
+· Chiude presto rispetto al CBD: dopo l&#x27;una è finita
+· Lontano dal valico di Futian: il giorno dell&#x27;arrivo dal treno di Hong Kong paghi 30-40 min in più
+
+Metro: Qiaocheng East 侨城东 (L1) · OCT 华侨城 (L1)</description><styleUrl>#z_oct-loft</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>113.9835,22.5455,0 113.994,22.5455,0 113.994,22.5365,0 113.9835,22.5365,0 113.9835,22.5455,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>113.9835,22.5455,0 113.994,22.5455,0 113.994,22.5365,0 113.9835,22.5365,0 113.9835,22.5455,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — OCT-LOFT — Overseas Chinese Town</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~500 m a piedi.</description><styleUrl>#z_oct-loft</styleUrl><Point><coordinates>113.9886,22.5412,0</coordinates></Point></Placemark>
+<Placemark><name>#3 Chegongmiao — Tairan</name><description>#3 — Futian
+
+Qui c&#x27;è OIL Club, il club più seguito di Shenzhen su Resident Advisor e l&#x27;unico posto in città dove la techno è la ragione e non il contorno. Ma è un quartiere di uffici: di giorno è morto.
+
+PRO
+· OIL Club: se ti interessa l&#x27;elettronica seria in Cina del Sud, è questa la tappa
+· Bolive e The Loops nello stesso raggio di 400 m
+· Nodo di metro grosso (quattro linee): raggiungi tutto il resto in fretta
+
+CONTRO
+· Zona uffici e torri: nessuna vita di strada, niente da vedere di giorno
+· Tre soli locali: finiti quelli, devi spostarti
+
+Metro: Chegongmiao 车公庙 (L1/L7/L9/L11)</description><styleUrl>#z_chegongmiao</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>114.0165,22.5385,0 114.0265,22.5385,0 114.0265,22.53,0 114.0165,22.53,0 114.0165,22.5385,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>114.0165,22.5385,0 114.0265,22.5385,0 114.0265,22.53,0 114.0165,22.53,0 114.0165,22.5385,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Chegongmiao — Tairan</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~450 m a piedi.</description><styleUrl>#z_chegongmiao</styleUrl><Point><coordinates>114.0215,22.5345,0</coordinates></Point></Placemark>
+<Placemark><name>#4 Shekou — Sea World</name><description>#4 — Nanshan
+
+L&#x27;enclave internazionale di Shenzhen da decenni: pub occidentali intorno a una nave da crociera in secca. Comodo se vuoi una sera in inglese senza sforzo, sbagliato come base per 3 notti.
+
+PRO
+· Concentrazione più alta di stranieri della città: pub, sports bar, birrifici, tutto in un piazzale
+· Lungomare: l&#x27;unica zona di Shenzhen dove la sera si passeggia davvero
+
+CONTRO
+· 15 km dal centro e dal valico di Futian: da qui ogni spostamento è mezz&#x27;ora
+· Scena molto expat e poco cinese: se cerchi la Cina, non è qui
+
+Metro: Sea World 海上世界 (L2) · Shekou Port 蛇口港 (L2)</description><styleUrl>#z_shekou</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>113.905,22.4935,0 113.9235,22.4935,0 113.9235,22.4835,0 113.905,22.4835,0 113.905,22.4935,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>113.905,22.4935,0 113.9235,22.4935,0 113.9235,22.4835,0 113.905,22.4835,0 113.905,22.4935,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
+<Placemark><name>★ Cerca hotel qui — Shekou — Sea World</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~500 m a piedi.</description><styleUrl>#z_shekou</styleUrl><Point><coordinates>113.9105,22.4885,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Club / elettronica</name>
+<Placemark><name>OIL Club</name><description>
+福田区泰然八路 泰然大厦11A 一层 — Tairan Mansion 11A, Tairan 8th Rd
+
+Il club più seguito di Shenzhen su Resident Advisor, e di fatto l&#x27;unico della città con una programmazione techno seria e ospiti internazionali. Se in Cina del Sud vuoi una serata elettronica vera, è qui.
+
+Prezzo: ingresso 100-200 RMB
+Orari: 23:00-05:00, forte ven/sab
+Stato: attivo su Resident Advisor — il più seguito in città
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.02043,22.5332,0</coordinates></Point></Placemark>
+<Placemark><name>Bolive</name><description>
+福田区泰然八路25号 深业水松大厦1F — Shenye Shuisong Bldg, Tairan 8th Rd 25
+
+A 200 m da OIL, stessa strada. Utile come secondo tempo se OIL non ha una serata interessante.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.021,22.53345,0</coordinates></Point></Placemark>
+<Placemark><name>The Loops</name><description>
+福田区泰然六路 工贸园213栋1A-19 — Industry and Trade Park, Tairan 6th Rd
+
+Dentro un parco industriale riconvertito, formato piccolo. Chiude il triangolo di Tairan con OIL e Bolive.
+
+Prezzo: ingresso 50-100 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0225,22.5345,0</coordinates></Point></Placemark>
+<Placemark><name>Bang Club</name><description>
+福田区民田路 购物公园B座138 — Shopping Park Block B 138, Mintian Rd
+
+Uno dei nomi grossi del CBD. Formato grande, EDM e hip hop, tavoli e bottiglie. Pieno nel weekend.
+
+Prezzo: ingresso 100-150 RMB, drink 80-120
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0477,22.542,0</coordinates></Point></Placemark>
+<Placemark><name>Fun Hua Club</name><description>
+福田区民田路138号 购物公园 — Mintian Rd 138
+
+Stesso indirizzo di Bang e O!Garden: tre locali nello stesso blocco, si passa dall&#x27;uno all&#x27;altro senza uscire.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0479,22.5418,0</coordinates></Point></Placemark>
+<Placemark><name>O!Garden</name><description>
+福田区民田路138号 — Mintian Rd 138
+
+Terzo del blocco di Mintian Rd. Formato garden bar, più da bere che da ballare.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 21:00-03:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0476,22.5416,0</coordinates></Point></Placemark>
+<Placemark><name>Circle</name><description>
+福田区购物公园北区A127 — Shopping Park North A127
+
+Lato nord di Shopping Park. Club di formato medio, house e commerciale.
+
+Prezzo: ingresso 80-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0487,22.539,0</coordinates></Point></Placemark>
+<Placemark><name>Club Viva</name><description>
+福田区购物公园140号 — Shopping Park 140
+
+Nello stesso complesso di Circle e Pepper: tre porte diverse sullo stesso piazzale.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0489,22.5386,0</coordinates></Point></Placemark>
+<Placemark><name>Pepper Club</name><description>
+福田区购物公园2楼 — Shopping Park 2F
+
+Piano superiore di Shopping Park. Commerciale, pieno di ventenni cinesi nel weekend.
+
+Prezzo: ingresso 80-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0485,22.5384,0</coordinates></Point></Placemark>
+<Placemark><name>Magma</name><description>
+南山区蛇口 NH E-Cool工业三路2栋101 — NH E-Cool, Industrial 3rd Rd, Shekou
+
+Club dentro un capannone industriale a Shekou, formato underground. Alternativa a OIL se sei già da questa parte della città.
+
+Prezzo: ingresso 60-120 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>113.918,22.49,0</coordinates></Point></Placemark>
+<Placemark><name>True Color Club</name><description>真彩
+福田区上步南路 国旗大厦A座25楼 — Guo Qi Bldg, Block A 25F, Shangbu South Rd
+
+Club al 25esimo piano, vista sulla città. Stessa strada dei tre pub sopra.
+
+Prezzo: ingresso 80-150 RMB
+Orari: 22:00-04:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coordinates>114.0908,22.5388,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Pub / craft beer</name>
+<Placemark><name>B·one</name><description>彼湾映像
+南山区创意文化园北区香山东街B1栋1楼 — OCT-LOFT North, Xiangshan East St, Bldg B1
+
+Ristorante-bar nel cortile di OCT-LOFT. Si mangia e si beve fuori, formato tranquillo.
+
+Prezzo: 50-90 RMB a birra
+Orari: 17:00-01:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>113.988,22.541,0</coordinates></Point></Placemark>
+<Placemark><name>Whatever Cafe</name><description>
+南山区华侨城恩平街创意园东部工业区E6栋103 — OCT Loft, Enping St, Bldg E6
+
+Caffè di giorno, bar la sera. Terrazza, pubblico creativo del quartiere. Buon posto per lavorare al portatile nel pomeriggio.
+
+Prezzo: 40-80 RMB
+Orari: 10:00-01:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_pub</styleUrl><Point><coordinates>113.989,22.542,0</coordinates></Point></Placemark>
+<Placemark><name>Barbershop</name><description>
+福田区上步南路1035号 — Shangbu South Rd 1035
+
+Su Shangbu South Rd ci sono tre locali ai civici 1013, 1031 e 1035: un micro-cluster a sé, a 4 km dal CBD verso Huaqiangbei. Vale un taxi solo se ti trovi già da quelle parti.
+
+Prezzo: drink 50-90 RMB
+Orari: 19:00-02:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_pub</styleUrl><Point><coordinates>114.09106,22.53842,0</coordinates></Point></Placemark>
+<Placemark><name>Grookit Public</name><description>
+福田区上步南路1031号 — Shangbu South Rd 1031
+
+Porta accanto a Barbershop, stesso isolato di Public bistro. I tre insieme fanno una serata, presi da soli no.
+
+Prezzo: drink 50-90 RMB
+Orari: 19:00-02:00
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_pub</styleUrl><Point><coordinates>114.0913,22.5382,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Livehouse / band</name>
+<Placemark><name>Mars Livehouse</name><description>
+福田区滨河路2001号 T-Park西座10楼 — T-Park Film Creative Park 10F
+
+Livehouse del CBD, sul lato sud verso il fiume. Rock e indie cinese. Controlla il calendario: programmazione a ondate.
+
+Prezzo: biglietti 100-250 RMB
+Orari: concerti dalle 20:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_live</styleUrl><Point><coordinates>114.0545,22.5335,0</coordinates></Point></Placemark>
+<Placemark><name>B-10</name><description>
+南山区华侨城创意文化园 北区C2栋北侧 — OCT-LOFT North District, Bldg C2
+
+La livehouse storica di Shenzhen e la più rispettata: jazz, improvvisazione, sperimentale, indie. Dentro l&#x27;ex fabbrica di OCT-LOFT. Se una sera sola devi sceglierne una a Shenzhen, questa.
+
+Prezzo: biglietti 80-200 RMB
+Orari: concerti dalle 20:30
+Stato: attivo su Resident Advisor
+Posizione: livello strada</description><styleUrl>#t_live</styleUrl><Point><coordinates>113.9885,22.5415,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Expat / internazionale</name>
+<Placemark><name>Sicilia Bar &amp; Club</name><description>
+福田区民田路 可可公园酒吧街 — Coco Park bar street, Mintian Rd
+
+Sulla strada dei bar di Coco Park, la più internazionale del CBD. Qui trovi stranieri senza andare fino a Shekou.
+
+Prezzo: drink 60-100 RMB
+Orari: 18:00-02:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_expat</styleUrl><Point><coordinates>114.048,22.5406,0</coordinates></Point></Placemark>
+<Placemark><name>Mad Bar</name><description>
+可可公园 Ella 2楼 — Coco Park, Ella, 2F
+
+Coco Park, piano superiore. Locale da birra e chiacchiere, ambiente misto.
+
+Prezzo: drink 50-90 RMB
+Orari: 18:00-02:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_expat</styleUrl><Point><coordinates>114.0483,22.5404,0</coordinates></Point></Placemark>
+<Placemark><name>BOA</name><description>
+南山区蛇口海上世界广场 酒吧街西侧 — West of Bar Street, Sea World Square, Shekou
+
+Sulla strada dei bar di Sea World, il cuore dell&#x27;enclave internazionale. Ambiente da pub occidentale, molti stranieri residenti.
+
+Prezzo: drink 50-90 RMB
+Orari: 17:00-02:00
+Stato: attivo su Resident Advisor
+Posizione: approssimativa</description><styleUrl>#t_expat</styleUrl><Point><coordinates>113.9105,22.4885,0</coordinates></Point></Placemark>
+</Folder>
+<Folder><name>Metro</name>
+<Placemark><name>M Shopping Park 购物公园</name><description>L1/L9</description><styleUrl>#metro</styleUrl><Point><coordinates>114.04869,22.53846,0</coordinates></Point></Placemark>
+<Placemark><name>M Convention Center 会展中心</name><description>L1/L4</description><styleUrl>#metro</styleUrl><Point><coordinates>114.05594,22.53745,0</coordinates></Point></Placemark>
+<Placemark><name>M Gangxia 岗厦</name><description>L2/L3</description><styleUrl>#metro</styleUrl><Point><coordinates>114.06295,22.53759,0</coordinates></Point></Placemark>
+<Placemark><name>M Chegongmiao 车公庙</name><description>L1/L7/L9/L11</description><styleUrl>#metro</styleUrl><Point><coordinates>114.02266,22.53884,0</coordinates></Point></Placemark>
+<Placemark><name>M Sea World 海上世界</name><description>L2</description><styleUrl>#metro</styleUrl><Point><coordinates>113.91016,22.48813,0</coordinates></Point></Placemark>
+<Placemark><name>M Futian Checkpoint 福田口岸</name><description>L4/L10 — valico per Hong Kong</description><styleUrl>#metro</styleUrl><Point><coordinates>114.06273,22.51794,0</coordinates></Point></Placemark>
+<Placemark><name>M Shenzhen North 深圳北站</name><description>L4/L5/L6 — treni alta velocità</description><styleUrl>#metro</styleUrl><Point><coordinates>114.02395,22.61204,0</coordinates></Point></Placemark>
+</Folder>
+</Document></kml>
