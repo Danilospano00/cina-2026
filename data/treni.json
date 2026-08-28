@@ -1,8 +1,34 @@
 {
   "titolo": "Treni ad alta velocità",
   "nota": "Prezzi rilevati su Trip.com ad agosto 2026, 2ª classe posto seduto. Le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
-  "totale_cny": 1800,
-  "totale_eur": 220,
+  "totale_cny": 1762,
+  "totale_eur": 214,
+  "escursioni": [
+    {
+      "nome": "Leshan, il Grande Buddha",
+      "da": "Chengdu East",
+      "a": "Leshan",
+      "treno": "G / D, ~72 al giorno",
+      "durata": "41 min",
+      "cny": 120,
+      "eur": 15,
+      "data": "2026-11-19",
+      "verificato": false,
+      "note": "Giornata piena, fuori dal totale delle sette tratte. Falla in un feriale — il 19 o il 20 — le code alla Scala dei Nove Tornanti cambiano parecchio. Dalla stazione al Buddha: bus 3 (~45 min) o taxi (~15 min)"
+    },
+    {
+      "nome": "Dazu Rock Carvings (大足石刻)",
+      "da": "Chongqing",
+      "a": "Dazu",
+      "treno": "G + bus",
+      "durata": "~1h30 + bus",
+      "cny": 100,
+      "eur": 12,
+      "data": "2026-11-23",
+      "verificato": false,
+      "note": "UNESCO. Opzionale: è la cosa che si sblocca con la terza giornata piena a Chongqing"
+    }
+  ],
   "prenotazione": {
     "dove": "Trip.com",
     "url": "https://www.trip.com/trains/",
@@ -12,58 +38,88 @@
   },
   "tratte": [
     {
-      "n": 1, "da": "HK West Kowloon", "a": "Shenzhen North",
-      "treno": "G6502 / G6504 / G6506", "durata": "24 min",
-      "cny": 70, "eur": 8.5, "data": "2026-11-03", "verificato": true,
-      "note": "Transfrontaliero: passaporto e controlli doganali, arriva in anticipo"
+      "n": 1,
+      "da": "HK West Kowloon",
+      "a": "Shenzhen North",
+      "treno": "G6502 / G6504 / G6506",
+      "durata": "24 min",
+      "cny": 70,
+      "eur": 8.5,
+      "data": "2026-11-06",
+      "verificato": true,
+      "note": "Transfrontaliero: passaporto e controlli doganali, arriva in anticipo. Alternativa col trolley: pullman diretto dall'aeroporto a Futian Port, ~1h-1h30, e questa tratta salta"
     },
     {
-      "n": 2, "da": "Shenzhen North", "a": "Guangzhou South",
-      "treno": "G / C, molto frequenti", "durata": "30-45 min",
-      "cny": 75, "eur": 9, "data": "2026-11-06", "verificato": true,
+      "n": 2,
+      "da": "Shenzhen North",
+      "a": "Guangzhou South",
+      "treno": "G / C, molto frequenti",
+      "durata": "30-45 min",
+      "cny": 75,
+      "eur": 9,
+      "data": "2026-11-10",
+      "verificato": true,
       "note": "Esistono anche treni lenti K/T a ~25 CNY, ma fermano altrove e ci mettono il doppio"
     },
     {
-      "n": 3, "da": "Guangzhou South", "a": "Yangshuo",
-      "treno": "G", "durata": "1h50 - 3h",
-      "cny": 143, "eur": 17.5, "data": "2026-11-09", "verificato": true,
+      "n": 3,
+      "da": "Guangzhou South",
+      "a": "Yangshuo",
+      "treno": "G",
+      "durata": "1h50 - 3h",
+      "cny": 143,
+      "eur": 17.5,
+      "data": "2026-11-13",
+      "verificato": true,
       "note": "La stazione di Yangshuo è a ~25 km dal paese, verso Xingping"
     },
     {
-      "n": 4, "da": "Yangshuo", "a": "Congjiang",
-      "treno": "G1576 / D1820", "durata": "1h11 - 1h38",
-      "cny": 94, "eur": 11.5, "data": "2026-11-12", "verificato": true,
-      "note": "Congjiang è la stazione per Zhaoxing"
+      "n": 4,
+      "da": "Yangshuo",
+      "a": "Guiyang North",
+      "treno": "G diretti",
+      "durata": "2h20 - 2h50",
+      "cny": 190,
+      "eur": 23,
+      "data": "2026-11-16",
+      "verificato": false,
+      "note": "Tratta NUOVA, nata dal taglio di Zhaoxing: prima si passava per Congjiang in due tronconi. Tariffa derivata, mai letta su Trip.com — verificala per prima"
     },
     {
-      "n": 5, "da": "Congjiang", "a": "Guiyang North",
-      "treno": "D1804 / D1806 / D1820", "durata": "1h12 - 1h52",
-      "cny": 117, "eur": 14, "data": "2026-11-14", "verificato": true,
-      "note": ""
-    },
-    {
-      "n": 6, "da": "Guiyang North", "a": "Chengdu East",
-      "treno": "G", "durata": "~3h",
-      "cny": 290, "eur": 35, "data": "2026-11-17", "verificato": false,
+      "n": 5,
+      "da": "Guiyang North",
+      "a": "Chengdu East",
+      "treno": "G",
+      "durata": "~3h",
+      "cny": 290,
+      "eur": 35,
+      "data": "2026-11-18",
+      "verificato": false,
       "note": "250-330 CNY a seconda del treno. Tariffa derivata, da riverificare in prenotazione"
     },
     {
-      "n": 7, "da": "Chengdu East", "a": "Wulong",
-      "treno": "G2447 (2h49) — evita il C778 (4h35)", "durata": "2h49",
-      "cny": 156, "eur": 19, "data": "2026-11-20", "verificato": true,
-      "note": "Il C778 impiega 1h45 in più e costa uguale o poco meno: prendi il G"
+      "n": 6,
+      "da": "Chengdu East",
+      "a": "Chongqing West",
+      "treno": "G diretti",
+      "durata": "1h10 - 1h30",
+      "cny": 154,
+      "eur": 19,
+      "data": "2026-11-22",
+      "verificato": false,
+      "note": "Tratta NUOVA, nata dal taglio di Zigong. Attenzione alla stazione: molte corse arrivano a Chongqing NORTH, tu devi scendere a WEST, la stessa da cui riparte il G905 il 25. Tariffa derivata"
     },
     {
-      "n": 8, "da": "Wulong", "a": "Chongqing North",
-      "treno": "G2418 / G2430 / G8512", "durata": "39-50 min",
-      "cny": 58, "eur": 7, "data": "2026-11-22", "verificato": false,
-      "note": "Tariffa derivata, da riverificare in prenotazione"
-    },
-    {
-      "n": 9, "da": "Chongqing West", "a": "HK West Kowloon",
-      "treno": "G905 — unico diretto del giorno", "durata": "7h13",
-      "cny": 840, "eur": 102, "data": "2026-11-25", "verificato": true,
-      "note": "08:44 → 15:57. Da Chongqing WEST, non North. Da solo è il 46% del budget treni"
+      "n": 7,
+      "da": "Chongqing West",
+      "a": "HK West Kowloon",
+      "treno": "G905 — unico diretto del giorno",
+      "durata": "7h13",
+      "cny": 840,
+      "eur": 102,
+      "data": "2026-11-25",
+      "verificato": true,
+      "note": "08:44 → 15:57. Da Chongqing WEST, non North. Da solo è il 48% del budget treni"
     }
   ],
   "criticita": {
@@ -75,7 +131,7 @@
       "Vendite aperte 15 giorni prima → prenotabile dal ~10 novembre 2026, non prima.",
       "L'orario è quello in vigore ad agosto 2026: China Railway ritocca gli orari più volte l'anno, riverifica a ottobre.",
       "Tratta transfrontaliera: passaporto obbligatorio al gate e controlli doganali a West Kowloon. Arriva con largo anticipo.",
-      "Il volo CKG → HKG a volte scende sotto i 100€ in low cost: confronta prima di prenotare."
+      "Il volo CKG → HKG a volte scende sotto i 100€ in low cost: il G905 costa quanto le altre sei tratte messe insieme, confronta prima di prenotare."
     ]
   }
 }

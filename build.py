@@ -5,17 +5,18 @@ Genera il sito statico del viaggio in Cina del Sud da data/*.json.
 Output in docs/ , che è la cartella pubblicata da GitHub Pages.
 
 Sezioni:
-  index.html       riepilogo, conto alla rovescia, le nove tappe
+  index.html       riepilogo, conto alla rovescia, le sette tappe
   itinerario.html  tappa per tappa
   mappe.html       indice delle sette mappe nightlife
   mappe/<slug>.html + kml/<slug>.kml
   voli.html        opzioni di volo internazionale
-  treni.html       le nove tratte ferroviarie
-  hotel.html       stato delle nove prenotazioni
+  treni.html       le sette tratte ferroviarie
+  hotel.html       stato delle otto prenotazioni
   checklist.html   preparativi, con spunte salvate sul telefono
 
 Uso:  python3 build.py
 """
+import datetime
 import hashlib
 import html
 import json
@@ -60,6 +61,26 @@ e = html.escape
 # Impronta dei file statici: finisce in coda agli URL come ?v=... . Senza,
 # dopo un deploy il telefono continua a servire CSS e JS dalla cache.
 VER = {}
+
+
+MESI_IT = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
+           "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
+
+
+def _d(iso):
+    return datetime.date.fromisoformat(iso)
+
+
+def notti_tra(checkin, checkout):
+    return (_d(checkout) - _d(checkin)).days
+
+
+def giorni_it(checkin, checkout):
+    """«25 novembre» per una notte sola, «25-26 novembre» per più notti."""
+    a, b = _d(checkin), _d(checkout) - datetime.timedelta(days=1)
+    if a == b:
+        return f"{a.day} {MESI_IT[a.month - 1]}"
+    return f"{a.day}-{b.day} {MESI_IT[b.month - 1]}"
 
 
 def asset(nome):
@@ -148,7 +169,7 @@ def pagina(titolo, corpo, attiva, depth=0, testa="", coda="", main_class="", bod
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(titolo)}</title>
-<meta name="description" content="Viaggio nel sud della Cina, 3-27 novembre 2026: itinerario, mappe, voli, treni, hotel.">
+<meta name="description" content="Viaggio nel sud della Cina, 5-27 novembre 2026: itinerario, mappe, voli, treni, hotel.">
 <meta name="theme-color" content="#c2410c">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Cina 2026">
@@ -159,7 +180,7 @@ def pagina(titolo, corpo, attiva, depth=0, testa="", coda="", main_class="", bod
 <link rel="stylesheet" href="{rel}assets/{asset("app.css")}">
 {testa}</head><body{bc}>
 <header class="top"><div class="top-in">
- <a class="brand" href="{rel}index.html"><b>Sud della Cina</b><span>3-27 nov 2026</span></a>
+ <a class="brand" href="{rel}index.html"><b>Sud della Cina</b><span>5-27 nov 2026</span></a>
  <nav>{nav}</nav>
 </div></header>
 <main{mc}>{corpo}</main>
@@ -214,12 +235,21 @@ def build_home(viaggio, treni, voli):
             ]
         )
 
-    scelta = next(o for o in voli["opzioni"] if o["id"] == voli["scelta"])
+    v = viaggio.get("volo")
+    volo_html = (
+        f'<div class="card"><div class="stop-head"><span class="tag ok">volo {e(v["stato"])}</span>'
+        f'<h3>Hong Kong</h3></div>'
+        f'<p class="arrivo" style="margin:0">{e(v["andata"])}<br>{e(v["ritorno"])}</p></div>'
+        if v
+        else ""
+    )
+
+    n_hotel = sum(len(t["hotel"]) if isinstance(t["hotel"], list) else 1 for t in viaggio["tappe"])
     aperti = [
-        ("Volo A/R Italia ⇄ Hong Kong",
-         f'obiettivo sotto 1000€, il minimo verificato oggi e\' {scelta["prezzo"]}', "voli.html"),
-        ("9 hotel su Trip.com", "uno per tappa, nessuno ancora prenotato", "hotel.html"),
-        ("8 tratte in treno", "le vendite aprono 15 giorni prima di ogni partenza", "treni.html"),
+        (f"{n_hotel} prenotazioni hotel su Trip.com",
+         "sette tappe ma otto strutture: a Hong Kong il 25 in centro, il 26 a Tung Chung", "hotel.html"),
+        (f'{len(treni["tratte"])} tratte in treno + le gite in giornata',
+         "le vendite aprono 15 giorni prima di ogni partenza", "treni.html"),
         ("Preparativi", "VPN, eSIM, pagamenti, assicurazione", "checklist.html"),
     ]
     aperti_html = "".join(
@@ -239,6 +269,7 @@ def build_home(viaggio, treni, voli):
   <p class="muted" style="margin:8px 0 0">{len(viaggio["tappe"])} tappe · {tot_notti} notti ·
    {len(con_mappa)} mappe nightlife · {treni["totale_eur"]}€ di treni interni</p>
 </div>
+{volo_html}
 
 <h2>Le tappe</h2>
 {tabella(["Tappa", "Date", "Notti", "Nightlife"], righe, "tight")}
@@ -254,7 +285,7 @@ provider sono bloccati e non la scarichi più. Scarica anche i KML delle mappe e
 di Organic Maps: funzionano senza rete e senza VPN.</div>
 </div>"""
     return pagina(
-        "Sud della Cina — 3-27 novembre 2026",
+        "Sud della Cina — 5-27 novembre 2026",
         corpo,
         "index.html",
         coda=f'<script src="assets/{asset("countdown.js")}"></script>',
@@ -262,6 +293,42 @@ di Organic Maps: funzionano senza rete e senza VPN.</div>
 
 
 # --- pagina: itinerario ----------------------------------------------------
+def riga_clima(c):
+    """Una riga «max/min · dove · nota». `dove` è opzionale e serve solo dove
+    la stessa tappa ha due quote (Wulong)."""
+    dove = f'<span class="dove">{e(c["dove"])}</span>' if c.get("dove") else ""
+    return (
+        f'<p><b>{c["max"]}°/{c["min"]}°C</b>{dove}'
+        f'<span class="nota">{e(c["nota"])}</span></p>'
+    )
+
+
+def build_clima(t):
+    """Medie di novembre. Assente dal JSON = niente riga, nessun errore."""
+    c = t.get("clima")
+    if not c:
+        return ""
+    righe = riga_clima(c) + (riga_clima(c["quota"]) if c.get("quota") else "")
+    return f'<div class="clima">{righe}</div>'
+
+
+def build_escursione(t):
+    x = t.get("escursione")
+    if not x:
+        return ""
+    return (
+        SOTTOTITOLO.format("Gita in giornata")
+        + '<div class="card" style="margin:0">'
+        f'<div class="stop-head" style="margin-top:0"><h3>{e(x["nome"])}</h3>'
+        f'<span class="zh">{e(x["nome_zh"])}</span>'
+        f'<span class="when">{e(x["quando"])}</span></div>'
+        f'<p class="arrivo">{e(x["treno"])}</p>'
+        + build_clima(x)
+        + lista(x["note"])
+        + "</div>"
+    )
+
+
 def build_itinerario(viaggio):
     schede = []
     for i, t in enumerate(viaggio["tappe"], 1):
@@ -277,10 +344,12 @@ def build_itinerario(viaggio):
             f'<h3>{e(t["nome"])}</h3><span class="zh">{e(t["nome_zh"])}</span>{wk}'
             f'<span class="when">{e(t["date"])} · {t["notti"]} notti</span></div>'
             f'<p class="arrivo">{e(t["arrivo"])}</p>'
+            + build_clima(t)
             + SOTTOTITOLO.format("Cosa vedere")
             + lista(t["cosa_vedere"])
             + SOTTOTITOLO.format("Cibo")
             + lista(t["cibo"])
+            + build_escursione(t)
             + f'<div class="links">{mappa}'
             f'<a class="btn" href="hotel.html#{e(t["id"])}">Hotel</a></div></div>'
         )
@@ -290,8 +359,10 @@ def build_itinerario(viaggio):
 <p class="lede">{e(viaggio["rotta"])}</p>
 {"".join(schede)}
 <div class="card"><div class="stop-head"><span class="tag">27</span>
- <h3>Rientro</h3><span class="when">27 novembre</span></div>
- <p class="arrivo" style="margin:0">Volo internazionale da Hong Kong.</p></div>
+ <h3>Rientro</h3><span class="when">27 novembre · 08:10</span></div>
+ <p class="arrivo" style="margin:0">Volo da Hong Kong alle 08:10. Non è una giornata di viaggio:
+ l'ultimo giorno pieno è giovedì 26. Check-in bagagli chiuso alle 07:10, in aeroporto entro le 06:15.
+ Per questo il 26 si dorme a Tung Chung: bus S1 al terminal in ~10 min, sveglia alle 05:45.</p></div>
 </div>"""
     return pagina("Itinerario — Sud della Cina", corpo, "itinerario.html")
 
@@ -451,6 +522,18 @@ def build_mappa(d):
 
 # --- pagina: voli ----------------------------------------------------------
 def build_voli(voli):
+    pr = voli.get("prenotato")
+    prenotato_html = ""
+    if pr:
+        prenotato_html = (
+            f'<div class="card"><div class="stop-head"><span class="tag ok">{e(pr["stato"])}</span>'
+            f'<h3>{e(pr["rotta"])}</h3></div>'
+            f'<p class="arrivo"><b>Andata:</b> {e(pr["andata"])}<br>'
+            f'<b>Ritorno:</b> {e(pr["ritorno"])}</p>'
+            f'<p class="muted">{e(pr["nota"])}</p>'
+            f'{lista(pr["conseguenze"])}</div>'
+        )
+
     opzioni = []
     for o in voli["opzioni"]:
         badge = (
@@ -518,6 +601,7 @@ def build_voli(voli):
     corpo = f"""<div class="page">
 <h1>{e(voli["titolo"])}</h1>
 <p class="lede">{e(voli["obiettivo"])}</p>
+{prenotato_html}
 <div class="warn">{e(voli["nota"])}</div>
 
 <h2>Le tre strade</h2>
@@ -567,6 +651,27 @@ def build_treni(treni):
         ]
     )
 
+    esc_righe = []
+    for x in treni.get("escursioni", []):
+        flag = "" if x["verificato"] else ' <span class="tag grey">da verificare</span>'
+        nota = f'<br><span class="muted">{e(x["note"])}</span>' if x["note"] else ""
+        esc_righe.append(
+            [
+                f'<td><b>{e(x["da"])}</b> → <b>{e(x["a"])}</b>{flag}<br>'
+                f'<span class="muted">{e(x["nome"])}</span>{nota}</td>',
+                f'<td>{e(x["treno"])}</td>',
+                f'<td>{e(x["durata"])}</td>',
+                f'<td class="num">{x["cny"]} CNY<br><b>{x["eur"]}€</b></td>',
+            ]
+        )
+    blocco_esc = ""
+    if esc_righe:
+        blocco_esc = (
+            "<h2>Gite in giornata</h2>\n<p class=\"muted\">Andata e ritorno dalla stessa "
+            "base, fuori dal totale sopra.</p>\n"
+            + tabella(["Tratta", "Treno", "Durata", "A/R 2ª classe"], esc_righe)
+        )
+
     p = treni["prenotazione"]
     crit = treni["criticita"]
 
@@ -575,6 +680,8 @@ def build_treni(treni):
 <p class="lede">{e(treni["nota"])}</p>
 
 {tabella(["#", "Tratta", "Treno", "Durata", "2ª classe"], righe)}
+
+{blocco_esc}
 
 <div class="warn"><b>{e(crit["titolo"])}</b>{lista(crit["punti"])}</div>
 
@@ -592,9 +699,11 @@ irrinunciabile.</p>
 
 <h2>Note</h2>
 <div class="card">{lista([
-  "Il rientro G905 da solo vale il 46% del budget treni. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
-  "Tratte 2 e 8 hanno anche treni ordinari K/T a ~25 CNY, ma fermano in stazioni diverse e ci mettono il doppio.",
-  "Tratta 7: il C778 impiega 1h45 in più del G2447 e costa uguale o poco meno. Prendi il G.",
+  "Il rientro G905 da solo vale il 48% del budget treni, quanto le altre sei messe insieme. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
+  "Tratte 4 e 6: sono nuove, nate dal taglio di Zhaoxing e Zigong. Le tariffe sono derivate, mai lette su Trip.com — verifica queste per prime.",
+  "Tratta 6: molte corse Chengdu → Chongqing arrivano a Chongqing NORTH. Tu devi scendere a WEST, la stessa stazione da cui riparte il G905 il 25.",
+  "Tratta 2: esistono anche treni ordinari K/T a ~25 CNY, ma fermano in stazioni diverse e ci mettono il doppio.",
+  "Tratta 1: col trolley in stiva valuta il pullman transfrontaliero diretto dall'aeroporto a Futian Port (~1h-1h30): salti Airport Express e West Kowloon.",
   "Porta sempre il passaporto: serve per ritirare i biglietti e per salire.",
 ])}</div>
 </div>"""
@@ -606,37 +715,49 @@ def build_hotel(viaggio):
     stati = {"da cercare": "grey", "cercato": "soft", "prenotato": "ok", "confermato": "ok"}
     schede = []
     for t in viaggio["tappe"]:
-        h = t["hotel"]
-        st = stati.get(h["stato"], "grey")
+        # Una tappa può avere più strutture: a Hong Kong si dorme in centro il 25
+        # e a Tung Chung il 26, per via del volo delle 08:10. Ogni voce può portarsi
+        # le proprie date; altrimenti eredita quelle della tappa.
+        voci = t["hotel"] if isinstance(t["hotel"], list) else [t["hotel"]]
         mappa_link = (
             f'<a class="btn" href="mappe/{e(t["mappa"])}.html">Zone sulla mappa</a>'
             if t["mappa"]
             else ""
         )
-        schede.append(
-            f'<div class="card" id="{e(t["id"])}"><div class="stop-head">'
-            f'<h3>{e(t["nome"])}</h3><span class="zh">{e(t["nome_zh"])}</span>'
-            f'<span class="tag {st}">{e(h["stato"])}</span>'
-            f'<span class="when">{e(t["date"])} · {t["notti"]} notti</span></div>'
-            f'<p class="arrivo"><b>Zona:</b> {e(h["zona"])}<br>'
-            f'<span class="muted">{e(h["note"])}</span></p>'
-            f'<div class="links">'
-            f'<a class="btn primary" href="{e(trip_url(h["cerca"], t["checkin"], t["checkout"]))}" '
-            f'target="_blank" rel="noopener">Trip.com</a>'
-            f'<a class="btn" href="{e(booking_url(h["cerca"], t["checkin"], t["checkout"]))}" '
-            f'target="_blank" rel="noopener">Booking</a>'
-            f'<a class="btn" href="{e(hostelworld_url(h["cerca"], t["checkin"], t["checkout"]))}" '
-            f'target="_blank" rel="noopener">Hostelworld</a>'
-            f"{mappa_link}</div></div>"
-        )
+        for i, h in enumerate(voci):
+            st = stati.get(h["stato"], "grey")
+            ci = h.get("checkin", t["checkin"])
+            co = h.get("checkout", t["checkout"])
+            notti = notti_tra(ci, co)
+            hid = t["id"] if len(voci) == 1 else f'{t["id"]}-{i + 1}'
+            quando = t["date"] if len(voci) == 1 else f'{giorni_it(ci, co)}'
+            titolo = e(t["nome"]) if len(voci) == 1 else f'{e(t["nome"])} · {e(h["zona"].split(",")[0])}'
+            schede.append(
+                f'<div class="card" id="{e(hid)}"><div class="stop-head">'
+                f'<h3>{titolo}</h3><span class="zh">{e(t["nome_zh"])}</span>'
+                f'<span class="tag {st}">{e(h["stato"])}</span>'
+                f'<span class="when">{e(quando)} · {notti} '
+                f'{"notte" if notti == 1 else "notti"}</span></div>'
+                f'<p class="arrivo"><b>Zona:</b> {e(h["zona"])}<br>'
+                f'<span class="muted">{e(h["note"])}</span></p>'
+                f'<div class="links">'
+                f'<a class="btn primary" href="{e(trip_url(h["cerca"], ci, co))}" '
+                f'target="_blank" rel="noopener">Trip.com</a>'
+                f'<a class="btn" href="{e(booking_url(h["cerca"], ci, co))}" '
+                f'target="_blank" rel="noopener">Booking</a>'
+                f'<a class="btn" href="{e(hostelworld_url(h["cerca"], ci, co))}" '
+                f'target="_blank" rel="noopener">Hostelworld</a>'
+                f"{mappa_link}</div></div>"
+            )
 
     corpo = f"""<div class="page narrow">
 <h1>Hotel</h1>
-<p class="lede">Nove strutture, una per tappa. Camera privata sempre, mai dormitorio. I link
+<p class="lede">Otto strutture per sette tappe: a Hong Kong il 25 si dorme in centro e il 26 a
+Tung Chung, perché il volo del 27 parte alle 08:10. Camera privata sempre, mai dormitorio. I link
 portano alla ricerca con le date già impostate per 1 adulto.</p>
 
 <div class="warn"><b>WiFi:</b> è il vincolo vero, non il prezzo. Le sere sono di lavoro: prima di
-prenotare leggi le recensioni che parlano di connessione, soprattutto a Yangshuo e Zhaoxing.</div>
+prenotare leggi le recensioni che parlano di connessione, soprattutto a Yangshuo.</div>
 
 {"".join(schede)}
 
@@ -824,7 +945,7 @@ def build_icone(dest):
 def build_manifest():
     return json.dumps(
         {
-            "name": "Sud della Cina — 3-27 novembre 2026",
+            "name": "Sud della Cina — 5-27 novembre 2026",
             "short_name": "Cina 2026",
             "start_url": ".",
             "scope": ".",

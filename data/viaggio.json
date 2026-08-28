@@ -1,14 +1,15 @@
 {
   "titolo": "Sud della Cina",
-  "sottotitolo": "3-27 novembre 2026 · 25 giorni · viaggio solo",
-  "rotta": "Shenzhen → Canton → Yangshuo → Zhaoxing → Guiyang → Chengdu → Wulong → Chongqing → Hong Kong",
-  "partenza": "2026-11-03",
+  "sottotitolo": "5-27 novembre 2026 · 21 notti · viaggio solo · voli prenotati",
+  "rotta": "Shenzhen → Canton → Yangshuo → Guiyang → Chengdu → Chongqing → Hong Kong",
+  "partenza": "2026-11-05",
   "rientro": "2026-11-27",
   "regole": [
-    "Tappe da 3 notti massimo, tratte interne sotto le 3h",
+    "Voli prenotati: atterri a HKG il 6 nov alle 12:00, riparti il 27 alle 08:10",
+    "Tappe da 3 notti massimo, tratte interne sotto le 3h. Due eccezioni a 4 notti: Shenzhen per gli shop tech, Chengdu perché fa da base per Leshan",
     "Niente treni notturni, spostamenti di sabato quando possibile",
     "Mattine in visita, sere al lavoro: serve WiFi affidabile ovunque",
-    "Permanenza continentale 3 → 25 nov = 22 giorni, sotto la soglia dei 30 in esenzione visto",
+    "Permanenza continentale 6 → 25 nov = ~20 giorni, sotto la soglia dei 30 in esenzione visto",
     "Hong Kong e Macao contano a parte: uscire e rientrare riavvia il conteggio"
   ],
   "tappe": [
@@ -16,23 +17,33 @@
       "id": "shenzhen",
       "nome": "Shenzhen",
       "nome_zh": "深圳",
-      "date": "3-5 novembre",
-      "notti": 3,
-      "checkin": "2026-11-03",
-      "checkout": "2026-11-06",
-      "arrivo": "Atterri a Hong Kong e vai dritto in treno, 15-30 min. Qui parte il conteggio dei 30 giorni di esenzione visto.",
-      "weekend": false,
+      "date": "6-9 novembre",
+      "notti": 4,
+      "checkin": "2026-11-06",
+      "checkout": "2026-11-10",
+      "arrivo": "Atterri a Hong Kong venerdì alle 12:00. Immigrazione e bagagli: conta 45-60 min. Col trolley in stiva il modo pratico è il pullman transfrontaliero diretto dall'aeroporto verso Futian Port o Shenzhen Bay Port, ~1h-1h30. In alternativa Airport Express fino a Kowloon, poi HK West Kowloon e treno G per Shenzhen North: lì c'è la co-location, sbrighi l'immigrazione cinese sul lato di Hong Kong. Qui parte il conteggio dei 30 giorni di esenzione visto.",
+      "clima": {
+        "max": 25,
+        "min": 18,
+        "nota": "secco e soleggiato, la coda dell'estate"
+      },
+      "weekend": true,
       "mappa": "shenzhen",
       "cosa_vedere": [
+        "Huaqiangbei, il distretto degli shop tech — le quattro notti servono a questo",
         "Futian e Shenzhen Bay",
         "OCT-LOFT, ex fabbrica riconvertita",
-        "Dafen, il villaggio dei copisti di quadri"
+        "Dafen, il villaggio dei copisti di quadri",
+        "Weekend 7-8: mall pieni e tutto aperto. Lunedì 9: i piani wholesale sono calmi e i venditori hanno tempo"
       ],
-      "cibo": ["Hotpot", "Cucina cantonese moderna"],
+      "cibo": [
+        "Hotpot",
+        "Cucina cantonese moderna"
+      ],
       "hotel": {
         "cerca": "Shenzhen",
-        "zona": "Futian CBD — Coco Park e Shopping Park",
-        "note": "Metro Futian collega direttamente a Hong Kong",
+        "zona": "Futian CBD — meglio verso Huaqiangbei che verso Coco Park",
+        "note": "Quattro notti per gli shop tech. Metro Futian collega direttamente a Hong Kong",
         "stato": "da cercare"
       }
     },
@@ -40,19 +51,28 @@
       "id": "guangzhou",
       "nome": "Canton / Guangzhou",
       "nome_zh": "广州",
-      "date": "6-8 novembre",
+      "date": "10-12 novembre",
       "notti": 3,
-      "checkin": "2026-11-06",
-      "checkout": "2026-11-09",
-      "arrivo": "Treno veloce, circa 40 min. Venerdì.",
-      "weekend": true,
+      "checkin": "2026-11-10",
+      "checkout": "2026-11-13",
+      "arrivo": "Treno veloce, circa 40 min. Martedì.",
+      "clima": {
+        "max": 25,
+        "min": 16,
+        "nota": "secco e soleggiato, notti più fresche che a Shenzhen"
+      },
+      "weekend": false,
       "mappa": "guangzhou",
       "cosa_vedere": [
         "Shamian Island, la vecchia concessione",
         "Yongqingfang, i vicoli restaurati",
-        "Weekend 7-8: la vita di Canton"
+        "Gita a Shunde, capitale gastronomica"
       ],
-      "cibo": ["Yum cha", "Arrosti cantonesi", "Gita a Shunde, capitale gastronomica"],
+      "cibo": [
+        "Yum cha",
+        "Arrosti cantonesi",
+        "Gita a Shunde, capitale gastronomica"
+      ],
       "hotel": {
         "cerca": "Guangzhou",
         "zona": "Yanjiang Road + Beijing Road, Yuexiu",
@@ -64,20 +84,28 @@
       "id": "yangshuo",
       "nome": "Yangshuo / Guilin",
       "nome_zh": "阳朔",
-      "date": "9-11 novembre",
+      "date": "13-15 novembre",
       "notti": 3,
-      "checkin": "2026-11-09",
-      "checkout": "2026-11-12",
-      "arrivo": "Treno veloce, circa 3h. La stazione 阳朔站 è a ~25 km dal paese: metti in conto 30-40 min di bus o taxi.",
-      "weekend": false,
+      "checkin": "2026-11-13",
+      "checkout": "2026-11-16",
+      "arrivo": "Treno veloce, circa 3h. Venerdì: il weekend 14-15 resta intero, nessuna giornata persa in treno. La stazione 阳朔站 è a ~25 km dal paese, metti in conto 30-40 min di bus o taxi.",
+      "clima": {
+        "max": 20,
+        "min": 12,
+        "nota": "mite, qualche pioggia, foschia sul fiume al mattino"
+      },
+      "weekend": true,
       "mappa": "yangshuo",
       "cosa_vedere": [
         "Li River e Xingping",
         "Bici nella campagna del Yulong",
-        "Terrazze di Longji",
-        "West Street la sera"
+        "West Street la sera",
+        "Terrazze di Longji: a fine novembre sono post-raccolto, marroni e spoglie. La stagione è maggio-giugno o settembre-ottobre — meglio Xingping"
       ],
-      "cibo": ["Noodles di Guilin", "Pesce alla birra di Yangshuo"],
+      "cibo": [
+        "Noodles di Guilin",
+        "Pesce alla birra di Yangshuo"
+      ],
       "hotel": {
         "cerca": "Yangshuo",
         "zona": "West Street o lungofiume Binjiang",
@@ -86,47 +114,32 @@
       }
     },
     {
-      "id": "zhaoxing",
-      "nome": "Zhaoxing, villaggi Dong",
-      "nome_zh": "肇兴",
-      "date": "12-13 novembre",
-      "notti": 2,
-      "checkin": "2026-11-12",
-      "checkout": "2026-11-14",
-      "arrivo": "Treno veloce, circa 1h30. Stazione di Congjiang.",
-      "weekend": false,
-      "mappa": null,
-      "cosa_vedere": [
-        "Torri del tamburo",
-        "Ponti del vento e della pioggia",
-        "Risaie a terrazza",
-        "Cina rurale ed etnica vera: sere tranquille, buone per lavorare"
-      ],
-      "cibo": ["Riso glutinoso", "Pesce di risaia", "Zuppa acida"],
-      "hotel": {
-        "cerca": "Zhaoxing",
-        "zona": "Dentro il villaggio Dong",
-        "note": "Stazione treno Congjiang. Alternativa: Sanjiang, ponte Chengyang. Novembre fresco e nebbioso, porta strati",
-        "stato": "da cercare"
-      }
-    },
-    {
       "id": "guiyang",
       "nome": "Guiyang",
       "nome_zh": "贵阳",
-      "date": "14-16 novembre",
-      "notti": 3,
-      "checkin": "2026-11-14",
-      "checkout": "2026-11-17",
-      "arrivo": "Treno veloce, circa 2h.",
-      "weekend": true,
+      "date": "16-17 novembre",
+      "notti": 2,
+      "checkin": "2026-11-16",
+      "checkout": "2026-11-18",
+      "arrivo": "Treno veloce diretto da Yangshuo, 2h20-2h50. Lunedì.",
+      "clima": {
+        "max": 14,
+        "min": 7,
+        "nota": "1100 m, grigio e umido: novembre è il mese con meno sole dell'anno"
+      },
+      "weekend": false,
       "mappa": "guiyang",
       "cosa_vedere": [
-        "Weekend 14-15: street food a Qingyun Road",
-        "Jiaxiu Tower sul fiume Nanming",
-        "Eventuale villaggio Miao"
+        "Sabato 14: street food a Qingyun Road",
+        "Domenica 15: Jiaxiu Tower sul fiume Nanming e centro",
+        "Lunedì 16 mattina: treno per Chengdu. La notte tagliata è finita su Chengdu, per Leshan",
+        "Il villaggio Miao non ci sta più: serviva il terzo giorno"
       ],
-      "cibo": ["Zuppa acida di pesce", "Riso glutinoso", "Spiedini alla griglia"],
+      "cibo": [
+        "Zuppa acida di pesce",
+        "Riso glutinoso",
+        "Spiedini alla griglia"
+      ],
       "hotel": {
         "cerca": "Guiyang",
         "zona": "Qingyun Road + Jiaxiu Tower, Nanming",
@@ -138,48 +151,53 @@
       "id": "chengdu",
       "nome": "Chengdu",
       "nome_zh": "成都",
-      "date": "17-19 novembre",
-      "notti": 3,
-      "checkin": "2026-11-17",
-      "checkout": "2026-11-20",
-      "arrivo": "Treno veloce, circa 3h.",
-      "weekend": false,
+      "date": "18-21 novembre",
+      "notti": 4,
+      "checkin": "2026-11-18",
+      "checkout": "2026-11-22",
+      "arrivo": "Treno veloce, circa 3h. Mercoledì, arrivo a metà giornata. Quattro notti e tre giornate piene, due delle quali feriali: è la tappa che più ne beneficia, tra le code alla Scala dei Nove Tornanti di Leshan e la base dei panda all'alba.",
+      "clima": {
+        "max": 15,
+        "min": 8,
+        "nota": "coperto quasi ogni giorno, umido e senza vento"
+      },
+      "weekend": true,
       "mappa": "chengdu",
       "cosa_vedere": [
-        "Base dei panda: arriva all'alba, dopo le 10 dormono",
-        "Case da tè",
-        "Quartiere di Kuanzhai"
+        "16 pomeriggio: città, arrivo morbido",
+        "17: Leshan, il Grande Buddha — giornata piena, vedi sotto",
+        "18: base dei panda all'alba, dopo le 10 dormono. Pomeriggio Kuanzhai e case da tè",
+        "19: città e sera libera, oppure riserva se il 17 piove"
       ],
-      "cibo": ["Mapo tofu", "Dan dan noodles", "Hotpot mala"],
+      "cibo": [
+        "Mapo tofu",
+        "Dan dan noodles",
+        "Hotpot mala"
+      ],
+      "escursione": {
+        "nome": "Leshan, il Grande Buddha",
+        "nome_zh": "乐山大佛",
+        "quando": "martedì 17 novembre",
+        "treno": "Chengdu East → Leshan, 41 min, ~72 treni al giorno. A/R ~120 CNY / 15€",
+        "clima": {
+          "max": 16,
+          "min": 9,
+          "nota": "~350 m, mite: nessun problema di freddo"
+        },
+        "note": [
+          "71 m, scavato nella roccia tra il 713 e l'803, alla confluenza di tre fiumi",
+          "Barca dal fiume (~30 min): unica vista frontale completa",
+          "Scala dei Nove Tornanti lungo il fianco: 1-2h con le code, ma novembre è bassa stagione",
+          "Accanto: tempio Wuyou e tombe rupestri Mahao, valgono il giro",
+          "Dalla stazione al sito: bus 3 (~45 min) o taxi (~15 min)",
+          "Emeishan è escluso: la Cima d'Oro è a 3099 m, a fine novembre sotto zero con neve",
+          "Porta a porta ~7:30-19:00: quella sera niente lavoro, o lavoro tardi"
+        ]
+      },
       "hotel": {
         "cerca": "Chengdu",
         "zona": "Yulin + Kehua North Road, Wuhou",
-        "note": "Metro L1 collega i due poli serali e porta in centro in 10 min",
-        "stato": "da cercare"
-      }
-    },
-    {
-      "id": "wulong",
-      "nome": "Wulong",
-      "nome_zh": "武隆",
-      "date": "20-21 novembre",
-      "notti": 2,
-      "checkin": "2026-11-20",
-      "checkout": "2026-11-22",
-      "arrivo": "Treno veloce, circa 3h. Prendi il G2447 (2h49), non il C778 (4h35): costano uguale.",
-      "weekend": true,
-      "mappa": null,
-      "cosa_vedere": [
-        "Sabato 21: i Tre Ponti Naturali",
-        "Le gole",
-        "Fairy Mountain",
-        "Natura da vedere di giorno, per questo nel weekend"
-      ],
-      "cibo": ["Cucina di montagna del Chongqing"],
-      "hotel": {
-        "cerca": "Wulong",
-        "zona": "Vicino a Xiannvshan / Fairy Mountain",
-        "note": "Novembre fresco, colori d'autunno, spesso nebbia sui ponti",
+        "note": "Metro L1 collega i due poli serali e porta in centro in 10 min. Ora 4 notti: è la base per Leshan, unica tappa sopra le 3 notti",
         "stato": "da cercare"
       }
     },
@@ -191,15 +209,25 @@
       "notti": 3,
       "checkin": "2026-11-22",
       "checkout": "2026-11-25",
-      "arrivo": "Treno veloce, circa 2h.",
-      "weekend": false,
+      "arrivo": "Treno veloce diretto da Chengdu East, 1h10-1h30. Domenica. Arriva a Chongqing WEST, non Chongqing North: è la stazione da cui riparte il G905. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
+      "clima": {
+        "max": 17,
+        "min": 11,
+        "nota": "umido, nebbia frequente sul fiume"
+      },
+      "weekend": true,
       "mappa": "chongqing",
       "cosa_vedere": [
         "Hongya Cave e lungofiume",
         "Crociera notturna sul Yangtze",
-        "Liziba, il metro che attraversa il palazzo"
+        "Liziba, il metro che attraversa il palazzo",
+        "Dazu Rock Carvings (大足石刻), UNESCO, ~1h30 di treno più bus — opzionale"
       ],
-      "cibo": ["Hotpot di Chongqing", "Xiaomian", "Laziji"],
+      "cibo": [
+        "Hotpot di Chongqing",
+        "Xiaomian",
+        "Laziji"
+      ],
       "hotel": {
         "cerca": "Chongqing",
         "zona": "Jiefangbei + Jiaochangkou, Yuzhong",
@@ -215,21 +243,47 @@
       "notti": 2,
       "checkin": "2026-11-25",
       "checkout": "2026-11-27",
-      "arrivo": "G905 diretto da Chongqing West, 7h13. Arrivo a West Kowloon alle 15:57.",
+      "arrivo": "G905 da Chongqing West, 08:44 → HK West Kowloon 15:57. Il 26 è l'ultima giornata piena del viaggio: il 27 il volo parte alle 08:10, non è una giornata ma solo il trasferimento in aeroporto.",
+      "clima": {
+        "max": 25,
+        "min": 20,
+        "nota": "il mese migliore dell'anno: secco, sole e brezza"
+      },
       "weekend": false,
       "mappa": "hongkong",
       "cosa_vedere": [
-        "25: arrivo nel pomeriggio, serata leggera",
-        "26: giornata piena — Victoria Peak, Star Ferry, ultimo dim sum",
-        "27: volo internazionale di rientro"
+        "Victoria Peak e Star Ferry",
+        "Sham Shui Po: Ap Liu Street e Golden Computer Arcade — il tech da comprare davvero, porto franco e garanzia internazionale",
+        "Sheung Wan",
+        "Ultimo dim sum"
       ],
-      "cibo": ["Dim sum", "Cha chaan teng"],
-      "hotel": {
-        "cerca": "Hong Kong",
-        "zona": "Central (LKF + SoHo), oppure TST se vuoi stare vicino all'arrivo",
-        "note": "Con due notti sole, la posizione conta più del prezzo",
-        "stato": "da cercare"
-      }
+      "cibo": [
+        "Dim sum",
+        "Cha chaan teng"
+      ],
+      "hotel": [
+        {
+          "cerca": "Hong Kong",
+          "checkin": "2026-11-25",
+          "checkout": "2026-11-26",
+          "zona": "Kowloon o HK Island, comodo a West Kowloon",
+          "note": "Una notte sola. Il G905 scarica a West Kowloon alle 15:57, la serata si fa in città",
+          "stato": "da cercare"
+        },
+        {
+          "cerca": "Tung Chung",
+          "checkin": "2026-11-26",
+          "checkout": "2026-11-27",
+          "zona": "Tung Chung, zona aeroporto",
+          "note": "Volo alle 08:10: dormire qui evita la sveglia alle 04:30. Novotel Citygate sta sulla stazione MTR, il Regal Airport Hotel è collegato al terminal a piedi ma costa di più. La mattina del 27: bus S1 al terminal, ~10 min. Il 26: check-out in centro, bagagli in deposito lì, giornata a Hong Kong, li recuperi in serata e scendi a Tung Chung (~35-40 min da Central)",
+          "stato": "da cercare"
+        }
+      ]
     }
-  ]
+  ],
+  "volo": {
+    "stato": "prenotato",
+    "andata": "Partenza dall'Italia gio 5 novembre, atterraggio a Hong Kong ven 6 alle 12:00",
+    "ritorno": "Ripartenza da HKG ven 27 novembre alle 08:10"
+  }
 }

@@ -6,42 +6,144 @@
       "nome": "Da fare in Italia, obbligatorio",
       "scadenza": "prima di partire — non recuperabile in loco",
       "voci": [
-        {"id": "vpn", "testo": "VPN configurata e testata", "dettaglio": "Averne 2-3 installate. Astrill è la più affidabile in Cina, poi ExpressVPN. In Cina non si scarica: i siti dei provider sono bloccati.", "critico": true},
-        {"id": "visto", "testo": "Verificata l'esenzione visto 30 giorni", "dettaglio": "Gli italiani sono esenti fino a 30 giorni di permanenza continentale, ma è una misura prorogata anno per anno. Riverifica prima di partire.", "critico": true},
-        {"id": "pagamenti", "testo": "WeChat Pay e Alipay attivati con carta estera", "dettaglio": "Vanno collegati e testati con una transazione da casa. In Cina il contante è quasi sparito.", "critico": true},
-        {"id": "assicurazione", "testo": "Assicurazione viaggio stipulata", "dettaglio": "Completa: medica + bagaglio.", "critico": true},
-        {"id": "passaporto", "testo": "Passaporto valido oltre 6 mesi dal rientro", "dettaglio": "Serve al gate del G905: la tratta Chongqing → Hong Kong è transfrontaliera.", "critico": true}
+        {
+          "id": "vpn",
+          "testo": "VPN configurata e testata",
+          "dettaglio": "Averne 2-3 installate. Astrill è la più affidabile in Cina, poi ExpressVPN. In Cina non si scarica: i siti dei provider sono bloccati.",
+          "critico": true
+        },
+        {
+          "id": "visto",
+          "testo": "Verificata l'esenzione visto 30 giorni",
+          "dettaglio": "Gli italiani sono esenti fino a 30 giorni di permanenza continentale, ma è una misura prorogata anno per anno. Riverifica prima di partire.",
+          "critico": true
+        },
+        {
+          "id": "pagamenti",
+          "testo": "WeChat Pay e Alipay attivati con carta estera",
+          "dettaglio": "Vanno collegati e testati con una transazione da casa. In Cina il contante è quasi sparito.",
+          "critico": true
+        },
+        {
+          "id": "assicurazione",
+          "testo": "Assicurazione viaggio stipulata",
+          "dettaglio": "Completa: medica + bagaglio.",
+          "critico": true
+        },
+        {
+          "id": "passaporto",
+          "testo": "Passaporto valido oltre 6 mesi dal rientro",
+          "dettaglio": "Serve al gate del G905: la tratta Chongqing → Hong Kong è transfrontaliera.",
+          "critico": true
+        }
       ]
     },
     {
       "nome": "Connettività e navigazione",
       "scadenza": "prima di partire",
       "voci": [
-        {"id": "esim", "testo": "eSIM Airalo acquistata", "dettaglio": "Da attivare all'atterraggio. Fa anche da hotspot per il lavoro serale.", "critico": false},
-        {"id": "mappe-offline", "testo": "Mappe offline scaricate", "dettaglio": "Organic Maps o Maps.me: scarica le regioni Guangdong, Guangxi, Guizhou, Sichuan, Chongqing e Hong Kong.", "critico": false},
-        {"id": "kml", "testo": "KML delle 7 tappe importati in Organic Maps", "dettaglio": "Scaricali dalla sezione Mappe e aprili con Organic Maps. Funzionano offline e senza VPN.", "critico": false},
-        {"id": "amap", "testo": "Amap o Baidu Maps installate", "dettaglio": "Google Maps non funziona in Cina continentale. A Hong Kong sì.", "critico": false},
-        {"id": "didi", "testo": "Didi installata", "dettaglio": "L'Uber cinese. Versione internazionale con interfaccia in inglese.", "critico": false}
+        {
+          "id": "esim",
+          "testo": "eSIM Airalo acquistata",
+          "dettaglio": "Da attivare all'atterraggio. Fa anche da hotspot per il lavoro serale.",
+          "critico": false
+        },
+        {
+          "id": "mappe-offline",
+          "testo": "Mappe offline scaricate",
+          "dettaglio": "Organic Maps o Maps.me: scarica le regioni Guangdong, Guangxi, Guizhou, Sichuan, Chongqing e Hong Kong.",
+          "critico": false
+        },
+        {
+          "id": "kml",
+          "testo": "KML delle 7 tappe importati in Organic Maps",
+          "dettaglio": "Scaricali dalla sezione Mappe e aprili con Organic Maps. Funzionano offline e senza VPN.",
+          "critico": false
+        },
+        {
+          "id": "amap",
+          "testo": "Amap o Baidu Maps installate",
+          "dettaglio": "Google Maps non funziona in Cina continentale. A Hong Kong sì.",
+          "critico": false
+        },
+        {
+          "id": "didi",
+          "testo": "Didi installata",
+          "dettaglio": "L'Uber cinese. Versione internazionale con interfaccia in inglese.",
+          "critico": false
+        }
       ]
     },
     {
       "nome": "Prenotazioni",
       "scadenza": "scaglionate",
       "voci": [
-        {"id": "volo", "testo": "Volo A/R Italia ⇄ Hong Kong", "dettaglio": "Obiettivo sotto 1000€, preferire Air China o SWISS per le miglia M&S. Controlla sia Milano sia Roma.", "critico": true},
-        {"id": "hotel", "testo": "9 hotel su Trip.com", "dettaglio": "Uno per tappa. Trip.com ha inventario cinese molto più completo di Booking.", "critico": true},
-        {"id": "treni-early", "testo": "Le 8 tratte interne", "dettaglio": "Le vendite aprono 15 giorni prima di ciascuna partenza: non si può prenotare tutto in anticipo.", "critico": false},
-        {"id": "g905", "testo": "G905 Chongqing West → HK West Kowloon", "dettaglio": "Prenotabile dal ~10 novembre 2026. Unico diretto del giorno: mettilo in calendario, non dimenticartelo.", "critico": true}
+        {
+          "id": "volo",
+          "testo": "Volo A/R Italia ⇄ Hong Kong — PRENOTATO",
+          "dettaglio": "Atterraggio HKG ven 6 nov 12:00, ripartenza ven 27 nov 08:10. Resta da verificare l'accumulo Miles&Smiles.",
+          "critico": true
+        },
+        {
+          "id": "hotel",
+          "testo": "8 prenotazioni su Trip.com",
+          "dettaglio": "Sette tappe ma otto strutture: a Hong Kong il 25 si dorme in centro e il 26 a Tung Chung, per il volo delle 08:10. Trip.com ha inventario cinese molto più completo di Booking.",
+          "critico": true
+        },
+        {
+          "id": "treni-early",
+          "testo": "Le 6 tratte interne",
+          "dettaglio": "Le vendite aprono 15 giorni prima di ciascuna partenza: non si può prenotare tutto in anticipo. Verifica per prime la 4 (Yangshuo → Guiyang) e la 6 (Chengdu → Chongqing West): sono nuove e le tariffe sono derivate.",
+          "critico": false
+        },
+        {
+          "id": "g905",
+          "testo": "G905 Chongqing West → HK West Kowloon",
+          "dettaglio": "Prenotabile dal ~10 novembre 2026. Unico diretto del giorno: mettilo in calendario, non dimenticartelo.",
+          "critico": true
+        },
+        {
+          "id": "hk-airport",
+          "testo": "Notte del 26 a Tung Chung",
+          "dettaglio": "Volo alle 08:10: dormire in zona aeroporto evita la sveglia alle 04:30. Novotel Citygate o simili, poi bus S1 al terminal in ~10 min.",
+          "critico": true
+        },
+        {
+          "id": "intown",
+          "testo": "Verificare l'in-town check-in della compagnia",
+          "dettaglio": "Alcune compagnie accettano il bagaglio alle stazioni Airport Express di Hong Kong e Kowloon fino a 24h prima. Se disponibile, si lascia la sera del 26 e si arriva a Tung Chung a mani libere.",
+          "critico": false
+        }
       ]
     },
     {
       "nome": "Soldi e bagaglio",
       "scadenza": "ultimi giorni",
       "voci": [
-        {"id": "revolut", "testo": "Revolut carica", "dettaglio": "Più Wise come backup.", "critico": false},
-        {"id": "contanti", "testo": "Un po' di contante RMB come backup", "dettaglio": "Serve raramente ma quando serve non ci sono alternative.", "critico": false},
-        {"id": "bagaglio", "testo": "Zaino + trolley stiva", "dettaglio": "Novembre nel sud è mite, ma Zhaoxing e Wulong sono freschi e nebbiosi: porta strati.", "critico": false},
-        {"id": "miglia", "testo": "Miles&Smiles: verificato l'accumulo sul volo", "dettaglio": "Inserisci il numero M&S in fase di prenotazione, non dopo.", "critico": false}
+        {
+          "id": "revolut",
+          "testo": "Revolut carica",
+          "dettaglio": "Più Wise come backup.",
+          "critico": false
+        },
+        {
+          "id": "contanti",
+          "testo": "Un po' di contante RMB come backup",
+          "dettaglio": "Serve raramente ma quando serve non ci sono alternative.",
+          "critico": false
+        },
+        {
+          "id": "bagaglio",
+          "testo": "Zaino + trolley stiva",
+          "dettaglio": "Novembre nel sud è mite, ma Guiyang (1100 m) e Chengdu sono più freschi e umidi: porta strati. Batterie al litio e power bank SOLO in bagaglio a mano, mai in stiva — vale anche sui treni cinesi, dove i controlli sono seri.",
+          "critico": false
+        },
+        {
+          "id": "miglia",
+          "testo": "Miles&Smiles: verificato l'accumulo sul volo",
+          "dettaglio": "Inserisci il numero M&S in fase di prenotazione, non dopo.",
+          "critico": false
+        }
       ]
     }
   ]

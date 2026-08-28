@@ -225,6 +225,18 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: now
 
 .arrivo { font-size: 13.5px; color: var(--ink-2); margin: 0 0 9px; }
 
+/* Clima: medie di novembre, una riga per quota. Il filetto a sinistra la
+   stacca dal testo d'arrivo senza pesare come un riquadro. */
+.clima { margin: 0 0 9px; padding-left: 9px; border-left: 2px solid var(--line); }
+.clima p { margin: 0; font-size: 13px; color: var(--ink-2); line-height: 1.5; }
+.clima p + p { margin-top: 3px; }
+.clima b {
+  color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.clima .dove { color: var(--ink-3); font-size: 12.5px; }
+.clima .dove::before, .clima .nota::before { content: " · "; color: var(--ink-3); }
+
 /* --- checklist ---------------------------------------------------------- */
 .check { display: flex; gap: 11px; align-items: flex-start; padding: 11px 0; border-bottom: 1px solid var(--line); }
 .check:last-child { border-bottom: 0; }

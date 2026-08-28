@@ -15,7 +15,8 @@
       var g = giorni(ora, partenza);
       el.textContent = g === 1 ? 'Si parte domani' : 'Mancano ' + g + ' giorni alla partenza';
     } else if (ora <= rientro) {
-      el.textContent = 'Viaggio in corso · giorno ' + (giorni(partenza, ora) + 1) + ' di 25';
+      el.textContent = 'Viaggio in corso · giorno ' + (giorni(partenza, ora) + 1) +
+        ' di ' + giorni(partenza, rientro);
     } else {
       el.textContent = 'Viaggio concluso';
     }

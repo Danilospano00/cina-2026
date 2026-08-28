@@ -1,4 +1,4 @@
-# Sud della Cina — 3-27 novembre 2026
+# Sud della Cina — 5-27 novembre 2026
 
 Sito statico del viaggio: itinerario, mappe nightlife, voli, treni, hotel, checklist.
 Generato da file JSON, pubblicato su GitHub Pages, pensato per stare come segnalibro
@@ -8,8 +8,9 @@ sulla schermata Home di un iPhone.
 
 ```
 data/          i contenuti. È l'unica cosa da modificare a mano
-  viaggio.json   le nove tappe, date, cosa vedere, stato hotel
-  treni.json     le nove tratte ferroviarie
+  viaggio.json   le sette tappe, date, cosa vedere, stato hotel
+                 (`hotel` accetta un oggetto o una lista: a Hong Kong sono due strutture)
+  treni.json     le sette tratte ferroviarie
   voli.json      opzioni di volo internazionale
   checklist.json preparativi
   mappe/*.json   una mappa nightlife per tappa
@@ -21,8 +22,18 @@ docs/          OUTPUT. È quello che GitHub Pages pubblica: non modificarlo a ma
 Rigenerare:
 
 ```bash
-python3 build.py
+.venv/bin/python build.py
 ```
+
+Serve **Pillow** (genera le icone PWA). Il python di Homebrew è externally-managed e non
+lo installa a sistema, quindi c'è un venv in `site/.venv`. Se manca:
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install Pillow
+```
+
+Attenzione: `build.py` fa `rmtree(docs/)` **prima** di generare le icone. Se Pillow manca,
+il build crasha con `docs/` già svuotata — non è un problema, basta rilanciare col venv.
 
 Anteprima locale (il browser blocca `file://` per gli script):
 
@@ -96,7 +107,9 @@ browser, quindi resta sul telefono ed è per-dispositivo.
   certamente ancora lì, ma il calendario delle serate va scoutato a ridosso.
 - Fonti: Resident Advisor per i club, ricerca cinese per craft beer e livehouse,
   Nominatim/OSM per le coordinate.
-- I prezzi dei treni sono di agosto 2026. Quelli dei voli sono snapshot live e invecchiano
-  in fretta: la pagina Voli serve per il metodo e per i link, non come listino.
+- I prezzi dei treni sono di agosto 2026. Le tratte 4 (Yangshuo → Guiyang) e 6 (Chengdu →
+  Chongqing West) sono nuove e le tariffe sono **derivate, mai lette su Trip.com**.
+- Il volo internazionale è **prenotato** (HKG 6 nov 12:00 → 27 nov 08:10): la pagina Voli
+  resta come traccia del metodo, non come listino.
 - I locali marcati `approssimativa` o `non verificata` vanno confermati su Amap prima di
   prendere un Didi.
