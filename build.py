@@ -65,6 +65,8 @@ VER = {}
 
 MESI_IT = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
            "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
+MESI_ABBR = ["gen", "feb", "mar", "apr", "mag", "giu",
+             "lug", "ago", "set", "ott", "nov", "dic"]
 
 
 def _d(iso):
@@ -75,12 +77,20 @@ def notti_tra(checkin, checkout):
     return (_d(checkout) - _d(checkin)).days
 
 
-def giorni_it(checkin, checkout):
-    """«25 novembre» per una notte sola, «25-26 novembre» per più notti."""
-    a, b = _d(checkin), _d(checkout) - datetime.timedelta(days=1)
-    if a == b:
-        return f"{a.day} {MESI_IT[a.month - 1]}"
-    return f"{a.day}-{b.day} {MESI_IT[b.month - 1]}"
+def periodo(checkin, checkout):
+    """«6 nov → 10 nov»: giorno di arrivo e giorno di check-out, non l'ultima notte.
+
+    Deriva sempre da checkin/checkout: le date non vanno scritte a mano nei JSON,
+    è così che l'itinerario e le mappe erano finiti fuori sync.
+    """
+    a, b = _d(checkin), _d(checkout)
+    return f"{a.day} {MESI_ABBR[a.month - 1]} → {b.day} {MESI_ABBR[b.month - 1]}"
+
+
+def etichetta(checkin, checkout):
+    """«6 nov → 10 nov (4 notti)»."""
+    n = notti_tra(checkin, checkout)
+    return f"{periodo(checkin, checkout)} ({n} {'notte' if n == 1 else 'notti'})"
 
 
 def asset(nome):
@@ -214,7 +224,7 @@ SOTTOTITOLO = (
 
 # --- pagina: riepilogo -----------------------------------------------------
 def build_home(viaggio, treni, voli):
-    tot_notti = sum(t["notti"] for t in viaggio["tappe"])
+    tot_notti = sum(notti_tra(t["checkin"], t["checkout"]) for t in viaggio["tappe"])
     con_mappa = [t for t in viaggio["tappe"] if t["mappa"]]
 
     righe = []
@@ -229,8 +239,8 @@ def build_home(viaggio, treni, voli):
             [
                 f'<td><a href="itinerario.html#{e(t["id"])}"><b>{e(t["nome"])}</b></a> '
                 f'<span class="muted">{e(t["nome_zh"])}</span>{wk}</td>',
-                f'<td>{e(t["date"])}</td>',
-                f'<td class="num">{t["notti"]}</td>',
+                f'<td>{e(periodo(t["checkin"], t["checkout"]))}</td>',
+                f'<td class="num">{notti_tra(t["checkin"], t["checkout"])}</td>',
                 f"<td>{link}</td>",
             ]
         )
@@ -342,7 +352,7 @@ def build_itinerario(viaggio):
             f'<div class="card" id="{e(t["id"])}">'
             f'<div class="stop-head"><span class="tag grey">{i}</span>'
             f'<h3>{e(t["nome"])}</h3><span class="zh">{e(t["nome_zh"])}</span>{wk}'
-            f'<span class="when">{e(t["date"])} · {t["notti"]} notti</span></div>'
+            f'<span class="when">{e(etichetta(t["checkin"], t["checkout"]))}</span></div>'
             f'<p class="arrivo">{e(t["arrivo"])}</p>'
             + build_clima(t)
             + SOTTOTITOLO.format("Cosa vedere")
@@ -728,16 +738,14 @@ def build_hotel(viaggio):
             st = stati.get(h["stato"], "grey")
             ci = h.get("checkin", t["checkin"])
             co = h.get("checkout", t["checkout"])
-            notti = notti_tra(ci, co)
             hid = t["id"] if len(voci) == 1 else f'{t["id"]}-{i + 1}'
-            quando = t["date"] if len(voci) == 1 else f'{giorni_it(ci, co)}'
+            quando = etichetta(ci, co)
             titolo = e(t["nome"]) if len(voci) == 1 else f'{e(t["nome"])} · {e(h["zona"].split(",")[0])}'
             schede.append(
                 f'<div class="card" id="{e(hid)}"><div class="stop-head">'
                 f'<h3>{titolo}</h3><span class="zh">{e(t["nome_zh"])}</span>'
                 f'<span class="tag {st}">{e(h["stato"])}</span>'
-                f'<span class="when">{e(quando)} · {notti} '
-                f'{"notte" if notti == 1 else "notti"}</span></div>'
+                f'<span class="when">{e(quando)}</span></div>'
                 f'<p class="arrivo"><b>Zona:</b> {e(h["zona"])}<br>'
                 f'<span class="muted">{e(h["note"])}</span></p>'
                 f'<div class="links">'

@@ -2,10 +2,13 @@
   "city": "Chongqing",
   "city_zh": "重庆",
   "slug": "chongqing",
-  "tappa": "22-24 novembre 2026 (3 notti) — partenza G905 il 25 da Chongqing West",
+  "tappa": "22 nov → 25 nov (3 notti) — partenza G905 il 25 da Chongqing West",
   "checkin": "2026-11-22",
   "checkout": "2026-11-25",
-  "center": [29.5720, 106.5600],
+  "center": [
+    29.572,
+    106.56
+  ],
   "zoom": 13,
   "note": "Coordinate WGS-84 (Nominatim/OSM). NON sono GCJ-02: se le incolli in Amap/Baidu risultano spostate di ~300-600 m.",
   "zones": [
@@ -29,11 +32,33 @@
         "I club veri sono a Jiangbei, dall'altra parte del fiume: 15-20 min di Didi",
         "Chongqing è verticale — «a 300 m» sulla mappa può voler dire due rampe di scale e un ascensore"
       ],
-      "dormi_qui": [29.5600, 106.5740],
+      "dormi_qui": [
+        29.56,
+        106.574
+      ],
       "raggio_m": 500,
-      "metro": ["Jiaochangkou 较场口 (L1/L2)", "Xiaoshizi 小什字 (L1/L6)", "Linjiangmen 临江门 (L2)"],
+      "metro": [
+        "Jiaochangkou 较场口 (L1/L2)",
+        "Xiaoshizi 小什字 (L1/L6)",
+        "Linjiangmen 临江门 (L2)"
+      ],
       "poly": [
-        [29.5680, 106.5670], [29.5680, 106.5810], [29.5530, 106.5810], [29.5530, 106.5670]
+        [
+          29.568,
+          106.567
+        ],
+        [
+          29.568,
+          106.581
+        ],
+        [
+          29.553,
+          106.581
+        ],
+        [
+          29.553,
+          106.567
+        ]
       ]
     },
     {
@@ -55,11 +80,32 @@
         "Hongya Cave, Chaotianmen e la crociera sono tutti dall'altra parte del fiume",
         "Il 25 mattina per Chongqing West parti da più lontano"
       ],
-      "dormi_qui": [29.5830, 106.5345],
+      "dormi_qui": [
+        29.583,
+        106.5345
+      ],
       "raggio_m": 600,
-      "metro": ["Guanyinqiao 观音桥 (L3)", "Hongqihegou 红旗河沟 (L3/L6)"],
+      "metro": [
+        "Guanyinqiao 观音桥 (L3)",
+        "Hongqihegou 红旗河沟 (L3/L6)"
+      ],
       "poly": [
-        [29.5900, 106.5280], [29.5900, 106.5420], [29.5760, 106.5420], [29.5760, 106.5280]
+        [
+          29.59,
+          106.528
+        ],
+        [
+          29.59,
+          106.542
+        ],
+        [
+          29.576,
+          106.542
+        ],
+        [
+          29.576,
+          106.528
+        ]
       ]
     },
     {
@@ -80,11 +126,32 @@
         "Salite ripide ovunque",
         "Meno scelta di hotel, quasi tutti piccoli"
       ],
-      "dormi_qui": [29.5588, 106.5912],
+      "dormi_qui": [
+        29.5588,
+        106.5912
+      ],
       "raggio_m": 400,
-      "metro": ["Shangxinjie 上新街 (L6)", "Longmenhao 龙门浩 (L6)"],
+      "metro": [
+        "Shangxinjie 上新街 (L6)",
+        "Longmenhao 龙门浩 (L6)"
+      ],
       "poly": [
-        [29.5640, 106.5860], [29.5640, 106.5980], [29.5540, 106.5980], [29.5540, 106.5860]
+        [
+          29.564,
+          106.586
+        ],
+        [
+          29.564,
+          106.598
+        ],
+        [
+          29.554,
+          106.598
+        ],
+        [
+          29.554,
+          106.586
+        ]
       ]
     },
     {
@@ -105,17 +172,40 @@
       ],
       "dormi_qui": null,
       "raggio_m": 0,
-      "metro": ["Nessuna fermata dentro la zona"],
+      "metro": [
+        "Nessuna fermata dentro la zona"
+      ],
       "poly": [
-        [29.5760, 106.5350], [29.5760, 106.5520], [29.5700, 106.5520], [29.5700, 106.5350]
+        [
+          29.576,
+          106.535
+        ],
+        [
+          29.576,
+          106.552
+        ],
+        [
+          29.57,
+          106.552
+        ],
+        [
+          29.57,
+          106.535
+        ]
       ]
     }
   ],
   "venues": [
     {
-      "nome": "MAO Livehouse Chongqing", "nome_zh": "重庆MAO Livehouse",
-      "tipo": "live", "zona": "jiefangbei",
-      "coord": [29.55940, 106.57290], "precisione": "strada",
+      "nome": "MAO Livehouse Chongqing",
+      "nome_zh": "重庆MAO Livehouse",
+      "tipo": "live",
+      "zona": "jiefangbei",
+      "coord": [
+        29.5594,
+        106.5729
+      ],
+      "precisione": "strada",
       "indirizzo": "渝中区民权路89号附1号 日月光广场1楼 — Sun Moon Light Plaza 1F, Minquan Rd 89",
       "vibe": "La catena MAO è il circuito livehouse più grande della Cina e questa è la sala di Chongqing. Rock e indie cinese, calendario fitto. Dentro un centro commerciale, il che a Chongqing è normale.",
       "prezzo": "biglietti 100-250 RMB",
@@ -123,9 +213,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Ain't Hipster", "nome_zh": "",
-      "tipo": "club", "zona": "jiefangbei",
-      "coord": [29.55650, 106.57000], "precisione": "approssimativa",
+      "nome": "Ain't Hipster",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "jiefangbei",
+      "coord": [
+        29.5565,
+        106.57
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "渝中区较场口得意世界 LG-17 — Deyi World, Jiaochangkou",
       "vibe": "Club piccolo dentro il complesso Deyi World, a due passi da Jiefangbei. Elettronica, il tipo di posto dove il DJ è anche il proprietario. Comodo se dormi in Yuzhong e non vuoi attraversare il fiume.",
       "prezzo": "ingresso 50-100 RMB",
@@ -133,9 +229,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "NUTS Livehouse", "nome_zh": "坚果",
-      "tipo": "live", "zona": "guanyinqiao-jiujie",
-      "coord": [29.58500, 106.53700], "precisione": "approssimativa",
+      "nome": "NUTS Livehouse",
+      "nome_zh": "坚果",
+      "tipo": "live",
+      "zona": "guanyinqiao-jiujie",
+      "coord": [
+        29.585,
+        106.537
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "江北区龙湖新壹街C馆1楼 — Longhu Xinyijie Bldg C, 1F",
       "vibe": "La livehouse storica di Chongqing, aperta dal 2010. Band cinesi in tour ci passano tutte. Stesso edificio di Inward Club: concerto al primo piano, club al secondo.",
       "prezzo": "biglietti 100-220 RMB",
@@ -143,9 +245,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Inward Club", "nome_zh": "",
-      "tipo": "club", "zona": "guanyinqiao-jiujie",
-      "coord": [29.58505, 106.53712], "precisione": "approssimativa",
+      "nome": "Inward Club",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "guanyinqiao-jiujie",
+      "coord": [
+        29.58505,
+        106.53712
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "江北区龙湖新壹街C馆2楼 — Longhu Xinyijie Bldg C, 2F",
       "vibe": "Techno e house, sopra NUTS. Uno dei due o tre posti a Chongqing dove la musica conta più del tavolo. Piano di serata efficiente: concerto sotto, club sopra.",
       "prezzo": "ingresso 60-120 RMB",
@@ -153,9 +261,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "La Factory", "nome_zh": "",
-      "tipo": "club", "zona": "guanyinqiao-jiujie",
-      "coord": [29.58273, 106.53395], "precisione": "strada",
+      "nome": "La Factory",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "guanyinqiao-jiujie",
+      "coord": [
+        29.58273,
+        106.53395
+      ],
+      "precisione": "strada",
       "indirizzo": "江北区北城天街48号附1-2号 九街东区二楼 — Beicheng Tianjie 48, Jiujie East 2F",
       "vibe": "Nel cuore di Jiujie, sopra il mall. Elettronica e hip hop, pubblico giovane e numeroso, weekend pieno.",
       "prezzo": "ingresso 60-120 RMB",
@@ -163,9 +277,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "LIV Show Club", "nome_zh": "",
-      "tipo": "club", "zona": "guanyinqiao-jiujie",
-      "coord": [29.58100, 106.53600], "precisione": "non verificata",
+      "nome": "LIV Show Club",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "guanyinqiao-jiujie",
+      "coord": [
+        29.581,
+        106.536
+      ],
+      "precisione": "non verificata",
       "indirizzo": "江北区世纪金源酒店B1 — Sunworld Dynasty Hotel B1",
       "vibe": "Club da hotel, formato grande: bottle service, EDM, luci. Commerciale ma è quello che riempie di più nel weekend. La posizione sulla mappa è dedotta dal nome dell'hotel: confermala su Amap.",
       "prezzo": "ingresso 100-200 RMB, tavolo molto di più",
@@ -173,9 +293,15 @@
       "stato": "attivo su RA — indirizzo da riverificare"
     },
     {
-      "nome": "Camp North", "nome_zh": "",
-      "tipo": "club", "zona": "guanyinqiao-jiujie",
-      "coord": [29.58900, 106.54000], "precisione": "non verificata",
+      "nome": "Camp North",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "guanyinqiao-jiujie",
+      "coord": [
+        29.589,
+        106.54
+      ],
+      "precisione": "non verificata",
       "indirizzo": "江北区洋河北路79号 — Yanghe North Rd 79",
       "vibe": "Elettronica, formato piccolo. La via non è stata trovata su OpenStreetMap: il pin è nell'area giusta ma non sul civico. Verifica su Amap prima di muoverti.",
       "prezzo": "ingresso 50-100 RMB",
@@ -183,9 +309,15 @@
       "stato": "attivo su RA — posizione da riverificare"
     },
     {
-      "nome": "Cici Park", "nome_zh": "",
-      "tipo": "club", "zona": "longmenhao",
-      "coord": [29.55880, 106.59120], "precisione": "strada",
+      "nome": "Cici Park",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "longmenhao",
+      "coord": [
+        29.5588,
+        106.5912
+      ],
+      "precisione": "strada",
       "indirizzo": "南岸区马鞍山56号 开埠遗址公园 — Kaibu Heritage Park, Ma'anshan 56",
       "vibe": "Dentro il parco dell'ex concessione, sulla riva sud. Contesto migliore di qualunque altro club di Chongqing: edifici storici e skyline di fronte. Elettronica, pubblico più adulto.",
       "prezzo": "ingresso 60-120 RMB",
@@ -193,9 +325,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Taps CQ", "nome_zh": "",
-      "tipo": "pub", "zona": "beibin",
-      "coord": [29.57148, 106.54173], "precisione": "strada",
+      "nome": "Taps CQ",
+      "nome_zh": "",
+      "tipo": "pub",
+      "zona": "beibin",
+      "coord": [
+        29.57148,
+        106.54173
+      ],
+      "precisione": "strada",
       "indirizzo": "江北区北滨一路 — Beibin Rd 1",
       "vibe": "Craft beer sul lungofiume nord. Chongqing non è una città da birra artigianale e questo è uno dei pochi posti seri. Vista sul fiume, terrazza.",
       "prezzo": "45-80 RMB a birra",
@@ -203,9 +341,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Eling Factory (Testbed 2)", "nome_zh": "鹅岭二厂",
-      "tipo": "club", "zona": null,
-      "coord": [29.54970, 106.53820], "precisione": "non verificata",
+      "nome": "Eling Factory (Testbed 2)",
+      "nome_zh": "鹅岭二厂",
+      "tipo": "club",
+      "zona": null,
+      "coord": [
+        29.5497,
+        106.5382
+      ],
+      "precisione": "non verificata",
       "indirizzo": "渝中区鹅岭正街1号 — Eling Zhengjie 1, ex stamperia riconvertita",
       "vibe": "Ex tipografia di stato diventata parco creativo: terrazze, bar, qualche serata elettronica. Ci si va soprattutto al tramonto per la vista sul fiume. La posizione non è stata confermata su OpenStreetMap.",
       "prezzo": "ingresso variabile, spesso gratis",
@@ -213,9 +357,15 @@
       "stato": "aperto — posizione da riverificare"
     },
     {
-      "nome": "Roots", "nome_zh": "",
-      "tipo": "club", "zona": null,
-      "coord": [29.59850, 106.52650], "precisione": "non verificata",
+      "nome": "Roots",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": null,
+      "coord": [
+        29.5985,
+        106.5265
+      ],
+      "precisione": "non verificata",
       "indirizzo": "江北区黄泥磅皇冠自由城 — Huangnibang",
       "vibe": "Fuori dai circuiti, a nord di Guanyinqiao. Ci vai solo se c'è una serata che ti interessa. Posizione dedotta dal quartiere.",
       "prezzo": "ingresso 50-100 RMB",
@@ -223,9 +373,15 @@
       "stato": "attivo su RA — posizione da riverificare"
     },
     {
-      "nome": "Chongqing Tiandi", "nome_zh": "重庆天地",
-      "tipo": "expat", "zona": null,
-      "coord": [29.56050, 106.52300], "precisione": "non verificata",
+      "nome": "Chongqing Tiandi",
+      "nome_zh": "重庆天地",
+      "tipo": "expat",
+      "zona": null,
+      "coord": [
+        29.5605,
+        106.523
+      ],
+      "precisione": "non verificata",
       "indirizzo": "渝中区化龙桥 — Hualongqiao",
       "vibe": "Complesso in stile Xintiandi di Shanghai: bar e ristoranti internazionali, la zona dove bevono gli stranieri di Chongqing. Menu in inglese garantito. Posizione approssimativa, verifica su Amap.",
       "prezzo": "60-110 RMB a drink",
@@ -234,13 +390,52 @@
     }
   ],
   "metro": [
-    {"nome": "Jiaochangkou 较场口", "linee": "L1/L2", "coord": [29.55673, 106.57084]},
-    {"nome": "Guanyinqiao 观音桥 (sotto Beicheng Tianjie)", "linee": "L3", "coord": [29.58273, 106.53395]},
-    {"nome": "Hongqihegou 红旗河沟", "linee": "L3/L6", "coord": [29.58806, 106.52253]}
+    {
+      "nome": "Jiaochangkou 较场口",
+      "linee": "L1/L2",
+      "coord": [
+        29.55673,
+        106.57084
+      ]
+    },
+    {
+      "nome": "Guanyinqiao 观音桥 (sotto Beicheng Tianjie)",
+      "linee": "L3",
+      "coord": [
+        29.58273,
+        106.53395
+      ]
+    },
+    {
+      "nome": "Hongqihegou 红旗河沟",
+      "linee": "L3/L6",
+      "coord": [
+        29.58806,
+        106.52253
+      ]
+    }
   ],
   "landmarks": [
-    {"nome": "Jiefangbei 解放碑", "coord": [29.56011, 106.57337]},
-    {"nome": "Hongya Cave 洪崖洞", "coord": [29.56507, 106.57534]},
-    {"nome": "Longmenhao Old Street 龙门浩老街", "coord": [29.55882, 106.59121]}
+    {
+      "nome": "Jiefangbei 解放碑",
+      "coord": [
+        29.56011,
+        106.57337
+      ]
+    },
+    {
+      "nome": "Hongya Cave 洪崖洞",
+      "coord": [
+        29.56507,
+        106.57534
+      ]
+    },
+    {
+      "nome": "Longmenhao Old Street 龙门浩老街",
+      "coord": [
+        29.55882,
+        106.59121
+      ]
+    }
   ]
 }

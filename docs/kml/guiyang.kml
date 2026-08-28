@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
 <name>Guiyang — nightlife e zone dove dormire</name>
-<description>14-16 novembre 2026 (3 notti) — weekend 14-15. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<description>16 nov → 18 nov (2 notti) — lunedì e martedì, una sola sera piena. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
 <Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
 <Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
 <Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
@@ -60,7 +60,7 @@ Posizione: approssimativa</description><styleUrl>#t_club</styleUrl><Point><coord
 <Placemark><name>Qingyun Market</name><description>青云市集
 南明区青云路 — Qingyun Road
 
-Mercato notturno su due piani, ristrutturato nel 2021: non è la solita bancarella, ci sono banconi, sedute e birra. È il posto dove i guiyanghesi passano la sera. Zuppa acida, spiedini alla griglia, riso glutinoso. Il tuo weekend del 14-15 va speso qui.
+Mercato notturno su due piani, ristrutturato nel 2021: non è la solita bancarella, ci sono banconi, sedute e birra. È il posto dove i guiyanghesi passano la sera. Zuppa acida, spiedini alla griglia, riso glutinoso. Con due sole notti hai una sera piena, il 16: va spesa qui.
 
 Prezzo: 60-120 RMB per mangiare e bere
 Orari: 17:00-01:00, punta verso le 21

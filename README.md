@@ -8,8 +8,12 @@ sulla schermata Home di un iPhone.
 
 ```
 data/          i contenuti. È l'unica cosa da modificare a mano
-  viaggio.json   le sette tappe, date, cosa vedere, stato hotel
+  viaggio.json   le sette tappe, cosa vedere, stato hotel
                  (`hotel` accetta un oggetto o una lista: a Hong Kong sono due strutture)
+                 Le date esistono SOLO come `checkin`/`checkout`: l'etichetta
+                 «6 nov → 10 nov (4 notti)» e il conteggio notti li deriva `build.py`.
+                 Non riscrivere le date a mano da nessun'altra parte, è così che
+                 itinerario e mappe erano finiti fuori sync.
   treni.json     le sette tratte ferroviarie
   voli.json      opzioni di volo internazionale
   checklist.json preparativi

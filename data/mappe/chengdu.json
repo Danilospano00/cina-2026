@@ -2,10 +2,13 @@
   "city": "Chengdu",
   "city_zh": "成都",
   "slug": "chengdu",
-  "tappa": "17-19 novembre 2026 (3 notti)",
-  "checkin": "2026-11-17",
-  "checkout": "2026-11-20",
-  "center": [30.648, 104.072],
+  "tappa": "18 nov → 22 nov (4 notti) — base per la gita a Leshan, weekend 21",
+  "checkin": "2026-11-18",
+  "checkout": "2026-11-22",
+  "center": [
+    30.648,
+    104.072
+  ],
   "zoom": 13,
   "note": "Coordinate WGS-84 (Nominatim/OSM). NON sono GCJ-02: se le incolli in Amap/Baidu risultano spostate di ~300-600 m.",
   "zones": [
@@ -28,13 +31,54 @@
         "Nessuno dei due cluster è sotto l'hotel: serve sempre 15-20 min a piedi o una fermata di metro",
         "Kehua è zona uffici/università: di giorno anonima"
       ],
-      "dormi_qui": [30.6345, 104.0625],
+      "dormi_qui": [
+        30.6345,
+        104.0625
+      ],
       "raggio_m": 700,
-      "metro": ["Shengtiyuguan 省体育馆 (L1/L3)", "Nijiaqiao 倪家桥 (L1)", "Mozi Bridge 磨子桥 (L1)", "Tongzilin 桐梓林 (L1)"],
+      "metro": [
+        "Shengtiyuguan 省体育馆 (L1/L3)",
+        "Nijiaqiao 倪家桥 (L1)",
+        "Mozi Bridge 磨子桥 (L1)",
+        "Tongzilin 桐梓林 (L1)"
+      ],
       "poly": [
-        [30.6425, 104.0700], [30.6425, 104.0795], [30.6240, 104.0795],
-        [30.6240, 104.0700], [30.6120, 104.0700], [30.6120, 104.0490],
-        [30.6350, 104.0490], [30.6360, 104.0620], [30.6425, 104.0700]
+        [
+          30.6425,
+          104.07
+        ],
+        [
+          30.6425,
+          104.0795
+        ],
+        [
+          30.624,
+          104.0795
+        ],
+        [
+          30.624,
+          104.07
+        ],
+        [
+          30.612,
+          104.07
+        ],
+        [
+          30.612,
+          104.049
+        ],
+        [
+          30.635,
+          104.049
+        ],
+        [
+          30.636,
+          104.062
+        ],
+        [
+          30.6425,
+          104.07
+        ]
       ]
     },
     {
@@ -55,12 +99,32 @@
         "Zona turistica: hotel più cari a parità di categoria",
         "Niente club techno veri: per quelli servono 20 min di taxi verso Kehua"
       ],
-      "dormi_qui": [30.6692, 104.0518],
+      "dormi_qui": [
+        30.6692,
+        104.0518
+      ],
       "raggio_m": 450,
-      "metro": ["Kuanzhai Xiangzi 宽窄巷子 (L4)", "People's Park 人民公园 (L2/L4)"],
+      "metro": [
+        "Kuanzhai Xiangzi 宽窄巷子 (L4)",
+        "People's Park 人民公园 (L2/L4)"
+      ],
       "poly": [
-        [30.6735, 104.0455], [30.6735, 104.0585], [30.6650, 104.0585],
-        [30.6650, 104.0455]
+        [
+          30.6735,
+          104.0455
+        ],
+        [
+          30.6735,
+          104.0585
+        ],
+        [
+          30.665,
+          104.0585
+        ],
+        [
+          30.665,
+          104.0455
+        ]
       ]
     },
     {
@@ -81,12 +145,31 @@
         "Prezzi da zona turistica su drink e hotel",
         "Nessuna fermata di metro dentro la zona: Chunxi Road è a 1,5 km"
       ],
-      "dormi_qui": [30.6480, 104.0820],
+      "dormi_qui": [
+        30.648,
+        104.082
+      ],
       "raggio_m": 600,
-      "metro": ["Chunxi Road 春熙路 (L2/L3), 1,5 km"],
+      "metro": [
+        "Chunxi Road 春熙路 (L2/L3), 1,5 km"
+      ],
       "poly": [
-        [30.6565, 104.0775], [30.6565, 104.0890], [30.6400, 104.0890],
-        [30.6400, 104.0800]
+        [
+          30.6565,
+          104.0775
+        ],
+        [
+          30.6565,
+          104.089
+        ],
+        [
+          30.64,
+          104.089
+        ],
+        [
+          30.64,
+          104.08
+        ]
       ]
     },
     {
@@ -107,18 +190,41 @@
       ],
       "dormi_qui": null,
       "raggio_m": 0,
-      "metro": ["Dongjiao Jiyi 东郊记忆 (L8)", "Wannianchang 万年场 (L4/L8)"],
+      "metro": [
+        "Dongjiao Jiyi 东郊记忆 (L8)",
+        "Wannianchang 万年场 (L4/L8)"
+      ],
       "poly": [
-        [30.6760, 104.0880], [30.6760, 104.1330], [30.6450, 104.1330],
-        [30.6450, 104.0880]
+        [
+          30.676,
+          104.088
+        ],
+        [
+          30.676,
+          104.133
+        ],
+        [
+          30.645,
+          104.133
+        ],
+        [
+          30.645,
+          104.088
+        ]
       ]
     }
   ],
   "venues": [
     {
-      "nome": "Little Bar", "nome_zh": "小酒馆 (玉林西路店)",
-      "tipo": "live", "zona": "yulin-kehua",
-      "coord": [30.63183, 104.05355], "precisione": "strada",
+      "nome": "Little Bar",
+      "nome_zh": "小酒馆 (玉林西路店)",
+      "tipo": "live",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.63183,
+        104.05355
+      ],
+      "precisione": "strada",
       "indirizzo": "玉林西路55号 — Yulin West Rd 55",
       "vibe": "L'istituzione di Chengdu, aperta dal 1997. Folk e indie cinese, la sede originale. Resa famosa dalla canzone Chengdu di Zhao Lei: aspettati cinesi che si fanno la foto fuori.",
       "prezzo": "40-80 RMB drink, concerti 80-150 RMB",
@@ -126,9 +232,15 @@
       "stato": "aperto (confermato)"
     },
     {
-      "nome": "NU SPACE", "nome_zh": "纽空间",
-      "tipo": "live", "zona": "kuixinglou",
-      "coord": [30.67097, 104.05041], "precisione": "poi",
+      "nome": "NU SPACE",
+      "nome_zh": "纽空间",
+      "tipo": "live",
+      "zona": "kuixinglou",
+      "coord": [
+        30.67097,
+        104.05041
+      ],
+      "precisione": "poi",
       "indirizzo": "青羊区奎星楼街55号 明堂创意工作区 — Mingtang Creative Area, Kuixinglou St 55",
       "vibe": "La livehouse di riferimento per indie e rock cinese. Dentro un complesso creativo con libreria e mostre. Programmazione fitta, pubblico giovane locale.",
       "prezzo": "100-200 RMB biglietto",
@@ -136,9 +248,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Xiongmao Live", "nome_zh": "熊猫",
-      "tipo": "live", "zona": "kuixinglou",
-      "coord": [30.67090, 104.05060], "precisione": "poi",
+      "nome": "Xiongmao Live",
+      "nome_zh": "熊猫",
+      "tipo": "live",
+      "zona": "kuixinglou",
+      "coord": [
+        30.6709,
+        104.0506
+      ],
+      "precisione": "poi",
       "indirizzo": "奎星楼街55号 明堂 — stesso complesso di NU SPACE",
       "vibe": "Sala più piccola nello stesso cortile di NU SPACE. Band emergenti, spesso serate gratis o a offerta.",
       "prezzo": "0-100 RMB",
@@ -146,9 +264,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Yuanshi", "nome_zh": "原石",
-      "tipo": "pub", "zona": "kuixinglou",
-      "coord": [30.66790, 104.05118], "precisione": "strada",
+      "nome": "Yuanshi",
+      "nome_zh": "原石",
+      "tipo": "pub",
+      "zona": "kuixinglou",
+      "coord": [
+        30.6679,
+        104.05118
+      ],
+      "precisione": "strada",
       "indirizzo": "泡桐树街20号附7号 — Paotongshu St 20-7",
       "vibe": "Oltre 200 birre di importazione, 60+ IPA. Fanno birre col pepe di Sichuan e zenzero (Majiang Xiaozi). Piccolo, da appassionati.",
       "prezzo": "50-90 RMB a birra",
@@ -156,9 +280,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Wonderhouse", "nome_zh": "万事屋",
-      "tipo": "pub", "zona": "kuixinglou",
-      "coord": [30.66876, 104.05576], "precisione": "strada",
+      "nome": "Wonderhouse",
+      "nome_zh": "万事屋",
+      "tipo": "pub",
+      "zona": "kuixinglou",
+      "coord": [
+        30.66876,
+        104.05576
+      ],
+      "precisione": "strada",
       "indirizzo": "商业后街90号附1号 — Shangye Houjie 90-1",
       "vibe": "Aperto nel 2012, uno dei primi craft bar di Chengdu ed è ancora tra i più frequentati dai locali. Niente pose, si beve e si parla.",
       "prezzo": "45-75 RMB a birra",
@@ -166,9 +296,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "TAI-GA Club", "nome_zh": "泰嘎",
-      "tipo": "club", "zona": "yulin-kehua",
-      "coord": [30.63650, 104.07430], "precisione": "approssimativa",
+      "nome": "TAI-GA Club",
+      "nome_zh": "泰嘎",
+      "tipo": "club",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.6365,
+        104.0743
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "科华北路143号 蓝色加勒比广场2楼 — Blue Caribbean Plaza 2F",
       "vibe": "Club di riferimento su Kehua. House e techno, impianto serio, pubblico misto locale e studenti universitari.",
       "prezzo": "ingresso 50-100 RMB, drink 60-90",
@@ -176,9 +312,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Hakkabar", "nome_zh": "院吧",
-      "tipo": "club", "zona": "yulin-kehua",
-      "coord": [30.63500, 104.07440], "precisione": "approssimativa",
+      "nome": "Hakkabar",
+      "nome_zh": "院吧",
+      "tipo": "club",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.635,
+        104.0744
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "科华北路 沸城A座1201 — Feicheng Bldg A, 12F",
       "vibe": "Club in appartamento all'ultimo piano, si entra col citofono. Techno e minimal, capienza piccola, pubblico che ci va per la musica.",
       "prezzo": "ingresso 60-120 RMB",
@@ -186,9 +328,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "GUANXI", "nome_zh": "关系",
-      "tipo": "club", "zona": "yulin-kehua",
-      "coord": [30.63850, 104.07390], "precisione": "approssimativa",
+      "nome": "GUANXI",
+      "nome_zh": "关系",
+      "tipo": "club",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.6385,
+        104.0739
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "武侯区科华北路2号 王府井 A59 Space 5F",
       "vibe": "Uno dei nomi più ricorrenti nella scena elettronica di Chengdu. Passano anche DJ internazionali.",
       "prezzo": "ingresso 80-150 RMB",
@@ -196,9 +344,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Yitong Vinyl & Drinks", "nome_zh": "一同",
-      "tipo": "pub", "zona": "yulin-kehua",
-      "coord": [30.63750, 104.07420], "precisione": "approssimativa",
+      "nome": "Yitong Vinyl & Drinks",
+      "nome_zh": "一同",
+      "tipo": "pub",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.6375,
+        104.0742
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "武侯区科华北路60号A座1204 — Kehua North Rd 60, Bldg A 12F",
       "vibe": "Bar a vinili, si ascolta e si beve. Alternativa tranquilla ai club della stessa strada: buono se vuoi una serata senza pista.",
       "prezzo": "60-100 RMB a drink",
@@ -206,9 +360,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Echo Cube", "nome_zh": "",
-      "tipo": "club", "zona": "yulin-kehua",
-      "coord": [30.62759, 104.07164], "precisione": "strada",
+      "nome": "Echo Cube",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.62759,
+        104.07164
+      ],
+      "precisione": "strada",
       "indirizzo": "武侯区锦绣路1号 保利中心A座21层 — Poly Center, Jinxiu Rd 1",
       "vibe": "Club al 21esimo piano di una torre uffici. Elettronica, vista sulla città.",
       "prezzo": "ingresso 60-120 RMB",
@@ -216,9 +376,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Here We Go (HWG)", "nome_zh": "黑尾狗",
-      "tipo": "club", "zona": "yulin-kehua",
-      "coord": [30.62770, 104.07185], "precisione": "strada",
+      "nome": "Here We Go (HWG)",
+      "nome_zh": "黑尾狗",
+      "tipo": "club",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.6277,
+        104.07185
+      ],
+      "precisione": "strada",
       "indirizzo": "锦绣路1号保利中心3栋A座2103-2104 — stessa torre di Echo Cube",
       "vibe": "Hip hop e house, stessa torre di Echo Cube: due locali in un ascensore.",
       "prezzo": "ingresso 60-100 RMB",
@@ -226,9 +392,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Cue", "nome_zh": "",
-      "tipo": "club", "zona": "yulin-kehua",
-      "coord": [30.62617, 104.07599], "precisione": "strada",
+      "nome": "Cue",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.62617,
+        104.07599
+      ],
+      "precisione": "strada",
       "indirizzo": "科华街8-1号 — Kehua St 8-1",
       "vibe": "Club piccolo sull'estremità sud del corridoio Kehua.",
       "prezzo": "ingresso 50-100 RMB",
@@ -236,9 +408,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Nanmen Craft", "nome_zh": "南门精酿啤酒餐吧",
-      "tipo": "expat", "zona": "yulin-kehua",
-      "coord": [30.61416, 104.05912], "precisione": "strada",
+      "nome": "Nanmen Craft",
+      "nome_zh": "南门精酿啤酒餐吧",
+      "tipo": "expat",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.61416,
+        104.05912
+      ],
+      "precisione": "strada",
       "indirizzo": "桐梓林南路8号一层附8号 — Tongzilin South Rd 8",
       "vibe": "Tongzilin è il quartiere dove vivono gli stranieri a Chengdu: consolati, scuole internazionali. Qui si beve e si mangia in inglese senza sforzo.",
       "prezzo": "50-80 RMB a birra",
@@ -246,9 +424,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "HUG Craft Beer", "nome_zh": "雨果精酿啤酒馆",
-      "tipo": "expat", "zona": "yulin-kehua",
-      "coord": [30.62223, 104.05112], "precisione": "approssimativa",
+      "nome": "HUG Craft Beer",
+      "nome_zh": "雨果精酿啤酒馆",
+      "tipo": "expat",
+      "zona": "yulin-kehua",
+      "coord": [
+        30.62223,
+        104.05112
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "高新区紫杉路步行街22号 (紫荆南路上海花园) — zona Zijing/Tongzilin",
       "vibe": "Aperto nel 2015, uno dei craft bar storici, nella zona expat. Pubblico misto stranieri e cinesi.",
       "prezzo": "45-80 RMB a birra",
@@ -256,9 +440,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Jellyfish LKF", "nome_zh": "水母",
-      "tipo": "club", "zona": "lkf-jiuyanqiao",
-      "coord": [30.64714, 104.08195], "precisione": "strada",
+      "nome": "Jellyfish LKF",
+      "nome_zh": "水母",
+      "tipo": "club",
+      "zona": "lkf-jiuyanqiao",
+      "coord": [
+        30.64714,
+        104.08195
+      ],
+      "precisione": "strada",
       "indirizzo": "锦江区滨江东路水津街1号 兰桂坊 2-3栋A座 — Lan Kwai Fong",
       "vibe": "Dentro il complesso Lan Kwai Fong. Commerciale, EDM e bottle service, molto affollato nel weekend.",
       "prezzo": "ingresso 80-150 RMB, drink 80-120",
@@ -266,9 +456,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "A.D.C", "nome_zh": "",
-      "tipo": "club", "zona": "lkf-jiuyanqiao",
-      "coord": [30.64700, 104.08215], "precisione": "strada",
+      "nome": "A.D.C",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "lkf-jiuyanqiao",
+      "coord": [
+        30.647,
+        104.08215
+      ],
+      "precisione": "strada",
       "indirizzo": "水津街1号1栋6层 兰桂坊 — Lan Kwai Fong, Shuijin St 1, 6F",
       "vibe": "Stesso complesso, piano diverso. Elettronica più selettiva di Jellyfish.",
       "prezzo": "ingresso 80-150 RMB",
@@ -276,9 +472,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Lantown", "nome_zh": "",
-      "tipo": "club", "zona": "lkf-jiuyanqiao",
-      "coord": [30.64237, 104.08633], "precisione": "strada",
+      "nome": "Lantown",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "lkf-jiuyanqiao",
+      "coord": [
+        30.64237,
+        104.08633
+      ],
+      "precisione": "strada",
       "indirizzo": "九眼桥 好望角广场2楼 — Cape of Good Hope Plaza 2F, Jiuyan Bridge",
       "vibe": "Sul lungofiume di Jiuyanqiao, la strada dei bar storica di Chengdu. Più mainstream.",
       "prezzo": "ingresso 50-100 RMB",
@@ -286,9 +488,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Hemp House", "nome_zh": "",
-      "tipo": "club", "zona": "lkf-jiuyanqiao",
-      "coord": [30.65286, 104.08330], "precisione": "poi",
+      "nome": "Hemp House",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "lkf-jiuyanqiao",
+      "coord": [
+        30.65286,
+        104.0833
+      ],
+      "precisione": "poi",
       "indirizzo": "东门大桥 东方时代广场3楼 — Oriental Times Plaza 3F, Dongmen Bridge",
       "vibe": "A metà strada tra Taikoo Li e Lan Kwai Fong. Elettronica.",
       "prezzo": "ingresso 60-120 RMB",
@@ -296,9 +504,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Bubble Ranger", "nome_zh": "泡沫游侠",
-      "tipo": "pub", "zona": "lkf-jiuyanqiao",
-      "coord": [30.65640, 104.07960], "precisione": "approssimativa",
+      "nome": "Bubble Ranger",
+      "nome_zh": "泡沫游侠",
+      "tipo": "pub",
+      "zona": "lkf-jiuyanqiao",
+      "coord": [
+        30.6564,
+        104.0796
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "远洋太古里二至三楼商业2316号 — Taikoo Li 2-3F",
       "vibe": "Aperto fine 2017, il craft bar più visibile della città perché sta dentro Taikoo Li. Ottima selezione, prezzi da mall.",
       "prezzo": "60-110 RMB a birra",
@@ -306,9 +520,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "AXIS", "nome_zh": "",
-      "tipo": "club", "zona": "chenghua",
-      "coord": [30.65748, 104.08813], "precisione": "strada",
+      "nome": "AXIS",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "chenghua",
+      "coord": [
+        30.65748,
+        104.08813
+      ],
+      "precisione": "strada",
       "indirizzo": "成华区望平街23号 — Wangping St 23",
       "vibe": "Techno seria. Su Wangping Street, lungo il fiume nella zona Mengzhuiwan. Non è propriamente centro ma neanche lontanissima: 20 min a piedi da Taikoo Li.",
       "prezzo": "ingresso 80-150 RMB",
@@ -316,9 +536,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "NOX", "nome_zh": "",
-      "tipo": "club", "zona": "chenghua",
-      "coord": [30.66467, 104.09206], "precisione": "poi",
+      "nome": "NOX",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "chenghua",
+      "coord": [
+        30.66467,
+        104.09206
+      ],
+      "precisione": "poi",
       "indirizzo": "成华区蒙追湾街96号 四川广播电视塔 — sotto la torre TV",
       "vibe": "Alla base della torre della TV del Sichuan, sul fiume.",
       "prezzo": "ingresso 60-120 RMB",
@@ -326,9 +552,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Little Bar Space", "nome_zh": "小酒馆 (万象城店)",
-      "tipo": "live", "zona": "chenghua",
-      "coord": [30.65120, 104.11276], "precisione": "poi",
+      "nome": "Little Bar Space",
+      "nome_zh": "小酒馆 (万象城店)",
+      "tipo": "live",
+      "zona": "chenghua",
+      "coord": [
+        30.6512,
+        104.11276
+      ],
+      "precisione": "poi",
       "indirizzo": "成华区双庆路8号 万象城一期B1 喷泉广场B120 — Vientiane City B1",
       "vibe": "La sala grande del Little Bar: qui suonano i nomi veri, mentre su Yulin West Rd c'è il locale storico piccolo. Controlla il calendario prima di scegliere quale.",
       "prezzo": "biglietti 100-250 RMB",
@@ -336,9 +568,15 @@
       "stato": "aperto"
     },
     {
-      "nome": "Panda Club", "nome_zh": "熊猫",
-      "tipo": "club", "zona": "chenghua",
-      "coord": [30.67083, 104.12634], "precisione": "poi",
+      "nome": "Panda Club",
+      "nome_zh": "熊猫",
+      "tipo": "club",
+      "zona": "chenghua",
+      "coord": [
+        30.67083,
+        104.12634
+      ],
+      "precisione": "poi",
       "indirizzo": "东郊记忆 东区音乐公园30/31栋 — East Music Park Bldg 30/31",
       "vibe": "Dentro l'ex area industriale di Dongjiao Jiyi, riconvertita a parco musicale.",
       "prezzo": "ingresso 60-120 RMB",
@@ -346,9 +584,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Echo Retro", "nome_zh": "",
-      "tipo": "club", "zona": "chenghua",
-      "coord": [30.67090, 104.12660], "precisione": "poi",
+      "nome": "Echo Retro",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "chenghua",
+      "coord": [
+        30.6709,
+        104.1266
+      ],
+      "precisione": "poi",
       "indirizzo": "东郊记忆 56栋 — Eastern Suburb Memory, Bldg 56",
       "vibe": "Stesso complesso di Panda Club. Se ci vai, fai le due cose nella stessa sera.",
       "prezzo": "ingresso 50-100 RMB",
@@ -356,9 +600,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "gong", "nome_zh": "工gong",
-      "tipo": "club", "zona": null,
-      "coord": [30.61922, 104.08509], "precisione": "approssimativa",
+      "nome": "gong",
+      "nome_zh": "工gong",
+      "tipo": "club",
+      "zona": null,
+      "coord": [
+        30.61922,
+        104.08509
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "锦江区东二环路五段313号 (东湖公园内) — Donghu Park, E 2nd Ring Rd Sec 5 no.313",
       "vibe": "Il club più seguito di Chengdu su Resident Advisor. Techno, dentro il parco Donghu. Fuori da ogni zona pedonale: si arriva in Didi.",
       "prezzo": "ingresso 80-150 RMB",
@@ -366,9 +616,15 @@
       "stato": "attivo su Resident Advisor — il più seguito in città"
     },
     {
-      "nome": "NU LAB", "nome_zh": "",
-      "tipo": "club", "zona": null,
-      "coord": [30.59092, 104.07636], "precisione": "non verificata",
+      "nome": "NU LAB",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": null,
+      "coord": [
+        30.59092,
+        104.07636
+      ],
+      "precisione": "non verificata",
       "indirizzo": "锦江区永安路666号 NuLab B馆 — Yong'an Rd 666",
       "vibe": "Secondo club più seguito su Resident Advisor. Formato warehouse, in periferia sud. La posizione sulla mappa è derivata dalla via, non confermata: verifica su Amap prima di prendere il Didi.",
       "prezzo": "ingresso 80-150 RMB",
@@ -376,9 +632,15 @@
       "stato": "attivo su RA — indirizzo da riverificare"
     },
     {
-      "nome": "AMO MIO Dreamworks", "nome_zh": "",
-      "tipo": "club", "zona": null,
-      "coord": [30.66150, 104.05250], "precisione": "approssimativa",
+      "nome": "AMO MIO Dreamworks",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": null,
+      "coord": [
+        30.6615,
+        104.0525
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "少城路10号 — Shaocheng Rd 10, vicino People's Park",
       "vibe": "A metà tra People's Park e Tianfu Square, raggiungibile a piedi dalla zona Kuixinglou.",
       "prezzo": "ingresso 60-120 RMB",
@@ -387,19 +649,99 @@
     }
   ],
   "metro": [
-    {"nome": "Shengtiyuguan 省体育馆", "linee": "L1/L3", "coord": [30.63554, 104.06390]},
-    {"nome": "Nijiaqiao 倪家桥", "linee": "L1", "coord": [30.62739, 104.06247]},
-    {"nome": "Mozi Bridge 磨子桥", "linee": "L1", "coord": [30.63996, 104.07344]},
-    {"nome": "Tongzilin 桐梓林", "linee": "L1", "coord": [30.61774, 104.06459]},
-    {"nome": "Kuanzhai Xiangzi 宽窄巷子", "linee": "L4", "coord": [30.66777, 104.04792]},
-    {"nome": "Tianfu Square 天府广场", "linee": "L1/L2", "coord": [30.65992, 104.06385]},
-    {"nome": "Chunxi Road 春熙路", "linee": "L2/L3", "coord": [30.65769, 104.07428]},
-    {"nome": "Dongjiao Jiyi 东郊记忆", "linee": "L8", "coord": [30.67083, 104.12634]}
+    {
+      "nome": "Shengtiyuguan 省体育馆",
+      "linee": "L1/L3",
+      "coord": [
+        30.63554,
+        104.0639
+      ]
+    },
+    {
+      "nome": "Nijiaqiao 倪家桥",
+      "linee": "L1",
+      "coord": [
+        30.62739,
+        104.06247
+      ]
+    },
+    {
+      "nome": "Mozi Bridge 磨子桥",
+      "linee": "L1",
+      "coord": [
+        30.63996,
+        104.07344
+      ]
+    },
+    {
+      "nome": "Tongzilin 桐梓林",
+      "linee": "L1",
+      "coord": [
+        30.61774,
+        104.06459
+      ]
+    },
+    {
+      "nome": "Kuanzhai Xiangzi 宽窄巷子",
+      "linee": "L4",
+      "coord": [
+        30.66777,
+        104.04792
+      ]
+    },
+    {
+      "nome": "Tianfu Square 天府广场",
+      "linee": "L1/L2",
+      "coord": [
+        30.65992,
+        104.06385
+      ]
+    },
+    {
+      "nome": "Chunxi Road 春熙路",
+      "linee": "L2/L3",
+      "coord": [
+        30.65769,
+        104.07428
+      ]
+    },
+    {
+      "nome": "Dongjiao Jiyi 东郊记忆",
+      "linee": "L8",
+      "coord": [
+        30.67083,
+        104.12634
+      ]
+    }
   ],
   "landmarks": [
-    {"nome": "Taikoo Li 太古里", "coord": [30.65628, 104.07952]},
-    {"nome": "Kuanzhai Alley 宽窄巷子", "coord": [30.66777, 104.04792]},
-    {"nome": "People's Park 人民公园", "coord": [30.65972, 104.05482]},
-    {"nome": "Jiuyan Bridge 九眼桥", "coord": [30.64237, 104.08633]}
+    {
+      "nome": "Taikoo Li 太古里",
+      "coord": [
+        30.65628,
+        104.07952
+      ]
+    },
+    {
+      "nome": "Kuanzhai Alley 宽窄巷子",
+      "coord": [
+        30.66777,
+        104.04792
+      ]
+    },
+    {
+      "nome": "People's Park 人民公园",
+      "coord": [
+        30.65972,
+        104.05482
+      ]
+    },
+    {
+      "nome": "Jiuyan Bridge 九眼桥",
+      "coord": [
+        30.64237,
+        104.08633
+      ]
+    }
   ]
 }

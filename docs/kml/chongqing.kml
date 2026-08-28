@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
 <name>Chongqing — nightlife e zone dove dormire</name>
-<description>22-24 novembre 2026 (3 notti) — partenza G905 il 25 da Chongqing West. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<description>22 nov → 25 nov (3 notti) — partenza G905 il 25 da Chongqing West. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
 <Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
 <Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
 <Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>

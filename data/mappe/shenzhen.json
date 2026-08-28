@@ -2,10 +2,13 @@
   "city": "Shenzhen",
   "city_zh": "深圳",
   "slug": "shenzhen",
-  "tappa": "3-5 novembre 2026 (3 notti) — prima tappa, arrivo in treno da Hong Kong",
-  "checkin": "2026-11-03",
-  "checkout": "2026-11-06",
-  "center": [22.525, 114.02],
+  "tappa": "6 nov → 10 nov (4 notti) — prima tappa, arrivo dall'aeroporto di Hong Kong",
+  "checkin": "2026-11-06",
+  "checkout": "2026-11-10",
+  "center": [
+    22.525,
+    114.02
+  ],
   "zoom": 12,
   "note": "Coordinate WGS-84 (Nominatim/OSM). NON sono GCJ-02: se le incolli in Amap/Baidu risultano spostate di ~300-600 m.",
   "zones": [
@@ -27,12 +30,33 @@
         "È nightlife da centro commerciale: bottle service, EDM, prezzi alti. Di carattere ne ha poco",
         "Per techno vera devi spostarti a Chegongmiao (OIL Club), 15 min di metro"
       ],
-      "dormi_qui": [22.5400, 114.0480],
+      "dormi_qui": [
+        22.54,
+        114.048
+      ],
       "raggio_m": 600,
-      "metro": ["Shopping Park 购物公园 (L1/L9)", "Gangxia 岗厦 (L2/L3)", "Convention Center 会展中心 (L1/L4)"],
+      "metro": [
+        "Shopping Park 购物公园 (L1/L9)",
+        "Gangxia 岗厦 (L2/L3)",
+        "Convention Center 会展中心 (L1/L4)"
+      ],
       "poly": [
-        [22.5455, 114.0420], [22.5455, 114.0560], [22.5330, 114.0560],
-        [22.5330, 114.0420]
+        [
+          22.5455,
+          114.042
+        ],
+        [
+          22.5455,
+          114.056
+        ],
+        [
+          22.533,
+          114.056
+        ],
+        [
+          22.533,
+          114.042
+        ]
       ]
     },
     {
@@ -53,12 +77,32 @@
         "Chiude presto rispetto al CBD: dopo l'una è finita",
         "Lontano dal valico di Futian: il giorno dell'arrivo dal treno di Hong Kong paghi 30-40 min in più"
       ],
-      "dormi_qui": [22.5412, 113.9886],
+      "dormi_qui": [
+        22.5412,
+        113.9886
+      ],
       "raggio_m": 500,
-      "metro": ["Qiaocheng East 侨城东 (L1)", "OCT 华侨城 (L1)"],
+      "metro": [
+        "Qiaocheng East 侨城东 (L1)",
+        "OCT 华侨城 (L1)"
+      ],
       "poly": [
-        [22.5455, 113.9835], [22.5455, 113.9940], [22.5365, 113.9940],
-        [22.5365, 113.9835]
+        [
+          22.5455,
+          113.9835
+        ],
+        [
+          22.5455,
+          113.994
+        ],
+        [
+          22.5365,
+          113.994
+        ],
+        [
+          22.5365,
+          113.9835
+        ]
       ]
     },
     {
@@ -78,12 +122,31 @@
         "Zona uffici e torri: nessuna vita di strada, niente da vedere di giorno",
         "Tre soli locali: finiti quelli, devi spostarti"
       ],
-      "dormi_qui": [22.5345, 114.0215],
+      "dormi_qui": [
+        22.5345,
+        114.0215
+      ],
       "raggio_m": 450,
-      "metro": ["Chegongmiao 车公庙 (L1/L7/L9/L11)"],
+      "metro": [
+        "Chegongmiao 车公庙 (L1/L7/L9/L11)"
+      ],
       "poly": [
-        [22.5385, 114.0165], [22.5385, 114.0265], [22.5300, 114.0265],
-        [22.5300, 114.0165]
+        [
+          22.5385,
+          114.0165
+        ],
+        [
+          22.5385,
+          114.0265
+        ],
+        [
+          22.53,
+          114.0265
+        ],
+        [
+          22.53,
+          114.0165
+        ]
       ]
     },
     {
@@ -102,20 +165,46 @@
         "15 km dal centro e dal valico di Futian: da qui ogni spostamento è mezz'ora",
         "Scena molto expat e poco cinese: se cerchi la Cina, non è qui"
       ],
-      "dormi_qui": [22.4885, 113.9105],
+      "dormi_qui": [
+        22.4885,
+        113.9105
+      ],
       "raggio_m": 500,
-      "metro": ["Sea World 海上世界 (L2)", "Shekou Port 蛇口港 (L2)"],
+      "metro": [
+        "Sea World 海上世界 (L2)",
+        "Shekou Port 蛇口港 (L2)"
+      ],
       "poly": [
-        [22.4935, 113.9050], [22.4935, 113.9235], [22.4835, 113.9235],
-        [22.4835, 113.9050]
+        [
+          22.4935,
+          113.905
+        ],
+        [
+          22.4935,
+          113.9235
+        ],
+        [
+          22.4835,
+          113.9235
+        ],
+        [
+          22.4835,
+          113.905
+        ]
       ]
     }
   ],
   "venues": [
     {
-      "nome": "OIL Club", "nome_zh": "",
-      "tipo": "club", "zona": "chegongmiao",
-      "coord": [22.53320, 114.02043], "precisione": "strada",
+      "nome": "OIL Club",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "chegongmiao",
+      "coord": [
+        22.5332,
+        114.02043
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区泰然八路 泰然大厦11A 一层 — Tairan Mansion 11A, Tairan 8th Rd",
       "vibe": "Il club più seguito di Shenzhen su Resident Advisor, e di fatto l'unico della città con una programmazione techno seria e ospiti internazionali. Se in Cina del Sud vuoi una serata elettronica vera, è qui.",
       "prezzo": "ingresso 100-200 RMB",
@@ -123,9 +212,15 @@
       "stato": "attivo su Resident Advisor — il più seguito in città"
     },
     {
-      "nome": "Bolive", "nome_zh": "",
-      "tipo": "club", "zona": "chegongmiao",
-      "coord": [22.53345, 114.02100], "precisione": "approssimativa",
+      "nome": "Bolive",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "chegongmiao",
+      "coord": [
+        22.53345,
+        114.021
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "福田区泰然八路25号 深业水松大厦1F — Shenye Shuisong Bldg, Tairan 8th Rd 25",
       "vibe": "A 200 m da OIL, stessa strada. Utile come secondo tempo se OIL non ha una serata interessante.",
       "prezzo": "ingresso 60-120 RMB",
@@ -133,9 +228,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "The Loops", "nome_zh": "",
-      "tipo": "club", "zona": "chegongmiao",
-      "coord": [22.53450, 114.02250], "precisione": "approssimativa",
+      "nome": "The Loops",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "chegongmiao",
+      "coord": [
+        22.5345,
+        114.0225
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "福田区泰然六路 工贸园213栋1A-19 — Industry and Trade Park, Tairan 6th Rd",
       "vibe": "Dentro un parco industriale riconvertito, formato piccolo. Chiude il triangolo di Tairan con OIL e Bolive.",
       "prezzo": "ingresso 50-100 RMB",
@@ -143,9 +244,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Bang Club", "nome_zh": "",
-      "tipo": "club", "zona": "futian-cbd",
-      "coord": [22.54200, 114.04770], "precisione": "strada",
+      "nome": "Bang Club",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "futian-cbd",
+      "coord": [
+        22.542,
+        114.0477
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区民田路 购物公园B座138 — Shopping Park Block B 138, Mintian Rd",
       "vibe": "Uno dei nomi grossi del CBD. Formato grande, EDM e hip hop, tavoli e bottiglie. Pieno nel weekend.",
       "prezzo": "ingresso 100-150 RMB, drink 80-120",
@@ -153,9 +260,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Fun Hua Club", "nome_zh": "",
-      "tipo": "club", "zona": "futian-cbd",
-      "coord": [22.54180, 114.04790], "precisione": "strada",
+      "nome": "Fun Hua Club",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5418,
+        114.0479
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区民田路138号 购物公园 — Mintian Rd 138",
       "vibe": "Stesso indirizzo di Bang e O!Garden: tre locali nello stesso blocco, si passa dall'uno all'altro senza uscire.",
       "prezzo": "ingresso 80-150 RMB",
@@ -163,9 +276,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "O!Garden", "nome_zh": "",
-      "tipo": "club", "zona": "futian-cbd",
-      "coord": [22.54160, 114.04760], "precisione": "strada",
+      "nome": "O!Garden",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5416,
+        114.0476
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区民田路138号 — Mintian Rd 138",
       "vibe": "Terzo del blocco di Mintian Rd. Formato garden bar, più da bere che da ballare.",
       "prezzo": "ingresso 60-120 RMB",
@@ -173,9 +292,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Sicilia Bar & Club", "nome_zh": "",
-      "tipo": "expat", "zona": "futian-cbd",
-      "coord": [22.54060, 114.04800], "precisione": "approssimativa",
+      "nome": "Sicilia Bar & Club",
+      "nome_zh": "",
+      "tipo": "expat",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5406,
+        114.048
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "福田区民田路 可可公园酒吧街 — Coco Park bar street, Mintian Rd",
       "vibe": "Sulla strada dei bar di Coco Park, la più internazionale del CBD. Qui trovi stranieri senza andare fino a Shekou.",
       "prezzo": "drink 60-100 RMB",
@@ -183,9 +308,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Mad Bar", "nome_zh": "",
-      "tipo": "expat", "zona": "futian-cbd",
-      "coord": [22.54040, 114.04830], "precisione": "approssimativa",
+      "nome": "Mad Bar",
+      "nome_zh": "",
+      "tipo": "expat",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5404,
+        114.0483
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "可可公园 Ella 2楼 — Coco Park, Ella, 2F",
       "vibe": "Coco Park, piano superiore. Locale da birra e chiacchiere, ambiente misto.",
       "prezzo": "drink 50-90 RMB",
@@ -193,9 +324,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Circle", "nome_zh": "",
-      "tipo": "club", "zona": "futian-cbd",
-      "coord": [22.53900, 114.04870], "precisione": "strada",
+      "nome": "Circle",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "futian-cbd",
+      "coord": [
+        22.539,
+        114.0487
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区购物公园北区A127 — Shopping Park North A127",
       "vibe": "Lato nord di Shopping Park. Club di formato medio, house e commerciale.",
       "prezzo": "ingresso 80-120 RMB",
@@ -203,9 +340,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Club Viva", "nome_zh": "",
-      "tipo": "club", "zona": "futian-cbd",
-      "coord": [22.53860, 114.04890], "precisione": "strada",
+      "nome": "Club Viva",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5386,
+        114.0489
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区购物公园140号 — Shopping Park 140",
       "vibe": "Nello stesso complesso di Circle e Pepper: tre porte diverse sullo stesso piazzale.",
       "prezzo": "ingresso 80-150 RMB",
@@ -213,9 +356,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Pepper Club", "nome_zh": "",
-      "tipo": "club", "zona": "futian-cbd",
-      "coord": [22.53840, 114.04850], "precisione": "strada",
+      "nome": "Pepper Club",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5384,
+        114.0485
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区购物公园2楼 — Shopping Park 2F",
       "vibe": "Piano superiore di Shopping Park. Commerciale, pieno di ventenni cinesi nel weekend.",
       "prezzo": "ingresso 80-120 RMB",
@@ -223,9 +372,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Mars Livehouse", "nome_zh": "",
-      "tipo": "live", "zona": "futian-cbd",
-      "coord": [22.53350, 114.05450], "precisione": "approssimativa",
+      "nome": "Mars Livehouse",
+      "nome_zh": "",
+      "tipo": "live",
+      "zona": "futian-cbd",
+      "coord": [
+        22.5335,
+        114.0545
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "福田区滨河路2001号 T-Park西座10楼 — T-Park Film Creative Park 10F",
       "vibe": "Livehouse del CBD, sul lato sud verso il fiume. Rock e indie cinese. Controlla il calendario: programmazione a ondate.",
       "prezzo": "biglietti 100-250 RMB",
@@ -233,9 +388,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "B-10", "nome_zh": "",
-      "tipo": "live", "zona": "oct-loft",
-      "coord": [22.54150, 113.98850], "precisione": "strada",
+      "nome": "B-10",
+      "nome_zh": "",
+      "tipo": "live",
+      "zona": "oct-loft",
+      "coord": [
+        22.5415,
+        113.9885
+      ],
+      "precisione": "strada",
       "indirizzo": "南山区华侨城创意文化园 北区C2栋北侧 — OCT-LOFT North District, Bldg C2",
       "vibe": "La livehouse storica di Shenzhen e la più rispettata: jazz, improvvisazione, sperimentale, indie. Dentro l'ex fabbrica di OCT-LOFT. Se una sera sola devi sceglierne una a Shenzhen, questa.",
       "prezzo": "biglietti 80-200 RMB",
@@ -243,9 +404,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "B·one", "nome_zh": "彼湾映像",
-      "tipo": "pub", "zona": "oct-loft",
-      "coord": [22.54100, 113.98800], "precisione": "approssimativa",
+      "nome": "B·one",
+      "nome_zh": "彼湾映像",
+      "tipo": "pub",
+      "zona": "oct-loft",
+      "coord": [
+        22.541,
+        113.988
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "南山区创意文化园北区香山东街B1栋1楼 — OCT-LOFT North, Xiangshan East St, Bldg B1",
       "vibe": "Ristorante-bar nel cortile di OCT-LOFT. Si mangia e si beve fuori, formato tranquillo.",
       "prezzo": "50-90 RMB a birra",
@@ -253,9 +420,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Whatever Cafe", "nome_zh": "",
-      "tipo": "pub", "zona": "oct-loft",
-      "coord": [22.54200, 113.98900], "precisione": "approssimativa",
+      "nome": "Whatever Cafe",
+      "nome_zh": "",
+      "tipo": "pub",
+      "zona": "oct-loft",
+      "coord": [
+        22.542,
+        113.989
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "南山区华侨城恩平街创意园东部工业区E6栋103 — OCT Loft, Enping St, Bldg E6",
       "vibe": "Caffè di giorno, bar la sera. Terrazza, pubblico creativo del quartiere. Buon posto per lavorare al portatile nel pomeriggio.",
       "prezzo": "40-80 RMB",
@@ -263,9 +436,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "BOA", "nome_zh": "",
-      "tipo": "expat", "zona": "shekou",
-      "coord": [22.48850, 113.91050], "precisione": "approssimativa",
+      "nome": "BOA",
+      "nome_zh": "",
+      "tipo": "expat",
+      "zona": "shekou",
+      "coord": [
+        22.4885,
+        113.9105
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "南山区蛇口海上世界广场 酒吧街西侧 — West of Bar Street, Sea World Square, Shekou",
       "vibe": "Sulla strada dei bar di Sea World, il cuore dell'enclave internazionale. Ambiente da pub occidentale, molti stranieri residenti.",
       "prezzo": "drink 50-90 RMB",
@@ -273,9 +452,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Magma", "nome_zh": "",
-      "tipo": "club", "zona": "shekou",
-      "coord": [22.49000, 113.91800], "precisione": "approssimativa",
+      "nome": "Magma",
+      "nome_zh": "",
+      "tipo": "club",
+      "zona": "shekou",
+      "coord": [
+        22.49,
+        113.918
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "南山区蛇口 NH E-Cool工业三路2栋101 — NH E-Cool, Industrial 3rd Rd, Shekou",
       "vibe": "Club dentro un capannone industriale a Shekou, formato underground. Alternativa a OIL se sei già da questa parte della città.",
       "prezzo": "ingresso 60-120 RMB",
@@ -283,9 +468,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Barbershop", "nome_zh": "",
-      "tipo": "pub", "zona": null,
-      "coord": [22.53842, 114.09106], "precisione": "strada",
+      "nome": "Barbershop",
+      "nome_zh": "",
+      "tipo": "pub",
+      "zona": null,
+      "coord": [
+        22.53842,
+        114.09106
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区上步南路1035号 — Shangbu South Rd 1035",
       "vibe": "Su Shangbu South Rd ci sono tre locali ai civici 1013, 1031 e 1035: un micro-cluster a sé, a 4 km dal CBD verso Huaqiangbei. Vale un taxi solo se ti trovi già da quelle parti.",
       "prezzo": "drink 50-90 RMB",
@@ -293,9 +484,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "Grookit Public", "nome_zh": "",
-      "tipo": "pub", "zona": null,
-      "coord": [22.53820, 114.09130], "precisione": "strada",
+      "nome": "Grookit Public",
+      "nome_zh": "",
+      "tipo": "pub",
+      "zona": null,
+      "coord": [
+        22.5382,
+        114.0913
+      ],
+      "precisione": "strada",
       "indirizzo": "福田区上步南路1031号 — Shangbu South Rd 1031",
       "vibe": "Porta accanto a Barbershop, stesso isolato di Public bistro. I tre insieme fanno una serata, presi da soli no.",
       "prezzo": "drink 50-90 RMB",
@@ -303,9 +500,15 @@
       "stato": "attivo su Resident Advisor"
     },
     {
-      "nome": "True Color Club", "nome_zh": "真彩",
-      "tipo": "club", "zona": null,
-      "coord": [22.53880, 114.09080], "precisione": "approssimativa",
+      "nome": "True Color Club",
+      "nome_zh": "真彩",
+      "tipo": "club",
+      "zona": null,
+      "coord": [
+        22.5388,
+        114.0908
+      ],
+      "precisione": "approssimativa",
       "indirizzo": "福田区上步南路 国旗大厦A座25楼 — Guo Qi Bldg, Block A 25F, Shangbu South Rd",
       "vibe": "Club al 25esimo piano, vista sulla città. Stessa strada dei tre pub sopra.",
       "prezzo": "ingresso 80-150 RMB",
@@ -314,16 +517,77 @@
     }
   ],
   "metro": [
-    {"nome": "Shopping Park 购物公园", "linee": "L1/L9", "coord": [22.53846, 114.04869]},
-    {"nome": "Convention Center 会展中心", "linee": "L1/L4", "coord": [22.53745, 114.05594]},
-    {"nome": "Gangxia 岗厦", "linee": "L2/L3", "coord": [22.53759, 114.06295]},
-    {"nome": "Chegongmiao 车公庙", "linee": "L1/L7/L9/L11", "coord": [22.53884, 114.02266]},
-    {"nome": "Sea World 海上世界", "linee": "L2", "coord": [22.48813, 113.91016]},
-    {"nome": "Futian Checkpoint 福田口岸", "linee": "L4/L10 — valico per Hong Kong", "coord": [22.51794, 114.06273]},
-    {"nome": "Shenzhen North 深圳北站", "linee": "L4/L5/L6 — treni alta velocità", "coord": [22.61204, 114.02395]}
+    {
+      "nome": "Shopping Park 购物公园",
+      "linee": "L1/L9",
+      "coord": [
+        22.53846,
+        114.04869
+      ]
+    },
+    {
+      "nome": "Convention Center 会展中心",
+      "linee": "L1/L4",
+      "coord": [
+        22.53745,
+        114.05594
+      ]
+    },
+    {
+      "nome": "Gangxia 岗厦",
+      "linee": "L2/L3",
+      "coord": [
+        22.53759,
+        114.06295
+      ]
+    },
+    {
+      "nome": "Chegongmiao 车公庙",
+      "linee": "L1/L7/L9/L11",
+      "coord": [
+        22.53884,
+        114.02266
+      ]
+    },
+    {
+      "nome": "Sea World 海上世界",
+      "linee": "L2",
+      "coord": [
+        22.48813,
+        113.91016
+      ]
+    },
+    {
+      "nome": "Futian Checkpoint 福田口岸",
+      "linee": "L4/L10 — valico per Hong Kong",
+      "coord": [
+        22.51794,
+        114.06273
+      ]
+    },
+    {
+      "nome": "Shenzhen North 深圳北站",
+      "linee": "L4/L5/L6 — treni alta velocità",
+      "coord": [
+        22.61204,
+        114.02395
+      ]
+    }
   ],
   "landmarks": [
-    {"nome": "OCT-LOFT 华侨城创意文化园", "coord": [22.54122, 113.98862]},
-    {"nome": "Shekou 蛇口", "coord": [22.49101, 113.92248]}
+    {
+      "nome": "OCT-LOFT 华侨城创意文化园",
+      "coord": [
+        22.54122,
+        113.98862
+      ]
+    },
+    {
+      "nome": "Shekou 蛇口",
+      "coord": [
+        22.49101,
+        113.92248
+      ]
+    }
   ]
 }

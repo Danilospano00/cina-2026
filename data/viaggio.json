@@ -17,8 +17,6 @@
       "id": "shenzhen",
       "nome": "Shenzhen",
       "nome_zh": "深圳",
-      "date": "6-9 novembre",
-      "notti": 4,
       "checkin": "2026-11-06",
       "checkout": "2026-11-10",
       "arrivo": "Atterri a Hong Kong venerdì alle 12:00. Immigrazione e bagagli: conta 45-60 min. Col trolley in stiva il modo pratico è il pullman transfrontaliero diretto dall'aeroporto verso Futian Port o Shenzhen Bay Port, ~1h-1h30. In alternativa Airport Express fino a Kowloon, poi HK West Kowloon e treno G per Shenzhen North: lì c'è la co-location, sbrighi l'immigrazione cinese sul lato di Hong Kong. Qui parte il conteggio dei 30 giorni di esenzione visto.",
@@ -51,8 +49,6 @@
       "id": "guangzhou",
       "nome": "Canton / Guangzhou",
       "nome_zh": "广州",
-      "date": "10-12 novembre",
-      "notti": 3,
       "checkin": "2026-11-10",
       "checkout": "2026-11-13",
       "arrivo": "Treno veloce, circa 40 min. Martedì.",
@@ -84,8 +80,6 @@
       "id": "yangshuo",
       "nome": "Yangshuo / Guilin",
       "nome_zh": "阳朔",
-      "date": "13-15 novembre",
-      "notti": 3,
       "checkin": "2026-11-13",
       "checkout": "2026-11-16",
       "arrivo": "Treno veloce, circa 3h. Venerdì: il weekend 14-15 resta intero, nessuna giornata persa in treno. La stazione 阳朔站 è a ~25 km dal paese, metti in conto 30-40 min di bus o taxi.",
@@ -109,7 +103,7 @@
       "hotel": {
         "cerca": "Yangshuo",
         "zona": "West Street o lungofiume Binjiang",
-        "note": "Cerca «Yangshuo», non «Guilin». WiFi: qui è la variabile più debole delle nove tappe, controlla le recensioni",
+        "note": "Cerca «Yangshuo», non «Guilin». WiFi: qui è la variabile più debole delle sette tappe, controlla le recensioni",
         "stato": "da cercare"
       }
     },
@@ -117,8 +111,6 @@
       "id": "guiyang",
       "nome": "Guiyang",
       "nome_zh": "贵阳",
-      "date": "16-17 novembre",
-      "notti": 2,
       "checkin": "2026-11-16",
       "checkout": "2026-11-18",
       "arrivo": "Treno veloce diretto da Yangshuo, 2h20-2h50. Lunedì.",
@@ -130,10 +122,10 @@
       "weekend": false,
       "mappa": "guiyang",
       "cosa_vedere": [
-        "Sabato 14: street food a Qingyun Road",
-        "Domenica 15: Jiaxiu Tower sul fiume Nanming e centro",
-        "Lunedì 16 mattina: treno per Chengdu. La notte tagliata è finita su Chengdu, per Leshan",
-        "Il villaggio Miao non ci sta più: serviva il terzo giorno"
+        "Lunedì 16: arrivo a metà giornata, poi street food a Qingyun Road",
+        "Martedì 17, unica giornata piena: Jiaxiu Tower sul fiume Nanming e centro",
+        "Mercoledì 18 mattina: treno per Chengdu",
+        "Il villaggio Miao non ci sta: servirebbe un terzo giorno, ed è finito su Chengdu per Leshan"
       ],
       "cibo": [
         "Zuppa acida di pesce",
@@ -151,8 +143,6 @@
       "id": "chengdu",
       "nome": "Chengdu",
       "nome_zh": "成都",
-      "date": "18-21 novembre",
-      "notti": 4,
       "checkin": "2026-11-18",
       "checkout": "2026-11-22",
       "arrivo": "Treno veloce, circa 3h. Mercoledì, arrivo a metà giornata. Quattro notti e tre giornate piene, due delle quali feriali: è la tappa che più ne beneficia, tra le code alla Scala dei Nove Tornanti di Leshan e la base dei panda all'alba.",
@@ -164,10 +154,10 @@
       "weekend": true,
       "mappa": "chengdu",
       "cosa_vedere": [
-        "16 pomeriggio: città, arrivo morbido",
-        "17: Leshan, il Grande Buddha — giornata piena, vedi sotto",
-        "18: base dei panda all'alba, dopo le 10 dormono. Pomeriggio Kuanzhai e case da tè",
-        "19: città e sera libera, oppure riserva se il 17 piove"
+        "Mercoledì 18 pomeriggio: città, arrivo morbido",
+        "Giovedì 19 o venerdì 20 (feriale): Leshan, il Grande Buddha — giornata piena, vedi sotto",
+        "L'altro feriale: base dei panda all'alba, dopo le 10 dormono. Pomeriggio Kuanzhai e case da tè",
+        "Sabato 21: città e sera libera, oppure riserva se nel giorno di Leshan piove"
       ],
       "cibo": [
         "Mapo tofu",
@@ -177,7 +167,7 @@
       "escursione": {
         "nome": "Leshan, il Grande Buddha",
         "nome_zh": "乐山大佛",
-        "quando": "martedì 17 novembre",
+        "quando": "giovedì 19 o venerdì 20 novembre — comunque un feriale",
         "treno": "Chengdu East → Leshan, 41 min, ~72 treni al giorno. A/R ~120 CNY / 15€",
         "clima": {
           "max": 16,
@@ -197,7 +187,7 @@
       "hotel": {
         "cerca": "Chengdu",
         "zona": "Yulin + Kehua North Road, Wuhou",
-        "note": "Metro L1 collega i due poli serali e porta in centro in 10 min. Ora 4 notti: è la base per Leshan, unica tappa sopra le 3 notti",
+        "note": "Metro L1 collega i due poli serali e porta in centro in 10 min. Quattro notti: con Shenzhen è una delle due tappe sopra le 3, qui perché fa da base per Leshan",
         "stato": "da cercare"
       }
     },
@@ -205,8 +195,6 @@
       "id": "chongqing",
       "nome": "Chongqing",
       "nome_zh": "重庆",
-      "date": "22-24 novembre",
-      "notti": 3,
       "checkin": "2026-11-22",
       "checkout": "2026-11-25",
       "arrivo": "Treno veloce diretto da Chengdu East, 1h10-1h30. Domenica. Arriva a Chongqing WEST, non Chongqing North: è la stazione da cui riparte il G905. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
@@ -239,8 +227,6 @@
       "id": "hongkong",
       "nome": "Hong Kong",
       "nome_zh": "香港",
-      "date": "25-26 novembre",
-      "notti": 2,
       "checkin": "2026-11-25",
       "checkout": "2026-11-27",
       "arrivo": "G905 da Chongqing West, 08:44 → HK West Kowloon 15:57. Il 26 è l'ultima giornata piena del viaggio: il 27 il volo parte alle 08:10, non è una giornata ma solo il trasferimento in aeroporto.",

@@ -198,14 +198,14 @@
       {
         "partenza": "lun 9 nov",
         "rientro": "mar 1 dic",
-        "giorni": 22,
+        "giorni": 23,
         "esito": "caro",
         "nota": "Il rientro sconfina a dicembre"
       },
       {
         "partenza": "gio 12 nov",
         "rientro": "gio 3 dic",
-        "giorni": 21,
+        "giorni": 22,
         "esito": "evita",
         "nota": "Rientro a dicembre, prezzo doppio"
       }

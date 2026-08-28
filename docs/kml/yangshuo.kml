@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"><Document>
 <name>Yangshuo — nightlife e zone dove dormire</name>
-<description>9-11 novembre 2026 (3 notti). Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
+<description>13 nov → 16 nov (3 notti) — con il weekend 14-15 pieno. Coordinate WGS-84. Importa in Organic Maps o Maps.me: funziona offline, senza VPN.</description>
 <Style id="t_club"><IconStyle><color>ff0c59e8</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff0c59e8</color><width>3</width></LineStyle><PolyStyle><color>260c59e8</color></PolyStyle></Style>
 <Style id="t_pub"><IconStyle><color>ff449e2f</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ff449e2f</color><width>3</width></LineStyle><PolyStyle><color>26449e2f</color></PolyStyle></Style>
 <Style id="t_live"><IconStyle><color>ffb5369c</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle><LineStyle><color>ffb5369c</color><width>3</width></LineStyle><PolyStyle><color>26b5369c</color></PolyStyle></Style>
@@ -25,7 +25,7 @@ CONTRO
 · Turistica al 100% e lo sa: karaoke a volume alto, insegne al neon, PR che ti fermano
 · Rumore fino alle 2 sotto le finestre. Se lavori la sera, prendi camera su una traversa o sul lungofiume
 · La stazione AV 阳朔站 è a ~25 km dal paese, verso Xingping: metti in conto 30-40 min di bus o taxi all&#x27;arrivo e alla partenza
-· Il WiFi degli hotel piccoli qui è la variabile più debole delle nove tappe: verifica le recensioni prima di prenotare
+· Il WiFi degli hotel piccoli qui è la variabile più debole delle sette tappe: verifica le recensioni prima di prenotare
 
 Metro: Nessuna metro — Yangshuo si gira a piedi</description><styleUrl>#z_west-street</styleUrl><MultiGeometry><LineString><tessellate>1</tessellate><coordinates>110.488,24.781,0 110.4935,24.781,0 110.4935,24.7755,0 110.488,24.7755,0 110.488,24.781,0</coordinates></LineString><Polygon><outerBoundaryIs><LinearRing><coordinates>110.488,24.781,0 110.4935,24.781,0 110.4935,24.7755,0 110.488,24.7755,0 110.488,24.781,0</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry></Placemark>
 <Placemark><name>★ Cerca hotel qui — West Street</name><description>Centro consigliato per la ricerca hotel. Raggio utile ~350 m a piedi.</description><styleUrl>#z_west-street</styleUrl><Point><coordinates>110.4906,24.7782,0</coordinates></Point></Placemark>

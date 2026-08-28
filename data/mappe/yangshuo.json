@@ -2,10 +2,13 @@
   "city": "Yangshuo",
   "city_zh": "阳朔",
   "slug": "yangshuo",
-  "tappa": "9-11 novembre 2026 (3 notti)",
-  "checkin": "2026-11-09",
-  "checkout": "2026-11-12",
-  "center": [24.7800, 110.4920],
+  "tappa": "13 nov → 16 nov (3 notti) — con il weekend 14-15 pieno",
+  "checkin": "2026-11-13",
+  "checkout": "2026-11-16",
+  "center": [
+    24.78,
+    110.492
+  ],
   "zoom": 15,
   "note": "Coordinate WGS-84 (Nominatim/OSM). NON sono GCJ-02: se le incolli in Amap/Baidu risultano spostate di ~300-600 m.",
   "zones": [
@@ -27,13 +30,33 @@
         "Turistica al 100% e lo sa: karaoke a volume alto, insegne al neon, PR che ti fermano",
         "Rumore fino alle 2 sotto le finestre. Se lavori la sera, prendi camera su una traversa o sul lungofiume",
         "La stazione AV 阳朔站 è a ~25 km dal paese, verso Xingping: metti in conto 30-40 min di bus o taxi all'arrivo e alla partenza",
-        "Il WiFi degli hotel piccoli qui è la variabile più debole delle nove tappe: verifica le recensioni prima di prenotare"
+        "Il WiFi degli hotel piccoli qui è la variabile più debole delle sette tappe: verifica le recensioni prima di prenotare"
       ],
-      "dormi_qui": [24.7782, 110.4906],
+      "dormi_qui": [
+        24.7782,
+        110.4906
+      ],
       "raggio_m": 350,
-      "metro": ["Nessuna metro — Yangshuo si gira a piedi"],
+      "metro": [
+        "Nessuna metro — Yangshuo si gira a piedi"
+      ],
       "poly": [
-        [24.7810, 110.4880], [24.7810, 110.4935], [24.7755, 110.4935], [24.7755, 110.4880]
+        [
+          24.781,
+          110.488
+        ],
+        [
+          24.781,
+          110.4935
+        ],
+        [
+          24.7755,
+          110.4935
+        ],
+        [
+          24.7755,
+          110.488
+        ]
       ]
     },
     {
@@ -54,11 +77,31 @@
         "Sul lungofiume di locali ce ne sono pochi: si beve a West Street",
         "Alcune strutture sono a un livello sotto la strada, con scale scomode"
       ],
-      "dormi_qui": [24.7825, 110.4935],
+      "dormi_qui": [
+        24.7825,
+        110.4935
+      ],
       "raggio_m": 400,
-      "metro": ["Nessuna metro"],
+      "metro": [
+        "Nessuna metro"
+      ],
       "poly": [
-        [24.7855, 110.4900], [24.7855, 110.4948], [24.7790, 110.4948], [24.7790, 110.4900]
+        [
+          24.7855,
+          110.49
+        ],
+        [
+          24.7855,
+          110.4948
+        ],
+        [
+          24.779,
+          110.4948
+        ],
+        [
+          24.779,
+          110.49
+        ]
       ]
     },
     {
@@ -81,17 +124,40 @@
       ],
       "dormi_qui": null,
       "raggio_m": 0,
-      "metro": ["Nessuna"],
+      "metro": [
+        "Nessuna"
+      ],
       "poly": [
-        [24.7600, 110.4600], [24.7600, 110.4820], [24.7300, 110.4820], [24.7300, 110.4600]
+        [
+          24.76,
+          110.46
+        ],
+        [
+          24.76,
+          110.482
+        ],
+        [
+          24.73,
+          110.482
+        ],
+        [
+          24.73,
+          110.46
+        ]
       ]
     }
   ],
   "venues": [
     {
-      "nome": "Xiaoma's Sky Bar", "nome_zh": "小马的天台",
-      "tipo": "pub", "zona": "west-street",
-      "coord": [24.77850, 110.49080], "precisione": "non verificata",
+      "nome": "Xiaoma's Sky Bar",
+      "nome_zh": "小马的天台",
+      "tipo": "pub",
+      "zona": "west-street",
+      "coord": [
+        24.7785,
+        110.4908
+      ],
+      "precisione": "non verificata",
       "indirizzo": "西街 — West Street, terrazza sul tetto",
       "vibe": "Bar sul tetto, il motivo per cui ci sali è la vista sui carsi al tramonto e non la carta dei drink. Ambiente misto stranieri e cinesi. Posizione indicativa: West Street è lunga 500 m, lo trovi camminando.",
       "prezzo": "35-60 RMB a drink",
@@ -99,9 +165,15 @@
       "stato": "aperto — posizione da confermare in loco"
     },
     {
-      "nome": "Golden Fish Sky Bar", "nome_zh": "",
-      "tipo": "pub", "zona": "west-street",
-      "coord": [24.77800, 110.49120], "precisione": "non verificata",
+      "nome": "Golden Fish Sky Bar",
+      "nome_zh": "",
+      "tipo": "pub",
+      "zona": "west-street",
+      "coord": [
+        24.778,
+        110.4912
+      ],
+      "precisione": "non verificata",
       "indirizzo": "西街 — West Street, terrazza sul tetto",
       "vibe": "L'altra terrazza di riferimento. Stessa logica: si va per la vista e per il tramonto, si resta perché non c'è fretta. Posizione indicativa sulla via.",
       "prezzo": "35-60 RMB a drink",
@@ -109,9 +181,15 @@
       "stato": "aperto — posizione da confermare in loco"
     },
     {
-      "nome": "WHISKY Magpie", "nome_zh": "",
-      "tipo": "expat", "zona": "west-street",
-      "coord": [24.77790, 110.49010], "precisione": "non verificata",
+      "nome": "WHISKY Magpie",
+      "nome_zh": "",
+      "tipo": "expat",
+      "zona": "west-street",
+      "coord": [
+        24.7779,
+        110.4901
+      ],
+      "precisione": "non verificata",
       "indirizzo": "西街, zona ovest — West Street",
       "vibe": "Whisky bar piccolo, gestione che parla inglese, pubblico di stranieri residenti e arrampicatori. Il posto dove chiedere consigli sulle vie di arrampicata e sui sentieri. Posizione indicativa sulla via.",
       "prezzo": "50-90 RMB a drink",
@@ -119,9 +197,15 @@
       "stato": "aperto — posizione da confermare in loco"
     },
     {
-      "nome": "Tianya Bar", "nome_zh": "天涯",
-      "tipo": "live", "zona": "west-street",
-      "coord": [24.77830, 110.48990], "precisione": "non verificata",
+      "nome": "Tianya Bar",
+      "nome_zh": "天涯",
+      "tipo": "live",
+      "zona": "west-street",
+      "coord": [
+        24.7783,
+        110.4899
+      ],
+      "precisione": "non verificata",
       "indirizzo": "西街 — West Street",
       "vibe": "Musica dal vivo tutte le sere, cover e folk cinese. È il formato standard dei bar di West Street: band, birra, tavoli fuori. Posizione indicativa sulla via.",
       "prezzo": "40-70 RMB a drink, niente ingresso",
@@ -131,8 +215,26 @@
   ],
   "metro": [],
   "landmarks": [
-    {"nome": "West Street 西街", "coord": [24.77820, 110.49056]},
-    {"nome": "Centro di Yangshuo 阳朔县", "coord": [24.78151, 110.49201]},
-    {"nome": "Lungofiume Li 滨江路", "coord": [24.78299, 110.49338]}
+    {
+      "nome": "West Street 西街",
+      "coord": [
+        24.7782,
+        110.49056
+      ]
+    },
+    {
+      "nome": "Centro di Yangshuo 阳朔县",
+      "coord": [
+        24.78151,
+        110.49201
+      ]
+    },
+    {
+      "nome": "Lungofiume Li 滨江路",
+      "coord": [
+        24.78299,
+        110.49338
+      ]
+    }
   ]
 }
