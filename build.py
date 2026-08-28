@@ -741,31 +741,54 @@ def build_hotel(viaggio):
             hid = t["id"] if len(voci) == 1 else f'{t["id"]}-{i + 1}'
             quando = etichetta(ci, co)
             titolo = e(t["nome"]) if len(voci) == 1 else f'{e(t["nome"])} · {e(h["zona"].split(",")[0])}'
+            # Struttura scelta: nome, tariffa e prezzo compaiono solo quando ci sono.
+            # Il repo è pubblico, quindi qui non entra nulla oltre a questo.
+            riga = ""
+            if h.get("nome"):
+                dettagli = " · ".join(x for x in (h.get("tariffa"), h.get("prezzo")) if x)
+                riga = (
+                    f'<p class="arrivo"><b>Struttura:</b> {e(h["nome"])}'
+                    + (f'<br><span class="muted">{e(dettagli)}</span>' if dettagli else "")
+                    + "</p>"
+                )
+            # Una volta prenotato, i link di ricerca non servono più: al loro posto
+            # la scheda della struttura.
+            if h.get("url"):
+                links = (
+                    f'<a class="btn primary" href="{e(h["url"])}" '
+                    f'target="_blank" rel="noopener">Scheda struttura</a>'
+                )
+            else:
+                links = (
+                    f'<a class="btn primary" href="{e(trip_url(h["cerca"], ci, co))}" '
+                    f'target="_blank" rel="noopener">Trip.com</a>'
+                    f'<a class="btn" href="{e(booking_url(h["cerca"], ci, co))}" '
+                    f'target="_blank" rel="noopener">Booking</a>'
+                    f'<a class="btn" href="{e(hostelworld_url(h["cerca"], ci, co))}" '
+                    f'target="_blank" rel="noopener">Hostelworld</a>'
+                )
             schede.append(
                 f'<div class="card" id="{e(hid)}"><div class="stop-head">'
                 f'<h3>{titolo}</h3><span class="zh">{e(t["nome_zh"])}</span>'
                 f'<span class="tag {st}">{e(h["stato"])}</span>'
                 f'<span class="when">{e(quando)}</span></div>'
+                f'{riga}'
                 f'<p class="arrivo"><b>Zona:</b> {e(h["zona"])}<br>'
                 f'<span class="muted">{e(h["note"])}</span></p>'
-                f'<div class="links">'
-                f'<a class="btn primary" href="{e(trip_url(h["cerca"], ci, co))}" '
-                f'target="_blank" rel="noopener">Trip.com</a>'
-                f'<a class="btn" href="{e(booking_url(h["cerca"], ci, co))}" '
-                f'target="_blank" rel="noopener">Booking</a>'
-                f'<a class="btn" href="{e(hostelworld_url(h["cerca"], ci, co))}" '
-                f'target="_blank" rel="noopener">Hostelworld</a>'
-                f"{mappa_link}</div></div>"
+                f'<div class="links">{links}{mappa_link}</div></div>'
             )
 
     corpo = f"""<div class="page narrow">
 <h1>Hotel</h1>
 <p class="lede">Otto strutture per sette tappe: a Hong Kong il 25 si dorme in centro e il 26 a
-Tung Chung, perché il volo del 27 parte alle 08:10. Camera privata sempre, mai dormitorio. I link
-portano alla ricerca con le date già impostate per 1 adulto.</p>
+Tung Chung, perché il volo del 27 parte alle 08:10. Camera privata sempre, mai dormitorio.
+Criteri, in ordine: prezzo, pulizia, posizione. I link portano alla ricerca con le date già
+impostate per 1 adulto.</p>
 
-<div class="warn"><b>WiFi:</b> è il vincolo vero, non il prezzo. Le sere sono di lavoro: prima di
-prenotare leggi le recensioni che parlano di connessione, soprattutto a Yangshuo.</div>
+<div class="warn"><b>I voti Trip.com per la Cina sono voti domestici cinesi:</b> stesso pool di
+recensioni di Ctrip, verificato struttura per struttura. Sulla stessa struttura Trip.com può dare
+8,7 di pulizia dove Hostelworld dà 5,3. Quando una struttura c'è anche su Hostelworld o Booking,
+incrocia — e in caso di divergenza vale il voto più basso.</div>
 
 {"".join(schede)}
 
