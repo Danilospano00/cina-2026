@@ -1,0 +1,319 @@
+{
+  "titolo": "Serate — eventi ricorrenti e community",
+  "lede": "Non i locali (quelli stanno nelle mappe): gli appuntamenti fissi dove si incontra gente. English corner pubblici, social a pagamento, hostel bar. Il giorno della settimana è incrociato con le date del viaggio: quello che non cade nei tuoi giorni resta scritto, marcato.",
+  "aggiornato": "2026-08-30",
+  "avvertenza": "Erasmus ed ESN non esistono in Cina: sono programmi UE. L'equivalente sono gli 英语角 (english corner) pubblici e gratuiti, gli operatori a pagamento su Eventbrite e i bar degli ostelli. Meetup in Cina continentale è morto dopo il Covid — quasi tutti i gruppi hanno l'ultimo evento tra il 2015 e il 2021. A Hong Kong Meetup funziona ancora.",
+  "prossimo_passo": "Questo è un primo scan. Gli eventi datati di novembre 2026 non esistono ancora: english corner e serate si annunciano con 3-7 giorni di anticipo. Scan completo da rifare a ottobre, poi una verifica per tappa la settimana prima di arrivarci.",
+  "tappe": [
+    {
+      "id": "shenzhen",
+      "esito": "ok",
+      "verdetto": "Due colpi buoni: venerdì di arrivo e sabato. Domenica e lunedì niente di ricorrente confermato.",
+      "eventi": [
+        {
+          "nome": "Meet People Social — Shenzhen",
+          "tipo": "social",
+          "giorno": ["ven"],
+          "orario": "19:00",
+          "locale": "Long Bar, Raffles Shenzhen",
+          "zona": "Futian",
+          "prezzo": "¥25",
+          "come": "Biglietto online sul sito, niente vendita alla porta",
+          "url": "https://meetpeoplesocial.com/events/social-events-in-shenzhen",
+          "conferma": "confermato",
+          "nota": "Expat, studenti internazionali, viaggiatori e remote worker. Atterri alle 12:00: ci arrivi larghissimo."
+        },
+        {
+          "nome": "IVY 英语角",
+          "tipo": "corner",
+          "giorno": ["sab"],
+          "orario": "17:00-19:00",
+          "locale": "Parco Litchi 荔枝公园, piazzetta davanti al prato, ingresso nord su Hongli Rd",
+          "zona": "Futian",
+          "prezzo": "gratis",
+          "come": "Iscrizione su WeChat prima di presentarsi",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Metro Hongling, linee 3 e 9, uscita A. Circa 1,5 km dall'hotel di Huaqiangbei: ci vai a piedi. Fonte: bacheche cinesi, non un calendario ufficiale."
+        }
+      ],
+      "ganci": [
+        "Shekou MSCE e Nanshan International Cultural Exchange Center pubblicano eventi expat: sono la via per i gruppi WeChat di zona.",
+        "Now Shenzhen tiene un calendario eventi in inglese (nowshenzhen.com): blocca il fetch automatico, va aperto a mano."
+      ]
+    },
+    {
+      "id": "guangzhou",
+      "esito": "buco",
+      "verdetto": "Le due cose forti sono entrambe fuori dai tuoi giorni: arrivi martedì e riparti giovedì mattina, loro girano sabato e venerdì.",
+      "eventi": [
+        {
+          "nome": "GEC 外语社团 — english corner Yuexiu",
+          "tipo": "corner",
+          "giorno": ["sab"],
+          "orario": "20:00-22:00",
+          "locale": "地王广场 Diwang Plaza, piano -2, atrio, tavolo A93",
+          "zona": "Yuexiu",
+          "prezzo": "gratis",
+          "come": "WeChat supermolly123, oppure gruppo QQ 293038575",
+          "url": "http://www.gec-online.org/",
+          "conferma": "confermato",
+          "nota": "Attivo dal 2012, il più grande della città. Metro linea 1, Martyrs' Park uscita A. In parallelo girano anche corner di francese, giapponese, spagnolo, tedesco e italiano."
+        },
+        {
+          "nome": "Guangzhou Social and Language Exchange",
+          "tipo": "social",
+          "giorno": ["ven"],
+          "orario": "19:00",
+          "locale": "Hill Bar, 367 Huanshi E Rd",
+          "zona": "Yuexiu",
+          "prezzo": "¥25",
+          "come": "Solo Eventbrite, niente biglietti alla porta",
+          "url": "https://www.eventbrite.com/e/guangzhou-social-and-language-exchange-make-new-friends-tickets-1992611175666",
+          "conferma": "confermato",
+          "nota": "Stesso formato del social di Shenzhen, altro organizzatore."
+        }
+      ],
+      "ganci": [
+        "GEC gira corner anche a Panyu e Haizhu in giorni infrasettimanali, ma il calendario vive solo su WeChat: scrivi a supermolly123 e chiedi se c'è qualcosa fra il 10 e il 12 novembre.",
+        "Meetup qui è morto: Language Mix Guangzhou fermo ad aprile 2021, Guangzhou Language Exchange cancellato. Non perderci tempo."
+      ]
+    },
+    {
+      "id": "yangshuo",
+      "esito": "informale",
+      "verdetto": "Nessun gruppo organizzato e non serve: qui la socialità è la strada. West Street è storicamente la Mecca dei backpacker, pubblico misto stranieri e cinesi.",
+      "eventi": [
+        {
+          "nome": "Yangshuo Backpacker Hostel — West Street branch",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "bar aperto 24h",
+          "locale": "West Street",
+          "zona": "Yangshuo centro",
+          "prezzo": "consumazione",
+          "come": "Si entra anche non dormendoci",
+          "url": null,
+          "conferma": "confermato",
+          "nota": "Giro di viaggiatori, organizza hike e uscite in bici."
+        },
+        {
+          "nome": "Mojo",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "6º piano dell'Alshan Hotel",
+          "zona": "West Street",
+          "prezzo": "cocktail economici",
+          "come": "Si sale e basta",
+          "url": null,
+          "conferma": "confermato",
+          "nota": "Rooftop, biliardo, la vista migliore della via."
+        },
+        {
+          "nome": "Café del Moon",
+          "tipo": "live",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "West Street",
+          "zona": "Yangshuo centro",
+          "prezzo": "consumazione",
+          "come": "Si entra e basta",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Musica dal vivo, superstite del giro backpacker anni '90."
+        }
+      ],
+      "ganci": [
+        "L'hotel prenotato (Guitu Youyou) sta a 640 m da West Street: tutto a piedi, nessun mezzo la sera."
+      ]
+    },
+    {
+      "id": "guiyang",
+      "esito": "vuoto",
+      "verdetto": "Detto netto: Guiyang non ha comunità internazionale. Nessun expat bar, nessun corner cittadino trovato.",
+      "eventi": [],
+      "ganci": [
+        "Guizhou University ha circa 200 stranieri in tutto e il campus è a Huaxi, ~20 km fuori: l'english corner della facoltà di lingue è roba interna d'ateneo, non ci vai da turista per una sera.",
+        "Ripiego coerente con la scelta dell'hotel: i bar di Taiping Road 太平路, la 网红街 sotto l'albergo. Giro di giovani locali, non internazionale."
+      ]
+    },
+    {
+      "id": "chengdu",
+      "esito": "ok",
+      "verdetto": "La tappa migliore del viaggio: giovedì e venerdì pieni, e l'ostello ha già il suo bar.",
+      "eventi": [
+        {
+          "nome": "说会英语 — English Corner",
+          "tipo": "corner",
+          "giorno": ["ven"],
+          "orario": "19:00-21:30",
+          "locale": "Home Inn 如家商旅酒店, 少城路 9",
+          "zona": "Qingyang, lato Parco del Popolo",
+          "prezzo": "non dichiarato — chiedilo in chat",
+          "come": "WeChat 17317121983 (anche WhatsApp +8617317121983), account 说会英语 su 公众号 e 小红书",
+          "url": "https://cd.huodongxing.com/event/9694617062600",
+          "conferma": "confermato",
+          "nota": "Madrelingua da USA, UK, Canada e Australia, tema diverso ogni settimana. Circa 2 km dall'ostello. Esiste anche una versione la domenica pomeriggio al Parco del Popolo."
+        },
+        {
+          "nome": "Jah Bar — open mic",
+          "tipo": "live",
+          "giorno": ["gio"],
+          "orario": "21:00",
+          "locale": "Linjiang Lu 临江路, vicino al ponte Lao Nan Men",
+          "zona": "Wuhou",
+          "prezzo": "consumazione, birra economica",
+          "come": "Si entra e basta",
+          "url": "https://chengdu-expat.com/places/jah-bar/",
+          "conferma": "da verificare",
+          "nota": "Jam session e band nel weekend, pubblico misto locali, expat e viaggiatori. Le fonti sono del 2025: conferma su Dianping prima di attraversare la città."
+        },
+        {
+          "nome": "The Leg & Whistle",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "vicino agli altri bar della zona",
+          "zona": "Chengdu centro",
+          "prezzo": "consumazione",
+          "come": "Si entra e basta",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Pub tranquillo, biliardo, pubblico misto. È il ripiego per mercoledì 18."
+        }
+      ],
+      "ganci": [
+        "Il Mitang Youth Hostel prenotato ha bar, biblioteca e terrazza: è già il posto sociale che a Guiyang mancava, la sera non serve andare lontano.",
+        "Chengdu Buzz su Meetup è dormiente dal 2015: ignoralo. La vita sta su WeChat e su chengdu-expat.com."
+      ]
+    },
+    {
+      "id": "chongqing",
+      "esito": "debole",
+      "verdetto": "Due piste che cadono nei giorni giusti, ma nessuna è un calendario ufficiale. La scena notturna si è spostata da Jiefangbei (ormai zona turistica) a Jiujie e Guanyinqiao.",
+      "eventi": [
+        {
+          "nome": "English corner — Starbucks Wangfujing",
+          "tipo": "corner",
+          "giorno": ["lun"],
+          "orario": "19:00-21:00",
+          "locale": "Starbucks, 3º piano Wangfujing",
+          "zona": "Shapingba",
+          "prezzo": "gratis, si consuma",
+          "come": "Ci si presenta; conferma prima su Douban",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Condotto da un americano. Shapingba è a ~8 km da Jiefangbei, metro linea 1: verifica che esista ancora prima di attraversare la città."
+        },
+        {
+          "nome": "English corner — Ruijia Hotel",
+          "tipo": "corner",
+          "giorno": ["dom"],
+          "orario": "14:00-16:00",
+          "locale": "Ruijia Hotel, 小龙坎正街 366",
+          "zona": "Shapingba, vicino metro Shapingba",
+          "prezzo": "gratis",
+          "come": "Ci si presenta; conferma prima su Douban",
+          "url": "https://www.douban.com/note/867095807/",
+          "conferma": "da verificare",
+          "nota": "Pomeridiano: cade nel giorno di arrivo da Chengdu, il treno è di un'ora e mezza."
+        }
+      ],
+      "ganci": [
+        "Cotton Club, The Celtic Man e True Color sono i vecchi expat bar di Jiefangbei, ma li documentano solo articoli eChinacities di anni fa: nessuna conferma che siano aperti nel 2026. Controllali su Dianping prima di andarci.",
+        "L'english corner della Chongqing University è il giovedì: lo manchi, riparti martedì."
+      ]
+    },
+    {
+      "id": "hongkong",
+      "esito": "ok",
+      "verdetto": "Qui c'è tutto, ma i tuoi due giorni sono i peggiori: le tre cose grosse girano venerdì e domenica. Mercoledì 25 è l'unica sera vera — giovedì dormi a Tung Chung con sveglia alle 05:45.",
+      "eventi": [
+        {
+          "nome": "Pub quiz — The Aftermath",
+          "tipo": "social",
+          "giorno": ["mer"],
+          "orario": "20:00",
+          "locale": "Sunny Building, LG, 57-59 Wyndham St",
+          "zona": "Central",
+          "prezzo": "gratis",
+          "come": "Si entra, squadre da massimo 4",
+          "url": "https://thehkhub.com/pub-quiz-hong-kong/",
+          "conferma": "confermato",
+          "nota": "Pub irlandese, pubblico expat. Il G905 scarica a West Kowloon alle 15:57: Central è a 15-20 min di MTR."
+        },
+        {
+          "nome": "Pub quiz — Lockhart Road",
+          "tipo": "social",
+          "giorno": ["mer"],
+          "orario": "19:30",
+          "locale": "68-70 Lockhart Rd",
+          "zona": "Wan Chai",
+          "prezzo": "gratis",
+          "come": "Si entra",
+          "url": "https://thehkhub.com/pub-quiz-hong-kong/",
+          "conferma": "confermato",
+          "nota": "Alternativa al quiz di Central, stessa sera."
+        },
+        {
+          "nome": "Pub quiz — Churchill's e 108 Lockhart",
+          "tipo": "social",
+          "giorno": ["gio"],
+          "orario": "20:30",
+          "locale": "108 Lockhart Rd e Churchill's",
+          "zona": "Wan Chai",
+          "prezzo": "gratis",
+          "come": "Si entra",
+          "url": "https://thehkhub.com/pub-quiz-hong-kong/",
+          "conferma": "confermato",
+          "nota": "Cade il 26, ma quella sera dormi a Tung Chung e il volo è alle 08:10: serata zero, non contarci."
+        },
+        {
+          "nome": "Meet People Social — Hong Kong",
+          "tipo": "social",
+          "giorno": ["ven"],
+          "orario": "19:00",
+          "locale": "Bar 109",
+          "zona": "Hong Kong",
+          "prezzo": "HK$25",
+          "come": "Biglietto online",
+          "url": "https://meetpeoplesocial.com/events/social-events-in-hong-kong",
+          "conferma": "confermato",
+          "nota": "Il venerdì il 27 sei già in volo."
+        },
+        {
+          "nome": "Language Exchange — Hong Kong",
+          "tipo": "corner",
+          "giorno": ["dom"],
+          "orario": "10:30",
+          "locale": "sede comunicata ai soli iscritti",
+          "zona": "Hong Kong",
+          "prezzo": "gratis",
+          "come": "Iscrizione su Meetup",
+          "url": "https://www.meetup.com/lexhongkong/",
+          "conferma": "confermato",
+          "nota": "21.000 membri, il più grande della città. Nessuna sessione infrasettimanale."
+        }
+      ],
+      "ganci": [
+        "Language Mix Hong Kong ha l'ultimo evento pubblico a novembre 2024: probabilmente dormiente, non farci conto.",
+        "Giovedì 26 la sera si chiude presto: check-out dal centro, bagagli, Tung Chung. Tutta la socialità di Hong Kong sta su mercoledì 25."
+      ]
+    }
+  ],
+  "fonti": [
+    {"nome": "Meet People Social — Shenzhen", "url": "https://meetpeoplesocial.com/events/social-events-in-shenzhen"},
+    {"nome": "Meet People Social — Hong Kong", "url": "https://meetpeoplesocial.com/events/social-events-in-hong-kong"},
+    {"nome": "Guangzhou Social — Eventbrite", "url": "https://www.eventbrite.com/e/guangzhou-social-and-language-exchange-make-new-friends-tickets-1992611175666"},
+    {"nome": "GEC 外语社团 — Douban", "url": "https://www.douban.com/event/37643750/"},
+    {"nome": "GEC — sito", "url": "http://www.gec-online.org/"},
+    {"nome": "说会英语 — 活动行", "url": "https://cd.huodongxing.com/event/9694617062600"},
+    {"nome": "Jah Bar — Chengdu Expat", "url": "https://chengdu-expat.com/places/jah-bar/"},
+    {"nome": "English corner Chongqing — Douban", "url": "https://www.douban.com/note/867095807/"},
+    {"nome": "Language Exchange HK — Meetup", "url": "https://www.meetup.com/lexhongkong/"},
+    {"nome": "Pub quiz Hong Kong — The HK HUB", "url": "https://thehkhub.com/pub-quiz-hong-kong/"},
+    {"nome": "Expat organizations — Now Shenzhen", "url": "https://nowshenzhen.com/expat-organizations/"},
+    {"nome": "Bar di Yangshuo — Mountain Retreat", "url": "https://www.yangshuomountainretreat.com/yangshuo-bars.html"}
+  ]
+}

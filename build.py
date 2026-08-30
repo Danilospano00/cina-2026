@@ -9,6 +9,7 @@ Sezioni:
   itinerario.html  tappa per tappa
   mappe.html       indice delle sette mappe nightlife
   mappe/<slug>.html + kml/<slug>.kml
+  serate.html     eventi ricorrenti e community, tappa per tappa
   voli.html        opzioni di volo internazionale
   treni.html       le sette tratte ferroviarie
   hotel.html       stato delle otto prenotazioni
@@ -36,6 +37,7 @@ SEZIONI = [
     ("index.html", "Riepilogo"),
     ("itinerario.html", "Itinerario"),
     ("mappe.html", "Mappe"),
+    ("serate.html", "Serate"),
     ("voli.html", "Voli"),
     ("treni.html", "Treni"),
     ("hotel.html", "Hotel"),
@@ -530,6 +532,140 @@ def build_mappa(d):
     )
 
 
+# --- pagina: serate --------------------------------------------------------
+GIORNI = ["lun", "mar", "mer", "gio", "ven", "sab", "dom"]
+
+TIPI_SERATA = {
+    "corner": {"label": "English corner / scambio linguistico", "colore": "#2f9e44"},
+    "social": {"label": "Social organizzato, a pagamento", "colore": "#1098ad"},
+    "live": {"label": "Live / open mic", "colore": "#9c36b5"},
+    "bar": {"label": "Bar, hostel bar", "colore": "#e8590c"},
+}
+
+
+def sere_tappa(checkin, checkout):
+    """Le sere che hai davvero: dall'arrivo all'ultima notte. Il giorno di
+    check-out non conta, quella mattina sei su un treno."""
+    a, b = _d(checkin), _d(checkout)
+    return [a + datetime.timedelta(days=i) for i in range(notti_tra(checkin, checkout))]
+
+
+def riga_serata(ev, quando, sotto, colore, off=False):
+    meta = " · ".join(x for x in [ev["locale"], ev["zona"]] if x)
+    prezzo = f'<b>{e(ev["prezzo"])}</b>' if ev.get("prezzo") else ""
+    come = e(ev["come"]) if ev.get("come") else ""
+    riga2 = " · ".join(x for x in [prezzo, come] if x)
+    tag = ""
+    if ev.get("conferma") == "da verificare":
+        tag = ' <span class="tag grey">da verificare</span>'
+    link = ""
+    if ev.get("url"):
+        link = f' <a href="{e(ev["url"])}" target="_blank" rel="noopener">fonte</a>'
+    nota = f'<p class="n">{e(ev["nota"])}{link}</p>' if ev.get("nota") else ""
+    return (
+        f'<div class="srow{" off" if off else ""}" style="--sc:{colore}">'
+        f'<div class="day">{e(quando)}<em>{e(sotto)}</em></div>'
+        f'<div class="body"><div class="t"><i></i>{e(ev["nome"])}{tag}</div>'
+        f'<p class="w">{e(meta)}</p>'
+        f'{f"<p class=\'w\'>{riga2}</p>" if riga2 else ""}'
+        f"{nota}</div></div>"
+    )
+
+
+def build_serate(serate, viaggio):
+    tappe = {t["id"]: t for t in viaggio["tappe"]}
+    agenda, cards = [], []
+
+    for s in serate["tappe"]:
+        t = tappe[s["id"]]
+        sere = sere_tappa(t["checkin"], t["checkout"])
+        dentro, fuori = [], []
+
+        for ev in s["eventi"]:
+            colore = TIPI_SERATA[ev["tipo"]]["colore"]
+            if "sempre" in ev["giorno"]:
+                dentro.append(riga_serata(ev, "ogni sera", ev["orario"], colore))
+                continue
+            quando = [d for d in sere if GIORNI[d.weekday()] in ev["giorno"]]
+            if quando:
+                et = " · ".join(f"{GIORNI[d.weekday()]} {d.day}" for d in quando)
+                dentro.append(riga_serata(ev, et, ev["orario"], colore))
+                for d in quando:
+                    agenda.append((d, t["nome"], ev))
+            else:
+                fuori.append(
+                    riga_serata(ev, "/".join(ev["giorno"]), "manchi", colore, off=True)
+                )
+
+        blocchi = "".join(dentro)
+        if fuori:
+            blocchi += (
+                '<h4 style="margin:14px 0 0;font-size:12px;text-transform:uppercase;'
+                'letter-spacing:.5px;color:var(--ink-3)">Fuori dai tuoi giorni</h4>'
+                + "".join(fuori)
+            )
+        if not s["eventi"]:
+            blocchi = '<p class="muted" style="margin:0">Niente di ricorrente da segnalare.</p>'
+
+        ganci = lista(s["ganci"], "ganci") if s.get("ganci") else ""
+        cards.append(
+            '<div class="card">'
+            f'<div class="stop-head"><h3>{e(t["nome"])}</h3>'
+            f'<span class="zh">{e(t["nome_zh"])}</span>'
+            f'<span class="when">{e(etichetta(t["checkin"], t["checkout"]))}</span></div>'
+            f'<p style="margin:0 0 10px;font-size:14px">'
+            f'<span class="esito {e(s["esito"])}">{e(s["esito"])}</span> {e(s["verdetto"])}</p>'
+            f"{blocchi}{ganci}</div>"
+        )
+
+    righe = [
+        [
+            f'<td><b>{GIORNI[d.weekday()]} {d.day}</b> '
+            f'<span class="muted">{MESI_ABBR[d.month - 1]}</span></td>',
+            f"<td>{e(citta)}</td>",
+            f'<td>{e(ev["nome"])}</td>',
+            f'<td>{e(ev["orario"])}</td>',
+            f'<td>{e(ev.get("prezzo") or "—")}</td>',
+        ]
+        for d, citta, ev in sorted(agenda, key=lambda x: (x[0], x[2]["orario"]))
+    ]
+
+    leg = "".join(
+        f'<span><i style="background:{x["colore"]}"></i>{e(x["label"])}</span>'
+        for x in TIPI_SERATA.values()
+    )
+
+    fonti = " · ".join(
+        f'<a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a>'
+        for f in serate["fonti"]
+    )
+
+    corpo = f"""<div class="page narrow">
+<h1>{e(serate["titolo"])}</h1>
+<p class="lede">{e(serate["lede"])}</p>
+
+<div class="warn">{e(serate["avvertenza"])}</div>
+
+<h2>Quello che cade nei tuoi giorni</h2>
+{tabella(["Giorno", "Tappa", "Cosa", "Ora", "Costo"], righe, "tight")}
+
+<div class="legend">{leg}</div>
+
+{"".join(cards)}
+
+<h2>Come si aggiorna</h2>
+<div class="card">
+<p style="margin-top:0">{e(serate["prossimo_passo"])}</p>
+<p style="margin-bottom:0" class="muted">Installa <b>WeChat</b> e <b>Xiaohongshu</b> prima di
+partire, non in Cina: gran parte di questi giri vive solo lì e la registrazione da fuori è più
+facile.</p>
+</div>
+
+<p class="muted">Scan del {e(serate["aggiornato"])}. Fonti: {fonti}</p>
+</div>"""
+    return pagina(f'{serate["titolo"]} — Sud della Cina', corpo, "serate.html")
+
+
 # --- pagina: voli ----------------------------------------------------------
 def build_voli(voli):
     pr = voli.get("prenotato")
@@ -1008,6 +1144,7 @@ def main():
     treni = json.loads((DATA / "treni.json").read_text(encoding="utf-8"))
     voli = json.loads((DATA / "voli.json").read_text(encoding="utf-8"))
     check = json.loads((DATA / "checklist.json").read_text(encoding="utf-8"))
+    serate = json.loads((DATA / "serate.json").read_text(encoding="utf-8"))
     mappe = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(MAPPE.glob("*.json"))]
 
     if OUT.exists():
@@ -1031,6 +1168,7 @@ def main():
     w("index.html", build_home(viaggio, treni, voli))
     w("itinerario.html", build_itinerario(viaggio))
     w("mappe.html", build_mappe_index(mappe, viaggio))
+    w("serate.html", build_serate(serate, viaggio))
     w("voli.html", build_voli(voli))
     w("treni.html", build_treni(treni))
     w("hotel.html", build_hotel(viaggio))
@@ -1042,8 +1180,10 @@ def main():
 
     n_locali = sum(len(d["venues"]) for d in mappe)
     n_voci = sum(len(g["voci"]) for g in check["gruppi"])
+    n_serate = sum(len(x["eventi"]) for x in serate["tappe"])
     print(f"  {len(SEZIONI)} sezioni")
     print(f"  {len(mappe)} mappe, {n_locali} locali, {len(mappe)} KML")
+    print(f"  {n_serate} appuntamenti serali")
     print(f'  {len(viaggio["tappe"])} tappe, {len(treni["tratte"])} tratte, {n_voci} voci checklist')
     print(f"  -> {OUT}")
 
