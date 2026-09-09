@@ -10,7 +10,7 @@ Sezioni:
   mappe.html       indice delle sette mappe nightlife
   mappe/<slug>.html + kml/<slug>.kml
   serate.html     eventi ricorrenti e community, tappa per tappa
-  voli.html        opzioni di volo internazionale
+  (voli.html      generatore presente ma disattivato: i voli sono prenotati)
   treni.html       le sette tratte ferroviarie
   hotel.html       stato delle otto prenotazioni
   checklist.html   preparativi, con spunte salvate sul telefono
@@ -38,7 +38,6 @@ SEZIONI = [
     ("itinerario.html", "Itinerario"),
     ("mappe.html", "Mappe"),
     ("serate.html", "Serate"),
-    ("voli.html", "Voli"),
     ("treni.html", "Treni"),
     ("hotel.html", "Hotel"),
     ("checklist.html", "Checklist"),
@@ -181,7 +180,7 @@ def pagina(titolo, corpo, attiva, depth=0, testa="", coda="", main_class="", bod
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(titolo)}</title>
-<meta name="description" content="Viaggio nel sud della Cina, 5-27 novembre 2026: itinerario, mappe, voli, treni, hotel.">
+<meta name="description" content="Viaggio nel sud della Cina, 5-27 novembre 2026: itinerario, mappe, treni, hotel.">
 <meta name="theme-color" content="#c2410c">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Cina 2026">
@@ -1169,7 +1168,8 @@ def main():
     w("itinerario.html", build_itinerario(viaggio))
     w("mappe.html", build_mappe_index(mappe, viaggio))
     w("serate.html", build_serate(serate, viaggio))
-    w("voli.html", build_voli(voli))
+    # Pagina voli disattivata: i voli sono prenotati, la pagina non serve più.
+    # build_voli() e data/voli.json restano nel repo, pronti a essere riattivati.
     w("treni.html", build_treni(treni))
     w("hotel.html", build_hotel(viaggio))
     w("checklist.html", build_checklist(check))
