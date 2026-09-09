@@ -877,14 +877,15 @@ def build_hotel(viaggio):
             hid = t["id"] if len(voci) == 1 else f'{t["id"]}-{i + 1}'
             quando = etichetta(ci, co)
             titolo = e(t["nome"]) if len(voci) == 1 else f'{e(t["nome"])} · {e(h["zona"].split(",")[0])}'
-            # Struttura scelta: nome, tariffa e prezzo compaiono solo quando ci sono.
+            # Struttura scelta: nome e prezzo, nient'altro. La descrizione della
+            # camera (`tariffa`) resta nel JSON ma non si stampa.
             # Il repo è pubblico, quindi qui non entra nulla oltre a questo.
             riga = ""
             if h.get("nome"):
-                dettagli = " · ".join(x for x in (h.get("tariffa"), h.get("prezzo")) if x)
+                prezzo = h.get("prezzo")
                 riga = (
                     f'<p class="arrivo"><b>Struttura:</b> {e(h["nome"])}'
-                    + (f'<br><span class="muted">{e(dettagli)}</span>' if dettagli else "")
+                    + (f'<br><span class="muted">{e(prezzo)}</span>' if prezzo else "")
                     + "</p>"
                 )
             # Una volta prenotato, i link di ricerca non servono più: al loro posto
