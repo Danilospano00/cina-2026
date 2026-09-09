@@ -98,6 +98,11 @@ def asset(nome):
     return f"{nome}?v={VER.get(nome, '0')}"
 
 
+def eur(x):
+    """«1.234,56 €»: punto per le migliaia, virgola sui decimali."""
+    return f"{x:,.2f}".replace(",", "@").replace(".", ",").replace("@", ".") + " €"
+
+
 # --- datum shift -----------------------------------------------------------
 # La Cina impone per legge un offset sulle coordinate pubbliche (GCJ-02).
 # OSM/GPS usano WGS-84. Amap/Baidu/Dianping usano GCJ-02 (Baidu ancora BD-09).
@@ -255,6 +260,38 @@ def build_home(viaggio, treni, voli):
         else ""
     )
 
+    # Speso finora: somma i `costo_eur` presenti, cioè solo ciò che è prenotato.
+    # Quello che non è ancora prenotato non ha il campo e resta fuori dal totale.
+    voci_hotel = [
+        h
+        for t in viaggio["tappe"]
+        for h in (t["hotel"] if isinstance(t["hotel"], list) else [t["hotel"]])
+    ]
+    pagati = [h for h in voci_hotel if h.get("costo_eur")]
+    spesa_hotel = sum(h["costo_eur"] for h in pagati)
+    spesa_volo = v.get("costo_eur", 0) if v else 0
+    righe_spesa = []
+    if spesa_volo:
+        righe_spesa.append(
+            [f'<td>Volo A/R Italia ⇄ Hong Kong</td><td class="num">{e(eur(spesa_volo))}</td>']
+        )
+    if pagati:
+        righe_spesa.append(
+            [
+                f'<td>Hotel <span class="muted">{len(pagati)} prenotazioni su '
+                f'{len(voci_hotel)}</span></td>'
+                f'<td class="num">{e(eur(spesa_hotel))}</td>'
+            ]
+        )
+    righe_spesa.append(
+        [f'<td><b>Totale</b></td><td class="num"><b>{e(eur(spesa_volo + spesa_hotel))}</b></td>']
+    )
+    mancanti = len(voci_hotel) - len(pagati)
+    spesa_html = f"""<h2>Speso finora</h2>
+{tabella(["Voce", "Importo"], righe_spesa, "tight")}
+<p class="muted">Ancora da pagare: {mancanti} hotel su {len(voci_hotel)} e i treni interni,
+stimati {treni["totale_eur"]}€. I treni si comprano 15 giorni prima di ogni partenza.</p>"""
+
     n_hotel = sum(len(t["hotel"]) if isinstance(t["hotel"], list) else 1 for t in viaggio["tappe"])
     aperti = [
         (f"{n_hotel} prenotazioni hotel su Trip.com",
@@ -281,6 +318,8 @@ def build_home(viaggio, treni, voli):
    {len(con_mappa)} mappe nightlife · {treni["totale_eur"]}€ di treni interni</p>
 </div>
 {volo_html}
+
+{spesa_html}
 
 <h2>Le tappe</h2>
 {tabella(["Tappa", "Date", "Notti", "Nightlife"], righe, "tight")}

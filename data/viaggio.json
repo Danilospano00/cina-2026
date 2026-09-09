@@ -46,7 +46,8 @@
         "nome": "No. 8 Hotel Chain (Shenzhen Huaqiangbei) · 八号连锁酒店",
         "tariffa": "Exquisite Mini Room — camera privata senza finestre, tariffa fumatori",
         "prezzo": "19 €/notte · 77 € per 4 notti",
-        "url": "https://it.trip.com/hotels/detail/?cityEnName=Shenzhen&cityId=30&hotelId=926112&checkIn=2026-11-06&checkOut=2026-11-10&adult=1&crn=1&curr=EUR&locale=it-IT"
+        "url": "https://it.trip.com/hotels/detail/?cityEnName=Shenzhen&cityId=30&hotelId=926112&checkIn=2026-11-06&checkOut=2026-11-10&adult=1&crn=1&curr=EUR&locale=it-IT",
+        "costo_eur": 77.0
       }
     },
     {
@@ -81,7 +82,8 @@
         "nome": "Yifang Hotel (Guangzhou Shangxiajiu Pedestrian Street Yong Qing Fang)",
         "tariffa": "Camera Singola Sunny — 1 letto singolo, con finestra, 10-12 m², non fumatori",
         "prezzo": "47,70 € per 3 notti · ~15,90 €/notte",
-        "url": "https://it.trip.com/hotels/detail/?cityEnName=Guangzhou&cityId=32&hotelId=6179783&checkIn=2026-11-10&checkOut=2026-11-13&adult=1&crn=1&curr=EUR&locale=it-IT"
+        "url": "https://it.trip.com/hotels/detail/?cityEnName=Guangzhou&cityId=32&hotelId=6179783&checkIn=2026-11-10&checkOut=2026-11-13&adult=1&crn=1&curr=EUR&locale=it-IT",
+        "costo_eur": 47.7
       }
     },
     {
@@ -116,7 +118,8 @@
         "nome": "Guitu Youyou Xiaozhu Hotel (Lijiang Branch, Yangshuo West Street)",
         "tariffa": "Budget Mini Double Bed Room — 8 m², non fumatori, bagno privato, finestra sul corridoio, 2 colazioni incluse",
         "prezzo": "30 € per 3 notti · 10 €/notte",
-        "url": "https://it.trip.com/hotels/detail/?cityEnName=Yangshuo&cityId=871&hotelId=781188&checkIn=2026-11-13&checkOut=2026-11-16&adult=1&crn=1&curr=EUR&locale=it-IT"
+        "url": "https://it.trip.com/hotels/detail/?cityEnName=Yangshuo&cityId=871&hotelId=781188&checkIn=2026-11-13&checkOut=2026-11-16&adult=1&crn=1&curr=EUR&locale=it-IT",
+        "costo_eur": 30.0
       }
     },
     {
@@ -152,7 +155,8 @@
         "nome": "Hao Li Hotel (Guiyang Pintou Water Pool Taiping Road Wanghong Street Shida Branch)",
         "tariffa": "Mlily Zero Pressure Double Bed Room — 15 m², letto matrimoniale, con finestra, bagno privato, piani 13-20. Tariffa fumatori consentito",
         "prezzo": "35,70 € per 2 notti · 17,85 €/notte",
-        "url": "https://it.trip.com/hotels/detail/?cityId=38&hotelId=911092&checkIn=2026-11-16&checkOut=2026-11-18&adult=1&crn=1&curr=EUR&locale=it-IT"
+        "url": "https://it.trip.com/hotels/detail/?cityId=38&hotelId=911092&checkIn=2026-11-16&checkOut=2026-11-18&adult=1&crn=1&curr=EUR&locale=it-IT",
+        "costo_eur": 35.7
       }
     },
     {
@@ -208,7 +212,8 @@
         "nome": "Mitang Youth Hostel · 谜糖青年旅舍",
         "tariffa": "Camera matrimoniale — 30 m², letto matrimoniale, vista città, bagno privato, non fumatori, 10º piano",
         "prezzo": "55 € per 4 notti · 13,75 €/notte",
-        "url": "https://it.trip.com/hotels/detail/?cityId=28&hotelId=30005443&checkIn=2026-11-18&checkOut=2026-11-22&adult=1&crn=1&curr=EUR&locale=it-IT"
+        "url": "https://it.trip.com/hotels/detail/?cityId=28&hotelId=30005443&checkIn=2026-11-18&checkOut=2026-11-22&adult=1&crn=1&curr=EUR&locale=it-IT",
+        "costo_eur": 55.0
       }
     },
     {
@@ -244,7 +249,8 @@
         "nome": "Star High-altitude River View Hotel (Jiefangbei Hongyadong)",
         "tariffa": "Star · Mountain Night View King Room — 13-18 m², letto matrimoniale, vista sulle montagne con finestra, bagno privato, 21º piano, fumatori",
         "prezzo": "44,22 € per 3 notti · 14,74 €/notte",
-        "url": "https://it.trip.com/hotels/detail/?cityId=4&hotelId=128916214&checkIn=2026-11-22&checkOut=2026-11-25&adult=1&crn=1&curr=EUR&locale=it-IT"
+        "url": "https://it.trip.com/hotels/detail/?cityId=4&hotelId=128916214&checkIn=2026-11-22&checkOut=2026-11-25&adult=1&crn=1&curr=EUR&locale=it-IT",
+        "costo_eur": 44.22
       }
     },
     {
@@ -290,7 +296,8 @@
           "nome": "Regala Skycity Hotel by Regal Hotels",
           "tariffa": "1 notte, tariffa non rimborsabile",
           "prezzo": "108 € per 1 notte",
-          "url": "https://it.trip.com/hotels/detail/?cityId=58&hotelId=92764015&checkIn=2026-11-26&checkOut=2026-11-27&adult=1&crn=1&curr=EUR&locale=it-IT"
+          "url": "https://it.trip.com/hotels/detail/?cityId=58&hotelId=92764015&checkIn=2026-11-26&checkOut=2026-11-27&adult=1&crn=1&curr=EUR&locale=it-IT",
+          "costo_eur": 108.0
         }
       ]
     }
@@ -298,6 +305,7 @@
   "volo": {
     "stato": "prenotato",
     "andata": "Partenza dall'Italia gio 5 novembre, atterraggio a Hong Kong ven 6 alle 12:00",
-    "ritorno": "Ripartenza da HKG ven 27 novembre alle 08:10"
+    "ritorno": "Ripartenza da HKG ven 27 novembre alle 08:10",
+    "costo_eur": 443.38
   }
 }
