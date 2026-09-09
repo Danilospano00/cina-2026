@@ -88,6 +88,12 @@ def periodo(checkin, checkout):
     return f"{a.day} {MESI_ABBR[a.month - 1]} → {b.day} {MESI_ABBR[b.month - 1]}"
 
 
+def giorno(iso):
+    """«6 nov»."""
+    d = _d(iso)
+    return f"{d.day} {MESI_ABBR[d.month - 1]}"
+
+
 def etichetta(checkin, checkout):
     """«6 nov → 10 nov (4 notti)»."""
     n = notti_tra(checkin, checkout)
@@ -101,6 +107,11 @@ def asset(nome):
 def eur(x):
     """«1.234,56 €»: punto per le migliaia, virgola sui decimali."""
     return f"{x:,.2f}".replace(",", "@").replace(".", ",").replace("@", ".") + " €"
+
+
+def eur_breve(x):
+    """«8,5€», «214€»: virgola decimale, e niente decimali se sono zero."""
+    return (f"{x:.0f}" if float(x) == int(x) else f"{x:g}".replace(".", ",")) + "€"
 
 
 # --- datum shift -----------------------------------------------------------
@@ -292,6 +303,43 @@ def build_home(viaggio, treni, voli):
 <p class="muted">Ancora da pagare: {mancanti} hotel su {len(voci_hotel)} e i treni interni,
 stimati {treni["totale_eur"]}€. I treni si comprano 15 giorni prima di ogni partenza.</p>"""
 
+    # Stima treni: le sette tratte più le gite in giornata. Niente è ancora
+    # comprato — le vendite aprono 15 giorni prima di ogni partenza — quindi
+    # questi numeri stanno fuori dal totale «speso finora».
+    righe_treni = []
+    for t in treni["tratte"]:
+        flag = "" if t["verificato"] else ' <span class="tag grey">da verificare</span>'
+        righe_treni.append(
+            [
+                f'<td>{e(t["da"])} → <b>{e(t["a"])}</b>{flag}</td>',
+                f'<td>{e(giorno(t["data"]))}</td>',
+                f'<td>{e(t["durata"])}</td>',
+                f'<td class="num">{e(eur_breve(t["eur"]))}</td>',
+            ]
+        )
+    righe_treni.append(
+        [
+            "<td><b>Totale sette tratte</b></td>",
+            "<td></td>",
+            "<td></td>",
+            f'<td class="num"><b>{e(eur_breve(treni["totale_eur"]))}</b></td>',
+        ]
+    )
+    esc = treni.get("escursioni", [])
+    esc_txt = (
+        " Fuori totale le gite in giornata: "
+        + ", ".join(f'{x["nome"].split(",")[0]} {eur_breve(x["eur"])} A/R' for x in esc)
+        + "."
+        if esc
+        else ""
+    )
+    treni_html = f"""<h2>Treni, la stima</h2>
+{tabella(["Tratta", "Data", "Durata", "2ª classe"], righe_treni, "tight")}
+<p class="muted">{e(treni["nota"])}{e(esc_txt)}
+Nessun biglietto è ancora comprato: le vendite aprono
+{e(treni["prenotazione"]["apertura_vendite"])}.
+<a href="treni.html">Tutte le tratte in dettaglio</a>.</p>"""
+
     n_hotel = sum(len(t["hotel"]) if isinstance(t["hotel"], list) else 1 for t in viaggio["tappe"])
     aperti = [
         (f"{n_hotel} prenotazioni hotel su Trip.com",
@@ -320,6 +368,8 @@ stimati {treni["totale_eur"]}€. I treni si comprano 15 giorni prima di ogni pa
 {volo_html}
 
 {spesa_html}
+
+{treni_html}
 
 <h2>Le tappe</h2>
 {tabella(["Tappa", "Date", "Notti", "Nightlife"], righe, "tight")}
