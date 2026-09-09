@@ -909,8 +909,7 @@ def build_hotel(viaggio):
                 f'<span class="tag {st}">{e(h["stato"])}</span>'
                 f'<span class="when">{e(quando)}</span></div>'
                 f'{riga}'
-                f'<p class="arrivo"><b>Zona:</b> {e(h["zona"])}<br>'
-                f'<span class="muted">{e(h["note"])}</span></p>'
+                f'<p class="arrivo"><b>Zona:</b> {e(h["zona"])}</p>'
                 f'<div class="links">{links}{mappa_link}</div></div>'
             )
 
