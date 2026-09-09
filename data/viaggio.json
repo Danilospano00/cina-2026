@@ -281,12 +281,16 @@
           "stato": "da cercare"
         },
         {
-          "cerca": "Tung Chung",
+          "cerca": "Hong Kong",
           "checkin": "2026-11-26",
           "checkout": "2026-11-27",
-          "zona": "Tung Chung, zona aeroporto",
-          "note": "Volo alle 08:10: dormire qui evita la sveglia alle 04:30. Novotel Citygate sta sulla stazione MTR, il Regal Airport Hotel è collegato al terminal a piedi ma costa di più. La mattina del 27: bus S1 al terminal, ~10 min. Il 26: check-out in centro, bagagli in deposito lì, giornata a Hong Kong, li recuperi in serata e scendi a Tung Chung (~35-40 min da Central)",
-          "stato": "da cercare"
+          "zona": "SKYCITY, Hong Kong International Airport — link bridge coperto al Terminal 2, 2 min a piedi. Navetta gratuita hotel ↔ terminal ↔ MTR di Tung Chung",
+          "note": "Non è Tung Chung: è dentro l'aeroporto. Costa 108 € contro i 10-19 € delle tappe cinesi, ed è l'unica prenotazione fuori fascia del viaggio: si paga per azzerare il rischio sul volo delle 08:10. La sera del 26 ci si arriva con la Tung Chung line fino al capolinea (~35-40 min da Central, ~HK$25) più la navetta gratuita dalla MTR, oppure con l'Airport Express (24 min, ~HK$115). La mattina del 27 la prima navetta parte dall'hotel alle 06:00, poi ogni 15-40 min: al terminal per le 06:10, drop bagagli alle 07:10. Niente bus S1, niente MTR, niente taxi. Check-in 15:00, check-out 12:00. ⚠️ Tariffa non rimborsabile. ⚠️ Da verificare da quale terminal parte il volo: il link bridge porta al T2 in 2 min, ma il T1 sta a ~1,7 km.",
+          "stato": "prenotato",
+          "nome": "Regala Skycity Hotel by Regal Hotels",
+          "tariffa": "1 notte, tariffa non rimborsabile",
+          "prezzo": "108 € per 1 notte",
+          "url": "https://it.trip.com/hotels/detail/?cityId=58&hotelId=92764015&checkIn=2026-11-26&checkOut=2026-11-27&adult=1&crn=1&curr=EUR&locale=it-IT"
         }
       ]
     }

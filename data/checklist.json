@@ -87,7 +87,7 @@
         {
           "id": "hotel",
           "testo": "8 prenotazioni su Trip.com",
-          "dettaglio": "Sette tappe ma otto strutture: a Hong Kong il 25 si dorme in centro e il 26 a Tung Chung, per il volo delle 08:10. Trip.com ha inventario cinese molto più completo di Booking.",
+          "dettaglio": "Sette tappe ma otto strutture: a Hong Kong il 25 si dorme in centro e il 26 al Regala Skycity, dentro l'aeroporto, per il volo delle 08:10. Trip.com ha inventario cinese molto più completo di Booking.",
           "critico": true
         },
         {
@@ -104,14 +104,14 @@
         },
         {
           "id": "hk-airport",
-          "testo": "Notte del 26 a Tung Chung",
-          "dettaglio": "Volo alle 08:10: dormire in zona aeroporto evita la sveglia alle 04:30. Novotel Citygate o simili, poi bus S1 al terminal in ~10 min.",
+          "testo": "Notte del 26 in aeroporto — PRENOTATA",
+          "dettaglio": "Prenotato il Regala Skycity Hotel by Regal Hotels, 108 € per 1 notte, non rimborsabile. Sta dentro SKYCITY: link bridge coperto al Terminal 2 in 2 min, navetta gratuita per il terminal dalle 06:00. Sveglia ~05:30 invece che alle 04:30.",
           "critico": true
         },
         {
           "id": "intown",
           "testo": "Verificare l'in-town check-in della compagnia",
-          "dettaglio": "Alcune compagnie accettano il bagaglio alle stazioni Airport Express di Hong Kong e Kowloon fino a 24h prima. Se disponibile, si lascia la sera del 26 e si arriva a Tung Chung a mani libere.",
+          "dettaglio": "Alcune compagnie accettano il bagaglio alle stazioni Airport Express di Hong Kong e Kowloon fino a 24h prima. Se disponibile, si lascia la sera del 26 e si arriva all'hotel a mani libere.",
           "critico": false
         }
       ]
