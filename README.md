@@ -17,6 +17,7 @@ data/          i contenuti. È l'unica cosa da modificare a mano
   treni.json     le sette tratte ferroviarie
   voli.json      opzioni di volo internazionale
   checklist.json preparativi
+  talk.json      il deck di 4 minuti sul metodo: slide, tempi, note per chi parla
   mappe/*.json   una mappa nightlife per tappa
 static/        CSS, JS e Leaflet vendorizzato
 build.py       genera tutto

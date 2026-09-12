@@ -351,3 +351,188 @@ main.mapmain { display: flex; flex-direction: column; }
 
 .ganci { margin: 12px 0 0; padding: 11px 0 0; border-top: 1px dashed var(--line); }
 .ganci li { font-size: 13px; color: var(--ink-2); }
+
+/* --- talk: deck proiettabile ---------------------------------------------
+   Lo scorrimento è dello scroll-snap: senza JS il deck si sfoglia a swipe.
+   Le misure sono in vh perché la stessa slide deve reggere dentro la pagina
+   e a schermo intero, dove il riquadro diventa la finestra.               */
+.deckwrap {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.deck {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  height: min(63vh, 540px);
+}
+
+.deck::-webkit-scrollbar { display: none; }
+
+.slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(6px, 1.4vh, 16px);
+  padding: clamp(18px, 4vh, 56px) clamp(18px, 4vw, 64px);
+  background: var(--card);
+  border-right: 1px solid var(--line);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.slide:last-child { border-right: 0; }
+
+.slide .occhiello {
+  font-size: clamp(11px, 1.5vh, 16px);
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0;
+}
+
+.slide h2 {
+  font-size: clamp(21px, 4.4vh, 52px);
+  line-height: 1.1;
+  letter-spacing: -.6px;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.slide ul {
+  margin: 0;
+  padding-left: 1.1em;
+  font-size: clamp(13px, 2.1vh, 25px);
+  line-height: 1.45;
+}
+
+.slide li + li { margin-top: clamp(3px, .9vh, 11px); }
+
+.slide .prova {
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 7px 7px 0;
+  padding: clamp(8px, 1.6vh, 18px) clamp(11px, 1.6vw, 20px);
+  font-size: clamp(12px, 1.8vh, 21px);
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+/* Numero della slide: riferimento silenzioso, non deve rubare l'occhio. */
+.slide .num {
+  position: absolute;
+  top: clamp(10px, 2vh, 26px);
+  right: clamp(12px, 2vw, 30px);
+  font-size: clamp(13px, 2.2vh, 26px);
+  font-weight: 800;
+  color: var(--line);
+  letter-spacing: -.5px;
+}
+
+.slide.cover { text-align: center; align-items: center; justify-content: center; }
+.slide.cover h2 { font-size: clamp(24px, 5.6vh, 64px); }
+.slide.cover .sotto {
+  font-size: clamp(13px, 2.2vh, 27px);
+  color: var(--ink-2);
+  margin: 0;
+  max-width: 26em;
+  text-wrap: balance;
+}
+
+.cifre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(10px, 2.6vw, 38px);
+  margin-top: clamp(6px, 1.6vh, 20px);
+}
+
+.cifre div { line-height: 1.1; }
+.cifre b { display: block; font-size: clamp(17px, 3.2vh, 38px); letter-spacing: -.5px; }
+.cifre span { font-size: clamp(10px, 1.3vh, 14px); color: var(--ink-3); text-transform: uppercase; letter-spacing: .6px; }
+
+/* --- comandi ------------------------------------------------------------- */
+.comandi { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; margin-bottom: 14px; }
+.comandi .sp { flex: 1 1 auto; }
+
+#dots { display: flex; gap: 5px; }
+
+#dots button {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--line);
+  cursor: pointer;
+}
+
+#dots button.on { background: var(--accent); transform: scale(1.25); }
+
+#etichetta { font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
+
+.crono {
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--line);
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.crono.ok { background: var(--ok); color: #fff; }
+.crono.tardi { background: var(--ko); color: #fff; }
+.crono.avanti { background: var(--warn-bg); color: var(--warn-ink); }
+
+/* --- note per chi parla -------------------------------------------------- */
+.note { display: none; }
+body.con-note .note { display: block; }
+
+.note .srt {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  color: var(--ink-3);
+  margin: 0 0 3px;
+}
+
+.note p.testo { margin: 0; font-size: 14.5px; color: var(--ink-2); }
+
+/* --- schermo intero ----------------------------------------------------- */
+.deckwrap:fullscreen { border: 0; border-radius: 0; margin: 0; display: flex; flex-direction: column; }
+.deckwrap:fullscreen .deck { flex: 1; height: auto; }
+.deckwrap:fullscreen .slide { padding: clamp(28px, 6vh, 90px) clamp(28px, 7vw, 130px); }
+.deckwrap:-webkit-full-screen { border: 0; border-radius: 0; }
+.deckwrap:-webkit-full-screen .deck { height: 100vh; }
+
+@media (max-width: 560px) {
+  /* Su telefono le misure in vh non bastano: la slide più carica (quattro
+     punti più la prova) sforava il riquadro e veniva tagliata. */
+  .deck { height: min(70vh, 480px); }
+  .slide { padding: 16px; gap: 7px; }
+  .slide .occhiello { font-size: 11px; }
+  .slide h2 { font-size: 22px; letter-spacing: -.3px; }
+  .slide ul { font-size: 14px; padding-left: 1em; }
+  .slide li + li { margin-top: 4px; }
+  .slide .prova { font-size: 12.5px; padding: 8px 11px; }
+  .slide .num { font-size: 13px; top: 9px; right: 11px; }
+  .slide.cover h2 { font-size: 26px; }
+  .slide.cover .sotto { font-size: 14px; }
+  .cifre { gap: 14px; }
+  .cifre b { font-size: 19px; }
+  .comandi { gap: 6px; }
+  #etichetta { display: none; }
+}

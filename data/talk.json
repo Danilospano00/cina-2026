@@ -1,0 +1,131 @@
+{
+  "titolo": "Talk — 4 minuti",
+  "lede": "Come ho organizzato 21 notti nel sud della Cina con un agente. Deck proiettabile: frecce, swipe, F per schermo intero.",
+  "pubblico": "Meetup dev",
+  "tesi": "Il valore non sta nel prompt. Sta nel file di contesto.",
+  "durata_obiettivo": 240,
+  "slide": [
+    {
+      "id": "cover",
+      "tipo": "cover",
+      "occhiello": "Sud della Cina · 5-27 novembre 2026",
+      "titolo": "21 notti organizzate da un agente",
+      "sotto": "Il valore non sta nel prompt. Sta nel file di contesto.",
+      "cifre": [
+        {
+          "n": "21",
+          "l": "notti"
+        },
+        {
+          "n": "7",
+          "l": "tappe"
+        },
+        {
+          "n": "8",
+          "l": "hotel"
+        },
+        {
+          "n": "91",
+          "l": "locali mappati"
+        },
+        {
+          "n": "32 KB",
+          "l": "di regole"
+        }
+      ],
+      "secondi": 10,
+      "note": "Volo prenotato, sette tappe, tutto chiuso mesi prima. Ma il talk non è sul viaggio: è su dove sta finito il lavoro. Non nei prompt. In un file."
+    },
+    {
+      "id": "contesto",
+      "numero": 1,
+      "occhiello": "CLAUDE.md — 32 KB, un file",
+      "titolo": "Il contesto, non il prompt",
+      "punti": [
+        "Criteri ordinati, non elencati: prezzo > pulizia > posizione",
+        "Regole negative: «il WiFi non è un criterio di ricerca»",
+        "Nessuna preferenza da ripetere: la ripete il file"
+      ],
+      "prova": "«Ordine dei criteri nella scelta di un alloggio: 1) prezzo, 2) pulizia, 3) posizione. La pulizia si verifica sul voto separato e sulle recensioni recenti.»",
+      "secondi": 40,
+      "note": "Ogni sessione parte col profilo già caricato. La cosa che conta non è elencare le preferenze: è ordinarle. Con una lista ordinata un pari merito si scioglie da solo, senza fermarsi a chiedere. E poi le regole negative: avevo chiesto di controllare il WiFi in ogni hotel, poi ho visto che inquinava ogni ricerca. Ho scritto «non cercarlo» e un'intera classe di rumore è sparita. Il prompt engineering qui è manutenzione di un file, non una frase astuta."
+    },
+    {
+      "id": "browser",
+      "numero": 2,
+      "occhiello": "MCP + il mio Chrome, loggato",
+      "titolo": "Browser reale, non fetch",
+      "punti": [
+        "Trip.com, Dianping, Xiaohongshu, Resident Advisor: fetch bloccato",
+        "Sessione mia: prezzi in EUR, mio account, mie condizioni di cancellazione",
+        "Skill custom scout-serate-cina + MCP articoli WeChat"
+      ],
+      "prova": "8 hotel su 8 scelti leggendo la pagina vera: voto pulizia separato, numero di recensioni, tag ricorrenti sulle negative.",
+      "secondi": 40,
+      "note": "La parte interessante non è l'automazione: è che in Cina le fonti che contano sono esattamente quelle che ti bloccano. Trip.com ha l'inventario cinese che Booking non ha, Dianping è dove stanno le recensioni. Guidare il mio Chrome già loggato significa che i prezzi sono quelli che pagherei io, nella mia valuta, con le mie condizioni di cancellazione. Sopra ci ho costruito una skill che sa quali fonti cinesi leggere per le serate, più un MCP che pesca articoli WeChat."
+    },
+    {
+      "id": "gcj02",
+      "numero": 3,
+      "occhiello": "360 m di differenza a Chengdu",
+      "titolo": "GCJ-02: la Cina sposta le mappe",
+      "punti": [
+        "Per legge le mappe pubbliche cinesi usano un datum offsettato",
+        "GPS e OSM: WGS-84 · Amap e Dianping: GCJ-02 · Baidu: BD-09",
+        "Coordinata giusta nel campo sbagliato = altro quartiere"
+      ],
+      "prova": "91 locali su 25 zone, 7 mappe. Tutti i JSON in WGS-84: la conversione la fa il build, dentro il link «Apri in Amap» di ogni popup.",
+      "secondi": 45,
+      "note": "Questa è la slide che non vi aspettate. La Cina impone per legge un offset sulle coordinate delle mappe pubbliche: una coordinata, lì, non significa niente senza il suo datum. A Chengdu incollare una coordinata OSM dentro Amap ti sposta di circa 360 metri, cioè la differenza tra «sotto l'hotel» e «dall'altra parte del quartiere». L'agente l'ha trovato, l'ha scritto una volta sola nel build, e ora ogni link Amap del sito è convertito. Io questo bug non l'avrei mai cercato, perché non è un bug: è la legge."
+    },
+    {
+      "id": "volo",
+      "numero": 4,
+      "occhiello": "Un vincolo, non una ricerca",
+      "titolo": "Il volo delle 08:10",
+      "punti": [
+        "Bag drop chiude alle 07:10 → in aeroporto per le 06:15",
+        "Primo Airport Express in aeroporto 06:15-06:20: margine zero",
+        "Hong Kong si sdoppia: il 25 in centro, il 26 dentro l'aeroporto"
+      ],
+      "prova": "108 € per una notte, contro una media di ~15 €/notte. Unica prenotazione fuori fascia del viaggio, e la più motivata.",
+      "secondi": 45,
+      "note": "Il rientro parte alle 08:10. Ho chiesto dove dormire a Hong Kong. La risposta non è stata una lista di hotel: è stata aritmetica. Conta indietro dal bag drop, cerca il primo Airport Express, scopri che arriva con zero margine, controlla bus notturni e taxi, e concludi che è l'itinerario a essere sbagliato: le due notti di Hong Kong devono stare in due hotel diversi. Centootto euro per una stanza che uso cinque ore, ed è la riga di budget più difendibile del viaggio. Questo è il salto da ricerca a risoluzione di vincoli."
+    },
+    {
+      "id": "verifica",
+      "numero": 5,
+      "occhiello": "Ogni scelta si porta dietro gli scarti",
+      "titolo": "Fidarsi verificando",
+      "punti": [
+        "Scartati col perché numerico: pulizia 7,8 · «strano odore» ×12 · 12,6 km da Jiefangbei",
+        "4 livelli di precisione sui pin: 10 locali su 91 dichiarati non verificati",
+        "Tariffe e voti marcati ⚠️ quando sono derivati e mai letti alla fonte",
+        "Cancellazione gratuita → 6 ricontrolli datati prima dell'addebito"
+      ],
+      "prova": "La decisione resta verificabile tre mesi dopo, senza rifare la ricerca.",
+      "secondi": 40,
+      "note": "Questa è la parte che rende usabile tutto il resto. Ogni prenotazione conserva i candidati scartati col motivo numerico, quindi a novembre rileggo la scelta senza rifare la ricerca. La precisione dei pin è dichiarata su quattro livelli e ammette che dieci locali su novantuno non sono verificati. Le tariffe dei treni derivate hanno un warning che dice che non sono mai state lette alla fonte. E la cancellazione gratuita è diventata una strategia: a parità di prezzo vince chi si cancella gratis, e quella decisione è diventata sei ricontrolli datati in agenda. Sapere cosa non sai è output di prima classe."
+    },
+    {
+      "id": "chiusura",
+      "tipo": "chiusura",
+      "occhiello": "Chiusura",
+      "titolo": "E finisce su una pagina sul telefono",
+      "punti": [
+        "JSON unica fonte di verità · build statico · PWA sulla Home dell'iPhone",
+        "Le date esistono solo come checkin/checkout: tutto il resto è derivato"
+      ],
+      "prova": "Perché nella prima versione erano scritte a mano, e itinerario e mappe sono finiti fuori sync.",
+      "secondi": 20,
+      "note": "Ultima cosa: lo stesso JSON che disegna le mappe genera l'itinerario e la pagina dei treni. Le date esistono una volta sola, come checkin e checkout, tutto il resto è calcolato — perché nella prima versione erano a mano e itinerario e mappe sono finiti fuori sync. E la pagina che state guardando fa parte della cosa."
+    }
+  ],
+  "fuori": [
+    "Huaqiangbei e lo shopping tech: 4 notti a Shenzhen per scouting componenti, ma si compra a Hong Kong",
+    "Dogana UE al rientro: franchigia 430 € via aerea, sopra dazio + IVA sull'intero valore",
+    "Batterie al litio solo in bagaglio a mano, controlli seri anche sui treni cinesi",
+    "VPN da configurare in Italia, 2-3 installate: in loco non si scaricano",
+    "Visto: esenzione italiana 30 giorni, prorogata anno per anno, da riverificare prima di ogni partenza"
+  ]
+}
