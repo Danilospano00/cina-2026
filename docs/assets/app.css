@@ -223,6 +223,45 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: now
 .stop-head .zh { color: var(--ink-3); font-size: 14px; font-weight: 400; }
 .stop-head .when { margin-left: auto; font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
 
+/* Accordion dell'itinerario. Il padding passa dalla .card a summary e
+   .stop-body, così la riga cliccabile copre tutta la larghezza della scheda. */
+details.stop { padding: 0; }
+
+details.stop > summary.stop-head {
+  position: relative;
+  margin: 0;
+  padding: 15px 34px 15px 17px;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 10px;
+}
+
+details.stop > summary.stop-head::-webkit-details-marker { display: none; }
+details.stop > summary.stop-head:hover { background: var(--accent-soft); }
+details.stop[open] > summary.stop-head { border-radius: 10px 10px 0 0; }
+
+/* Chevron: due bordi ruotati, niente icona da caricare. */
+/* Fuori dal flusso flex: altrimenti su riga lunga (Yangshuo) il chevron
+   va a capo da solo su una seconda riga. */
+details.stop > summary.stop-head::after {
+  content: "";
+  position: absolute;
+  right: 17px;
+  top: 20px;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid var(--ink-3);
+  border-bottom: 2px solid var(--ink-3);
+  transform: rotate(45deg);
+  transition: transform .15s ease;
+}
+
+details.stop[open] > summary.stop-head::after { transform: rotate(225deg); }
+
+.stop-body { padding: 0 17px 15px; }
+
+.apri-tutto { margin: 0 0 12px; }
+
 .arrivo { font-size: 13.5px; color: var(--ink-2); margin: 0 0 9px; }
 
 /* Clima: medie di novembre, una riga per quota. Il filetto a sinistra la

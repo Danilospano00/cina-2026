@@ -441,10 +441,11 @@ def build_itinerario(viaggio):
             else ""
         )
         schede.append(
-            f'<div class="card" id="{e(t["id"])}">'
-            f'<div class="stop-head"><span class="tag grey">{i}</span>'
+            f'<details class="card stop" id="{e(t["id"])}">'
+            f'<summary class="stop-head"><span class="tag grey">{i}</span>'
             f'<h3>{e(t["nome"])}</h3><span class="zh">{e(t["nome_zh"])}</span>{wk}'
-            f'<span class="when">{e(etichetta(t["checkin"], t["checkout"]))}</span></div>'
+            f'<span class="when">{e(etichetta(t["checkin"], t["checkout"]))}</span></summary>'
+            '<div class="stop-body">'
             f'<p class="arrivo">{e(t["arrivo"])}</p>'
             + build_clima(t)
             + SOTTOTITOLO.format("Cosa vedere")
@@ -453,20 +454,28 @@ def build_itinerario(viaggio):
             + lista(t["cibo"])
             + build_escursione(t)
             + f'<div class="links">{mappa}'
-            f'<a class="btn" href="hotel.html#{e(t["id"])}">Hotel</a></div></div>'
+            f'<a class="btn" href="hotel.html#{e(t["id"])}">Hotel</a></div></div></details>'
         )
 
     corpo = f"""<div class="page narrow">
 <h1>Itinerario</h1>
 <p class="lede">{e(viaggio["rotta"])}</p>
+<p class="apri-tutto"><button class="btn" id="apri-tutto" type="button">Apri tutto</button></p>
 {"".join(schede)}
-<div class="card"><div class="stop-head"><span class="tag">27</span>
- <h3>Rientro</h3><span class="when">27 novembre · 08:10</span></div>
- <p class="arrivo" style="margin:0">Volo da Hong Kong alle 08:10. Non è una giornata di viaggio:
- l'ultimo giorno pieno è giovedì 26. Check-in bagagli chiuso alle 07:10, in aeroporto entro le 06:15.
- Per questo il 26 si dorme a Tung Chung: bus S1 al terminal in ~10 min, sveglia alle 05:45.</p></div>
+<details class="card stop" id="rientro">
+ <summary class="stop-head"><span class="tag">27</span>
+ <h3>Rientro</h3><span class="when">27 novembre · 08:10</span></summary>
+ <div class="stop-body"><p class="arrivo" style="margin:0">Volo da Hong Kong alle 08:10. Non è una
+ giornata di viaggio: l'ultimo giorno pieno è giovedì 26. Check-in bagagli chiuso alle 07:10, in
+ aeroporto entro le 06:15. Per questo il 26 si dorme a Tung Chung: bus S1 al terminal in ~10 min,
+ sveglia alle 05:45.</p></div></details>
 </div>"""
-    return pagina("Itinerario — Sud della Cina", corpo, "itinerario.html")
+    return pagina(
+        "Itinerario — Sud della Cina",
+        corpo,
+        "itinerario.html",
+        coda=f'<script src="assets/{asset("itinerario.js")}"></script>',
+    )
 
 
 # --- pagina: indice mappe --------------------------------------------------
@@ -1360,7 +1369,7 @@ def main():
     (OUT / "mappe").mkdir()
     (OUT / "kml").mkdir()
 
-    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "talk.js"):
+    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "talk.js", "itinerario.js"):
         sorgente = STATIC / nome
         shutil.copy2(sorgente, OUT / "assets" / nome)
         VER[nome] = hashlib.md5(sorgente.read_bytes()).hexdigest()[:8]
