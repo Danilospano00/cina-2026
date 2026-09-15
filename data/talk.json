@@ -61,7 +61,7 @@
         "Skill custom scout-serate-cina + MCP articoli WeChat",
         "Anche i voli: Skyscanner pilotato nel mio Chrome, non API"
       ],
-      "prova": "8 hotel su 8 scelti leggendo la pagina vera: voto pulizia separato, numero di recensioni, tag ricorrenti sulle negative.",
+      "prova": "7 hotel su 8 scelti leggendo la pagina vera: voto pulizia separato, numero di recensioni, tag ricorrenti sulle negative. L'ottavo, Hong Kong centro, è ancora da chiudere.",
       "secondi": 40,
       "note": "La parte interessante non è l'automazione: è che in Cina le fonti che contano sono esattamente quelle che ti bloccano. Trip.com ha l'inventario cinese che Booking non ha, Dianping è dove stanno le recensioni. Guidare il mio Chrome già loggato significa che i prezzi sono quelli che pagherei io, nella mia valuta, con le mie condizioni di cancellazione. Sopra ci ho costruito una skill che sa quali fonti cinesi leggere per le serate, più un MCP che pesca articoli WeChat."
     },
