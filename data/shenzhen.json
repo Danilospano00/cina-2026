@@ -1,0 +1,571 @@
+{
+  "titolo": "Shenzhen — cosa dice il gruppo",
+  "lede": "Raccolta dal gruppo Facebook «Cina fai da te» (post da settembre 2024 in poi), incrociata col web per confermare orari, prezzi e se il posto esiste ancora. Ogni voce ha un codice: dimmi quali togliere e sparisce dal JSON.",
+  "aggiornato": "2026-09-18",
+  "avvertenza": "Il gruppo parla poco di Shenzhen: quasi tutti la attraversano in un giorno tra Hong Kong e Guilin. Sui ristoranti in particolare escono tre nomi in due anni. I nomi di chi ha scritto non sono riportati (il repo è pubblico): il link porta al post, che si apre solo da membro del gruppo.",
+  "categorie": [
+    {
+      "id": "arrivo",
+      "nome": "Arrivo e confine",
+      "voci": [
+        {
+          "id": "SZ-01",
+          "stato": "verificato",
+          "titolo": "Traghetto dall'aeroporto di Hong Kong a Shekou, senza entrare a Hong Kong",
+          "testo": "Dal molo SkyPier dentro l'aeroporto parte un traghetto per lo Shekou Cruise Homeport. Non passi l'immigrazione di Hong Kong: la fai direttamente in Cina, a Shekou. Il bagaglio in stiva lo trasferiscono loro: consegni il talloncino al banco.",
+          "punti": [
+            "Banco biglietti: Transfer Area E2, prima dei controlli di Hong Kong",
+            "13 corse al giorno, dalle 08:15 alle 21:30, 40 minuti di traversata (dato HKIA aggiornato ad agosto 2026)",
+            "Prezzo non chiaro: le piattaforme online partono da HK$390; nel gruppo una famiglia di cinque citava 103 € in tutto. Chiedere al banco",
+            "Contro: sbarchi a Shekou, in fondo a Nanshan. Da lì a Futian/Huaqiangbei è lunga, stima 45-60 min di metro, oppure un Didi. Con l'hotel a Yannan il pullman per Futian resta più diretto"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, 2026 (ricerca «shekou»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=shekou"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "HKIA, Mainland Connection",
+              "url": "https://www.hongkongairport.com/en/transport/mainland-connection/ferry-transfer.page"
+            },
+            {
+              "nome": "Cathay, guida Shekou",
+              "url": "https://www.cathaypacific.com/cx/en_US/inspiration/travel/how-to-get-to-shekou-from-hong-kong.html"
+            }
+          ]
+        },
+        {
+          "id": "SZ-02",
+          "stato": "verificato",
+          "titolo": "Arrival card: ora si fa online, niente più cartolina azzurra",
+          "testo": "Nel gruppo il consiglio ricorrente è «porta una penna, al rientro in Cina c'è da compilare il modulo azzurro, e prendine un paio da precompilare». Dal 20 novembre 2025 la Cina ha la China Digital Arrival Card: si compila online fino a 72 ore prima dell'ingresso.",
+          "punti": [
+            "Canali ufficiali: app NIA 12367, sito NIA, mini-program WeChat o Alipay",
+            "Al confine c'è ancora il QR da scansionare o il modulo di carta, se non l'hai fatta prima",
+            "Serve anche a ogni rientro da Hong Kong: il 6 novembre all'arrivo, e di nuovo se fai una gita a Hong Kong e torni",
+            "La NIA segnala siti falsi a pagamento: è gratuita, usare solo i canali ufficiali"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25015898184770799/"
+            },
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25654856314208313/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "NIA, avviso siti falsi",
+              "url": "https://en.nia.gov.cn/n147418/n147463/c191530/content.html"
+            },
+            {
+              "nome": "Ambasciata cinese, annuncio",
+              "url": "https://sg.china-embassy.gov.cn/eng/lsfwx/zytz/202512/t20251201_11763717.htm"
+            }
+          ]
+        },
+        {
+          "id": "SZ-03",
+          "stato": "verificato",
+          "titolo": "Luohu a piedi: il confine più semplice per andare e tornare da Hong Kong",
+          "testo": "Chi l'ha fatto più volte lo descrive senza problemi: si cammina dentro il vecchio edificio della dogana e si sbuca alla fermata Lo Wu della metro di Hong Kong (East Rail), che porta fino ad Admiralty.",
+          "punti": [
+            "Aperto dalle 06:30 a mezzanotte",
+            "Il tragitto in metro fino al centro di Hong Kong è lungo: ~45 minuti",
+            "Per entrare a Hong Kong basta il passaporto, nessun modulo"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25049051011455516/"
+            },
+            {
+              "nome": "gruppo FB, nov 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25350204378006843/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Lo Wu Control Point, orari",
+              "url": "https://tomacao.com/en/hongkong-ports/lo-wu-control-point/"
+            }
+          ]
+        },
+        {
+          "id": "SZ-04",
+          "stato": "opinione",
+          "titolo": "Treno per Hong Kong: più rapido, ma a West Kowloon c'è coda",
+          "testo": "Da Shenzhen North o Futian il treno G arriva a West Kowloon, già in centro. Più veloce della metro via Luohu, ma i controlli a West Kowloon sono lenti: tanti occidentali, e la dogana richiede in media un'ora.",
+          "punti": [
+            "Treni ogni ~10 minuti tra Shenzhen e Hong Kong",
+            "Consiglio del gruppo: compila la arrival card mentre sei in coda (ora online, vedi SZ-02)"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25015898184770799/"
+            },
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25654856314208313/"
+            },
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25049051011455516/"
+            }
+          ],
+          "verifica": []
+        },
+        {
+          "id": "SZ-05",
+          "stato": "opinione",
+          "titolo": "Metro ottima, ma la città è enorme",
+          "testo": "Chi ci è stato a giugno 2026 dormiva a Futian e si è mosso solo in metro: moderna, pulita, economica, capillare. Un altro ricorda che Shenzhen è grande 4-5 volte Milano con la provincia: le attrazioni lontane (Longgang, Guangming, Dameisha) costano un'ora di metro a tratta.",
+          "punti": [
+            "Chi ha fatto più città consiglia Didi quando il cambio di linea implica lunghe camminate nei corridoi: lasciando il feedback all'autista si accumulano sconti"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, giu 2026 (ricerca «huaqiangbei»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=huaqiangbei"
+            },
+            {
+              "nome": "gruppo FB, mar 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/26290899000604038/"
+            }
+          ],
+          "verifica": []
+        }
+      ]
+    },
+    {
+      "id": "vedere",
+      "nome": "Cosa vedere di giorno",
+      "voci": [
+        {
+          "id": "SZ-06",
+          "stato": "da verificare",
+          "titolo": "La lista Amap di un membro del gruppo",
+          "testo": "Un membro ha condiviso i posti salvati su Amap per Shenzhen, con i nomi esatti da cercare nell'app. Ripostata due volte nel gruppo come riferimento.",
+          "punti": [
+            "Nanshan/Shekou: Tianhou Museum e Tianhou Ancient Temple (Chiwan 6th Road), Nanshan Park, Sea World, Nanhai Yiku Building 6, Tencent Binhai Mansion",
+            "Nantou Ancient City, la città vecchia",
+            "Zhongshuge Bookstore (Huanle Harbour) — 深圳钟书阁, la libreria scenografica",
+            "Shenzhen Bay: Talent Park, Houhai Bridge, Shenzhen Bay Park, Liuhuashan Park",
+            "OCT Art, OCT-LOFT",
+            "Futian: Lianhuashan Park, Ping An Finance Center, Shenzhen Museum (Jintian Road, storia e folklore), Center Park, Museo d'Arte Contemporanea",
+            "Luohu: Meridian View Centre / Diwang (osservatorio)",
+            "Più lontano: Fairy Lake Botanical Garden, Dafen, Dameisha Beach"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25015898184770799/"
+            },
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25049051011455516/"
+            }
+          ],
+          "verifica": []
+        },
+        {
+          "id": "SZ-07",
+          "stato": "verificato",
+          "titolo": "Museo della Scienza e Tecnologia di Guangming (Zaha Hadid)",
+          "testo": "Chi c'è stato a giugno 2026 lo cita tra le cose che li hanno colpiti di più, soprattutto la proiezione sul futuro nella cupola. Aperto a maggio 2025, edificio a forma di astronave.",
+          "punti": [
+            "Ingresso gratuito, ma prenotazione obbligatoria dal mini-program WeChat: niente biglietti alla porta",
+            "Chiuso il lunedì. Mar-ven 10:00-17:00, sab-dom 09:30-17:00",
+            "Weekend: i posti finiscono. Si liberano 6 giorni prima alle 20:00 — per sabato 7 novembre, domenica 1 alle 20:00",
+            "Cupola a pagamento a parte",
+            "Metro Guangming, accanto all'uscita. Lontano: ~1h da Futian"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, giu 2026 (ricerca «huaqiangbei»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=huaqiangbei"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Eye Shenzhen",
+              "url": "https://www.eyeshenzhen.com/content/2025-05/14/content_31567292.htm"
+            },
+            {
+              "nome": "Trip.com, orari e biglietti",
+              "url": "https://hk.trip.com/travel-guide/attraction/shenzhen/shenzhen-science-and-technology-museum-150197767/?locale=en-HK&curr=HKD"
+            }
+          ]
+        },
+        {
+          "id": "SZ-08",
+          "stato": "verificato",
+          "titolo": "Robot umanoidi: il «Robot 6S Store» è a Longgang, non al Coco Park di Futian",
+          "testo": "Un membro ha girato mezza città per trovarlo: il nome «Coco Park» porta al centro commerciale di Futian, ma il negozio sta al Galaxy World CoCo Park di Longgang. Davanti al negozio si esibiscono robot umanoidi e robot-cane.",
+          "punti": [
+            "Esibizioni di 10 minuti alle 11:00, 15:00, 17:00 e 19:00 (orari del 2025, da riverificare)",
+            "Metro: linea 10 fermata Yabao, uscita B; oppure linee 3/14/16 fermata Universiade, uscita 12",
+            "Un altro membro lo segnala «a pagamento»: dalle fonti web l'area spettacoli è libera, forse si paga l'interazione. Non chiarito",
+            "Alternativa più vicina, solo da fonte web: showroom EngineAI a Futian"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25817911891236087/"
+            },
+            {
+              "nome": "gruppo FB, ago 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/27969843529376235/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Eye Shenzhen, apertura",
+              "url": "https://www.eyeshenzhen.com/content/2025-07/30/content_31646452.htm"
+            },
+            {
+              "nome": "Our China Story, orari show",
+              "url": "https://www.ourchinastory.com/en/15513/World's-first-robot-6S-store-opens-in-Shenzhen"
+            }
+          ]
+        },
+        {
+          "id": "SZ-09",
+          "stato": "verificato",
+          "titolo": "Dafen, il villaggio dei pittori",
+          "testo": "Nel gruppo è «bellissimo». Migliaia di gallerie e laboratori, copie e originali. Uscire dalla via principale e andare nei vicoli.",
+          "punti": [
+            "Metro linea 3, fermata Dafen, uscita A1",
+            "Dafen Art Museum chiuso il lunedì, 09:30-17:30",
+            "In alcune botteghe si fa una lezione di pittura a olio"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, feb 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "China Highlights",
+              "url": "https://www.chinahighlights.com/shenzhen/attraction/dafen-oil-painting-village.htm"
+            }
+          ]
+        },
+        {
+          "id": "SZ-10",
+          "stato": "opinione",
+          "titolo": "Shekou e Shenzhen Bay, la zona più piacevole",
+          "testo": "Una residente la indica come la zona più carina, con accesso facile sia a Hong Kong centro sia all'aeroporto. Altri: passeggiata serale a Sea World con vista sul mare, «deve essere bella la costa».",
+          "punti": [
+            "Parco sul lago col grattacielo «a pillola»: zona Talent Park / Shenzhen Bay"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25654856314208313/"
+            },
+            {
+              "nome": "gruppo FB, feb 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            },
+            {
+              "nome": "gruppo FB, ago 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/27969843529376235/"
+            }
+          ],
+          "verifica": []
+        },
+        {
+          "id": "SZ-11",
+          "stato": "opinione",
+          "titolo": "Splendid China e Window of the World: sconsigliati",
+          "testo": "Chi c'è andato lo chiama «un errore»: è un parco più per bambini, e il biglietto è caro.",
+          "punti": [
+            "Splendid China: ~220 CNY adulto (fonti web 2026)"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, feb 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "China Highlights, Splendid China",
+              "url": "https://www.chinahighlights.com/shenzhen/attraction/splendid-china.htm"
+            }
+          ]
+        },
+        {
+          "id": "SZ-12",
+          "stato": "opinione",
+          "titolo": "Aspettative: il gruppo è diviso",
+          "testo": "Thread di agosto 2026 «Ma Shenzhen merita?», 65 commenti. Pareri netti in entrambe le direzioni.",
+          "punti": [
+            "Contro: «posto più brutto visto in 3 viaggi in Cina»; «carina ma mi aspettavo di più, le metropoli rimangono metropoli»",
+            "A favore: «stupenda nei suoi contrasti e nelle sue avanguardie surreali»; per chi l'ha girata a giugno 2026 «una delle sorprese più belle del viaggio»",
+            "Storia: poca, città nata da poco. Guangzhou e Foshan ne hanno di più (per te c'è Canton subito dopo)"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ago 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/27969843529376235/"
+            },
+            {
+              "nome": "gruppo FB, giu 2026 (ricerca «huaqiangbei»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=huaqiangbei"
+            }
+          ],
+          "verifica": []
+        }
+      ]
+    },
+    {
+      "id": "sera",
+      "nome": "La sera",
+      "voci": [
+        {
+          "id": "SZ-13",
+          "stato": "verificato",
+          "titolo": "Light show dei grattacieli di Futian: cade nelle tue sere",
+          "testo": "Lo spettacolo di luci sui grattacieli del CBD è stato fermo per lavori dal 30 aprile al 1° ottobre 2026. Con l'orario invernale (novembre-marzo) si fa solo venerdì, sabato e domenica: proprio 6, 7 e 8 novembre.",
+          "punti": [
+            "Orari invernali prima della pausa: 19:00, 20:00, 21:00. Riverificare dopo la ripresa di ottobre",
+            "Civic Center Square: prenotazione gratuita obbligatoria, apre 3 giorni prima, dal mini-program WeChat 福田中心区夜景灯光预约导引服务",
+            "Senza prenotazione: cima del Lianhuashan Park e ingresso dello Shenzhen Children's Palace",
+            "Consiglio dal gruppo: due serate. La prima dall'alto (Lianhuashan) e dal Civic Center, la seconda in mezzo ai grattacieli illuminati",
+            "Venerdì 6: arrivi nel pomeriggio, la prenotazione va fatta martedì 3"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, feb 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            },
+            {
+              "nome": "gruppo FB, ago 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/27969843529376235/"
+            },
+            {
+              "nome": "gruppo FB, 2026 (ricerca «lianhuashan»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=lianhuashan"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Shenzhen Gov, pausa aprile-ottobre",
+              "url": "https://www.sz.gov.cn/en_szgov/news/notices/content/post_12749765.html"
+            },
+            {
+              "nome": "China Daily HK",
+              "url": "https://www.chinadailyhk.com/hk/article/632386"
+            },
+            {
+              "nome": "Eye Shenzhen, prenotazione e punti di vista",
+              "url": "https://www.eyeshenzhen.com/content/2024-09/19/content_31221199.htm"
+            }
+          ]
+        },
+        {
+          "id": "SZ-14",
+          "stato": "verificato",
+          "titolo": "Elba, 99º piano del St. Regis (KK100)",
+          "testo": "Consigliato da chi ha passato il confine una quindicina di volte: «vista meravigliosa e prezzi normalissimi», menu sul sito dell'hotel. È il ristorante più alto di Shenzhen, cucina italiana e mediterranea.",
+          "punti": [
+            "KK100, 5016 Shennan Road East, Luohu — metro Grand Theater",
+            "«Normalissimi» per un 5 stelle: fuori dalla fascia del viaggio"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25015898184770799/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Marriott, ristoranti St. Regis",
+              "url": "https://www.marriott.com/en-us/hotels/szxxr-the-st-regis-shenzhen/dining/"
+            },
+            {
+              "nome": "Tripadvisor",
+              "url": "https://www.tripadvisor.com/Restaurant_Review-g297415-d4861892-Reviews-Elba_Italian_Restaurant-Shenzhen_Guangdong.html"
+            }
+          ]
+        },
+        {
+          "id": "SZ-15",
+          "stato": "verificato",
+          "titolo": "Sea World (Shekou): passeggiata serale e cena turca da Doors",
+          "testo": "Sea World è la piazza sul mare di Shekou, col vecchio transatlantico in mezzo. Il gruppo la indica per la passeggiata serale e per un ristorante turco, «The Doors».",
+          "punti": [
+            "Doors Lounge, 1º piano, Qianqian Plaza Zona A, Sea World — halal, turco e mediterraneo",
+            "4,7/5 su Tripadvisor, primo della città per recensioni",
+            "Metro: Sea World, linee 2 e 8"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ott 2025",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25015898184770799/"
+            },
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Doors Lounge",
+              "url": "https://doors-lounge.com/"
+            },
+            {
+              "nome": "Tripadvisor",
+              "url": "https://www.tripadvisor.com/Restaurant_Review-g297415-d32991374-Reviews-Doors_Lounge_Turkish_Restaurant-Shenzhen_Guangdong.html"
+            }
+          ]
+        },
+        {
+          "id": "SZ-16",
+          "stato": "da verificare",
+          "titolo": "Dongmen, la via pedonale di Luohu",
+          "testo": "Citata tra le tappe di chi ha fatto Shenzhen in un giorno, insieme al light show visto dal parco. Solo una menzione, senza dettagli.",
+          "punti": [
+            "Metro Laojie"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, ago 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/27969843529376235/"
+            }
+          ],
+          "verifica": []
+        },
+        {
+          "id": "SZ-17",
+          "stato": "verificato",
+          "titolo": "Robot show delle 19:00",
+          "testo": "L'ultima esibizione al Robot 6S Store di Longgang è alle 19:00. Vedi SZ-08.",
+          "punti": [],
+          "fonti": [
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25817911891236087/"
+            }
+          ],
+          "verifica": []
+        }
+      ]
+    },
+    {
+      "id": "cibo",
+      "nome": "Mangiare",
+      "voci": [
+        {
+          "id": "SZ-18",
+          "stato": "verificato",
+          "titolo": "Orbit One, il ristorante spaziale",
+          "testo": "In un itinerario del gruppo: Lianhuashan la mattina, pranzo da «Orbitone». È Orbit One: sala a tema astronave, i piatti arrivano su binari sospesi al soffitto. Cucina occidentale con tocchi asiatici.",
+          "punti": [
+            "IN City Plaza, Futian — metro Science Museum, linea 6",
+            "~98 CNY a persona, non serve prenotare"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Little Steps",
+              "url": "https://www.littlestepsasia.com/travel/china/shenzhen/orbit-one-restaurant/"
+            }
+          ]
+        },
+        {
+          "id": "SZ-19",
+          "stato": "opinione",
+          "titolo": "Cena a Coco Park (Futian)",
+          "testo": "Due resoconti mettono la cena a Coco Park, il mall di Futian pieno di ristoranti e bar. Nessun locale specifico citato.",
+          "punti": [
+            "Metro Shopping Park, linee 1 e 3"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, gen 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/25704965312530746/"
+            },
+            {
+              "nome": "gruppo FB, giu 2026 (ricerca «huaqiangbei»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=huaqiangbei"
+            }
+          ],
+          "verifica": []
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "nome": "Comprare",
+      "voci": [
+        {
+          "id": "SZ-20",
+          "stato": "opinione",
+          "titolo": "Huaqiangbei: esci dalla via principale",
+          "testo": "Chi ci è tornato più volte a giugno 2026: non fermarsi ai grandi centri che danno sulla strada principale. Nei negozi e mercati delle vie e degli edifici sul retro ci sono gli stessi prodotti a prezzi del 70-80% più bassi.",
+          "punti": [
+            "Un altro: «tutto ciò che trovi su AliExpress, ma senza spedizione», più componenti per PC",
+            "Serve sapere prima cosa cercare e dove: mezza giornata in un solo centro commerciale mirato vale più di un giro a caso"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, giu 2026 (ricerca «huaqiangbei»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=huaqiangbei"
+            },
+            {
+              "nome": "gruppo FB, ago 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/27969843529376235/"
+            },
+            {
+              "nome": "gruppo FB, mar 2026",
+              "url": "https://www.facebook.com/groups/1592093297577951/posts/26290899000604038/"
+            }
+          ],
+          "verifica": []
+        },
+        {
+          "id": "SZ-21",
+          "stato": "verificato",
+          "titolo": "Vestiti su misura al Luohu Commercial City",
+          "testo": "Una coppia a giugno 2026 si è fatta confezionare dei vestiti nel centro commerciale accanto alla frontiera: veloci e precisi. È il Luohu Commercial City, sopra la stazione di Luohu.",
+          "punti": [
+            "Sarti al 5º piano, un intero piano di tessuti e laboratori",
+            "Una guida cita Yaqi (n. 19 del mercato tessuti, 5º piano): parla inglese",
+            "Regola: scegli i banchi pieni di clienti, evita chi ti ferma mentre passi",
+            "Metro Luohu, capolinea della linea 1"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, giu 2026 (ricerca «huaqiangbei»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=huaqiangbei"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Little Steps, guida 2026",
+              "url": "https://www.littlestepsasia.com/travel/china/shenzhen/luohu-commercial-city-shopping-guide/"
+            },
+            {
+              "nome": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Luohu_Commercial_City"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -390,3 +390,8 @@ main.mapmain { display: flex; flex-direction: column; }
 
 .ganci { margin: 12px 0 0; padding: 11px 0 0; border-top: 1px dashed var(--line); }
 .ganci li { font-size: 13px; color: var(--ink-2); }
+
+/* --- shenzhen: voci da tenere o scartare ------------------------------- */
+.srow ul.punti { margin: 6px 0 0; padding-left: 1.1em; font-size: 13.5px; color: var(--ink-2); }
+.srow ul.punti li + li { margin-top: 3px; }
+.srow .n b { font-weight: 600; color: var(--ink-2); }

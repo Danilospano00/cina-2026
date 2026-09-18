@@ -14,6 +14,7 @@ Sezioni:
   treni.html       le sette tratte ferroviarie
   hotel.html       stato delle otto prenotazioni
   checklist.html   preparativi, con spunte salvate sul telefono
+  shenzhen.html    ricerca sul gruppo FB, voci con codice da tenere o scartare
 
 Uso:  python3 build.py
 """
@@ -41,6 +42,7 @@ SEZIONI = [
     ("treni.html", "Treni"),
     ("hotel.html", "Hotel"),
     ("checklist.html", "Checklist"),
+    ("shenzhen.html", "Shenzhen"),
 ]
 
 TIPI = {
@@ -1078,6 +1080,64 @@ def build_checklist(c):
 
 
 
+# --- pagina: shenzhen ------------------------------------------------------
+STATI = {
+    "verificato": {"label": "confermato sul web", "breve": "verificato", "colore": "#2f9e44"},
+    "da verificare": {"label": "da verificare", "breve": "da verificare", "colore": "#e8590c"},
+    "opinione": {"label": "opinione dal gruppo", "breve": "opinione", "colore": "#1098ad"},
+}
+
+
+def link_fonti(etichetta, fonti):
+    if not fonti:
+        return ""
+    a = " · ".join(
+        f'<a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a>'
+        for f in fonti
+    )
+    return f'<p class="n"><b>{e(etichetta)}</b> {a}</p>'
+
+
+def riga_voce(v):
+    st = STATI[v["stato"]]
+    return (
+        f'<div class="srow" id="{e(v["id"])}" style="--sc:{st["colore"]}">'
+        f'<div class="day">{e(v["id"])}<em>{e(st["breve"])}</em></div>'
+        f'<div class="body"><div class="t"><i></i>{e(v["titolo"])}</div>'
+        f'<p class="w">{e(v["testo"])}</p>'
+        f'{lista(v["punti"], "punti")}'
+        f'{link_fonti("Gruppo:", v["fonti"])}'
+        f'{link_fonti("Verifica:", v["verifica"])}'
+        "</div></div>"
+    )
+
+
+def build_shenzhen(d):
+    indice = " · ".join(
+        f'<a href="#{e(c["id"])}">{e(c["nome"])}</a> ({len(c["voci"])})' for c in d["categorie"]
+    )
+    leg = "".join(
+        f'<span><i style="background:{x["colore"]}"></i>{e(x["label"])}</span>'
+        for x in STATI.values()
+    )
+    cards = "".join(
+        f'<div class="card" id="{e(c["id"])}"><div class="stop-head"><h3>{e(c["nome"])}</h3></div>'
+        + "".join(riga_voce(v) for v in c["voci"])
+        + "</div>"
+        for c in d["categorie"]
+    )
+    corpo = f"""<div class="page narrow">
+<h1>{e(d["titolo"])}</h1>
+<p class="lede">{e(d["lede"])}</p>
+<div class="warn">{e(d["avvertenza"])}</div>
+<p class="muted">{indice}</p>
+<div class="legend">{leg}</div>
+{cards}
+<p class="muted">Aggiornato il {e(d["aggiornato"])}. Club e pub stanno nella <a href="mappe/shenzhen.html">mappa di Shenzhen</a>, i social del venerdì e del sabato nelle <a href="serate.html">Serate</a>.</p>
+</div>"""
+    return pagina("Shenzhen — Sud della Cina", corpo, "shenzhen.html")
+
+
 # --- KML -------------------------------------------------------------------
 def kml_style(sid, color_hex):
     """color_hex '#rrggbb' -> KML aabbggrr."""
@@ -1243,6 +1303,7 @@ def main():
     voli = json.loads((DATA / "voli.json").read_text(encoding="utf-8"))
     check = json.loads((DATA / "checklist.json").read_text(encoding="utf-8"))
     serate = json.loads((DATA / "serate.json").read_text(encoding="utf-8"))
+    shenzhen = json.loads((DATA / "shenzhen.json").read_text(encoding="utf-8"))
     mappe = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(MAPPE.glob("*.json"))]
 
     if OUT.exists():
@@ -1272,6 +1333,7 @@ def main():
     w("treni.html", build_treni(treni))
     w("hotel.html", build_hotel(viaggio))
     w("checklist.html", build_checklist(check))
+    w("shenzhen.html", build_shenzhen(shenzhen))
 
     for d in mappe:
         w(f'mappe/{d["slug"]}.html', build_mappa(d))
