@@ -14,7 +14,6 @@ Sezioni:
   treni.html       le sette tratte ferroviarie
   hotel.html       stato delle otto prenotazioni
   checklist.html   preparativi, con spunte salvate sul telefono
-  talk.html        deck di 4 minuti sul metodo, con note e cronometro
 
 Uso:  python3 build.py
 """
@@ -42,7 +41,6 @@ SEZIONI = [
     ("treni.html", "Treni"),
     ("hotel.html", "Hotel"),
     ("checklist.html", "Checklist"),
-    ("talk.html", "Talk"),
 ]
 
 TIPI = {
@@ -1080,121 +1078,6 @@ def build_checklist(c):
 
 
 
-# --- pagina: talk ----------------------------------------------------------
-def slide(s, indice):
-    """Una slide del deck. Il tempo previsto sta in data-secondi: lo legge il
-    cronometro di talk.js per dire se sei avanti o in ritardo."""
-    sec = f' data-secondi="{int(s["secondi"])}"'
-    tipo = s.get("tipo", "punti")
-
-    if tipo == "cover":
-        cifre = "".join(
-            f'<div><b>{e(c["n"])}</b><span>{e(c["l"])}</span></div>' for c in s.get("cifre", [])
-        )
-        return (
-            f'<section class="slide cover" id="s{indice}"{sec}>'
-            f'<p class="occhiello">{e(s["occhiello"])}</p>'
-            f'<h2>{e(s["titolo"])}</h2>'
-            f'<p class="sotto">{e(s["sotto"])}</p>'
-            f'<div class="cifre">{cifre}</div>'
-            "</section>"
-        )
-
-    num = f'<span class="num">{s["numero"]:02d}</span>' if s.get("numero") else ""
-    prova = f'<div class="prova">{e(s["prova"])}</div>' if s.get("prova") else ""
-    return (
-        f'<section class="slide" id="s{indice}"{sec}>{num}'
-        f'<p class="occhiello">{e(s["occhiello"])}</p>'
-        f'<h2>{e(s["titolo"])}</h2>'
-        f'{lista(s.get("punti", []))}{prova}'
-        "</section>"
-    )
-
-
-def build_talk(t):
-    slide_hs = "".join(slide(s, k) for k, s in enumerate(t["slide"]))
-    dots = "".join(
-        '<button type="button" aria-label="Slide {n}{extra}"></button>'.format(
-            n=k + 1, extra=": " + e(s["titolo"])
-        )
-        for k, s in enumerate(t["slide"])
-    )
-
-    note = []
-    for k, s in enumerate(t["slide"]):
-        etichetta_s = s.get("numero") and f'{s["numero"]}.' or "·"
-        note.append(
-            '<div class="srow">'
-            f'<span class="day">{e(str(s["secondi"]))}s<em>{e(etichetta_s)}</em></span>'
-            '<div class="body">'
-            f'<p class="t">{e(s["titolo"])}</p>'
-            f'<p class="n" style="margin-top:5px;font-size:14px;color:var(--ink-2)">{e(s["note"])}</p>'
-            "</div></div>"
-        )
-
-    tot = sum(s["secondi"] for s in t["slide"])
-    m, sec = divmod(tot, 60)
-    fuori = lista(t["fuori"])
-
-    corpo = f"""<div class="page">
-<h1>{e(t["titolo"])}</h1>
-<p class="lede">{e(t["lede"])}</p>
-
-<div class="deckwrap" id="deckwrap">
- <div class="deck" id="deck" tabindex="0" aria-label="Slide del talk">{slide_hs}</div>
-</div>
-
-<div class="comandi">
- <button type="button" class="btn" id="prev">&#8592;</button>
- <button type="button" class="btn" id="next">&#8594;</button>
- <div id="dots">{dots}</div>
- <span id="etichetta"></span>
- <span class="sp"></span>
- <span class="crono" id="crono">0:00 / {m}:{sec:02d}</span>
- <button type="button" class="btn" id="azzera">Azzera</button>
- <button type="button" class="btn" id="bnote" aria-pressed="false">Note</button>
- <button type="button" class="btn primary" id="pieno">Schermo intero</button>
-</div>
-
-<p class="muted">Frecce o spazio per avanzare, <b>F</b> schermo intero, <b>N</b> note.
-Il cronometro parte al primo avanzamento: verde in pari, giallo se sei avanti,
-rosso se hai sforato di oltre 12 secondi.</p>
-
-<div class="card">
- <div class="stop-head"><h3>Tesi</h3><span class="when">{m}:{sec:02d} · {len(t["slide"])} slide · {e(t["pubblico"])}</span></div>
- <p style="margin:0;font-size:15.5px">{e(t["tesi"])}</p>
-</div>
-
-<div class="note card">
- <div class="stop-head"><h3>Note per chi parla</h3>
-  <span class="when">premi N per nascondere</span></div>
- {"".join(note)}
-</div>
-
-<div class="card">
- <div class="stop-head"><h3>Da aprire dal vivo</h3></div>
- <p class="muted" style="margin:0 0 4px">Le pagine che valgono una demo di dieci secondi ciascuna.</p>
- <div class="links">
-  <a class="btn" href="mappe/chengdu.html">Mappa Chengdu &mdash; popup con link Amap convertito</a>
-  <a class="btn" href="hotel.html">Hotel &mdash; scelte e scartati</a>
-  <a class="btn" href="treni.html">Treni &mdash; tariffe derivate col warning</a>
-  <a class="btn" href="index.html">Riepilogo</a>
- </div>
-</div>
-
-<div class="card">
- <div class="stop-head"><h3>Tagliato per stare in quattro minuti</h3></div>
- {fuori}
-</div>
-</div>"""
-    return pagina(
-        "Talk — Sud della Cina",
-        corpo,
-        "talk.html",
-        coda=f'<script src="assets/{asset("talk.js")}"></script>',
-    )
-
-
 # --- KML -------------------------------------------------------------------
 def kml_style(sid, color_hex):
     """color_hex '#rrggbb' -> KML aabbggrr."""
@@ -1360,7 +1243,6 @@ def main():
     voli = json.loads((DATA / "voli.json").read_text(encoding="utf-8"))
     check = json.loads((DATA / "checklist.json").read_text(encoding="utf-8"))
     serate = json.loads((DATA / "serate.json").read_text(encoding="utf-8"))
-    talk = json.loads((DATA / "talk.json").read_text(encoding="utf-8"))
     mappe = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(MAPPE.glob("*.json"))]
 
     if OUT.exists():
@@ -1369,7 +1251,7 @@ def main():
     (OUT / "mappe").mkdir()
     (OUT / "kml").mkdir()
 
-    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "talk.js", "itinerario.js"):
+    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "itinerario.js"):
         sorgente = STATIC / nome
         shutil.copy2(sorgente, OUT / "assets" / nome)
         VER[nome] = hashlib.md5(sorgente.read_bytes()).hexdigest()[:8]
@@ -1390,7 +1272,6 @@ def main():
     w("treni.html", build_treni(treni))
     w("hotel.html", build_hotel(viaggio))
     w("checklist.html", build_checklist(check))
-    w("talk.html", build_talk(talk))
 
     for d in mappe:
         w(f'mappe/{d["slug"]}.html', build_mappa(d))
@@ -1400,7 +1281,6 @@ def main():
     n_voci = sum(len(g["voci"]) for g in check["gruppi"])
     n_serate = sum(len(x["eventi"]) for x in serate["tappe"])
     print(f"  {len(SEZIONI)} sezioni")
-    print(f'  talk: {len(talk["slide"])} slide, {sum(s["secondi"] for s in talk["slide"])}s')
     print(f"  {len(mappe)} mappe, {n_locali} locali, {len(mappe)} KML")
     print(f"  {n_serate} appuntamenti serali")
     print(f'  {len(viaggio["tappe"])} tappe, {len(treni["tratte"])} tratte, {n_voci} voci checklist')
