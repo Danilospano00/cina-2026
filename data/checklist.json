@@ -117,9 +117,15 @@
       ]
     },
     {
-      "nome": "Soldi e bagaglio",
+      "nome": "Soldi, bagaglio e ultimi adempimenti",
       "scadenza": "ultimi giorni",
       "voci": [
+        {
+          "id": "arrival-card",
+          "testo": "China Digital Arrival Card compilata online",
+          "dettaglio": "Dal 20 novembre 2025 la cartolina azzurra di carta è sostituita dalla dichiarazione online: si compila nelle 72 ore prima dell'ingresso, sull'app NIA 12367, sul sito della National Immigration Administration o dal mini-program WeChat o Alipay. È gratuita: la NIA segnala siti falsi a pagamento. Serve al primo ingresso del 6 novembre e di nuovo a ogni rientro dal lato Hong Kong. Se salti il passaggio, al confine c'è il QR da scansionare o il modulo di carta.",
+          "critico": true
+        },
         {
           "id": "revolut",
           "testo": "Revolut carica",

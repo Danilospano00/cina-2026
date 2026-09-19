@@ -1,6 +1,6 @@
 {
   "titolo": "Shenzhen — cosa dice il gruppo",
-  "lede": "Raccolta dal gruppo Facebook «Cina fai da te» (post da settembre 2024 in poi), incrociata col web per confermare orari, prezzi e se il posto esiste ancora. Ogni voce ha un codice: dimmi quali togliere e sparisce dal JSON.",
+  "lede": "Raccolta dal gruppo Facebook «Cina fai da te» (post da settembre 2024 in poi), incrociata col web per confermare orari, prezzi e se il posto esiste ancora. La arrival card è passata nella Checklist. Ogni voce ha un codice: dimmi quali togliere e sparisce dal JSON.",
   "aggiornato": "2026-09-18",
   "avvertenza": "Il gruppo parla poco di Shenzhen: quasi tutti la attraversano in un giorno tra Hong Kong e Guilin. Sui ristoranti in particolare escono tre nomi in due anni. I nomi di chi ha scritto non sono riportati (il repo è pubblico): il link porta al post, che si apre solo da membro del gruppo.",
   "categorie": [
@@ -11,13 +11,53 @@
         {
           "id": "SZ-01",
           "stato": "verificato",
-          "titolo": "Traghetto dall'aeroporto di Hong Kong a Shekou, senza entrare a Hong Kong",
-          "testo": "Dal molo SkyPier dentro l'aeroporto parte un traghetto per lo Shekou Cruise Homeport. Non passi l'immigrazione di Hong Kong: la fai direttamente in Cina, a Shekou. Il bagaglio in stiva lo trasferiscono loro: consegni il talloncino al banco.",
+          "titolo": "Come entrare a Shenzhen dall'aeroporto di Hong Kong: il confronto",
+          "testo": "Quattro modi, confrontati su quattro guide di trasporti oltre al sito dell'aeroporto. Sul tuo caso — atterri venerdì 6 alle 12:00, hai il trolley in stiva, dormi a Futian vicino a Huaqiangbei — il pullman transfrontaliero resta la scelta migliore: è il più economico dei modi comodi e l'unico che non ti fa trascinare il bagaglio tra i cambi.",
           "punti": [
-            "Banco biglietti: Transfer Area E2, prima dei controlli di Hong Kong",
+            "Pullman transfrontaliero: HK$135-250 secondo la guida e la destinazione, 60-110 minuti, partenze ogni 15-30 minuti fino a sera. Biglietti ai banchi M01-M16 del Mainland/Macao Transport Centre. Ti scarica ai valichi (Shenzhen Bay, Futian/Huanggang) o davanti ad alcuni hotel. Rischio: il traffico",
+            "Treno ad alta velocità via West Kowloon: Airport Express HK$105-115 più il treno HK$86-94, quindi circa HK$200. 100-130 minuti porta a porta, immigrazione compresa. Orari certi, ma due cambi col trolley e la fila all'immigrazione di West Kowloon, che ai picchi vale mezz'ora",
+            "Traghetto SkyPier fino a Shekou: HK$198-340, 30-40 minuti di navigazione ma 70-120 porta a porta. Non entri a Hong Kong (vedi SZ-02). Il problema è dove ti lascia: Shekou sta in fondo a Nanshan, poi servono ancora 45-60 minuti per Futian",
+            "Bus urbano più metro, il più economico: bus A43 o A36 verso il valico, attraversamento a piedi, poi metro di Shenzhen. HK$60-155 in tutto, ma 90-170 minuti e tre o quattro cambi col bagaglio",
+            "Taxi o auto privata: da HK$700 in su fino a HK$1.600-2.400 per un van con autista. Ha senso in gruppo o di notte, non per te",
+            "Nota sui tempi: tutte le stime partono da quando esci dall'aeroporto. Sbarco, immigrazione di Hong Kong e ritiro bagagli restano 45-60 minuti a parte, tranne col traghetto"
+          ],
+          "fonti": [
+            {
+              "nome": "gruppo FB, 2026 (ricerca «shekou»)",
+              "url": "https://www.facebook.com/groups/1592093297577951/search/?q=shekou"
+            }
+          ],
+          "verifica": [
+            {
+              "nome": "Travel China Guide, 5 opzioni",
+              "url": "https://www.travelchinaguide.com/cityguides/hongkong/airport-to-shenzhen.htm"
+            },
+            {
+              "nome": "MyChina Guide 2026",
+              "url": "https://mychina.guide/blog/hong-kong-airport-to-shenzhen-transport-guide"
+            },
+            {
+              "nome": "Trip.com, guida trasporti",
+              "url": "https://www.trip.com/guide/transport/hong-kong-airport-to-shenzhen.html"
+            },
+            {
+              "nome": "HKIA, pullman per la Cina",
+              "url": "https://www.hongkongairport.com/en/transport/mainland-connection/mainland-coaches/"
+            }
+          ]
+        },
+        {
+          "id": "SZ-02",
+          "stato": "verificato",
+          "titolo": "Traghetto dall'aeroporto di Hong Kong a Shekou, senza entrare a Hong Kong",
+          "testo": "Dal molo SkyPier dentro l'aeroporto parte un traghetto per lo Shekou Cruise Homeport. Non passi l'immigrazione di Hong Kong: la fai direttamente in Cina, a Shekou. Il bagaglio in stiva lo trasferiscono loro, consegni il talloncino al banco. Conviene solo se dormi a Shekou o a Nanshan.",
+          "punti": [
+            "Banco biglietti: Transfer Area E2, prima dei controlli di Hong Kong. Presentarsi 60 minuti prima della partenza",
             "13 corse al giorno, dalle 08:15 alle 21:30, 40 minuti di traversata (dato HKIA aggiornato ad agosto 2026)",
-            "Prezzo non chiaro: le piattaforme online partono da HK$390; nel gruppo una famiglia di cinque citava 103 € in tutto. Chiedere al banco",
-            "Contro: sbarchi a Shekou, in fondo a Nanshan. Da lì a Futian/Huaqiangbei è lunga, stima 45-60 min di metro, oppure un Didi. Con l'hotel a Yannan il pullman per Futian resta più diretto"
+            "Prezzo: HK$198-340 secondo le guide; le piattaforme di prenotazione online partono da HK$390. Nel gruppo una famiglia di cinque citava 103 € in tutto",
+            "Chi può salirci: serve essere arrivati in volo in giornata e non aver passato l'immigrazione di Hong Kong. Alcune guide lo descrivono come riservato a chi ha un volo in coincidenza, ma il sito dell'aeroporto e la guida di Cathay dicono solo «arrivati in volo, senza entrare a Hong Kong». Da chiedere al banco",
+            "Si ferma col maltempo: coi tifoni le corse saltano",
+            "Contro decisivo per te: sbarchi a Shekou, in fondo a Nanshan, e da lì a Futian restano 45-60 minuti di metro o un Didi"
           ],
           "fonti": [
             {
@@ -33,38 +73,6 @@
             {
               "nome": "Cathay, guida Shekou",
               "url": "https://www.cathaypacific.com/cx/en_US/inspiration/travel/how-to-get-to-shekou-from-hong-kong.html"
-            }
-          ]
-        },
-        {
-          "id": "SZ-02",
-          "stato": "verificato",
-          "titolo": "Arrival card: ora si fa online, niente più cartolina azzurra",
-          "testo": "Nel gruppo il consiglio ricorrente è «porta una penna, al rientro in Cina c'è da compilare il modulo azzurro, e prendine un paio da precompilare». Dal 20 novembre 2025 la Cina ha la China Digital Arrival Card: si compila online fino a 72 ore prima dell'ingresso.",
-          "punti": [
-            "Canali ufficiali: app NIA 12367, sito NIA, mini-program WeChat o Alipay",
-            "Al confine c'è ancora il QR da scansionare o il modulo di carta, se non l'hai fatta prima",
-            "Serve anche a ogni rientro da Hong Kong: il 6 novembre all'arrivo, e di nuovo se fai una gita a Hong Kong e torni",
-            "La NIA segnala siti falsi a pagamento: è gratuita, usare solo i canali ufficiali"
-          ],
-          "fonti": [
-            {
-              "nome": "gruppo FB, ott 2025",
-              "url": "https://www.facebook.com/groups/1592093297577951/posts/25015898184770799/"
-            },
-            {
-              "nome": "gruppo FB, gen 2026",
-              "url": "https://www.facebook.com/groups/1592093297577951/posts/25654856314208313/"
-            }
-          ],
-          "verifica": [
-            {
-              "nome": "NIA, avviso siti falsi",
-              "url": "https://en.nia.gov.cn/n147418/n147463/c191530/content.html"
-            },
-            {
-              "nome": "Ambasciata cinese, annuncio",
-              "url": "https://sg.china-embassy.gov.cn/eng/lsfwx/zytz/202512/t20251201_11763717.htm"
             }
           ]
         },
@@ -102,7 +110,7 @@
           "testo": "Da Shenzhen North o Futian il treno G arriva a West Kowloon, già in centro. Più veloce della metro via Luohu, ma i controlli a West Kowloon sono lenti: tanti occidentali, e la dogana richiede in media un'ora.",
           "punti": [
             "Treni ogni ~10 minuti tra Shenzhen e Hong Kong",
-            "Consiglio del gruppo: compila la arrival card mentre sei in coda (ora online, vedi SZ-02)"
+            "Consiglio del gruppo: compila la arrival card mentre sei in coda. Ora si fa online: è nella Checklist"
           ],
           "fonti": [
             {
