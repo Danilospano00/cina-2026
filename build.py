@@ -345,7 +345,7 @@ Nessun biglietto è ancora comprato: le vendite aprono
     n_hotel = sum(len(t["hotel"]) if isinstance(t["hotel"], list) else 1 for t in viaggio["tappe"])
     aperti = [
         (f"{n_hotel} prenotazioni hotel su Trip.com",
-         "sette tappe ma otto strutture: a Hong Kong il 25 in centro, il 26 a Tung Chung", "hotel.html"),
+         "sette tappe ma otto strutture: a Hong Kong il 25 in centro, il 26 in aeroporto", "hotel.html"),
         (f'{len(treni["tratte"])} tratte in treno + le gite in giornata',
          "le vendite aprono 15 giorni prima di ogni partenza", "treni.html"),
         ("Preparativi", "VPN, eSIM, pagamenti, assicurazione", "checklist.html"),

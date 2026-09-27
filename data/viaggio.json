@@ -296,9 +296,14 @@
           "cerca": "Hong Kong",
           "checkin": "2026-11-25",
           "checkout": "2026-11-26",
-          "zona": "Kowloon o HK Island, comodo a West Kowloon",
-          "note": "Una notte sola. Il G905 scarica a West Kowloon alle 15:57, la serata si fa in città",
-          "stato": "da cercare"
+          "zona": "Flat D2, 9/F, Mirador Mansion, No. 62 Nathan Road, Tsim Sha Tsui — metro Tsim Sha Tsui <100 m, lungomare 650 m, Harbour City 440 m, West Kowloon 1,6 km",
+          "note": "Voto 9,2 su 301 recensioni Trip.com, pulizia 9,3, servizio 9,5, 6 negative (2%): il profilo igienico migliore tra le guesthouse di Kowloon sotto i 40 €. Mirador Mansion è un palazzone anni '50 pieno di guesthouse, più tranquillo della vicina Chungking Mansions: la sera l'ascensore può avere coda. Dal G905 si arriva a piedi (~20 min) o con la Tuen Ma line da Austin a East Tsim Sha Tsui, una fermata. Il 26: Star Ferry ~10 min a piedi, Sham Shui Po 4 fermate sulla linea rossa. La sera, verso il Regala: linea rossa fino a Lai King, poi Tung Chung line e navetta. Check-in 14:00-24:00, check-out entro le 11:30, reception 09:00-23:59. ⚠️ Deposito bagagli non elencato tra i servizi (c'è solo un tag ricorrente nelle recensioni): confermarlo con l'hotel dalla chat Trip.com, serve per la giornata del 26. Non su Booking. Tariffa non rimborsabile.",
+          "stato": "prenotato",
+          "nome": "Merryland Guest House",
+          "tariffa": "Camera matrimoniale — 8 m², letto matrimoniale piccolo, senza finestre, bagno privato, non fumatori, 9º piano",
+          "prezzo": "37 € per 1 notte",
+          "url": "https://it.trip.com/hotels/detail/?cityId=58&hotelId=1763523&checkIn=2026-11-25&checkOut=2026-11-26&adult=1&crn=1&curr=EUR&locale=it-IT",
+          "costo_eur": 37.0
         },
         {
           "cerca": "Hong Kong",
