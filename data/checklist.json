@@ -13,6 +13,12 @@
           "critico": true
         },
         {
+          "id": "app-offline",
+          "testo": "Sito installato come app e mappe scaricate per l'offline",
+          "dettaglio": "Da Safari: Condividi → Aggiungi alla schermata Home. Poi apri l'app dall'icona, col WiFi, e nella pagina Mappe premi «Scarica le mappe per l'offline» (~35 MB). Va fatto dall'app, non da Safari: hanno memorie separate. Anche le spunte di questa checklist non passano da Safari all'app.",
+          "critico": true
+        },
+        {
           "id": "visto",
           "testo": "Verificata l'esenzione visto 30 giorni",
           "dettaglio": "Gli italiani sono esenti fino a 30 giorni di permanenza continentale, ma è una misura prorogata anno per anno. Riverifica prima di partire.",

@@ -1,0 +1,36 @@
+{
+  "nota": "Punti fuori dall'area dei locali che servono anche offline: stazione d'arrivo e hotel. Ognuno aggiunge al ritaglio un riquadro di raggio_m attorno a sé. Coordinate WGS-84 da Nominatim.",
+  "raggio_m": 1200,
+  "margine_m": 1000,
+  "maxzoom": 15,
+  "extra": {
+    "shenzhen": [
+      {"nome": "Shenzhen North 深圳北", "coord": [22.61204, 114.02395]},
+      {"nome": "Metro Yannan 燕南 (hotel)", "coord": [22.54717, 114.08634]},
+      {"nome": "Futian Port 福田口岸", "coord": [22.52444, 114.0385]}
+    ],
+    "guangzhou": [
+      {"nome": "Guangzhou South 广州南", "coord": [22.99141, 113.26404]},
+      {"nome": "Metro Changshou Lu 长寿路 (hotel)", "coord": [23.12105, 113.2367]}
+    ],
+    "yangshuo": [
+      {"nome": "Stazione Yangshuo 阳朔", "coord": [24.96361, 110.56336]}
+    ],
+    "guiyang": [
+      {"nome": "Guiyang North 贵阳北", "coord": [26.62283, 106.67245]}
+    ],
+    "chengdu": [
+      {"nome": "Chengdu East 成都东", "coord": [30.6313, 104.13892]},
+      {"nome": "Metro Fuqin 抚琴 (hotel)", "coord": [30.67908, 104.03918]}
+    ],
+    "chongqing": [
+      {"nome": "Chongqing West 重庆西", "coord": [29.50293, 106.43215]},
+      {"nome": "Metro Jiaochangkou 较场口 (hotel)", "coord": [29.55638, 106.56783]}
+    ],
+    "hongkong": [
+      {"nome": "HK West Kowloon 西九龍", "coord": [22.30368, 114.16493]},
+      {"nome": "Regala Skycity Hotel (aeroporto)", "coord": [22.31915, 113.94209]},
+      {"nome": "Tung Chung 東涌", "coord": [22.28931, 113.94145]}
+    ]
+  }
+}

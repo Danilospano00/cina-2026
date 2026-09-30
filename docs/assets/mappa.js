@@ -3,10 +3,18 @@
   var D = JSON.parse(document.getElementById('mapdata').textContent);
 
   var map = L.map('map').setView(D.center, D.zoom);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  // Mappa vettoriale ritagliata per la tappa (mappe_offline.py): funziona senza rete
+  // se il file è stato scaricato dalla pagina Mappe. Oltre lo zoom 15 si ingrandisce.
+  var scuro = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
+  protomapsL.leafletLayer({
+    url: D.tiles,
+    flavor: scuro ? 'dark' : 'light',
+    lang: 'en',
+    maxDataZoom: 15,
     maxZoom: 19,
-    attribution: '&copy; OpenStreetMap'
+    attribution: '&copy; OpenStreetMap · Protomaps'
   }).addTo(map);
+  map.setMaxZoom(19);
 
   function esc(s) {
     return String(s === null || s === undefined ? '' : s).replace(/[&<>"]/g, function (c) {

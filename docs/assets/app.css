@@ -214,6 +214,8 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: now
 
 .btn:hover { filter: brightness(.97); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button.btn { font-family: inherit; cursor: pointer; }
+button.btn:disabled { opacity: .55; cursor: default; }
 
 /* --- tappe -------------------------------------------------------------- */
 .stops { display: grid; gap: 11px; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); }

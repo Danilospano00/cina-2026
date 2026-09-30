@@ -32,6 +32,7 @@ ROOT = pathlib.Path(__file__).parent
 DATA = ROOT / "data"
 MAPPE = DATA / "mappe"
 STATIC = ROOT / "static"
+TILES = ROOT / "tiles"  # mappe vettoriali per l'offline, le genera mappe_offline.py
 OUT = ROOT / "docs"
 
 SEZIONI = [
@@ -104,6 +105,11 @@ def etichetta(checkin, checkout):
 
 def asset(nome):
     return f"{nome}?v={VER.get(nome, '0')}"
+
+
+def tiles_url(slug):
+    """URL della mappa offline relativo a docs/. Il ?v= cambia solo se si rigenera il file."""
+    return f"tiles/{slug}.pmtiles?v={VER.get(slug + '.pmtiles', '0')}"
 
 
 def eur(x):
@@ -213,7 +219,8 @@ def pagina(titolo, corpo, attiva, depth=0, testa="", coda="", main_class="", bod
  <nav>{nav}</nav>
 </div></header>
 <main{mc}>{corpo}</main>
-{coda}</body></html>"""
+{coda}<script src="{rel}assets/{asset("pwa.js")}" data-base="{rel}"></script>
+</body></html>"""
 
 
 def lista(voci, cls=""):
@@ -494,9 +501,21 @@ def build_mappe_index(mappe, viaggio):
                 f'<td>{e(top["nome"])}</td>',
                 f'<td class="num">{len(d["venues"])}</td>',
                 f'<td class="num">{incerti}</td>',
+                f'<td class="num" data-offline="{e(d["slug"])}">—</td>',
                 f'<td><a class="btn" href="kml/{e(d["slug"])}.kml" download>KML</a></td>',
             ]
         )
+
+    offline = [
+        {
+            "slug": d["slug"],
+            "city": d["city"],
+            "url": tiles_url(d["slug"]),
+            "mb": round((TILES / f'{d["slug"]}.pmtiles').stat().st_size / 1e6, 1),
+        }
+        for d in sorted(mappe, key=lambda x: x["checkin"])
+    ]
+    tot_mb = round(sum(x["mb"] for x in offline))
 
     senza = " e ".join(t["nome"] for t in viaggio["tappe"] if not t["mappa"])
 
@@ -505,16 +524,25 @@ def build_mappe_index(mappe, viaggio):
 <p class="lede">Per ogni tappa: dove dormire per avere la vita notturna a piedi, con i locali
 veri che rendono una zona tale. Link a Booking e Trip.com con le date già impostate.</p>
 
-{tabella(["Tappa", "Date", "Zona consigliata", "Locali", "Da riverificare", "Offline"], righe)}
+{tabella(["Tappa", "Date", "Zona consigliata", "Locali", "Da riverificare", "Sul telefono", "KML"], righe)}
 
 <p class="muted">{e(senza)} non hanno una mappa: villaggio Dong e montagna, nessuna scena serale
 da mappare.</p>
 
-<h2>Usarle sul telefono</h2>
+<h2>Usarle senza rete</h2>
+<div class="card" id="offline" data-mappe="{e(json.dumps(offline))}">
+<p style="margin-top:0">Il sito è un'app: da Safari <b>Condividi → Aggiungi alla schermata Home</b>.
+Aperta dall'icona, tiene sul telefono tutte le pagine e le rilegge senza rete e senza VPN.</p>
+<p>Le mappe pesano di più ({tot_mb} MB in tutto) e si scaricano a mano. Fallo in Italia col
+WiFi, <b>dall'app aperta dall'icona</b>: Safari e l'app installata hanno memorie separate, quello
+che scarichi in Safari l'app non lo vede.</p>
+<p><button class="btn primary" type="button">Scarica le mappe per l'offline</button></p>
+<p class="stato muted" style="margin-bottom:0"></p>
+</div>
+
 <div class="card">
-<p style="margin-top:0">Le pagine <b>HTML</b> servono adesso, per scegliere la zona e prenotare.
-Richiedono rete: in Cina continentale funzionano con la VPN attiva.</p>
-<p>I file <b>KML</b> servono in loco. Installa <a href="https://organicmaps.app" target="_blank"
+<p style="margin-top:0">Le mappe del sito coprono zone, locali, hotel e stazione d'arrivo, non
+l'intera città. Per navigare ovunque servono i file <b>KML</b>. Installa <a href="https://organicmaps.app" target="_blank"
 rel="noopener">Organic Maps</a>, scarica le mappe delle regioni <b>prima di partire</b>, poi apri
 il KML con l'app: i segnaposti finiscono nei preferiti e restano leggibili <b>senza rete e senza
 VPN</b>.</p>
@@ -592,6 +620,7 @@ def build_mappa(d):
         "tipi": TIPI,
         "precisione": PRECISIONE,
         "amap": {x["nome"]: amap_url(x["coord"][0], x["coord"][1], x["nome"]) for x in d["venues"]},
+        "tiles": "../" + tiles_url(d["slug"]),
     }
 
     corpo = f"""<div id="wrap">
@@ -617,6 +646,7 @@ def build_mappa(d):
         + json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
         + "</script>\n"
         '<script src="../assets/leaflet/leaflet.js"></script>\n'
+        '<script src="../assets/protomaps/protomaps-leaflet.js"></script>\n'
         f'<script src="../assets/{asset("mappa.js")}"></script>'
     )
     return pagina(
@@ -1293,6 +1323,31 @@ def build_manifest():
     )
 
 
+# --- service worker --------------------------------------------------------
+def build_sw(mappe):
+    """Scrive docs/sw.js con l'elenco dei file da tenere sul telefono.
+
+    Va chiamata per ultima, a docs/ completa. La versione è l'impronta di tutto
+    quello che precarica: se cambia un solo byte del sito, il telefono riscarica.
+    Le mappe .pmtiles restano fuori: le scarica l'utente dalla pagina Mappe.
+    """
+    versionati = {f"assets/{n}": f"assets/{asset(n)}" for n in VER if not n.endswith(".pmtiles")}
+    precache, impronta = ["./"], hashlib.md5()
+    for f in sorted(OUT.rglob("*")):
+        rel = f.relative_to(OUT).as_posix()
+        if f.is_dir() or rel.startswith("tiles/") or rel in ("sw.js", ".nojekyll"):
+            continue
+        precache.append(versionati.get(rel, rel))
+        impronta.update(rel.encode() + f.read_bytes())
+    sw = (
+        (STATIC / "sw.js").read_text(encoding="utf-8")
+        .replace("'__VERSIONE__'", json.dumps(impronta.hexdigest()[:10]))
+        .replace("__PRECACHE__", json.dumps(precache))
+        .replace("__MAPPE__", json.dumps([tiles_url(d["slug"]) for d in mappe]))
+    )
+    (OUT / "sw.js").write_text(sw, encoding="utf-8")
+
+
 # --- main ------------------------------------------------------------------
 def main():
     if not MAPPE.exists():
@@ -1311,12 +1366,20 @@ def main():
     (OUT / "assets").mkdir(parents=True)
     (OUT / "mappe").mkdir()
     (OUT / "kml").mkdir()
+    (OUT / "tiles").mkdir()
 
-    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "itinerario.js"):
+    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "itinerario.js", "pwa.js"):
         sorgente = STATIC / nome
         shutil.copy2(sorgente, OUT / "assets" / nome)
         VER[nome] = hashlib.md5(sorgente.read_bytes()).hexdigest()[:8]
     shutil.copytree(STATIC / "leaflet", OUT / "assets" / "leaflet")
+    shutil.copytree(STATIC / "protomaps", OUT / "assets" / "protomaps")
+    for d in mappe:
+        sorgente = TILES / f'{d["slug"]}.pmtiles'
+        if not sorgente.exists():
+            sys.exit(f"Manca {sorgente}: lancia mappe_offline.py")
+        shutil.copy2(sorgente, OUT / "tiles" / sorgente.name)
+        VER[sorgente.name] = hashlib.md5(sorgente.read_bytes()).hexdigest()[:8]
     build_icone(OUT / "assets")
     (OUT / "manifest.webmanifest").write_text(build_manifest(), encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
@@ -1338,6 +1401,8 @@ def main():
     for d in mappe:
         w(f'mappe/{d["slug"]}.html', build_mappa(d))
         w(f'kml/{d["slug"]}.kml', build_kml(d))
+
+    build_sw(mappe)
 
     n_locali = sum(len(d["venues"]) for d in mappe)
     n_voci = sum(len(g["voci"]) for g in check["gruppi"])

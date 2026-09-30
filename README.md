@@ -19,8 +19,10 @@ data/          i contenuti. È l'unica cosa da modificare a mano
   checklist.json preparativi
   shenzhen.json  ricerca sul gruppo FB «Cina fai da te»: voci con codice SZ-nn, si tolgono dal JSON
   mappe/*.json   una mappa nightlife per tappa
-static/        CSS, JS e Leaflet vendorizzato
+static/        CSS, JS, service worker, Leaflet e protomaps-leaflet vendorizzati
+tiles/         mappe vettoriali .pmtiles per l'offline, una per tappa (le genera mappe_offline.py)
 build.py       genera tutto
+mappe_offline.py ritaglia le mappe da OpenStreetMap: non gira dentro build.py
 docs/          OUTPUT. È quello che GitHub Pages pubblica: non modificarlo a mano
 ```
 
@@ -97,6 +99,32 @@ python3 build.py && git add -A && git commit -m "..." && git push
 
 CSS e JS hanno un `?v=<hash>` in coda: senza, dopo un deploy il telefono continua a
 servire la versione vecchia dalla cache.
+
+## App offline
+
+Il sito è una PWA: da Safari «Aggiungi alla schermata Home» diventa un'app che funziona
+senza rete. Serve in Cina, dove github.io può essere lento o bloccato senza VPN.
+
+- `docs/sw.js` lo genera `build_sw()` a fine build: precarica tutte le pagine e gli asset.
+  La versione è l'impronta dei file, quindi ogni deploy aggiorna l'app alla prima apertura
+  con rete. Le pagine vanno prima in rete (timeout 4 s), poi sulla copia locale.
+- Le **mappe** non usano più le tile raster di OSM, che vietano il download massivo: sono
+  ritagli vettoriali della build giornaliera di [Protomaps](https://protomaps.com) (dati
+  OSM, licenza ODbL), disegnati da protomaps-leaflet. Un file `.pmtiles` per tappa, zoom
+  fino a 15 (oltre si ingrandisce). Coprono l'area di zone e locali più un riquadro attorno
+  ai punti di `data/offline.json` (stazione d'arrivo, hotel).
+- I `.pmtiles` non si precaricano: pesano ~35 MB e si scaricano dal bottone nella pagina
+  Mappe. Il service worker risponde alle richieste Range di pmtiles tagliando il file in cache.
+- Safari e l'app installata hanno **memorie separate**: mappe e spunte della checklist
+  vanno salvate aprendo l'app dall'icona.
+
+Rigenerare le mappe (solo se cambia l'area: nuovi locali lontani, un hotel, `offline.json`):
+
+```bash
+brew install pmtiles          # una volta
+python3 mappe_offline.py      # tutte, ~1 min
+python3 mappe_offline.py chengdu
+```
 
 ## Il repo è pubblico
 
