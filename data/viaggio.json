@@ -98,7 +98,61 @@
         "prezzo": "47,70 € per 3 notti · ~15,90 €/notte",
         "url": "https://it.trip.com/hotels/detail/?cityEnName=Guangzhou&cityId=32&hotelId=6179783&checkIn=2026-11-10&checkOut=2026-11-13&adult=1&crn=1&curr=EUR&locale=it-IT",
         "costo_eur": 47.7
-      }
+      },
+      "programma": [
+        {
+          "giorno": "Mar 10",
+          "titolo": "Arrivo e vecchia Canton",
+          "voci": [
+            "Check-out a Shenzhen verso le 09:30, treno verso le 10:30, in hotel verso le 12. Bagagli in deposito (gratis)",
+            "Pranzo: arrosti cantonesi in zona",
+            "14:00 Sala ancestrale del clan Chen, 790 m a piedi. 09:00-18:00, ultimo ingresso 17:30, 1-2 h",
+            "16:30 Shamian, una fermata di metro (Huangsha), per il tramonto delle 17:45",
+            "Sera: Liwan Lake Park → canale di Lychee Bay → Enning Road e Yongqingfang, tutto lungo il canale illuminato. Parco gratis, aperto 24 h. Cena lì, rientro a piedi"
+          ]
+        },
+        {
+          "giorno": "Mer 11",
+          "titolo": "Shunde",
+          "voci": [
+            "Metro fino a Guangzhou South (~45 min), poi intercity C per Shunde: 8-11 min, 1,34 €. Corse alle 09:29, 10:27, 10:53, 11:13 e poi fino a sera",
+            "Didi fino a Daliang: il giardino Qinghui sta a ~6 km dalla stazione",
+            "Giardino Qinghui, uno dei quattro grandi giardini classici del Guangdong. 09:00-17:30, ultimo ingresso 17:00, 1-3 h",
+            "Pranzo e pomeriggio di cibo su Huagai Li (华盖里直街), la via appena a sud del giardino: pesce, doppia crema di latte (双皮奶)",
+            "Rientro: diretti Shunde → Guangzhou South alle 16:07, 16:38, 17:49, 19:01",
+            "Sera: Shangxiajiu, portici qilou, 1,4 km dall'hotel",
+            "Orari dei treni letti sull'orario di ottobre 2026: riverificarli quando apre la vendita"
+          ]
+        },
+        {
+          "giorno": "Gio 12",
+          "titolo": "Templi, parco e skyline",
+          "voci": [
+            "Mattina: tempio Guangxiao (08:30-16:30) e Liurong con la pagoda dei fiori (08:00-16:00, gratis), a ~1 km uno dall'altro. Poi giro libero a piedi verso Beijing Road, con il tempio Dafo se ci passi davanti",
+            "Pranzo in zona Beijing Road",
+            "Pomeriggio: Parco Yuexiu e torre Zhenhai, gratis, 06:00-22:00. Se avanza tempo, giardino delle orchidee Lanpu o Liuhua Lake, a meno di 1 km",
+            "Tramonto e sera: Huacheng Square con la Canton Tower accesa, poi il lungofiume. Tutto gratis, senza salire sulla torre"
+          ]
+        },
+        {
+          "giorno": "Ven 13",
+          "titolo": "Partenza per Yangshuo",
+          "voci": [
+            "Yum cha da Tao Tao Ju, sede storica di Dishifu Road 20 (Liwan), apre alle 08:00",
+            "Check-out, metro fino a Guangzhou South, treno per Yangshuo verso le 11-12. A Yangshuo nel pomeriggio"
+          ]
+        },
+        {
+          "giorno": "Fuori",
+          "titolo": "Cosa resta fuori",
+          "voci": [
+            "Monte Baiyun: fuori città, 30-40 min di Didi e biglietto da prenotare su WeChat. Il verde lo dà già Yuexiu, la montagna Yangshuo",
+            "Tour Gulongxia (ponte di vetro, 40 €, 08:30-20:00): scartato, si mangiava la giornata di Shunde",
+            "Museo del Guangdong: priorità bassa, e quando passi da Huacheng Square è chiuso",
+            "Hualin Jade Street, Chimelong"
+          ]
+        }
+      ]
     },
     {
       "id": "yangshuo",

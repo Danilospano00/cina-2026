@@ -421,6 +421,17 @@ def build_clima(t):
     return f'<div class="clima">{righe}</div>'
 
 
+def build_programma(t):
+    giorni = t.get("programma")
+    if not giorni:
+        return ""
+    return SOTTOTITOLO.format("Giorno per giorno") + "".join(
+        f'<p class="arrivo" style="margin:9px 0 2px"><b>{e(g["giorno"])}</b> · {e(g["titolo"])}</p>'
+        + lista(g["voci"])
+        for g in giorni
+    )
+
+
 def build_escursione(t):
     x = t.get("escursione")
     if not x:
@@ -455,6 +466,7 @@ def build_itinerario(viaggio):
             '<div class="stop-body">'
             f'<p class="arrivo">{e(t["arrivo"])}</p>'
             + build_clima(t)
+            + build_programma(t)
             + SOTTOTITOLO.format("Cosa vedere")
             + lista(t["cosa_vedere"])
             + SOTTOTITOLO.format("Cibo")
