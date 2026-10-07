@@ -486,8 +486,9 @@ def build_itinerario(viaggio):
  <h3>Rientro</h3><span class="when">27 novembre · 08:10</span></summary>
  <div class="stop-body"><p class="arrivo" style="margin:0">Volo da Hong Kong alle 08:10. Non è una
  giornata di viaggio: l'ultimo giorno pieno è giovedì 26. Check-in bagagli chiuso alle 07:10, in
- aeroporto entro le 06:15. Per questo il 26 si dorme a Tung Chung: bus S1 al terminal in ~10 min,
- sveglia alle 05:45.</p></div></details>
+ aeroporto entro le 06:15. Per questo il 26 si dorme al Regala Skycity, dentro l'aeroporto: sveglia
+ alle 05:30, prima navetta dell'hotel alle 06:00, al terminal verso le 06:10. Il T2 è a 2 min a piedi
+ dal link bridge, il T1 a ~1,7 km.</p></div></details>
 </div>"""
     return pagina(
         "Itinerario — Sud della Cina",
@@ -1003,7 +1004,7 @@ def build_hotel(viaggio):
     schede = []
     for t in viaggio["tappe"]:
         # Una tappa può avere più strutture: a Hong Kong si dorme in centro il 25
-        # e a Tung Chung il 26, per via del volo delle 08:10. Ogni voce può portarsi
+        # e in aeroporto il 26, per via del volo delle 08:10. Ogni voce può portarsi
         # le proprie date; altrimenti eredita quelle della tappa.
         voci = t["hotel"] if isinstance(t["hotel"], list) else [t["hotel"]]
         mappa_link = (
@@ -1057,8 +1058,8 @@ def build_hotel(viaggio):
 
     corpo = f"""<div class="page narrow">
 <h1>Hotel</h1>
-<p class="lede">Otto strutture per sette tappe: a Hong Kong il 25 si dorme in centro e il 26 a
-Tung Chung, perché il volo del 27 parte alle 08:10. Camera privata sempre, mai dormitorio.
+<p class="lede">Otto strutture per sette tappe: a Hong Kong il 25 si dorme in centro e il 26 in
+aeroporto, perché il volo del 27 parte alle 08:10. Camera privata sempre, mai dormitorio.
 Criteri, in ordine: prezzo, pulizia, posizione. I link portano alla ricerca con le date già
 impostate per 1 adulto.</p>
 
