@@ -1,8 +1,8 @@
 {
   "titolo": "Treni ad alta velocità",
   "nota": "Prezzi rilevati su Trip.com ad agosto 2026, 2ª classe posto seduto. Le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
-  "totale_cny": 1762,
-  "totale_eur": 214,
+  "totale_cny": 1742,
+  "totale_eur": 212,
   "escursioni": [
     {
       "nome": "Leshan, il Grande Buddha",
@@ -65,10 +65,10 @@
       "n": 3,
       "da": "Guangzhou South",
       "a": "Yangshuo",
-      "treno": "G",
-      "durata": "1h50 - 3h",
-      "cny": 143,
-      "eur": 17.5,
+      "treno": "D1814, 11:01 → 13:19",
+      "durata": "2h18",
+      "cny": 146,
+      "eur": 18,
       "data": "2026-11-13",
       "verificato": true,
       "note": "La stazione di Yangshuo è a ~25 km dal paese, verso Xingping"
@@ -77,13 +77,13 @@
       "n": 4,
       "da": "Yangshuo",
       "a": "Guiyang North",
-      "treno": "G diretti",
-      "durata": "2h20 - 2h50",
-      "cny": 190,
-      "eur": 23,
+      "treno": "D1854, 11:34 → 14:30",
+      "durata": "2h56",
+      "cny": 167,
+      "eur": 20.5,
       "data": "2026-11-16",
-      "verificato": false,
-      "note": "Tratta NUOVA, nata dal taglio di Zhaoxing: prima si passava per Congjiang in due tronconi. Tariffa derivata, mai letta su Trip.com — verificala per prima"
+      "verificato": true,
+      "note": "Letta sul listino Trip.com a ottobre 2026. Il più economico della mattina e arriva a North: le altre corse della mattina scendono a Guiyang East"
     },
     {
       "n": 5,
