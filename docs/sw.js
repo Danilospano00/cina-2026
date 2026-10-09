@@ -1,6 +1,6 @@
 /* Service worker: tiene il sito sul telefono per l'uso senza rete.
    build.py sostituisce i tre segnaposto qui sotto a ogni build. */
-var VERSIONE = "70a2b58134";
+var VERSIONE = "2e11283c64";
 var PRECACHE = ["./", "assets/app.css?v=9ca9286d", "assets/checklist.js?v=84b18e25", "assets/countdown.js?v=ecfe49a6", "assets/icon-180.png", "assets/icon-512.png", "assets/itinerario.js?v=1c26837a", "assets/leaflet/images/layers-2x.png", "assets/leaflet/images/layers.png", "assets/leaflet/images/marker-icon-2x.png", "assets/leaflet/images/marker-icon.png", "assets/leaflet/images/marker-shadow.png", "assets/leaflet/leaflet.css", "assets/leaflet/leaflet.js", "assets/mappa.js?v=acb48e16", "assets/protomaps/LICENSE", "assets/protomaps/protomaps-leaflet.js", "assets/pwa.js?v=31061a40", "checklist.html", "hotel.html", "index.html", "itinerario.html", "kml/chengdu.kml", "kml/chongqing.kml", "kml/guangzhou.kml", "kml/guiyang.kml", "kml/hongkong.kml", "kml/shenzhen.kml", "kml/yangshuo.kml", "manifest.webmanifest", "mappe/chengdu.html", "mappe/chongqing.html", "mappe/guangzhou.html", "mappe/guiyang.html", "mappe/hongkong.html", "mappe/shenzhen.html", "mappe/yangshuo.html", "mappe.html", "serate.html", "shenzhen.html", "treni.html"];
 var MAPPE = ["tiles/chengdu.pmtiles?v=01b70e60", "tiles/chongqing.pmtiles?v=d481c0f1", "tiles/guangzhou.pmtiles?v=fa626c35", "tiles/guiyang.pmtiles?v=cad75052", "tiles/hongkong.pmtiles?v=9586cc12", "tiles/shenzhen.pmtiles?v=e252625a", "tiles/yangshuo.pmtiles?v=9a27ba62"];
 

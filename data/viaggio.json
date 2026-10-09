@@ -139,7 +139,7 @@
           "titolo": "Partenza per Yangshuo",
           "voci": [
             "Yum cha da Tao Tao Ju, sede storica di Dishifu Road 20 (Liwan), apre alle 08:00",
-            "Check-out, metro fino a Guangzhou South, treno per Yangshuo verso le 11-12. A Yangshuo nel pomeriggio"
+            "Check-out, metro fino a Guangzhou South, treno D1814 per Yangshuo alle 11:01. A Yangshuo alle 13:19"
           ]
         },
         {
@@ -160,7 +160,7 @@
       "nome_zh": "阳朔",
       "checkin": "2026-11-13",
       "checkout": "2026-11-16",
-      "arrivo": "Treno veloce, circa 3h. Venerdì: il weekend 14-15 resta intero, nessuna giornata persa in treno. La stazione 阳朔站 è a ~25 km dal paese, metti in conto 30-40 min di bus o taxi.",
+      "arrivo": "Treno D1814 Guangzhou South 11:01 → Yangshuo 13:19. Venerdì: il weekend 14-15 resta intero, nessuna giornata persa in treno. La stazione 阳朔站 è a ~25 km dal paese: Didi, 30-40 min.",
       "clima": {
         "max": 20,
         "min": 12,
@@ -169,8 +169,11 @@
       "weekend": true,
       "mappa": "yangshuo",
       "cosa_vedere": [
-        "Li River e Xingping",
-        "Bici nella campagna del Yulong",
+        "Zattera sul Li da Xingping: Nove Cavalli e vista della banconota da 20",
+        "Borgo antico di Xingping, mercato nei giorni lunari 3, 6, 9",
+        "Laozhai Hill al tramonto, gratis",
+        "Silver Cave (银子岩), grotta carsica illuminata",
+        "Bici nella valle del Yulong: Dragon Bridge e Ten-Mile Gallery",
         "West Street la sera",
         "Terrazze di Longji: a fine novembre sono post-raccolto, marroni e spoglie. La stagione è maggio-giugno o settembre-ottobre — meglio Xingping"
       ],
@@ -188,7 +191,59 @@
         "prezzo": "47,37 € per 3 notti · 15,79 €/notte",
         "url": "https://it.trip.com/hotels/detail/?cityEnName=Yangshuo&cityId=871&hotelId=120575957&checkIn=2026-11-13&checkOut=2026-11-16&adult=1&crn=1&curr=EUR&locale=it-IT",
         "costo_eur": 47.37
-      }
+      },
+      "programma": [
+        {
+          "giorno": "Ven 13",
+          "titolo": "Arrivo, piscina, West Street",
+          "voci": [
+            "Treno D1814 Guangzhou South 11:01 → Yangshuo 13:19, 146 CNY. Didi fino all'hotel, ~25 km",
+            "Pomeriggio in piscina, sul tetto con vista sui carsi",
+            "Tramonto alle 17:52, poi West Street e lungofiume. Cena: pesce alla birra (啤酒鱼)"
+          ]
+        },
+        {
+          "giorno": "Sab 14",
+          "titolo": "Xingping: zattera, mercato, Laozhai",
+          "voci": [
+            "Didi fino a Xingping, 40-50 min",
+            "Zattera dal molo Chaobanshan (Xingping East Visitor Center) fino alla Montagna dei Nove Cavalli e ritorno, passando per la vista della banconota da 20 CNY. 125 CNY su Trip.com (listino 225), 08:20-16:30, 1-3 h. Zattera da 4 condivisa: chi compra il biglietto singolo sale con altri passeggeri",
+            "Il 14 è il 6º giorno del 10º mese lunare, quindi giorno di mercato (圩日): Xingping fa mercato nei giorni lunari che finiscono in 3, 6 e 9. Orario 08:00-16:00 da un articolo del 2017, da riverificare",
+            "Pranzo e giro del borgo antico: ingresso libero, la via vecchia è lunga ~1 km",
+            "Laozhai Hill per il tramonto delle 17:52: gratis, aperto sempre. Sentiero di terra e scale di ferro, senza luci. Partire verso le 16:45, scarpe con suola che tiene e torcia del telefono per la discesa",
+            "Rientro in Didi, cena vicino all'hotel"
+          ]
+        },
+        {
+          "giorno": "Dom 15",
+          "titolo": "Silver Cave e bici sul Yulong",
+          "voci": [
+            "Mattina: Silver Cave (银子岩), lungo la statale 321 verso Lipu. 53 CNY su Trip.com (listino 65), 08:30-17:30, 1-2 h. Didi andata e ritorno: è l'unico spostamento lungo per una cosa breve",
+            "Pomeriggio in bici nella valle del Yulong: Dragon Bridge (遇龙桥), rientro dal Ten-Mile Gallery (十里画廊). Pianeggiante. L'hotel sta già sul lato della valle",
+            "Sera: West Street, bar sui tetti"
+          ]
+        },
+        {
+          "giorno": "Lun 16",
+          "titolo": "Partenza per Guiyang",
+          "voci": [
+            "Check-out verso le 10:15, Didi fino alla stazione di Yangshuo (30-40 min)",
+            "Treno D1854 Yangshuo 11:34 → Guiyang North 14:30, 167 CNY: il più economico della mattina, e arriva a North, sulla linea 1 della metro come l'hotel. Gli altri della mattina (08:34 e 10:25, 190 CNY) arrivano a Guiyang East",
+            "Orari dei treni letti sull'orario di ottobre 2026: riverificarli quando apre la vendita"
+          ]
+        },
+        {
+          "giorno": "Fuori",
+          "titolo": "Cosa resta fuori",
+          "voci": [
+            "Zattera Yangdi → Xingping: su Trip.com solo la zattera privata, 780 CNY. Quella condivisa costa 255 CNY a persona (articolo WeChat di settembre 2026), ma aggiunge ~1 h di trasferimento fino a Yangdi. Nove Cavalli e banconota li copre già Chaobanshan",
+            "Impression Liu Sanjie: 268 CNY su Trip.com (listino 328), spettacolo serale sul fiume. Scenografia turistica, non natura",
+            "Crociera grande Guilin → Yangshuo: da 306 CNY, parte da Mopanshan, 4-4,5 h",
+            "Trekking Yangdi → Xingping, Moon Hill, cooking class, Xianggong Hill all'alba",
+            "Mercato di Yangshuo domenica: il 15 non è giorno di mercato. Il giro al mercato si fa sabato a Xingping"
+          ]
+        }
+      ]
     },
     {
       "id": "guiyang",
