@@ -340,7 +340,7 @@
       "nome_zh": "成都",
       "checkin": "2026-11-18",
       "checkout": "2026-11-22",
-      "arrivo": "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28. Mercoledì, arrivo a metà giornata. Quattro notti e tre giornate piene, due delle quali feriali: è la tappa che più ne beneficia, tra le code alla Scala dei Nove Tornanti di Leshan e la base dei panda all'alba.",
+      "arrivo": "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28. Mercoledì, arrivo a metà giornata. Quattro notti e tre giornate piene: Leshan giovedì, perché è la visita che soffre di più la folla, panda venerdì all'apertura, città sabato.",
       "clima": {
         "max": 15,
         "min": 8,
@@ -349,22 +349,25 @@
       "weekend": true,
       "mappa": "chengdu",
       "cosa_vedere": [
-        "Mercoledì 18 pomeriggio: città, arrivo morbido",
-        "Giovedì 19 o venerdì 20 (feriale): Leshan, il Grande Buddha — giornata piena, vedi sotto",
-        "L'altro feriale: base dei panda all'alba, dopo le 10 dormono. Pomeriggio Kuanzhai e case da tè",
-        "Sabato 21: città e sera libera, oppure riserva se nel giorno di Leshan piove",
-        "Opzionale, mezza giornata: Dujiangyan (都江堰), il sistema di irrigazione del 256 a.C. ancora in funzione, UNESCO. Treno da Xipu (犀浦, metro linea 2) a Lidui Park, 20-30 min, ~10 CNY; dalla stazione 15 min a piedi fino al Gate 1. Ingresso 80 CNY, 09:00-18:00, giro completo ~4 h. Non scendere a Dujiangyan Station: sta a 6 km dal sito. ~700 m, 14/7 gradi"
+        "Monastero Wenshu e Kuanzhai Alley, il pomeriggio dell'arrivo",
+        "Giovedì 19: Leshan, il Grande Buddha — giornata piena, vedi sotto",
+        "Venerdì 20: base dei panda alle 08:00, dopo le 10 dormono. Pomeriggio People's Park e casa da tè Heming",
+        "Sabato 21: tempio Wuhou, Jinli, Du Fu Thatched Cottage. Sera a Yulin",
+        "Se giovedì piove, Leshan slitta a venerdì e i panda a sabato",
+        "Alternativa al sabato: Dujiangyan (都江堰), il sistema di irrigazione del 256 a.C. ancora in funzione, UNESCO — vedi Fuori programma"
       ],
       "cibo": [
         "Mapo tofu",
         "Dan dan noodles",
-        "Hotpot mala"
+        "Hotpot mala e chuan chuan",
+        "Zhong shuijiao (钟水饺), long chaoshou (龙抄手), tianshui mian (甜水面) a Jinli",
+        "A Leshan: qiaojiao niurou (跷脚牛肉), bobo ji (钵钵鸡), anatra tianpi (甜皮鸭)"
       ],
       "escursione": {
         "nome": "Leshan, il Grande Buddha",
         "nome_zh": "乐山大佛",
-        "quando": "giovedì 19 o venerdì 20 novembre — comunque un feriale",
-        "treno": "Chengdu East → Leshan, 41 min, ~72 treni al giorno. A/R ~120 CNY / 15€",
+        "quando": "giovedì 19 novembre",
+        "treno": "G2277 Chengdu East 07:49 → Leshan 08:35, ritorno G2826 16:14 → 17:06. 54 CNY a tratta, diretti ogni 10-30 min",
         "clima": {
           "max": 16,
           "min": 9,
@@ -372,12 +375,12 @@
         },
         "note": [
           "71 m, scavato nella roccia tra il 713 e l'803, alla confluenza di tre fiumi",
-          "Barca dal fiume (~30 min): unica vista frontale completa",
-          "Scala dei Nove Tornanti lungo il fianco: 1-2h con le code, ma novembre è bassa stagione",
-          "Accanto: tempio Wuyou e tombe rupestri Mahao, valgono il giro",
-          "Dalla stazione al sito: bus 3 (~45 min) o taxi (~15 min)",
-          "Emeishan è escluso: la Cima d'Oro è a 3099 m, a fine novembre sotto zero con neve",
-          "Porta a porta ~7:30-19:00: quella sera niente lavoro, o lavoro tardi"
+          "Ingresso 79 CNY su Trip.com (listino 80). Orario invernale 08:00-17:30",
+          "Scala dei Nove Tornanti (九曲栈道) per prima, appena entrati dall'ingresso nord: la coda cresce in tarda mattinata",
+          "Barca dal molo Wuyouba, 70 CNY, ~30 min: unica vista frontale completa. D'inverno 08:00-17:00",
+          "Percorso completo: tempio Lingyun, tombe rupestri Mahao, tempio Wuyou, uscita sud. 3-5 h",
+          "Dalla stazione al sito: Didi ~15 min, o bus C / 601 fino a Jiading Fang",
+          "Emeishan è escluso: la Cima d'Oro è a 3099 m, a fine novembre sotto zero con neve"
         ]
       },
       "hotel": {
@@ -390,7 +393,75 @@
         "prezzo": "55 € per 4 notti · 13,75 €/notte",
         "url": "https://it.trip.com/hotels/detail/?cityId=28&hotelId=30005443&checkIn=2026-11-18&checkOut=2026-11-22&adult=1&crn=1&curr=EUR&locale=it-IT",
         "costo_eur": 55.0
-      }
+      },
+      "programma": [
+        {
+          "giorno": "Mer 18",
+          "titolo": "Arrivo, Wenshu e Kuanzhai",
+          "voci": [
+            "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28. Metro linea 2 fino a Zhongyidaxue Shengrenmin Yiyuan (中医大省医院), poi linea 4 una fermata fino a Kuanzhai Xiangzi (宽窄巷子), ~1 km dall'ostello. In ostello verso le 14:45. Con i bagagli il Didi evita il cambio: ~10 km",
+            "15:15 monastero Wenshu (文殊院), 2,3 km: Didi o mezz'ora a piedi. Gratis, 08:00-17:00, ultimo ingresso 16:30",
+            "Tramonto alle 18:06. Kuanzhai Alley (宽窄巷子) di sera, ~800 m dall'ostello, gratis e sempre aperta",
+            "Cena su Kuixinglou Street (奎星楼街), 650 m dall'ostello"
+          ]
+        },
+        {
+          "giorno": "Gio 19",
+          "titolo": "Leshan, il Grande Buddha",
+          "voci": [
+            "Da prenotare prima: ingresso 79 CNY su Trip.com (listino 80) e barca 70 CNY. In alternativa mini program 大佛旅游 su WeChat o Alipay",
+            "~06:45 metro verso Chengdu East, stesso percorso dell'arrivo al contrario. Treno G2277 07:49 → Leshan 08:35, 54 CNY. Più economici, ma con uscita dall'ostello verso le 06:00: C5663 07:05 → 08:10 a 27 CNY, G3707 07:00 → 07:58 a 30 CNY",
+            "Dalla stazione: Didi ~15 min fino all'ingresso nord. In bus: linea C o 601 fino a Jiading Fang (嘉定坊), poi navetta dal North Visitor Center (10 CNY) o 600 m a piedi",
+            "Verso le 09:15 ingresso nord: subito testa del Buddha e Scala dei Nove Tornanti (九曲栈道) fino ai piedi, prima che salga la coda. Poi tempio Lingyun",
+            "Percorso completo verso sud, 3-5 h: tempio Lingyun → tombe rupestri Mahao (麻浩崖墓) → ponte Haoshang → tempio Wuyou (乌尤寺) → uscita sud. Orario invernale 08:00-17:30",
+            "Barca dal molo Wuyouba (乌尤坝), vicino all'uscita sud: ~30 min, l'unica vista frontale completa. D'inverno 08:00-17:00",
+            "Pranzo: qiaojiao niurou (跷脚牛肉), bobo ji (钵钵鸡), anatra tianpi (甜皮鸭)",
+            "Rientro: diretti per Chengdu East ogni 10-30 min, 54 CNY. Per esempio G2826 16:14 → 17:06, in ostello verso le 18. La sera di lavoro resta"
+          ]
+        },
+        {
+          "giorno": "Ven 20",
+          "titolo": "Panda e People's Park",
+          "voci": [
+            "Da prenotare prima: base dei panda, 55 CNY su Trip.com, fascia del mattino. A novembre 08:00-12:00 e 12:00-16:30",
+            "07:20 Didi fino alla base, ~11 km, ~30 min. In metro: linea 3 fino a Panda Avenue (熊猫大道), che fa da ingresso sud",
+            "08:00-11:30 base dei panda. Dopo le 10 dormono",
+            "Pomeriggio: People's Park (人民公园), gratis e sempre aperto, 1,8 km dall'ostello. Casa da tè Heming (鹤鸣茶社)",
+            "Sera: Tianfu Square, Chunxi Road e Taikoo Li, poi hotpot"
+          ]
+        },
+        {
+          "giorno": "Sab 21",
+          "titolo": "Wuhou, Jinli, Du Fu",
+          "voci": [
+            "09:00 tempio Wuhou (武侯祠), 3 km dall'ostello. 50 CNY, 09:00-18:00, ultimo ingresso 17:00. Di sabato all'apertura, prima della folla",
+            "Jinli (锦里), la via accanto: gratis, sempre aperta. Pranzo di snack: zhong shuijiao, long chaoshou, tianshui mian",
+            "14:00 Du Fu Thatched Cottage (杜甫草堂), Didi ~2,5 km. 50 CNY, 09:00-18:00, biglietti fino alle 17:00",
+            "Sera: Yulin (玉林), bar indie e Little Bar — vedi mappa serate"
+          ]
+        },
+        {
+          "giorno": "Dom 22",
+          "titolo": "Partenza per Chongqing",
+          "voci": [
+            "Check-out verso le 07:50, metro fino a Chengdu East",
+            "Treno D997 Chengdu East 08:52 → Chongqing West 10:22, 121 CNY: il più economico tra le 8 e le 13. Le altre corse costano 149-166 CNY. Il D1822 delle 07:41 costa 99 CNY ma ci mette 2h28",
+            "Arriva a Chongqing WEST: molte corse vanno a North",
+            "Orari e prezzi letti sul listino di domenica 25 ottobre: riverificarli quando apre la vendita, dal 7 novembre"
+          ]
+        },
+        {
+          "giorno": "Fuori",
+          "titolo": "Cosa resta fuori",
+          "voci": [
+            "Dujiangyan (都江堰), alternativa al sabato: treno da Xipu (犀浦, metro linea 2) a Lidui Park, 20-30 min, ~10 CNY. Non scendere a Dujiangyan Station, che sta a 6 km dal sito. Ingresso 80 CNY, 09:00-18:00, giro completo ~4 h. ~700 m, 14/7 gradi",
+            "Museo del Sichuan (四川博物院): gratis, 09:00-17:00, ultimo ingresso 16:00, chiuso il lunedì, a 500 m da Du Fu. Chiede 3-5 h, sabato non ci sta",
+            "Opera del Sichuan con il cambio delle maschere: scartata, costa una sera di lavoro",
+            "Emeishan: la Cima d'Oro sta a 3099 m, a fine novembre sotto zero con neve",
+            "Qingcheng Shan, Jinsha Site Museum"
+          ]
+        }
+      ]
     },
     {
       "id": "chongqing",
@@ -398,7 +469,7 @@
       "nome_zh": "重庆",
       "checkin": "2026-11-22",
       "checkout": "2026-11-25",
-      "arrivo": "Treno veloce diretto da Chengdu East, 1h10-1h30. Domenica. Arriva a Chongqing WEST, non Chongqing North: è la stazione da cui riparte il G905. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
+      "arrivo": "Treno D997 Chengdu East 08:52 → Chongqing West 10:22. Domenica. Arriva a Chongqing WEST, non Chongqing North: è la stazione da cui riparte il G905. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
       "clima": {
         "max": 17,
         "min": 11,

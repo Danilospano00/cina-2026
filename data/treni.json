@@ -1,20 +1,20 @@
 {
   "titolo": "Treni ad alta velocità",
   "nota": "Prezzi rilevati su Trip.com ad agosto 2026, 2ª classe posto seduto. Le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
-  "totale_cny": 1745,
-  "totale_eur": 213,
+  "totale_cny": 1712,
+  "totale_eur": 209,
   "escursioni": [
     {
       "nome": "Leshan, il Grande Buddha",
       "da": "Chengdu East",
       "a": "Leshan",
-      "treno": "G / D, ~72 al giorno",
-      "durata": "41 min",
-      "cny": 120,
-      "eur": 15,
+      "treno": "G2277 07:49 → 08:35, ritorno G2826 16:14 → 17:06",
+      "durata": "46-52 min",
+      "cny": 108,
+      "eur": 13,
       "data": "2026-11-19",
-      "verificato": false,
-      "note": "Giornata piena, fuori dal totale delle sette tratte. Falla in un feriale — il 19 o il 20 — le code alla Scala dei Nove Tornanti cambiano parecchio. Dalla stazione al Buddha: bus 3 (~45 min) o taxi (~15 min)"
+      "verificato": true,
+      "note": "Giovedì 19, fuori dal totale delle sette tratte. Diretti ogni 10-30 min, 54 CNY. I più economici (C5663 07:05 a 27 CNY, G3707 07:00 a 30 CNY) chiedono di uscire dall'ostello verso le 06:00. Dalla stazione al Buddha: Didi ~15 min, o bus C / 601 fino a Jiading Fang"
     },
     {
       "nome": "Dazu Rock Carvings (大足石刻)",
@@ -101,13 +101,13 @@
       "n": 6,
       "da": "Chengdu East",
       "a": "Chongqing West",
-      "treno": "G diretti",
-      "durata": "1h10 - 1h30",
-      "cny": 154,
-      "eur": 19,
+      "treno": "D997, 08:52 → 10:22",
+      "durata": "1h30",
+      "cny": 121,
+      "eur": 15,
       "data": "2026-11-22",
-      "verificato": false,
-      "note": "Tratta NUOVA, nata dal taglio di Zigong. Attenzione alla stazione: molte corse arrivano a Chongqing NORTH, tu devi scendere a WEST, la stessa da cui riparte il G905 il 25. Tariffa derivata"
+      "verificato": true,
+      "note": "Letta sul listino Trip.com a ottobre 2026. Il prezzo cambia da treno a treno, 99-243 CNY: il D997 è il più economico a un orario ragionevole, le altre corse della mattina costano 149-166 CNY. Arriva a Chongqing WEST, la stessa stazione da cui riparte il G905 il 25: molte corse vanno a North"
     },
     {
       "n": 7,
@@ -119,7 +119,7 @@
       "eur": 102,
       "data": "2026-11-25",
       "verificato": true,
-      "note": "08:44 → 15:57. Da Chongqing WEST, non North. Da solo è il 48% del budget treni"
+      "note": "08:44 → 15:57. Da Chongqing WEST, non North. Da solo è il 49% del budget treni"
     }
   ],
   "criticita": {

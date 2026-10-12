@@ -987,8 +987,8 @@ irrinunciabile.</p>
 
 <h2>Note</h2>
 <div class="card">{lista([
-  "Il rientro G905 da solo vale il 48% del budget treni, quanto le altre sei messe insieme. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
-  "Tratta 6: è nuova, nata dal taglio di Zigong. La tariffa è derivata, mai letta su Trip.com — verificala per prima.",
+  "Il rientro G905 da solo vale il 49% del budget treni, quanto le altre sei messe insieme. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
+  "Tratta 6: il prezzo cambia da treno a treno, 99-243 CNY. Il D997 delle 08:52 è il più economico a un orario ragionevole.",
   "Tratta 6: molte corse Chengdu → Chongqing arrivano a Chongqing NORTH. Tu devi scendere a WEST, la stessa stazione da cui riparte il G905 il 25.",
   "Tratta 2: esistono anche treni ordinari K/T a ~25 CNY, ma fermano in stazioni diverse e ci mettono il doppio.",
   "Tratta 1: col trolley in stiva valuta il pullman transfrontaliero diretto dall'aeroporto a Futian Port (~1h-1h30): salti Airport Express e West Kowloon.",
