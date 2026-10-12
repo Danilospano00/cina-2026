@@ -252,7 +252,7 @@
       "nome_zh": "贵阳",
       "checkin": "2026-11-16",
       "checkout": "2026-11-18",
-      "arrivo": "Treno veloce diretto da Yangshuo, 2h20-2h50. Lunedì.",
+      "arrivo": "Treno D1854 Yangshuo 11:34 → Guiyang North 14:30. Lunedì. Da North la metro linea 1 scende in centro, la stessa linea dell'hotel: ~30 min.",
       "clima": {
         "max": 14,
         "min": 7,
@@ -261,15 +261,19 @@
       "weekend": false,
       "mappa": "guiyang",
       "cosa_vedere": [
-        "Lunedì 16: arrivo a metà giornata, poi street food a Qingyun Road",
-        "Martedì 17, unica giornata piena: Jiaxiu Tower sul fiume Nanming e centro",
-        "Mercoledì 18 mattina: treno per Chengdu",
+        "Jiaxiu Tower sul fiume Nanming, illuminata la sera: si guarda dal ponte Fuyu",
+        "Qingyun Market, street food serale accanto a Jiaxiu",
+        "Parco Qianling: macachi, tempio Hongfu, lago. Gratis, su prenotazione",
+        "Museo provinciale del Guizhou: costumi e argenti delle minoranze. Gratis, chiuso il lunedì",
+        "Taiping Road, i bar sotto l'hotel",
         "Il villaggio Miao non ci sta: servirebbe un terzo giorno, ed è finito su Chengdu per Leshan"
       ],
       "cibo": [
-        "Zuppa acida di pesce",
-        "Riso glutinoso",
-        "Spiedini alla griglia"
+        "Zuppa acida di pesce (酸汤鱼)",
+        "Laoguo (烙锅), piastra con pancetta e verdure",
+        "Changwang mian (肠旺面), la colazione di Guiyang",
+        "Siwawa (丝娃娃), involtini di verdure crude da intingere in brodo acido",
+        "Tofu alla brace ripieno (恋爱豆腐果) e polpette di tofu (豆腐圆子)"
       ],
       "hotel": {
         "cerca": "Guiyang",
@@ -281,7 +285,54 @@
         "prezzo": "35,70 € per 2 notti · 17,85 €/notte",
         "url": "https://it.trip.com/hotels/detail/?cityId=38&hotelId=911092&checkIn=2026-11-16&checkOut=2026-11-18&adult=1&crn=1&curr=EUR&locale=it-IT",
         "costo_eur": 35.7
-      }
+      },
+      "programma": [
+        {
+          "giorno": "Lun 16",
+          "titolo": "Arrivo, Jiaxiu e Qingyun Market",
+          "voci": [
+            "Treno D1854 Yangshuo 11:34 → Guiyang North 14:30. Metro linea 1 verso il centro, ~30 min, in hotel verso le 15:30",
+            "Il lunedì Jiaxiu Tower e il giardino Cuiwei sono chiusi dentro (aperti mar-dom 09:00-17:00, ingresso gratis su prenotazione). Non importa: la torre si guarda da fuori",
+            "Verso le 17:15 a piedi lungo il Nanming fino a Jiaxiu, 1,8 km. Tramonto alle 18:03, poi la torre illuminata dal ponte Fuyu (浮玉桥)",
+            "Cena al Qingyun Market (青云市集), accanto a Jiaxiu: banchi dalle 18:00, pieno tra le 21 e le 23. Laoguo, tofu alla brace ripieno, polpette di tofu, siwawa",
+            "Rientro a piedi o in Didi, ~2 km"
+          ]
+        },
+        {
+          "giorno": "Mar 17",
+          "titolo": "Qianling e museo provinciale",
+          "voci": [
+            "Da prenotare prima: Qianling (gratis, account WeChat 黔灵山公园 o mini program 贵客荟) e museo (gratis, mini program 贵州省博物馆, apre le prenotazioni ~10 giorni prima). Entrambi chiedono il nome reale: verificare che accettino il passaporto",
+            "08:30 Didi fino all'ingresso sud di Qianling, ~2 km, oppure metro linea 3 fermata Qianling Park, uscita C. Parco aperto 07:00-20:00",
+            "Giro classico, 3-4 h, quasi tutto in discesa: Sanlingwan con i macachi → sentiero Jiuqu (九曲径) con le iscrizioni sulla roccia, o funivia → belvedere Kanzhu → tempio Hongfu (弘福寺, 2 CNY) → lago Qianling → uscita sud. Le scimmie rubano: niente cibo né sacchetti in vista",
+            "Pranzo: buffet vegetariano del tempio Hongfu, oppure fuori dal parco",
+            "Verso le 14:00 museo provinciale del Guizhou, a Guanshanhu: Didi ~30 min. Gratis, 09:00-17:00, ultimo ingresso alle 16:00. Costumi e argenti di Miao e Dong: è il pezzo di Guizhou etnico che il viaggio ha perso tagliando Zhaoxing. Armadietti gratis al piano terra",
+            "Rientro con la metro linea 1 dalla fermata International Eco-Conference Center (国际生态会议中心), uscita B a 5-10 min a piedi dal museo",
+            "Sera: zuppa acida di pesce, poi i bar di Taiping Road sotto l'hotel"
+          ]
+        },
+        {
+          "giorno": "Mer 18",
+          "titolo": "Partenza per Chengdu",
+          "voci": [
+            "Colazione con un changwang mian (肠旺面)",
+            "Check-out verso le 08:30, metro linea 1 fino a Guiyang North, ~30 min",
+            "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28, 35,97 € su Trip.com: il più economico della metà mattina. Alternativa G2822 10:16 → 13:18, 3h02, 39,71 €: parte 40 min dopo e arriva 10 min prima",
+            "Orari letti sul listino Trip.com di ottobre 2026: riverificarli quando apre la vendita, dal 3 novembre"
+          ]
+        },
+        {
+          "giorno": "Fuori",
+          "titolo": "Cosa resta fuori",
+          "voci": [
+            "Qingyan (青岩古镇), borgo murato di epoca Ming a ~30 km: Didi ~50 min a tratta, ingresso al borgo libero, i singoli edifici a pagamento. Lasciato fuori per tenere martedì in città",
+            "Jiaxiu Tower e giardino Cuiwei dentro: lunedì chiusi, martedì non ci stanno",
+            "Villaggi Miao (Xijiang): servirebbe un terzo giorno",
+            "Cascate di Huangguoshu: ~2 h di strada a tratta, giornata intera, 160 CNY più 50 di navetta interna",
+            "Erqi Road (二七路小吃街), altra via di street food vicino alla stazione vecchia: doppione del Qingyun Market"
+          ]
+        }
+      ]
     },
     {
       "id": "chengdu",
@@ -289,7 +340,7 @@
       "nome_zh": "成都",
       "checkin": "2026-11-18",
       "checkout": "2026-11-22",
-      "arrivo": "Treno veloce, circa 3h. Mercoledì, arrivo a metà giornata. Quattro notti e tre giornate piene, due delle quali feriali: è la tappa che più ne beneficia, tra le code alla Scala dei Nove Tornanti di Leshan e la base dei panda all'alba.",
+      "arrivo": "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28. Mercoledì, arrivo a metà giornata. Quattro notti e tre giornate piene, due delle quali feriali: è la tappa che più ne beneficia, tra le code alla Scala dei Nove Tornanti di Leshan e la base dei panda all'alba.",
       "clima": {
         "max": 15,
         "min": 8,

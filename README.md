@@ -141,8 +141,8 @@ browser, quindi resta sul telefono ed è per-dispositivo.
   certamente ancora lì, ma il calendario delle serate va scoutato a ridosso.
 - Fonti: Resident Advisor per i club, ricerca cinese per craft beer e livehouse,
   Nominatim/OSM per le coordinate.
-- I prezzi dei treni sono di agosto 2026. Le tratte 4 (Yangshuo → Guiyang) e 6 (Chengdu →
-  Chongqing West) sono nuove e le tariffe sono **derivate, mai lette su Trip.com**.
+- I prezzi dei treni sono di agosto 2026, le tratte 3, 4 e 5 riverificate a ottobre. La tratta 6
+  (Chengdu → Chongqing West) è nuova e la tariffa è **derivata, mai letta su Trip.com**.
 - Il volo internazionale è **prenotato** (HKG 6 nov 12:00 → 27 nov 08:10): la pagina Voli
   resta come traccia del metodo, non come listino.
 - I locali marcati `approssimativa` o `non verificata` vanno confermati su Amap prima di

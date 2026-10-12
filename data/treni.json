@@ -1,8 +1,8 @@
 {
   "titolo": "Treni ad alta velocità",
   "nota": "Prezzi rilevati su Trip.com ad agosto 2026, 2ª classe posto seduto. Le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
-  "totale_cny": 1742,
-  "totale_eur": 212,
+  "totale_cny": 1745,
+  "totale_eur": 213,
   "escursioni": [
     {
       "nome": "Leshan, il Grande Buddha",
@@ -89,13 +89,13 @@
       "n": 5,
       "da": "Guiyang North",
       "a": "Chengdu East",
-      "treno": "G",
-      "durata": "~3h",
-      "cny": 290,
-      "eur": 35,
+      "treno": "G2832, 09:37 → 13:28",
+      "durata": "3h51",
+      "cny": 293,
+      "eur": 36,
       "data": "2026-11-18",
-      "verificato": false,
-      "note": "250-330 CNY a seconda del treno. Tariffa derivata, da riverificare in prenotazione"
+      "verificato": true,
+      "note": "Letta sul listino Trip.com a ottobre 2026: 35,97 €, il CNY è convertito. Il più economico della metà mattina, parte da North come la linea 1 dell'hotel. Alternativa G2822 10:16 → 13:18, 3h02, 39,71 €"
     },
     {
       "n": 6,
