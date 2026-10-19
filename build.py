@@ -924,6 +924,7 @@ def build_treni(treni):
             [
                 f'<td class="num">{t["n"]}</td>',
                 f'<td><b>{e(t["da"])}</b> → <b>{e(t["a"])}</b>{flag}{nota}</td>',
+                f'<td>{e(giorno(t["data"]))}</td>',
                 f'<td>{e(t["treno"])}</td>',
                 f'<td>{e(t["durata"])}</td>',
                 f'<td class="num">{t["cny"]} CNY<br><b>{t["eur"]}€</b></td>',
@@ -933,6 +934,7 @@ def build_treni(treni):
         [
             "<td></td>",
             "<td><b>Totale</b></td>",
+            "<td></td>",
             "<td></td>",
             "<td></td>",
             f'<td class="num">{treni["totale_cny"]} CNY<br><b>{treni["totale_eur"]}€</b></td>',
@@ -967,7 +969,7 @@ def build_treni(treni):
 <h1>{e(treni["titolo"])}</h1>
 <p class="lede">{e(treni["nota"])}</p>
 
-{tabella(["#", "Tratta", "Treno", "Durata", "2ª classe"], righe)}
+{tabella(["#", "Tratta", "Data", "Treno", "Durata", "2ª classe"], righe)}
 
 {blocco_esc}
 
@@ -982,7 +984,7 @@ irrinunciabile.</p>
 {e(p["alternativa"])}.</p>
 <div class="links" style="margin:0">
  <a class="btn primary" href="{e(p["url"])}" target="_blank" rel="noopener">Trip.com treni</a>
- <a class="btn" href="https://www.12306.cn" target="_blank" rel="noopener">12306 ufficiale</a>
+ <a class="btn" href="{e(p["url_12306"])}" target="_blank" rel="noopener">12306 ufficiale (EN)</a>
 </div></div>
 
 <h2>Note</h2>
@@ -990,6 +992,8 @@ irrinunciabile.</p>
   "Il rientro G905 da solo vale il 49% del budget treni, quanto le altre sei messe insieme. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
   "Tratta 6: il prezzo cambia da treno a treno, 99-243 CNY. Il D997 delle 08:52 è il più economico a un orario ragionevole.",
   "Tratta 6: molte corse Chengdu → Chongqing arrivano a Chongqing NORTH. Tu devi scendere a WEST, la stessa stazione da cui riparte il G905 il 25.",
+  "Tratta 2: la prendi il giorno stesso (mar 10), senza prenotare prima. Biglietto in app o in stazione.",
+  "Abbonamenti: per i turisti stranieri non esiste un rail pass cinese, i biglietti si comprano a tratta. Nelle città bastano metro con QR Alipay/WeChat. A Hong Kong il Tourist Day Pass MTR (24 h) non conviene in sole 2 notti: meglio Octopus.",
   "Tratta 2: esistono anche treni ordinari K/T a ~25 CNY, ma fermano in stazioni diverse e ci mettono il doppio.",
   "Tratta 1: col trolley in stiva valuta il pullman transfrontaliero diretto dall'aeroporto a Futian Port (~1h-1h30): salti Airport Express e West Kowloon.",
   "Porta sempre il passaporto: serve per ritirare i biglietti e per salire.",

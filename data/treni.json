@@ -31,6 +31,7 @@
   ],
   "prenotazione": {
     "dove": "Trip.com",
+    "url_12306": "https://www.12306.cn/en/index.html",
     "url": "https://www.trip.com/trains/",
     "commissione": "~3-5€ a biglietto rispetto a 12306",
     "apertura_vendite": "15 giorni prima della partenza",
@@ -59,7 +60,7 @@
       "eur": 9,
       "data": "2026-11-10",
       "verificato": true,
-      "note": "Esistono anche treni lenti K/T a ~25 CNY, ma fermano altrove e ci mettono il doppio"
+      "note": "Non si prenota prima: lo prendi il giorno stesso (martedì 10), comprando biglietto in app o in stazione a Shenzhen North. Treni frequenti, nessun rischio di restare a piedi. Esistono anche treni lenti K/T a ~25 CNY, ma fermano altrove e ci mettono il doppio"
     },
     {
       "n": 3,
