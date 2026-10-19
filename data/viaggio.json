@@ -263,6 +263,7 @@
       "cosa_vedere": [
         "Jiaxiu Tower sul fiume Nanming, illuminata la sera: si guarda dal ponte Fuyu",
         "Qingyun Market, street food serale accanto a Jiaxiu",
+        "Mercato mattutino di Youzhajie (油榨街早市): colazione tra i banchi di un mercato rionale, 3 fermate di linea 2 dall'hotel",
         "Parco Qianling: macachi, tempio Hongfu, lago. Gratis, su prenotazione",
         "Museo provinciale del Guizhou: costumi e argenti delle minoranze. Gratis, chiuso il lunedì",
         "Taiping Road, i bar sotto l'hotel",
@@ -277,7 +278,7 @@
       ],
       "hotel": {
         "cerca": "Guiyang",
-        "zona": "No. 230 Yan'an East Road, Yunyan — Penshuichi 380 m, Wenchang Pavilion 770 m, Jiaxiu Tower 1,8 km. Metro Yangming Ancestral Temple 650 m e Penshuichi 820 m, linea 1: la stessa che scende da Guiyang North",
+        "zona": "No. 230 Yan'an East Road, Yunyan — Penshuichi 380 m, Wenchang Pavilion 770 m, Jiaxiu Tower 1,8 km. Metro Yangming Ancestral Temple 650 m (linea 2, 3 fermate dal mercato di Youzhajie) e Penshuichi 820 m (linee 1 e 2). La linea 1 è la stessa che scende da Guiyang North",
         "note": "Voto 9,0 su 2.093 recensioni Trip.com, pulizia 9,1, 64 negative (3%). L'hotel sta su Taiping Road, la 网红街 «wanghong street» fiancheggiata da piccoli bar: il giro serale è sotto casa, e a Guiyang non esiste un ostello sociale che regga il confronto. Colazione facoltativa a 3,59 €. La tariffa presa è fumatori consentito, come a Shenzhen: se la camera puzza, chiedere il cambio, l'hotel ha anche camere non fumatori. I piani 13-20 stanno sopra il rumore della strada. Cancellazione gratuita fino al 16 nov ore 23:59, addebito il 13 novembre — da ricontrollare prima dell'addebito. ⚠️ Recensioni di gennaio 2026 segnalavano la hall in ristrutturazione: verificare sulle foto recenti che sia finita.",
         "stato": "prenotato",
         "nome": "Hao Li Hotel (Guiyang Pintou Water Pool Taiping Road Wanghong Street Shida Branch)",
@@ -300,13 +301,16 @@
         },
         {
           "giorno": "Mar 17",
-          "titolo": "Qianling e museo provinciale",
+          "titolo": "Youzhajie, Qianling e museo provinciale",
           "voci": [
             "Da prenotare prima: Qianling (gratis, account WeChat 黔灵山公园 o mini program 贵客荟) e museo (gratis, mini program 贵州省博物馆, apre le prenotazioni ~10 giorni prima). Entrambi chiedono il nome reale: verificare che accettino il passaporto",
-            "08:30 Didi fino all'ingresso sud di Qianling, ~2 km, oppure metro linea 3 fermata Qianling Park, uscita C. Parco aperto 07:00-20:00",
+            "Colazione al mercato mattutino di Youzhajie (油榨街早市), 冶金路 angolo 宝山南路, 120 m a est dell'incrocio. Mercato rionale vecchio stampo: verdura, carne, banchi di cibo cotto e di colazione mescolati. 4,8 su Dianping. Orario ufficiale 08:00-17:00, ma i banchi della colazione lavorano sull'ora di punta del mattino: andarci presto",
+            "Come arrivare: verso le 07:40 a piedi fino alla metro Yangming Ancestral Temple (阳明祠), 650 m. Linea 2 direzione Zhongxing Lu (中兴路), 3 fermate: Provincial People's Hospital (省人民医院), Baoshan South Road (宝山南路), Youzhajie (油榨街). Uscita B, poi 140-270 m a piedi. ~20 min in tutto. In Didi sono ~3 km",
+            "Da mangiare: 毛肚粉, vermicelli con trippa, 14 CNY da 半天营牛肉粉; anatra alla piastra di 黄记铁板烤鸭; patatine fritte piccanti (麻辣洋芋片), 12 CNY a mezzo jin; peperoni e melanzane alla brace di 燕姐烧辣椒; 碗耳糕, 豆沙窝, riso glutinoso. Contanti per i banchi piccoli",
+            "Verso le 09:00 Didi fino all'ingresso sud di Qianling, oppure linea 2 fino a Yan'an West Road (延安西路, 6 fermate) e linea 3 una fermata fino a Qianling Park, uscita C. Parco aperto 07:00-20:00",
             "Giro classico, 3-4 h, quasi tutto in discesa: Sanlingwan con i macachi → sentiero Jiuqu (九曲径) con le iscrizioni sulla roccia, o funivia → belvedere Kanzhu → tempio Hongfu (弘福寺, 2 CNY) → lago Qianling → uscita sud. Le scimmie rubano: niente cibo né sacchetti in vista",
             "Pranzo: buffet vegetariano del tempio Hongfu, oppure fuori dal parco",
-            "Verso le 14:00 museo provinciale del Guizhou, a Guanshanhu: Didi ~30 min. Gratis, 09:00-17:00, ultimo ingresso alle 16:00. Costumi e argenti di Miao e Dong: è il pezzo di Guizhou etnico che il viaggio ha perso tagliando Zhaoxing. Armadietti gratis al piano terra",
+            "Verso le 14:30 museo provinciale del Guizhou, a Guanshanhu: Didi ~30 min. Gratis, 09:00-17:00, ultimo ingresso alle 16:00. Costumi e argenti di Miao e Dong: è il pezzo di Guizhou etnico che il viaggio ha perso tagliando Zhaoxing. Armadietti gratis al piano terra",
             "Rientro con la metro linea 1 dalla fermata International Eco-Conference Center (国际生态会议中心), uscita B a 5-10 min a piedi dal museo",
             "Sera: zuppa acida di pesce, poi i bar di Taiping Road sotto l'hotel"
           ]
