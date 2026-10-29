@@ -290,6 +290,8 @@ def build_home(viaggio, treni, voli):
     pagati = [h for h in voci_hotel if h.get("costo_eur")]
     spesa_hotel = sum(h["costo_eur"] for h in pagati)
     spesa_volo = v.get("costo_eur", 0) if v else 0
+    esim = viaggio.get("esim", [])
+    spesa_esim = sum(x["costo_eur"] for x in esim)
     righe_spesa = []
     if spesa_volo:
         righe_spesa.append(
@@ -303,8 +305,18 @@ def build_home(viaggio, treni, voli):
                 f'<td class="num">{e(eur(spesa_hotel))}</td>'
             ]
         )
+    if esim:
+        righe_spesa.append(
+            [
+                f'<td>eSIM <span class="muted">{len(esim)}, solo dati</span></td>'
+                f'<td class="num">{e(eur(spesa_esim))}</td>'
+            ]
+        )
     righe_spesa.append(
-        [f'<td><b>Totale</b></td><td class="num"><b>{e(eur(spesa_volo + spesa_hotel))}</b></td>']
+        [
+            f'<td><b>Totale</b></td><td class="num">'
+            f'<b>{e(eur(spesa_volo + spesa_hotel + spesa_esim))}</b></td>'
+        ]
     )
     mancanti = len(voci_hotel) - len(pagati)
     spesa_html = f"""<h2>Speso finora</h2>

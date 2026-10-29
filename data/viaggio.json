@@ -563,5 +563,15 @@
     "andata": "Partenza dall'Italia gio 5 novembre, atterraggio a Hong Kong ven 6 alle 12:00",
     "ritorno": "Ripartenza da HKG ven 27 novembre alle 08:10",
     "costo_eur": 443.38
-  }
+  },
+  "esim": [
+    {
+      "nome": "eSIM principale, Cina 5G, 100 GB",
+      "costo_eur": 32.74
+    },
+    {
+      "nome": "eSIM backup, Cina + HK + Macao, 10 GB",
+      "costo_eur": 6.89
+    }
+  ]
 }
