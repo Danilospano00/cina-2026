@@ -6,6 +6,7 @@ Output in docs/ , che è la cartella pubblicata da GitHub Pages.
 
 Sezioni:
   index.html       riepilogo, conto alla rovescia, le sette tappe
+  arrivo.html      dall'aeroporto di Hong Kong all'hotel di Shenzhen, passo per passo
   itinerario.html  tappa per tappa
   mappe.html       indice delle sette mappe nightlife
   mappe/<slug>.html + kml/<slug>.kml
@@ -37,6 +38,7 @@ OUT = ROOT / "docs"
 
 SEZIONI = [
     ("index.html", "Riepilogo"),
+    ("arrivo.html", "Arrivo"),
     ("itinerario.html", "Itinerario"),
     ("mappe.html", "Mappe"),
     ("serate.html", "Serate"),
@@ -1007,7 +1009,7 @@ irrinunciabile.</p>
   "Tratta 2: la prendi il giorno stesso (mar 10), senza prenotare prima. Biglietto in app o in stazione.",
   "Abbonamenti: per i turisti stranieri non esiste un rail pass cinese, i biglietti si comprano a tratta. Nelle città bastano metro con QR Alipay/WeChat. A Hong Kong il Tourist Day Pass MTR (24 h) non conviene in sole 2 notti: meglio Octopus.",
   "Tratta 2: esistono anche treni ordinari K/T a ~25 CNY, ma fermano in stazioni diverse e ci mettono il doppio.",
-  "Tratta 1: col trolley in stiva valuta il pullman transfrontaliero diretto dall'aeroporto a Futian Port (~1h-1h30): salti Airport Express e West Kowloon.",
+  "Tratta 1: col trolley in stiva conviene il pullman dall'aeroporto al nuovo porto di Huanggang, circa un'ora (vedi la pagina Arrivo): salti Airport Express e West Kowloon.",
   "Porta sempre il passaporto: serve per ritirare i biglietti e per salire.",
 ])}</div>
 </div>"""
@@ -1195,6 +1197,63 @@ def build_shenzhen(d):
 <p class="muted">Aggiornato il {e(d["aggiornato"])}. Club e pub stanno nella <a href="mappe/shenzhen.html">mappa di Shenzhen</a>, i social del venerdì e del sabato nelle <a href="serate.html">Serate</a>.</p>
 </div>"""
     return pagina("Shenzhen — Sud della Cina", corpo, "shenzhen.html")
+
+
+# --- pagina: arrivo HKG → Shenzhen ----------------------------------------
+STATI_PASSO = {
+    "verificato": ("verificato", "ok"),
+    "stima": ("stima", "grey"),
+    "da verificare": ("da verificare sul posto", "soft"),
+}
+
+
+def build_arrivo(d):
+    passi = "".join(
+        '<div class="card"><div class="stop-head">'
+        f'<span class="tag grey">{p["n"]}</span><h3>{e(p["titolo"])}</h3>'
+        f'<span class="when"><span class="tag {STATI_PASSO[p["stato"]][1]}">'
+        f'{e(STATI_PASSO[p["stato"]][0])}</span></span></div>'
+        f'{lista(p["punti"])}</div>'
+        for p in d["passi"]
+    )
+    tempi = tabella(
+        ["Ora", "Cosa", "Da dove viene"],
+        [
+            [f'<td class="num"><b>{e(o)}</b></td>', f"<td>{e(c)}</td>", f'<td class="muted">{e(f)}</td>']
+            for o, c, f in d["tempi"]
+        ],
+        "tight",
+    )
+    n = d["novita"]
+    corpo = f"""<div class="page narrow">
+<h1>{e(d["titolo"])}</h1>
+<p class="lede">{e(d["lede"])}</p>
+<div class="warn"><b>{e(n["titolo"])}</b>{lista(n["punti"])}</div>
+
+<h2>Passo per passo</h2>
+{passi}
+
+<h2>Tabella di marcia</h2>
+<p class="muted">Gli orari del pullman sono quelli dell'operatore per venerdì 6. Il resto sono stime.</p>
+{tempi}
+
+<h2>Piano B</h2>
+<div class="card">{lista(d["piano_b"])}</div>
+
+<h2>Scartate</h2>
+<div class="card">{lista(d["scartate"])}</div>
+
+<h2>Cosa resta da verificare sul posto</h2>
+<div class="card">{lista(d["non_verificato"])}</div>
+
+<h2>Fonti</h2>
+<div class="card"><ul>{"".join(
+        f'<li><a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a></li>'
+        for f in d["fonti"]
+    )}</ul></div>
+<p class="muted">Verificato il {e(d["aggiornato"])}.</p>
+</div>"""
+    return pagina("Arrivo — Sud della Cina", corpo, "arrivo.html")
 
 
 # --- KML -------------------------------------------------------------------
@@ -1388,6 +1447,7 @@ def main():
     check = json.loads((DATA / "checklist.json").read_text(encoding="utf-8"))
     serate = json.loads((DATA / "serate.json").read_text(encoding="utf-8"))
     shenzhen = json.loads((DATA / "shenzhen.json").read_text(encoding="utf-8"))
+    arrivo = json.loads((DATA / "arrivo.json").read_text(encoding="utf-8"))
     mappe = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(MAPPE.glob("*.json"))]
 
     if OUT.exists():
@@ -1417,6 +1477,7 @@ def main():
         (OUT / nome).write_text(testo, encoding="utf-8")
 
     w("index.html", build_home(viaggio, treni, voli))
+    w("arrivo.html", build_arrivo(arrivo))
     w("itinerario.html", build_itinerario(viaggio))
     w("mappe.html", build_mappe_index(mappe, viaggio))
     w("serate.html", build_serate(serate, viaggio))
