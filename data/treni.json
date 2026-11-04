@@ -120,19 +120,25 @@
       "eur": 102,
       "data": "2026-11-25",
       "verificato": true,
-      "note": "08:44 → 15:57. Da Chongqing WEST, non North. Da solo è il 49% del budget treni"
+      "note": "08:44 → 15:57. Da Chongqing WEST, non North. Da solo è il 49% del budget treni",
+      "prenotato": {
+        "data": "2026-11-04",
+        "dove": "Trip.com",
+        "biglietto_eur": 105.09,
+        "commissione_eur": 7.0,
+        "costo_eur": 112.09,
+        "stato": "prenotazione anticipata: Trip.com emette il biglietto quando apre la vendita, verso il 10 novembre"
+      }
     }
   ],
   "criticita": {
     "titolo": "Il nodo del rientro: G905, 25 novembre",
     "punti": [
-      "Un solo treno diretto al giorno. Se salta, non c'è un secondo diretto.",
+      "Prenotato su Trip.com il 4 novembre, 112,09 € (105,09 € di biglietto + 7 € di commissione). È una prenotazione anticipata: il biglietto viene emesso quando apre la vendita, verso il 10 novembre. Controlla che arrivi l'email di emissione.",
+      "Un solo treno diretto al giorno. Se l'emissione fallisce o il treno salta, non c'è un secondo diretto.",
       "Piano B: volo CKG → HKG (~2h30), oppure treno fino a Guangzhou South e cambio per HK.",
-      "Partenza da Chongqing West (重庆西), non Chongqing North: verifica la stazione in fase di prenotazione.",
-      "Vendite aperte 15 giorni prima → prenotabile dal ~10 novembre 2026, non prima.",
-      "L'orario è quello in vigore ad agosto 2026: China Railway ritocca gli orari più volte l'anno, riverifica a ottobre.",
-      "Tratta transfrontaliera: passaporto obbligatorio al gate e controlli doganali a West Kowloon. Arriva con largo anticipo.",
-      "Il volo CKG → HKG a volte scende sotto i 100€ in low cost: il G905 costa quanto le altre sei tratte messe insieme, confronta prima di prenotare."
+      "Partenza da Chongqing West (重庆西), non Chongqing North.",
+      "Tratta transfrontaliera: passaporto obbligatorio al gate e controlli doganali a West Kowloon. Arriva con largo anticipo."
     ]
   }
 }

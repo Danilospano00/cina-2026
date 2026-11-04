@@ -294,6 +294,11 @@ def build_home(viaggio, treni, voli):
     spesa_volo = v.get("costo_eur", 0) if v else 0
     esim = viaggio.get("esim", [])
     spesa_esim = sum(x["costo_eur"] for x in esim)
+    # Treni: una sola voce, somma di tutti i biglietti presi (tratte e gite).
+    treni_presi = [
+        t for t in treni["tratte"] + treni.get("escursioni", []) if t.get("prenotato")
+    ]
+    spesa_treni = sum(t["prenotato"]["costo_eur"] for t in treni_presi)
     righe_spesa = []
     if spesa_volo:
         righe_spesa.append(
@@ -314,17 +319,30 @@ def build_home(viaggio, treni, voli):
                 f'<td class="num">{e(eur(spesa_esim))}</td>'
             ]
         )
+    if treni_presi:
+        righe_spesa.append(
+            [
+                f'<td>Treni <span class="muted">{len(treni_presi)} '
+                f'{"biglietto" if len(treni_presi) == 1 else "biglietti"} su '
+                f'{len(treni["tratte"])} tratte</span></td>'
+                f'<td class="num">{e(eur(spesa_treni))}</td>'
+            ]
+        )
     righe_spesa.append(
         [
             f'<td><b>Totale</b></td><td class="num">'
-            f'<b>{e(eur(spesa_volo + spesa_hotel + spesa_esim))}</b></td>'
+            f'<b>{e(eur(spesa_volo + spesa_hotel + spesa_esim + spesa_treni))}</b></td>'
         ]
     )
     mancanti = len(voci_hotel) - len(pagati)
+    stima_treni_restanti = treni["totale_eur"] - sum(
+        t["eur"] for t in treni["tratte"] if t.get("prenotato")
+    )
     spesa_html = f"""<h2>Speso finora</h2>
 {tabella(["Voce", "Importo"], righe_spesa, "tight")}
-<p class="muted">Ancora da pagare: {mancanti} hotel su {len(voci_hotel)} e i treni interni,
-stimati {treni["totale_eur"]}€. I treni si comprano 15 giorni prima di ogni partenza.</p>"""
+<p class="muted">Ancora da pagare: {mancanti} hotel su {len(voci_hotel)} e i treni interni
+non ancora presi, stimati {eur_breve(stima_treni_restanti)}. I treni si comprano 15 giorni
+prima di ogni partenza.</p>"""
 
     # Stima treni: le sette tratte più le gite in giornata. Niente è ancora
     # comprato — le vendite aprono 15 giorni prima di ogni partenza — quindi
@@ -332,6 +350,8 @@ stimati {treni["totale_eur"]}€. I treni si comprano 15 giorni prima di ogni pa
     righe_treni = []
     for t in treni["tratte"]:
         flag = "" if t["verificato"] else ' <span class="tag grey">da verificare</span>'
+        if t.get("prenotato"):
+            flag += ' <span class="tag ok">preso</span>'
         righe_treni.append(
             [
                 f'<td>{e(t["da"])} → <b>{e(t["a"])}</b>{flag}</td>',
@@ -356,10 +376,15 @@ stimati {treni["totale_eur"]}€. I treni si comprano 15 giorni prima di ogni pa
         if esc
         else ""
     )
+    presi_txt = (
+        "Già presi: " + ", ".join(t["treno"].split(" ")[0] for t in treni_presi) + ". "
+        if treni_presi
+        else "Nessun biglietto è ancora comprato. "
+    )
     treni_html = f"""<h2>Treni, la stima</h2>
 {tabella(["Tratta", "Data", "Durata", "2ª classe"], righe_treni, "tight")}
 <p class="muted">{e(treni["nota"])}{e(esc_txt)}
-Nessun biglietto è ancora comprato: le vendite aprono
+{e(presi_txt)}Le vendite aprono
 {e(treni["prenotazione"]["apertura_vendite"])}.
 <a href="treni.html">Tutte le tratte in dettaglio</a>.</p>"""
 
@@ -933,6 +958,8 @@ def build_treni(treni):
     righe = []
     for t in treni["tratte"]:
         flag = "" if t["verificato"] else ' <span class="tag grey">da verificare</span>'
+        if t.get("prenotato"):
+            flag += ' <span class="tag ok">preso</span>'
         nota = f'<br><span class="muted">{e(t["note"])}</span>' if t["note"] else ""
         righe.append(
             [
@@ -976,6 +1003,35 @@ def build_treni(treni):
             + tabella(["Tratta", "Treno", "Durata", "A/R 2ª classe"], esc_righe)
         )
 
+    # Treni presi: i biglietti comprati, tratte e gite insieme, in ordine di data.
+    presi = sorted(
+        (t for t in treni["tratte"] + treni.get("escursioni", []) if t.get("prenotato")),
+        key=lambda t: t["data"],
+    )
+    blocco_presi = ""
+    if presi:
+        presi_righe = [
+            [
+                f'<td>{e(giorno(t["data"]))}</td>',
+                f'<td><b>{e(t["da"])}</b> → <b>{e(t["a"])}</b><br>'
+                f'<span class="muted">{e(t["prenotato"]["stato"])}</span></td>',
+                f'<td>{e(t["treno"].split(" ")[0])}<br>'
+                f'<span class="muted">{e(t["note"].split(".")[0])}</span></td>',
+                f'<td class="num"><b>{e(eur(t["prenotato"]["costo_eur"]))}</b><br>'
+                f'<span class="muted">di cui {e(eur(t["prenotato"]["commissione_eur"]))} '
+                f'commissione</span></td>',
+            ]
+            for t in presi
+        ]
+        tot = sum(t["prenotato"]["costo_eur"] for t in presi)
+        presi_righe.append(
+            ["<td></td>", "<td><b>Totale</b></td>", "<td></td>",
+             f'<td class="num"><b>{e(eur(tot))}</b></td>']
+        )
+        blocco_presi = "<h2>Treni presi</h2>\n" + tabella(
+            ["Data", "Tratta", "Treno", "Pagato"], presi_righe
+        )
+
     p = treni["prenotazione"]
     crit = treni["criticita"]
 
@@ -983,6 +1039,9 @@ def build_treni(treni):
 <h1>{e(treni["titolo"])}</h1>
 <p class="lede">{e(treni["nota"])}</p>
 
+{blocco_presi}
+
+<h2>Tutte le tratte, la stima</h2>
 {tabella(["#", "Tratta", "Data", "Treno", "Durata", "2ª classe"], righe)}
 
 {blocco_esc}
@@ -992,8 +1051,8 @@ def build_treni(treni):
 <h2>Prenotare</h2>
 <div class="card">
 <p style="margin-top:0">Le vendite aprono <b>{e(p["apertura_vendite"])}</b>: non si può comprare
-tutto in anticipo. Metti in calendario il giorno di apertura per il G905, che è l'unico
-irrinunciabile.</p>
+tutto in anticipo. Prima dell'apertura Trip.com accetta la prenotazione anticipata ed emette
+il biglietto appena la vendita parte.</p>
 <p>Su <b>{e(p["dove"])}</b> la commissione è {e(p["commissione"])}. L'alternativa è
 {e(p["alternativa"])}.</p>
 <div class="links" style="margin:0">
