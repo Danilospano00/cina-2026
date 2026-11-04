@@ -106,6 +106,7 @@
           "titolo": "Arrivo e vecchia Canton",
           "voci": [
             "Check-out a Shenzhen verso le 09:30, treno verso le 10:30, in hotel verso le 12. Bagagli in deposito (gratis)",
+            "Lanez → Shenzhen North, secondo Amap: Didi 28 min alle 09:30, 12 km. Metro 36 min, 4 CNY: 480 m a piedi fino a Huaqiang Lu uscita C, linea 1 per 2 fermate fino a Convention & Exhibition Center (会展中心), linea 4 per 7 fermate",
             "Pranzo: arrosti cantonesi in zona",
             "14:00 Sala ancestrale del clan Chen, 790 m a piedi. 09:00-18:00, ultimo ingresso 17:30, 1-2 h",
             "16:30 Shamian, una fermata di metro (Huangsha), per il tramonto delle 17:45",
@@ -140,7 +141,8 @@
           "titolo": "Partenza per Yangshuo",
           "voci": [
             "Yum cha da Tao Tao Ju, sede storica di Dishifu Road 20 (Liwan), apre alle 08:00",
-            "Check-out, metro fino a Guangzhou South, treno D1814 per Yangshuo alle 11:01. A Yangshuo alle 13:19"
+            "Check-out, metro fino a Guangzhou South, treno D1814 per Yangshuo alle 11:01. A Yangshuo alle 13:19",
+            "Yifang → Guangzhou South, secondo Amap: Didi 35 min alle 09:45, 19 km. Metro 51 min, 5 CNY: 620 m a piedi fino a Changshou Lu uscita B, linea 1 per 3 fermate fino a Gongyuanqian, linea 2 per 12 fermate. In metro esci entro le 09:45: la stazione è enorme e i varchi chiudono pochi minuti prima della partenza"
           ]
         },
         {
@@ -228,7 +230,7 @@
           "giorno": "Lun 16",
           "titolo": "Partenza per Guiyang",
           "voci": [
-            "Check-out verso le 10:15, Didi fino alla stazione di Yangshuo (30-40 min)",
+            "Check-out verso le 10:15, Didi fino alla stazione di Yangshuo: 41 min secondo Amap, 33 km. In bus servono 1h37 e tre cambi (阳朔1路, 阳朔2路, 高铁专线2路), 19 CNY: non conviene",
             "Treno D1854 Yangshuo 11:34 → Guiyang North 14:30, 167 CNY: il più economico della mattina, e arriva a North, sulla linea 1 della metro come l'hotel. Gli altri della mattina (08:34 e 10:25, 190 CNY) arrivano a Guiyang East",
             "Orari dei treni letti sull'orario di ottobre 2026: riverificarli quando apre la vendita"
           ]
@@ -320,7 +322,7 @@
           "titolo": "Partenza per Chengdu",
           "voci": [
             "Colazione con un changwang mian (肠旺面)",
-            "Check-out verso le 08:30, metro linea 1 fino a Guiyang North, ~30 min",
+            "Check-out verso le 08:30, metro linea 1 fino a Guiyang North: 38 min secondo Amap, 4 CNY, di cui 900 m a piedi fino a Penshuichi uscita H, poi 5 fermate. Didi 23 min alle 08:30, 10 km",
             "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28, 35,97 € su Trip.com: il più economico della metà mattina. Alternativa G2822 10:16 → 13:18, 3h02, 39,71 €: parte 40 min dopo e arriva 10 min prima",
             "Orari letti sul listino Trip.com di ottobre 2026: riverificarli quando apre la vendita, dal 3 novembre"
           ]
@@ -414,7 +416,7 @@
           "titolo": "Leshan, il Grande Buddha",
           "voci": [
             "Da prenotare prima: ingresso 79 CNY su Trip.com (listino 80) e barca 70 CNY. In alternativa mini program 大佛旅游 su WeChat o Alipay",
-            "~06:45 metro verso Chengdu East, stesso percorso dell'arrivo al contrario. Treno G2277 07:49 → Leshan 08:35, 54 CNY. Più economici, ma con uscita dall'ostello verso le 06:00: C5663 07:05 → 08:10 a 27 CNY, G3707 07:00 → 07:58 a 30 CNY",
+            "~06:45 verso Chengdu East. Secondo Amap: Didi 28 min, 11 km. Metro 42-47 min, 4-5 CNY: bus 48 + linea 2 con 300 m a piedi, oppure 1,5 km a piedi fino a Tonghuimen (通惠门) e linea 2 per 9 fermate. ⚠️ In metro arrivi verso le 07:30 per un treno delle 07:49: esci alle 06:30 o prendi il Didi. Treno G2277 07:49 → Leshan 08:35, 54 CNY. Più economici, ma con uscita dall'ostello verso le 06:00: C5663 07:05 → 08:10 a 27 CNY, G3707 07:00 → 07:58 a 30 CNY",
             "Dalla stazione: Didi ~15 min fino all'ingresso nord. In bus: linea C o 601 fino a Jiading Fang (嘉定坊), poi navetta dal North Visitor Center (10 CNY) o 600 m a piedi",
             "Verso le 09:15 ingresso nord: subito testa del Buddha e Scala dei Nove Tornanti (九曲栈道) fino ai piedi, prima che salga la coda. Poi tempio Lingyun",
             "Percorso completo verso sud, 3-5 h: tempio Lingyun → tombe rupestri Mahao (麻浩崖墓) → ponte Haoshang → tempio Wuyou (乌尤寺) → uscita sud. Orario invernale 08:00-17:30",
@@ -448,7 +450,7 @@
           "giorno": "Dom 22",
           "titolo": "Partenza per Chongqing",
           "voci": [
-            "Check-out verso le 07:50, metro fino a Chengdu East",
+            "Check-out verso le 07:50, metro fino a Chengdu East: 42-47 min secondo Amap, come giovedì. Didi 39 min alle 07:45 di domenica, 11 km. ⚠️ Con il trolley arrivi alle 08:35-08:40 per un treno delle 08:52: meglio anticipare il check-out alle 07:30",
             "Treno D997 Chengdu East 08:52 → Chongqing West 10:22, 121 CNY: il più economico tra le 8 e le 13. Le altre corse costano 149-166 CNY. Il D1822 delle 07:41 costa 99 CNY ma ci mette 2h28",
             "Arriva a Chongqing WEST: molte corse vanno a North",
             "Orari e prezzi letti sul listino di domenica 25 ottobre: riverificarli quando apre la vendita, dal 7 novembre"
@@ -495,7 +497,7 @@
       "hotel": {
         "cerca": "Chongqing",
         "zona": "Room 21-7, Dayuan Plaza, No. 85 Jiaochangkou, Yuzhong — metro Jiaochangkou 360 m, Shibati 390 m, Jiefangbei 710 m, Hongya Cave 1,16 km, Chaotianmen 2,2 km",
-        "note": "Voto 9,4 su 788 recensioni Trip.com, pulizia 9,4, 12 negative (1,5%), nessun tag su odore o rumore. La camera da 44 € ha la finestra vera con vista sulle montagne: quella da 32 € ha 8-11 m² e la finestra sul corridoio. Tariffa fumatori consentito, come Shenzhen e Guiyang — chiedere una camera arieggiata all'arrivo. Lavanderia gratuita ma self-service condivisa, deposito bagagli gratis, niente palestra. Le distanze sono calcolate sulle coordinate reali: quelle dichiarate da Trip.com nella sezione Dintorni a volte sono percorsi stradali e non distanze. Il 25 parti da Chongqing WEST, non North: sono ~15 km, circa 45 min di metro. Cancellazione gratuita fino al 22 nov ore 18:00, addebito il 19 novembre — da ricontrollare prima dell'addebito.",
+        "note": "Voto 9,4 su 788 recensioni Trip.com, pulizia 9,4, 12 negative (1,5%), nessun tag su odore o rumore. La camera da 44 € ha la finestra vera con vista sulle montagne: quella da 32 € ha 8-11 m² e la finestra sul corridoio. Tariffa fumatori consentito, come Shenzhen e Guiyang — chiedere una camera arieggiata all'arrivo. Lavanderia gratuita ma self-service condivisa, deposito bagagli gratis, niente palestra. Le distanze sono calcolate sulle coordinate reali: quelle dichiarate da Trip.com nella sezione Dintorni a volte sono percorsi stradali e non distanze. Il 25 parti da Chongqing WEST, non North. Secondo Amap: Didi 32 min alle 07:00, 21 km; metro 54 min, 5 CNY, 800 m a piedi fino a Jiaochangkou uscita 11, poi linea 1 fino a Shiqiaopu e linea 5. Tratta transfrontaliera: in stazione entro le 08:00, quindi metro alle 06:50 (la linea 1 parte alle 06:06) o Didi alle 07:15. Cancellazione gratuita fino al 22 nov ore 18:00, addebito il 19 novembre — da ricontrollare prima dell'addebito.",
         "stato": "prenotato",
         "nome": "Star High-altitude River View Hotel (Jiefangbei Hongyadong)",
         "tariffa": "Star · Mountain Night View King Room — 13-18 m², letto matrimoniale, vista sulle montagne con finestra, bagno privato, 21º piano, fumatori",
