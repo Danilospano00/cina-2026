@@ -1,7 +1,7 @@
 {
   "titolo": "Arrivo: aeroporto di Hong Kong → Shenzhen",
   "lede": "Venerdì 6 novembre. Atterri a HKG alle 12:00 e dormi al Lanez, a Futian, vicino a Huaqiangbei. Percorso consigliato: pullman Eternal East (永東) dall'aeroporto al nuovo porto di Huanggang, controlli di Hong Kong e della Cina nello stesso edificio, poi metro linea 7 fino a Huaqiang South. Un solo cambio col trolley. Costo: HK$150-176 più qualche yuan di metro.",
-  "aggiornato": "2026-11-04",
+  "aggiornato": "2026-11-05",
   "novita": {
     "titolo": "Cosa è cambiato rispetto al piano di agosto",
     "punti": [
@@ -79,11 +79,13 @@
     {
       "n": 7,
       "titolo": "A piedi fino al Lanez",
-      "stato": "da verificare",
+      "stato": "verificato",
       "punti": [
-        "Lanez Hotel · 蓝尔兹酒店 · No. 60 Fuhua Road, Nongmao Building, Futian",
-        "Trip.com mette l'hotel a 270 m dall'uscita C della stazione Huaqiang Lu (linea 1). Huaqiang South sta circa 400 m più a sud, sulla stessa via. Dovresti essere sotto il chilometro, ma il percorso a piedi da Huaqiang South non l'ho potuto verificare",
-        "Su Amap cerca 蓝尔兹酒店 appena esci dalla metro: ti dà l'uscita giusta e il percorso"
+        "Lanez Hotel · 蓝尔兹酒店 · No. 60 Fuhua Road, Nongmao Building (农贸大厦), Futian",
+        "Da Huaqiang South (华强南) esci dall'uscita C: circa 500 m a piedi fino alla zona del Nongmao Building. Indicazioni dell'hotel, messaggio del 5 novembre",
+        "⚠️ L'ingresso per il check-in è sul RETRO dell'edificio. Cerca il palazzo con il negozio di noodle di riso con carne fresca, poi gira dietro: l'entrata è lì, non sulla strada principale",
+        "Altre stazioni a circa 500 m, sempre secondo l'hotel: Huaqiang Lu (华强路, linea 1) uscita C, Fuxing (福星, linea 11) uscita D",
+        "Su Amap cerca 蓝尔兹酒店 appena esci dalla metro, per il percorso a piedi"
       ]
     }
   ],
@@ -109,7 +111,7 @@
     "Come si paga al banco del pullman: carta o solo contanti",
     "Se la tariffa al banco è ancora HK$150 col porto nuovo. L'ufficio porti l'ha pubblicata prima dell'apertura, online oggi è HK$176",
     "Quanto si aspetta ai controlli del porto nuovo con un passaporto straniero",
-    "Il percorso a piedi preciso dalla metro all'hotel"
+    "Il nome cinese del negozio di noodle che segna l'ingresso del Lanez: l'hotel non l'ha scritto"
   ],
   "fonti": [
     {"nome": "HKIA, pullman per la Cina (T2 L3, banchi, operatori, orari dei porti)", "url": "https://www.hongkongairport.com/en/transport/mainland-connection/mainland-coaches/"},
