@@ -49,7 +49,76 @@
         "prezzo": "22 €/notte · 88,56 € per 4 notti",
         "url": "https://it.trip.com/hotels/detail/?cityEnName=Shenzhen&cityId=30&hotelId=67577766&checkIn=2026-11-06&checkOut=2026-11-10&adult=1&crn=1&curr=EUR&locale=it-IT",
         "costo_eur": 88.56
-      }
+      },
+      "programma": [
+        {
+          "giorno": "Ven 6",
+          "titolo": "Arrivo, Huaqiangbei, luci di Futian",
+          "voci": [
+            "In hotel nel pomeriggio (percorso nella pagina Arrivo). Primo giro su Huaqiangbei, solo la via principale: il giro vero è lunedì",
+            "Sera: spettacolo di luci sui grattacieli del CBD di Futian, d'inverno solo ven-sab-dom, alle 19:00, 20:00 e 21:00",
+            "Civic Center Square: prenotazione gratuita obbligatoria dal mini-program WeChat 福田中心区夜景灯光预约导引服务, si apre 3 giorni prima. Per stasera si è aperta martedì 3: i posti possono essere finiti",
+            "Senza prenotazione: ingresso dello Shenzhen Children's Palace (metro Children's Palace, linee 3 e 4, la più vicina all'hotel) oppure cima del Lianhuashan Park",
+            "Alternativa: Meet People Social alle 19:00, ¥25, biglietto solo online",
+            "⚠️ Orari dello spettacolo presi dall'orario invernale di prima della pausa per lavori (ripreso a ottobre): le fasce vere si vedono nel mini-program",
+            "⚠️ Meet People Social è segnato al Raffles di Futian, ma il Raffles Shenzhen dovrebbe stare a One Shenzhen Bay, Nanshan: verificare l'indirizzo prima di andarci"
+          ]
+        },
+        {
+          "giorno": "Sab 7",
+          "titolo": "Mattina libera, poi Open Home Foundation Community Day",
+          "voci": [
+            "Se ci sono posti: Museo della Scienza e Tecnologia di Guangming (Zaha Hadid), apre alle 09:30 nel weekend. Gratis con prenotazione dal mini-program WeChat; i posti del sabato si sono liberati domenica 1 alle 20:00, probabilmente finiti. Sta nel distretto accanto a Dalang",
+            "Altrimenti: SEG Plaza (赛格广场) dalle ~10:00, primo giro sui piani alti dei componenti, poi verso Dalang verso le 11:00",
+            "Da pranzo: Open Home Foundation Community Day, 大浪基地, 华明路 75号, Dalang (Longhua). Gratis, iscrizioni esaurite, agenda non ancora uscita",
+            "Tragitto dall'hotel ~1h tra metro e Didi: da verificare su Amap",
+            "Sera: rientro, cena a Coco Park (metro Shopping Park, linee 1 e 3). Se fai in tempo, spettacolo delle 21:00 visto a piedi in mezzo ai grattacieli del CBD"
+          ]
+        },
+        {
+          "giorno": "Dom 8",
+          "titolo": "Parchi, Nanshan e la baia",
+          "voci": [
+            "08:00 Lianhuashan Park: cima con la statua di Deng Xiaoping e skyline di Futian con la luce del mattino, 1h-1h30. Il parco più vicino all'hotel",
+            "10:00 OCT-LOFT, gallerie ed ex fabbriche, 1h-1h30. Metro Qiaocheng East",
+            "12:00 Nantou Ancient City: pranzo e vicoli della città vecchia, 1h30",
+            "14:30 Talent Park, il lago col grattacielo «a pillola», poi Shenzhen Bay Park: lungomare verso ovest, a piacere, fino al tramonto delle ~17:40 con Hong Kong dall'altra parte dell'acqua. In zona i flagship DJI, Huawei e Xiaomi",
+            "Alternativa con salita: Nanshan Park (Shekou), sentiero fino in cima con vista su Shekou, la baia e Hong Kong, ~1h30 andata e ritorno. Sostituisce la passeggiata lunga a Shenzhen Bay Park e sta vicino a Sea World",
+            "Sera: Sea World, passeggiata sul mare e cena turca da Doors. Metro Sea World, linee 2 e 8",
+            "Ultima sera dello spettacolo di luci: se perso venerdì e sabato, Sea World presto e rientro a Futian per le 21:00, ~40 min di metro (stima)",
+            "⚠️ Orari dei parchi e tempi tra una tappa e l'altra da verificare su Amap"
+          ]
+        },
+        {
+          "giorno": "Lun 9",
+          "titolo": "Huaqiangbei a fondo, Dafen, Dongmen",
+          "voci": [
+            "Mattina: Huaqiangbei sul serio. Il lunedì i piani wholesale sono calmi e i venditori hanno tempo. Vicoli ed edifici sul retro, non i centri sulla via principale",
+            "⚠️ Orari dei mall non verificati",
+            "Pomeriggio: Dafen, villaggio dei pittori, metro linea 3 uscita A1. Il museo è chiuso il lunedì, il villaggio e le botteghe no",
+            "Sera: linea 3 fino a Laojie, via pedonale di Dongmen"
+          ]
+        },
+        {
+          "giorno": "Mar 10",
+          "titolo": "Partenza per Canton",
+          "voci": [
+            "Check-out alle 09:30 e treno per Canton: tragitto Lanez → Shenzhen North nel programma di Canton"
+          ]
+        },
+        {
+          "giorno": "Fuori",
+          "titolo": "Cosa resta fuori",
+          "voci": [
+            "Robot 6S Store a Longgang: 1h di metro a tratta",
+            "Splendid China e Window of the World: sconsigliati dal gruppo",
+            "Elba al 99º piano del KK100: fuori budget",
+            "Libreria Zhongshuge di Huanle Harbour: forse sta a Qianhai, fuori strada. Da guardare su Amap",
+            "IVY english corner al Parco Litchi, sabato 17:00-19:00: cade durante la fiera",
+            "Sarti del Luohu Commercial City: servono più giorni, si riparte martedì"
+          ]
+        }
+      ]
     },
     {
       "id": "guangzhou",
