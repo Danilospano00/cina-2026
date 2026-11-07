@@ -6,7 +6,7 @@ Output in docs/ , che è la cartella pubblicata da GitHub Pages.
 
 Sezioni:
   index.html       riepilogo, conto alla rovescia, le sette tappe
-  arrivo.html      dall'aeroporto di Hong Kong all'hotel di Shenzhen, passo per passo
+  domenica.html    domenica 8 novembre a Shenzhen: cosa c'è la sera, verificato
   itinerario.html  tappa per tappa
   mappe.html       indice delle sette mappe nightlife
   mappe/<slug>.html + kml/<slug>.kml
@@ -15,7 +15,6 @@ Sezioni:
   treni.html       le sette tratte ferroviarie
   hotel.html       stato delle otto prenotazioni
   checklist.html   preparativi, con spunte salvate sul telefono
-  shenzhen.html    ricerca sul gruppo FB, voci con codice da tenere o scartare
 
 Uso:  python3 build.py
 """
@@ -38,14 +37,13 @@ OUT = ROOT / "docs"
 
 SEZIONI = [
     ("index.html", "Riepilogo"),
-    ("arrivo.html", "Arrivo"),
+    ("domenica.html", "Dom 8 sera"),
     ("itinerario.html", "Itinerario"),
     ("mappe.html", "Mappe"),
     ("serate.html", "Serate"),
     ("treni.html", "Treni"),
     ("hotel.html", "Hotel"),
     ("checklist.html", "Checklist"),
-    ("shenzhen.html", "Shenzhen"),
 ]
 
 TIPI = {
@@ -1200,15 +1198,9 @@ def build_checklist(c):
 
 
 
-# --- pagina: shenzhen ------------------------------------------------------
-STATI = {
-    "verificato": {"label": "confermato sul web", "breve": "verificato", "colore": "#2f9e44"},
-    "da verificare": {"label": "da verificare", "breve": "da verificare", "colore": "#e8590c"},
-    "opinione": {"label": "opinione dal gruppo", "breve": "opinione", "colore": "#1098ad"},
-}
-
-
+# --- pagina: domenica 8, la sera ----------------------------------------
 def link_fonti(etichetta, fonti):
+    fonti = [f for f in fonti if f.get("url")]
     if not fonti:
         return ""
     a = " · ".join(
@@ -1218,101 +1210,68 @@ def link_fonti(etichetta, fonti):
     return f'<p class="n"><b>{e(etichetta)}</b> {a}</p>'
 
 
-def riga_voce(v):
-    st = STATI[v["stato"]]
+def riga_domenica(v, stati):
+    st = stati[v["stato"]]
+    zh = f' <span class="muted" style="font-weight:400">{e(v["zh"])}</span>' if v.get("zh") else ""
+    costo = f' · <b>{e(v["costo"])}</b>' if v.get("costo") else ""
+    nota = f'<p class="n">{e(v["nota"])}</p>' if v.get("nota") else ""
     return (
-        f'<div class="srow" id="{e(v["id"])}" style="--sc:{st["colore"]}">'
-        f'<div class="day">{e(v["id"])}<em>{e(st["breve"])}</em></div>'
-        f'<div class="body"><div class="t"><i></i>{e(v["titolo"])}</div>'
-        f'<p class="w">{e(v["testo"])}</p>'
-        f'{lista(v["punti"], "punti")}'
-        f'{link_fonti("Gruppo:", v["fonti"])}'
-        f'{link_fonti("Verifica:", v["verifica"])}'
-        "</div></div>"
+        f'<div class="srow{" off" if v["stato"] == "no" else ""}" style="--sc:{st["colore"]}">'
+        f'<div class="day">{e(v["ora"])}<em>{e(st["label"])}</em></div>'
+        f'<div class="body"><div class="t"><i></i>{e(v["nome"])}{zh}</div>'
+        f'<p class="w">{e(v["dove"])}</p>'
+        f'<p class="w">{e(v["orari"])}{costo}</p>'
+        f"{nota}{link_fonti('Fonte:', v['fonti'])}</div></div>"
     )
 
 
-def build_shenzhen(d):
-    indice = " · ".join(
-        f'<a href="#{e(c["id"])}">{e(c["nome"])}</a> ({len(c["voci"])})' for c in d["categorie"]
-    )
+def build_domenica(d):
+    stati = d["stati"]
     leg = "".join(
         f'<span><i style="background:{x["colore"]}"></i>{e(x["label"])}</span>'
-        for x in STATI.values()
+        for x in stati.values()
     )
+    indice = " · ".join(
+        f'<a href="#{e(c["id"])}">{e(c["nome"])}</a>' for c in d["sezioni"]
+    ) + ' · <a href="#hk">Hong Kong</a>'
     cards = "".join(
-        f'<div class="card" id="{e(c["id"])}"><div class="stop-head"><h3>{e(c["nome"])}</h3></div>'
-        + "".join(riga_voce(v) for v in c["voci"])
+        f'<h2 id="{e(c["id"])}">{e(c["nome"])}</h2>'
+        + (f'<p class="muted">{e(c["intro"])}</p>' if c.get("intro") else "")
+        + '<div class="card">'
+        + "".join(riga_domenica(v, stati) for v in c["voci"])
         + "</div>"
-        for c in d["categorie"]
+        for c in d["sezioni"]
+    )
+    hk = d["hk"]
+    fonti = "".join(
+        f'<li><a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a></li>'
+        if f.get("url") else f"<li>{e(f['nome'])}</li>"
+        for f in d["fonti"]
     )
     corpo = f"""<div class="page narrow">
 <h1>{e(d["titolo"])}</h1>
 <p class="lede">{e(d["lede"])}</p>
-<div class="warn">{e(d["avvertenza"])}</div>
+<div class="warn"><b>Prima di uscire</b>{lista(d["avvisi"])}</div>
+
+<h2>{e(d["piano"]["titolo"])}</h2>
+<div class="card">{lista(d["piano"]["punti"])}</div>
+
 <p class="muted">{indice}</p>
 <div class="legend">{leg}</div>
 {cards}
-<p class="muted">Aggiornato il {e(d["aggiornato"])}. Club e pub stanno nella <a href="mappe/shenzhen.html">mappa di Shenzhen</a>, i social del venerdì e del sabato nelle <a href="serate.html">Serate</a>.</p>
-</div>"""
-    return pagina("Shenzhen — Sud della Cina", corpo, "shenzhen.html")
 
-
-# --- pagina: arrivo HKG → Shenzhen ----------------------------------------
-STATI_PASSO = {
-    "verificato": ("verificato", "ok"),
-    "stima": ("stima", "grey"),
-    "da verificare": ("da verificare sul posto", "soft"),
-}
-
-
-def build_arrivo(d):
-    passi = "".join(
-        '<div class="card"><div class="stop-head">'
-        f'<span class="tag grey">{p["n"]}</span><h3>{e(p["titolo"])}</h3>'
-        f'<span class="when"><span class="tag {STATI_PASSO[p["stato"]][1]}">'
-        f'{e(STATI_PASSO[p["stato"]][0])}</span></span></div>'
-        f'{lista(p["punti"])}</div>'
-        for p in d["passi"]
-    )
-    tempi = tabella(
-        ["Ora", "Cosa", "Da dove viene"],
-        [
-            [f'<td class="num"><b>{e(o)}</b></td>', f"<td>{e(c)}</td>", f'<td class="muted">{e(f)}</td>']
-            for o, c, f in d["tempi"]
-        ],
-        "tight",
-    )
-    n = d["novita"]
-    corpo = f"""<div class="page narrow">
-<h1>{e(d["titolo"])}</h1>
-<p class="lede">{e(d["lede"])}</p>
-<div class="warn"><b>{e(n["titolo"])}</b>{lista(n["punti"])}</div>
-
-<h2>Passo per passo</h2>
-{passi}
-
-<h2>Tabella di marcia</h2>
-<p class="muted">Gli orari del pullman sono quelli dell'operatore per venerdì 6. Il resto sono stime.</p>
-{tempi}
-
-<h2>Piano B</h2>
-<div class="card">{lista(d["piano_b"])}</div>
-
-<h2>Scartate</h2>
-<div class="card">{lista(d["scartate"])}</div>
-
-<h2>Cosa resta da verificare sul posto</h2>
-<div class="card">{lista(d["non_verificato"])}</div>
+<h2 id="hk">{e(hk["titolo"])}</h2>
+<div class="card">
+<p style="margin-top:0"><b>{e(hk["verdetto"])}</b></p>
+{lista(hk["punti"])}
+{link_fonti("Fonti:", hk["fonti"])}
+</div>
 
 <h2>Fonti</h2>
-<div class="card"><ul>{"".join(
-        f'<li><a href="{e(f["url"])}" target="_blank" rel="noopener">{e(f["nome"])}</a></li>'
-        for f in d["fonti"]
-    )}</ul></div>
-<p class="muted">Verificato il {e(d["aggiornato"])}.</p>
+<div class="card"><ul>{fonti}</ul></div>
+<p class="muted">Ricerca del {e(d["aggiornato"])}, fatta dentro WeChat (articoli, Dianping, mini-program) e su Showstart.</p>
 </div>"""
-    return pagina("Arrivo — Sud della Cina", corpo, "arrivo.html")
+    return pagina("Domenica 8 sera — Sud della Cina", corpo, "domenica.html")
 
 
 # --- KML -------------------------------------------------------------------
@@ -1505,8 +1464,7 @@ def main():
     voli = json.loads((DATA / "voli.json").read_text(encoding="utf-8"))
     check = json.loads((DATA / "checklist.json").read_text(encoding="utf-8"))
     serate = json.loads((DATA / "serate.json").read_text(encoding="utf-8"))
-    shenzhen = json.loads((DATA / "shenzhen.json").read_text(encoding="utf-8"))
-    arrivo = json.loads((DATA / "arrivo.json").read_text(encoding="utf-8"))
+    domenica = json.loads((DATA / "domenica.json").read_text(encoding="utf-8"))
     mappe = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(MAPPE.glob("*.json"))]
 
     if OUT.exists():
@@ -1536,7 +1494,7 @@ def main():
         (OUT / nome).write_text(testo, encoding="utf-8")
 
     w("index.html", build_home(viaggio, treni, voli))
-    w("arrivo.html", build_arrivo(arrivo))
+    w("domenica.html", build_domenica(domenica))
     w("itinerario.html", build_itinerario(viaggio))
     w("mappe.html", build_mappe_index(mappe, viaggio))
     w("serate.html", build_serate(serate, viaggio))
@@ -1545,7 +1503,6 @@ def main():
     w("treni.html", build_treni(treni))
     w("hotel.html", build_hotel(viaggio))
     w("checklist.html", build_checklist(check))
-    w("shenzhen.html", build_shenzhen(shenzhen))
 
     for d in mappe:
         w(f'mappe/{d["slug"]}.html', build_mappa(d))

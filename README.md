@@ -18,7 +18,7 @@ data/          i contenuti. È l'unica cosa da modificare a mano
   treni.json     le sette tratte ferroviarie
   voli.json      opzioni di volo internazionale
   checklist.json preparativi
-  shenzhen.json  ricerca sul gruppo FB «Cina fai da te»: voci con codice SZ-nn, si tolgono dal JSON
+  domenica.json  le opzioni per domenica 8 novembre sera a Shenzhen, con stato di verifica
   mappe/*.json   una mappa nightlife per tappa
 static/        CSS, JS, service worker, Leaflet e protomaps-leaflet vendorizzati
 tiles/         mappe vettoriali .pmtiles per l'offline, una per tappa (le genera mappe_offline.py)

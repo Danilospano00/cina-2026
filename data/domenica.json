@@ -1,0 +1,379 @@
+{
+  "titolo": "Domenica 8, la sera",
+  "lede": "Ultima sera piena a Shenzhen. Il giorno finisce già a ovest, tra Shenzhen Bay e Sea World, ed è lì che si concentra quasi tutto quello che di domenica sera c'è davvero. Le luci di Futian di domenica sono spente.",
+  "aggiornato": "2026-11-07",
+  "avvisi": [
+    "Le luci dei grattacieli di Futian (Civic Center) di domenica sono SPENTE, non solo senza spettacolo. Lo dice il mini-program ufficiale: da lunedì a giovedì illuminazione normale 19-22, venerdì e sabato spettacolo animato alle 19:00, 20:00 e 21:00, domenica luci chiuse. Per domenica 8 il calendario prenotazioni è vuoto",
+    "Anche il light show del Talent Park si fa solo venerdì, sabato e festivi",
+    "Droni: dal 7 al 10 novembre a Futian e Nanshan è vietato far volare qualsiasi cosa (avviso del Comune del 3 novembre). Dall'11 al 21 il divieto si allarga a tutta Shenzhen. Gli spettacoli di droni non sono tra le eccezioni",
+    "Gli spettacoli all'aperto saltano con pioggia forte, vento o allerta temporali. Le previsioni per domenica non le ho trovate: guarda il meteo nel pomeriggio",
+    "La «Symphony of Lights» di cui ti hanno parlato è a Hong Kong, non a Shenzhen. Vedi la sezione in fondo"
+  ],
+  "piano": {
+    "titolo": "La sera consigliata: Sea World",
+    "punti": [
+      "17:40 circa, tramonto a Shenzhen Bay Park: è già l'ultima tappa del programma di domenica",
+      "19:00 Sea World (海上世界), metro linea 2, uscita A. Fontana musicale davanti alla nave Minghua: di domenica alle 19:00, 19:30, 20:00 e 20:30, circa 15 minuti a spettacolo, gratis. Cena in zona (nel programma c'è Doors, turco)",
+      "21:00 TakeOut Comedy Open Mic da The Flames (炙焰西餐厅), stand-up in inglese, ingresso libero con una consumazione. Porte alle 20:30. È a due passi dalla fontana, al 2º piano accanto alla piazza sul mare",
+      "Rientro: metro linea 2, circa 45 minuti fino all'hotel (stima). L'orario dell'ultima corsa non l'ho verificato: guardalo su Amap prima di fermarti alla comedy. Altrimenti Didi",
+      "Variante musica: invece della comedy, un concerto alle 20:00 (vedi Concerti). Sono tutti a Nanshan tranne New Rules, che è a Futian"
+    ]
+  },
+  "stati": {
+    "si": {"label": "confermato", "colore": "#2f9e44"},
+    "verificare": {"label": "da verificare", "colore": "#e8590c"},
+    "no": {"label": "domenica no", "colore": "#868e96"}
+  },
+  "sezioni": [
+    {
+      "id": "acqua",
+      "nome": "Fontane, water show, luci",
+      "voci": [
+        {
+          "stato": "si",
+          "ora": "19:00",
+          "nome": "Fontana musicale di Sea World",
+          "zh": "海上世界音乐喷泉",
+          "dove": "Shekou, Nanshan · metro Sea World (linea 2), uscita A",
+          "orari": "Domenica: 19:00, 19:30, 20:00, 20:30. Circa 15 minuti",
+          "costo": "gratis",
+          "nota": "Chiusa il lunedì per manutenzione. Due articoli WeChat indipendenti (settembre e 20 ottobre 2026) danno gli stessi orari della domenica",
+          "fonti": [
+            {"nome": "WeChat, 20 ott 2026", "url": "https://mp.weixin.qq.com/s/B3QZVl5Y1eXePan9CtwQHw"},
+            {"nome": "WeChat, 4 set 2026", "url": "https://mp.weixin.qq.com/s/B4pNT_7-iqRJnIuV9MhtMQ"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "19:30",
+          "nome": "OCT Harbour: fontana e water show «Kunpeng»",
+          "zh": "欢乐港湾 · 鲲鹏之梦",
+          "dove": "Bao'an, Celebration Plaza (庆典广场) · metro Linhai (linea 5) uscita B2, oppure Baohua uscita A/D",
+          "orari": "Weekend: fontana 19:30 e 20:30, water show 20:00 e 21:00. 15 minuti ciascuno",
+          "costo": "gratis",
+          "nota": "Accanto c'è la ruota panoramica Light of the Bay. Fuori mano dall'hotel e dal resto del giro di domenica: ha senso solo se ci abbini il concerto di HOU LIVE Z, che sta nello stesso complesso",
+          "fonti": [
+            {"nome": "WeChat, 4 set 2026", "url": "https://mp.weixin.qq.com/s/fANAWQGkC5rV9DUk8kdT7w"}
+          ]
+        },
+        {
+          "stato": "verificare",
+          "ora": "20:00",
+          "nome": "Happy Coast, water show «Deep Blue»",
+          "zh": "欢乐海岸 · 深蓝秘境",
+          "dove": "Nanshan · metro Shenzhen Bay Park (linea 9), uscita E, 5 min a piedi",
+          "orari": "Weekend 20:00-20:50",
+          "costo": "il teatro è a pagamento, ma dal Xinhu Plaza (心湖广场, vicino al gate 9) si vede gratis",
+          "nota": "Ultima conferma degli orari: settembre 2026. Un video di qualche mese fa ipotizza che sia stato tolto: verificalo prima di andarci. È sulla strada tra Shenzhen Bay Park e Sea World",
+          "fonti": [
+            {"nome": "WeChat, 4 set 2026", "url": "https://mp.weixin.qq.com/s/fANAWQGkC5rV9DUk8kdT7w"}
+          ]
+        },
+        {
+          "stato": "verificare",
+          "ora": "19:00",
+          "nome": "MixC Shenzhen Bay, water show «Future Dream»",
+          "zh": "深圳湾万象城 · 未来之梦",
+          "dove": "Houhai, Nanshan · metro Houhai (linee 2, 11, 13), uscite L/K. Piazza WAVE, zona B",
+          "orari": "Venerdì-domenica 19:00, 20:00, 21:00. Solo 3 minuti",
+          "costo": "gratis",
+          "nota": "È un'installazione temporanea del centro commerciale. L'ultima conferma è di settembre 2026: può essere già stata tolta",
+          "fonti": [
+            {"nome": "WeChat, 4 set 2026", "url": "https://mp.weixin.qq.com/s/fANAWQGkC5rV9DUk8kdT7w"}
+          ]
+        },
+        {
+          "stato": "verificare",
+          "ora": "19:15",
+          "nome": "Window of the World: luci della Tour Eiffel",
+          "zh": "世界之窗",
+          "dove": "Nanshan · metro Window of the World (linee 1 e 2)",
+          "orari": "Luci della torre ogni sera alle 19:15 e alle 20:55. Il parco chiude alle 21:30, ultimo ingresso 20:30",
+          "costo": "biglietto serale ¥120 dalle 17:00",
+          "nota": "A pagamento, e il gruppo FB lo sconsigliava. Lo spettacolo di droni del weekend (21:00) quasi certamente salta per il divieto di volo: un annuncio di cancellazione non l'ho trovato, ma il parco sta a Nanshan",
+          "fonti": [
+            {"nome": "WeChat, 4 set 2026", "url": "https://mp.weixin.qq.com/s/B4pNT_7-iqRJnIuV9MhtMQ"},
+            {"nome": "Guida weekend 7-8 nov", "url": "https://mp.weixin.qq.com/s/KzwQZY55dEuXIMgIU3ZgjA"}
+          ]
+        },
+        {
+          "stato": "no",
+          "ora": "—",
+          "nome": "Luci dei grattacieli di Futian (Civic Center)",
+          "zh": "福田中心区夜景灯光",
+          "dove": "Futian · Civic Center Square o cima del Lianhuashan",
+          "orari": "Solo venerdì e sabato, alle 19:00, 20:00 e 21:00 (da novembre a marzo). Domenica luci spente",
+          "costo": "gratis, la piazza con prenotazione",
+          "nota": "Letto nel mini-program ufficiale 福田中心区夜景灯光预约导引服务, sezione 观赏时间. Il sito diceva «ven-sab-dom»: era sbagliato",
+          "fonti": []
+        },
+        {
+          "stato": "no",
+          "ora": "—",
+          "nome": "Light show del Talent Park",
+          "zh": "人才公园灯光秀",
+          "dove": "Nanshan, Shenzhen Bay",
+          "orari": "Solo venerdì, sabato e festivi: d'inverno alle 19:00, 20:00 e 21:00",
+          "costo": "gratis",
+          "nota": "Di domenica il parco resta bello di sera, ma senza spettacolo",
+          "fonti": [
+            {"nome": "WeChat, 4 set 2026", "url": "https://mp.weixin.qq.com/s/fANAWQGkC5rV9DUk8kdT7w"}
+          ]
+        },
+        {
+          "stato": "no",
+          "ora": "—",
+          "nome": "Spettacoli di droni",
+          "zh": "无人机表演",
+          "dove": "Window of the World e Talent Park (Nanshan)",
+          "orari": "Divieto di volo a Futian e Nanshan dal 7 al 10 novembre, in tutta la città dall'11 al 21",
+          "costo": "",
+          "nota": "Gli unici spettacoli fissi di droni stanno a Nanshan. Quelli di Bijiashan (Futian) e Cuihu (Luohu) si fanno solo nella Golden Week",
+          "fonti": [
+            {"nome": "Avviso del Comune, via Southern Metropolis Daily", "url": "https://mp.weixin.qq.com/s/Nl-VSFAg7_PPIJBvB4nwgw"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live",
+      "nome": "Concerti e teatro",
+      "intro": "Tutte le date di domenica lette sul listino Showstart (秀动) il 7 novembre. Biglietti nell'app Showstart o nel suo mini-program WeChat.",
+      "voci": [
+        {
+          "stato": "si",
+          "ora": "19:00",
+          "nome": "Free rock night «Unity Soul»",
+          "zh": "【免票】团结之魂·混战之夜",
+          "dove": "原鼓LIVE, Shenzhen Bay Super HQ Base (深圳湾超级总部基地), Nanshan",
+          "orari": "Dalle 19:00. Band: 木棉花乐队, Turbo, HeadRock, BADMAN",
+          "costo": "gratis, biglietto a ¥0 su Showstart",
+          "nota": "L'unico concerto gratis della serata. Indirizzo esatto e metro più vicina sulla scheda Showstart, da controllare su Amap",
+          "fonti": [
+            {"nome": "Showstart", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "20:00",
+          "nome": "New Rules (UK, pop-rock)",
+          "zh": "英国清爽流行摇滚组合New Rules",
+          "dove": "HOU LIVE Xiasha, KK ONE B1, locale B112a, Futian · metro Xiasha (linea 9), uscita B",
+          "orari": "20:00",
+          "costo": "da ¥180 (presale), ¥220 alla porta",
+          "nota": "Band inglese, unica data a Shenzhen. È il concerto più vicino all'hotel, l'unico a Futian",
+          "fonti": [
+            {"nome": "Showstart", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"},
+            {"nome": "Guida weekend 7-8 nov", "url": "https://mp.weixin.qq.com/s/KzwQZY55dEuXIMgIU3ZgjA"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "20:00",
+          "nome": "Sleep Leaps (碎梦飞跃) + Fisheye Lens",
+          "zh": "碎梦飞跃「外面是夏天」",
+          "dove": "B10 Live, OCT-LOFT parte nord, edificio C2 · metro Qiaocheng East (linea 1)",
+          "orari": "20:00-21:30",
+          "costo": "¥100 presale, ¥130 alla porta",
+          "nota": "Indie cinese, ultima data del tour in Cina continentale. B10 è la livehouse storica della città",
+          "fonti": [
+            {"nome": "Showstart", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "20:00",
+          "nome": "ShallowEnd (浅水), tour del nuovo album",
+          "zh": "浅水ShallowEnd「容器」",
+          "dove": "CH8 Livehouse Yuehai, Nanshan, B1 del centro sportivo e culturale di Yuehai · metro Hi-Tech Park (linea 1)",
+          "orari": "20:00",
+          "costo": "¥108 presale, ¥128 alla porta",
+          "nota": "Indie cinese",
+          "fonti": [
+            {"nome": "Showstart", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "20:00",
+          "nome": "BrAnTB 白景屹, con Pharaoh e 小精灵",
+          "zh": "白景屹「北上南下」",
+          "dove": "HOU LIVE Z-Space, OCT Harbour lato ovest L3, Bao'an",
+          "orari": "20:00",
+          "costo": "da ¥248",
+          "nota": "Rap cinese. Sta nello stesso complesso del water show di OCT Harbour",
+          "fonti": [
+            {"nome": "Showstart", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "19:30",
+          "nome": "Blizzard 35th Anniversary, concerto sinfonico",
+          "zh": "暴雪35周年官方游戏交响音乐会",
+          "dove": "Nanshan Culture & Sports Center, Juzheng Theatre, sala grande",
+          "orari": "19:30. Dirige Jason Hayes: musiche di World of Warcraft e Diablo",
+          "costo": "da ¥280",
+          "nota": "",
+          "fonti": [
+            {"nome": "Showstart", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"}
+          ]
+        },
+        {
+          "stato": "si",
+          "ora": "20:00",
+          "nome": "Wing Chun, dance drama",
+          "zh": "舞剧《咏春》",
+          "dove": "Shenzhen Poly Theatre, Houhai Binhai Road 3013 · metro Houhai (linee 2, 11, 13), uscita E1",
+          "orari": "20:00, ultima replica a Shenzhen",
+          "costo": "¥100-880. I posti da ¥100 sono pochi",
+          "nota": "Produzione di Shenzhen, kung fu e danza, senza dialoghi. È a Houhai, tra Talent Park e Sea World",
+          "fonti": [
+            {"nome": "Guida weekend 7-8 nov", "url": "https://mp.weixin.qq.com/s/KzwQZY55dEuXIMgIU3ZgjA"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "nome": "In inglese, con gente",
+      "intro": "Di domenica sera i social in inglese sono pochi. Questi tre sono ricorrenti e risultano attivi su SZMeetups.",
+      "voci": [
+        {
+          "stato": "verificare",
+          "ora": "21:00",
+          "nome": "TakeOut Comedy Open Mic",
+          "zh": "炙焰西餐厅 The Flames",
+          "dove": "The Flames, 太子路20-33号, 2º piano accanto alla Sea View Plaza, Sea World, Shekou · metro Sea World (linea 2), uscita A",
+          "orari": "Ogni domenica, porte 20:30, inizio 21:00",
+          "costo": "gratis con una consumazione",
+          "nota": "Stand-up in inglese, ci si iscrive la sera stessa se vuoi salire sul palco. Il listino non dice quando è stato verificato: controlla sul profilo social di The Flames. Il venerdì c'è il language exchange (¥58)",
+          "fonti": [
+            {"nome": "SZMeetups, evento", "url": "https://szmeetups.com/events/takeout-comedy-open-mic"},
+            {"nome": "SZMeetups, locale", "url": "https://szmeetups.com/venues/the-flames-sea-world"}
+          ]
+        },
+        {
+          "stato": "verificare",
+          "ora": "19:00",
+          "nome": "Liberty English Dinner Party",
+          "zh": "",
+          "dove": "Indirizzo inviato dopo la prenotazione",
+          "orari": "Domenica e mercoledì, 19:00-21:30",
+          "costo": "paghi quello che mangi e bevi",
+          "nota": "Cena di conversazione in inglese con un madrelingua che conduce: la gente è soprattutto cinese che pratica l'inglese. Si prenota per messaggio su Xiaohongshu (KICK IT o Mr Ryan). Date confermate dal listino il 5 ottobre",
+          "fonti": [
+            {"nome": "SZMeetups", "url": "https://szmeetups.com/events/liberty-english-dinner-party-english-corner"}
+          ]
+        },
+        {
+          "stato": "verificare",
+          "ora": "19:00",
+          "nome": "English Corner Longhua",
+          "zh": "疯狂椰子酒吧",
+          "dove": "The Crazy Coconut Bar, 3º piano sopra la metro Baishilong (linea 4), uscita B2, Longhua",
+          "orari": "Domenica, mercoledì e venerdì, 19:00-21:30",
+          "costo": "¥35 con un drink",
+          "nota": "Basta presentarsi. Lontano dal resto della domenica: ha senso solo se resti a Futian, la linea 4 sale dritta",
+          "fonti": [
+            {"nome": "SZMeetups", "url": "https://szmeetups.com/events/english-corner-longhua-baishilong"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vicino",
+      "nome": "Se resti vicino all'hotel",
+      "intro": "Di domenica Futian la sera è tranquilla e, senza luci sui grattacieli, anche lo skyline rende meno.",
+      "voci": [
+        {
+          "stato": "si",
+          "ora": "sera",
+          "nome": "Cat Yuanwai, birreria CICCI Mall",
+          "zh": "猫员外精酿酒馆(CICCI MALL店)",
+          "dove": "燕南路13号, CICCI Mall, piano terra, L1-04B · metro Yannan (linea 1), uscita A, 230 m",
+          "orari": "orari dietro login su Dianping",
+          "costo": "¥38 a persona",
+          "nota": "Dianping 4,8 su 1.014 recensioni, prima nella classifica dei bar di Huaqiangbei. Catena: birre alla frutta e stagionali, non le producono loro",
+          "fonti": []
+        },
+        {
+          "stato": "si",
+          "ora": "20:00",
+          "nome": "New Rules a HOU LIVE Xiasha",
+          "zh": "",
+          "dove": "Futian · metro Xiasha (linea 9)",
+          "orari": "20:00",
+          "costo": "da ¥180",
+          "nota": "Vedi Concerti",
+          "fonti": []
+        }
+      ]
+    },
+    {
+      "id": "pagamento",
+      "nome": "Parchi a tema di sera",
+      "intro": "Esistono, ma costano. Splendid China e Window of the World il gruppo FB li sconsigliava.",
+      "voci": [
+        {
+          "stato": "si",
+          "ora": "16:00",
+          "nome": "Happy Valley, festival «Surprise»",
+          "zh": "欢乐谷「惊奇潮玩节」",
+          "dove": "Nanshan · metro Window of the World (linee 1, 2, 8), uscita A, 400 m",
+          "orari": "10:00-23:00, fino al 22 novembre. Le case stregate aprono solo di sera",
+          "costo": "biglietto serale da ¥159 (ingresso dalle 16:00)",
+          "nota": "10 case stregate e 300 attori. Tutto in cinese",
+          "fonti": [
+            {"nome": "Guida weekend 7-8 nov", "url": "https://mp.weixin.qq.com/s/KzwQZY55dEuXIMgIU3ZgjA"}
+          ]
+        },
+        {
+          "stato": "verificare",
+          "ora": "17:30",
+          "nome": "Splendid China, ultima sera di Halloween",
+          "zh": "锦绣中华民俗村",
+          "dove": "OCT · metro OCT (linea 1), uscita D",
+          "orari": "Fino alle 21:00, biglietti serali dalle 17:30. Domenica 8 è l'ultimo giorno",
+          "costo": "biglietto serale ¥120",
+          "nota": "Le informazioni sui biglietti nel listino si contraddicono",
+          "fonti": [
+            {"nome": "SZMeetups", "url": "https://szmeetups.com/events/splendid-china-sleepless-nights-halloween-2026"}
+          ]
+        }
+      ]
+    }
+  ],
+  "hk": {
+    "titolo": "Symphony of Lights, Hong Kong",
+    "verdetto": "Domenica non vale il viaggio: la vedi il 25 novembre, quando dormi a Tsim Sha Tsui a 650 m dal lungomare. Il G905 arriva alle 15:57 e lo spettacolo è alle 20:00. L'unico rischio è che la chiudano prima.",
+    "punti": [
+      "Ogni sera alle 20:00, circa 10 minuti, gratis. Luci e laser su 43 palazzi delle due sponde, con la musica",
+      "Dove: lungomare di Tsim Sha Tsui davanti al Cultural Centre e Avenue of Stars, oppure Golden Bauhinia Square a Wan Chai",
+      "Il sito ufficiale (aggiornato al 21 settembre 2026) la dà ancora ogni sera, e non c'è nessun avviso di sospensione. Il 1° ottobre si è fatta. Un sito di guide dice che è sospesa dal 9 settembre: è smentito dalla fonte ufficiale",
+      "Ma è condannata: il bilancio di febbraio 2026 ha deciso di sostituirla con uno spettacolo nuovo, non quotidiano, entro la seconda metà del 2026. Una data di chiusura non c'è ancora",
+      "Si annulla con segnale tifone 3 o superiore o allerta pioggia rossa/nera emessi dalle 15:00",
+      "Se volessi andarci domenica: metro fino a Futian Checkpoint, valico di Futian e linea MTR Lok Ma Chau (aperto 06:30-22:30), East Rail fino a Hung Hom e poi Tsim Sha Tsui. Dall'hotel circa 1h30 (stima). Il ritorno conviene da Lo Wu, aperto fino a mezzanotte: dall'altra parte c'è la metro Luohu, linea 1 dritta fino a Huaqiang Road",
+      "Uscire e rientrare in Cina fa ripartire il conteggio dei 30 giorni di esenzione visto. Il 25 ci entri comunque, quindi non cambia niente",
+      "Il valico stradale di Lok Ma Chau è chiuso ai passeggeri dal 12 ottobre (ha aperto Huanggang, 24 ore). La linea MTR Lok Ma Chau-Futian invece funziona"
+    ],
+    "fonti": [
+      {"nome": "Tourism Commission HK, dettagli dello show", "url": "https://www.tourism.gov.hk/symphony/english/details/details.html"},
+      {"nome": "Tourism Commission HK, avvisi", "url": "https://www.tourism.gov.hk/symphony/english/SpecialAnnouncements/SpecialAnnouncements.html"},
+      {"nome": "Time Out HK, sostituzione nel 2026", "url": "https://www.timeout.com/hong-kong/news/hong-kongs-long-running-symphony-of-lights-show-will-be-replaced-this-year-030226"},
+      {"nome": "SCMP, nuovo show nella seconda metà del 2026", "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3344826/new-show-replace-symphony-lights-tourist-spots-second-half-year"},
+      {"nome": "Immigrazione HK, orari dei valichi", "url": "https://www.immd.gov.hk/eng/contactus/control_points.html"},
+      {"nome": "HKFP, Huanggang e linea Lok Ma Chau (12 ott 2026)", "url": "https://hongkongfp.com/2026/10/12/new-huanggang-border-checkpoint-opens-with-single-queue-joint-clearance-system-for-hk-and-mainland-authorities/"}
+    ]
+  },
+  "fonti": [
+    {"nome": "Mini-program WeChat 福田中心区夜景灯光预约导引服务 (orari e calendario, letto il 7 nov)", "url": ""},
+    {"nome": "Avviso del Comune sul divieto di volo, 3 nov 2026", "url": "https://mp.weixin.qq.com/s/Nl-VSFAg7_PPIJBvB4nwgw"},
+    {"nome": "Guida del weekend 7-8 novembre (深圳梦, 7 nov 2026)", "url": "https://mp.weixin.qq.com/s/KzwQZY55dEuXIMgIU3ZgjA"},
+    {"nome": "I cinque spettacoli serali di Shenzhen (4 set 2026)", "url": "https://mp.weixin.qq.com/s/B4pNT_7-iqRJnIuV9MhtMQ"},
+    {"nome": "Sei spettacoli gratuiti d'acqua e di luci (4 set 2026)", "url": "https://mp.weixin.qq.com/s/fANAWQGkC5rV9DUk8kdT7w"},
+    {"nome": "Fontana di Sea World (20 ott 2026)", "url": "https://mp.weixin.qq.com/s/B3QZVl5Y1eXePan9CtwQHw"},
+    {"nome": "Showstart, concerti della settimana a Shenzhen", "url": "https://www.showstart.com/event/list?pageNo=2&pageSize=20&cityCode=755&showTime=5"},
+    {"nome": "SZMeetups, cosa c'è a Shenzhen questa settimana", "url": "https://szmeetups.com/this-weekend"}
+  ]
+}

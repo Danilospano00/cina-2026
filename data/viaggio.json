@@ -19,7 +19,7 @@
       "nome_zh": "深圳",
       "checkin": "2026-11-06",
       "checkout": "2026-11-10",
-      "arrivo": "Atterri a Hong Kong venerdì alle 12:00. Immigrazione e bagagli: conta 45-60 min. Poi pullman Eternal East dal Terminal 2 (L3) al nuovo porto di Huanggang, circa un'ora, controlli di Hong Kong e Cina nello stesso edificio, e metro linea 7 fino a Huaqiang South. Passo per passo nella pagina Arrivo. Qui parte il conteggio dei 30 giorni di esenzione visto.",
+      "arrivo": "Atterri a Hong Kong venerdì alle 12:00. Immigrazione e bagagli: conta 45-60 min. Poi pullman Eternal East dal Terminal 2 (L3) al nuovo porto di Huanggang, circa un'ora, controlli di Hong Kong e Cina nello stesso edificio, e metro linea 7 fino a Huaqiang South. Qui parte il conteggio dei 30 giorni di esenzione visto.",
       "clima": {
         "max": 25,
         "min": 18,
@@ -55,8 +55,8 @@
           "giorno": "Ven 6",
           "titolo": "Arrivo, Huaqiangbei, luci di Futian",
           "voci": [
-            "In hotel nel pomeriggio (percorso nella pagina Arrivo). Primo giro su Huaqiangbei, solo la via principale: il giro vero è lunedì",
-            "Sera: spettacolo di luci sui grattacieli del CBD di Futian, d'inverno solo ven-sab-dom, alle 19:00, 20:00 e 21:00",
+            "In hotel nel pomeriggio. Primo giro su Huaqiangbei, solo la via principale: il giro vero è lunedì",
+            "Sera: spettacolo di luci sui grattacieli del CBD di Futian, solo venerdì e sabato, alle 19:00, 20:00 e 21:00. La domenica le luci sono spente",
             "Civic Center Square: prenotazione gratuita obbligatoria dal mini-program WeChat 福田中心区夜景灯光预约导引服务, si apre 3 giorni prima. Per stasera si è aperta martedì 3: i posti possono essere finiti",
             "Senza prenotazione: ingresso dello Shenzhen Children's Palace (metro Children's Palace, linee 3 e 4, la più vicina all'hotel) oppure cima del Lianhuashan Park",
             "Alternativa: Meet People Social alle 19:00, ¥25, biglietto solo online",
@@ -84,8 +84,8 @@
             "12:00 Nantou Ancient City: pranzo e vicoli della città vecchia, 1h30",
             "14:30 Talent Park, il lago col grattacielo «a pillola», poi Shenzhen Bay Park: lungomare verso ovest, a piacere, fino al tramonto delle ~17:40 con Hong Kong dall'altra parte dell'acqua. In zona i flagship DJI, Huawei e Xiaomi",
             "Alternativa con salita: Nanshan Park (Shekou), sentiero fino in cima con vista su Shekou, la baia e Hong Kong, ~1h30 andata e ritorno. Sostituisce la passeggiata lunga a Shenzhen Bay Park e sta vicino a Sea World",
-            "Sera: Sea World, passeggiata sul mare e cena turca da Doors. Metro Sea World, linee 2 e 8",
-            "Ultima sera dello spettacolo di luci: se perso venerdì e sabato, Sea World presto e rientro a Futian per le 21:00, ~40 min di metro (stima)",
+            "Sera: Sea World. Fontana musicale alle 19:00, 19:30, 20:00 e 20:30 (gratis), cena turca da Doors, alle 21:00 open mic comico in inglese da The Flames. Metro Sea World, linea 2. Tutte le alternative nella pagina Dom 8 sera",
+            "⚠️ Niente luci a Futian stasera: la domenica i grattacieli sono spenti (mini-program ufficiale). Anche il Talent Park fa lo show solo ven-sab, e i droni sono vietati a Futian e Nanshan fino al 10",
             "⚠️ Orari dei parchi e tempi tra una tappa e l'altra da verificare su Amap"
           ]
         },

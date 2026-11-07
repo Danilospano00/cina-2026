@@ -8,7 +8,7 @@
     {
       "id": "shenzhen",
       "esito": "ok",
-      "verdetto": "Due colpi buoni: venerdì di arrivo e sabato. Domenica e lunedì niente di ricorrente confermato.",
+      "verdetto": "Tre colpi: venerdì di arrivo, sabato e domenica sera. Lunedì niente di ricorrente confermato.",
       "eventi": [
         {
           "nome": "Meet People Social — Shenzhen",
@@ -35,6 +35,19 @@
           "url": null,
           "conferma": "da verificare",
           "nota": "Metro Hongling, linee 3 e 9, uscita A. Circa 1,5 km dall'hotel di Huaqiangbei: ci vai a piedi. Fonte: bacheche cinesi, non un calendario ufficiale."
+        },
+        {
+          "nome": "TakeOut Comedy Open Mic",
+          "tipo": "live",
+          "giorno": ["dom"],
+          "orario": "21:00",
+          "locale": "The Flames 炙焰西餐厅",
+          "zona": "Shekou, Sea World",
+          "prezzo": "gratis con una consumazione",
+          "come": "Basta presentarsi, porte alle 20:30",
+          "url": "https://szmeetups.com/events/takeout-comedy-open-mic",
+          "conferma": "da verificare",
+          "nota": "Stand-up in inglese ogni domenica. Si abbina alla fontana di Sea World: tutte le opzioni di domenica 8 nella pagina Dom 8 sera."
         }
       ],
       "ganci": [
