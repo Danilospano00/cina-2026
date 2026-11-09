@@ -145,7 +145,7 @@
         "Guangxiao Temple, il più antico",
         "Liurong Temple, pagoda dei fiori",
         "Dafo Ancient Temple, con Beijing Road",
-        "Parco Yuexiu, capre e torre Zhenhai",
+        "Monte Baiyun, funivia e sentieri, al mattino",
         "Museo del Guangdong, gratis, prenotazione WeChat",
         "Canton Tower, skyline da Huacheng Square",
         "Chimelong, Panyu, costa una giornata"
@@ -197,12 +197,15 @@
         },
         {
           "giorno": "Gio 12",
-          "titolo": "Templi, parco e skyline",
+          "titolo": "Baiyun al mattino, templi e skyline",
           "voci": [
-            "Mattina: tempio Guangxiao (08:30-16:30) e Liurong con la pagoda dei fiori (08:00-16:00, gratis), a ~1 km uno dall'altro. Poi giro libero a piedi verso Beijing Road, con il tempio Dafo se ci passi davanti",
-            "Pranzo in zona Beijing Road",
-            "Pomeriggio: Parco Yuexiu e torre Zhenhai, gratis, 06:00-22:00. Se avanza tempo, giardino delle orchidee Lanpu o Liuhua Lake, a meno di 1 km",
-            "Tramonto e sera: Huacheng Square con la Canton Tower accesa, poi il lungofiume. Tutto gratis, senza salire sulla torre"
+            "07:45 partenza dall'hotel: metro linea 2 fino a Baiyun Park o Xiaogang, poi taxi/Didi (~10 min) al Cancello Sud, l'ingresso principale",
+            "08:45-12:30 monte Baiyun: ingresso ~5 CNY, funivia ~25 CNY in salita e ~20 in discesa, sentieri e Moxing Peak (biglietto a parte, 5-20 CNY secondo le fonti). Orari della funivia discordanti (apre alle 07:30, 08:00 o 09:00): verificarli sul posto. Controllare se serve il biglietto su WeChat",
+            "12:30-13:30 discesa e pranzo in zona Beijing Road",
+            "14:00 tempio Guangxiao (08:30-16:30)",
+            "15:15 Liurong con la pagoda dei fiori (08:00-16:00, gratis): se si è in ritardo, saltarlo",
+            "Sera: Huacheng Square con la Canton Tower accesa, poi il lungofiume. Tutto gratis, senza salire sulla torre",
+            "Giornata piena: se pesa, tenere solo Guangxiao. Il parco Yuexiu e la torre Zhenhai sono usciti per fare posto al Baiyun"
           ]
         },
         {
@@ -218,7 +221,7 @@
           "giorno": "Fuori",
           "titolo": "Cosa resta fuori",
           "voci": [
-            "Monte Baiyun: fuori città, 30-40 min di Didi e biglietto da prenotare su WeChat. Il verde lo dà già Yuexiu, la montagna Yangshuo",
+            "Conghua (cascate e terme) e Nansha (wetland): una giornata intera ciascuna, si può avere solo sacrificando Shunde. Parco Yuexiu e torre Zhenhai: usciti dal 12 per fare posto al Baiyun",
             "Tour Gulongxia (ponte di vetro, 40 €, 08:30-20:00): scartato, si mangiava la giornata di Shunde",
             "Museo del Guangdong: priorità bassa, e quando passi da Huacheng Square è chiuso",
             "Hualin Jade Street, Chimelong"
