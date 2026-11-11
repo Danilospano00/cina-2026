@@ -208,6 +208,19 @@
           "url": null,
           "conferma": "da verificare",
           "nota": "Pub tranquillo, biliardo, pubblico misto. È il ripiego per mercoledì 18."
+        },
+        {
+          "nome": "The Beer Nest 啤酒窝 — birreria e open mic",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "锦绣路 34-7",
+          "zona": "Wuhou",
+          "prezzo": "consumazione; gli show di stand-up in inglese costavano 80-120 CNY nelle edizioni passate",
+          "come": "Si entra e basta",
+          "url": "https://chengdu-expat.com/places/the-beer-nest-1/",
+          "conferma": "da verificare",
+          "nota": "Craft beer, pubblico misto locali ed expat. Gli eventi trovati sono del 2023-2025, nessuno del 2026: controlla su Dianping o rednote prima di attraversare la città. Alternative dalle stesse fonti: Wild West Brewery (玉林中路 32) e Sleeping Dogs (睡狗精酿), con post rednote recenti."
         }
       ],
       "ganci": [
