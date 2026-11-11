@@ -143,9 +143,23 @@
     },
     {
       "id": "guiyang",
-      "esito": "vuoto",
-      "verdetto": "Detto netto: Guiyang non ha comunità internazionale. Nessun expat bar, nessun corner cittadino trovato.",
-      "eventi": [],
+      "esito": "ok",
+      "verdetto": "Una sola sera piena e un solo locale expat: The Cave. Il suo English Corner è il giovedì, fuori dalle tue date, ma il pub è il posto dove si trovano gli stranieri di Guiyang.",
+      "eventi": [
+        {
+          "nome": "The Cave Pub 美式餐吧",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "The Cave Pub 美式餐吧, indirizzo non trovato",
+          "zona": "Guiyang",
+          "prezzo": "consumazione",
+          "come": "Cerca «The Cave Pub美式餐吧» su WeChat, Amap o rednote per posizione e orari",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Pub americano, un anno compiuto a inizio novembre. Post di questa settimana parlano di tavoli pieni di stranieri. L'English Corner (7-9 PM, basta una consumazione) è ogni giovedì: tu a Guiyang sei lunedì e martedì, quindi non lo prendi. Non confermato che sia aperto e animato lunedì o martedì: chiedilo sul loro account WeChat prima di andarci. Martedì 17 alle 20:00 c'è l'amichevole Cina-Bahrain (a Zhaoqing, trasmissione non confermata): se la danno in TV, il pub è il posto."
+        }
+      ],
       "ganci": [
         "Guizhou University ha circa 200 stranieri in tutto e il campus è a Huaxi, ~20 km fuori: l'english corner della facoltà di lingue è roba interna d'ateneo, non ci vai da turista per una sera.",
         "Ripiego coerente con la scelta dell'hotel: i bar di Taiping Road 太平路, la 网红街 sotto l'albergo. Giro di giovani locali, non internazionale."
