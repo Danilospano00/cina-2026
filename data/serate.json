@@ -144,25 +144,78 @@
     {
       "id": "guiyang",
       "esito": "ok",
-      "verdetto": "Una sola sera piena e un solo locale expat: The Cave. Il suo English Corner è il giovedì, fuori dalle tue date, ma il pub è il posto dove si trovano gli stranieri di Guiyang.",
+      "verdetto": "Scena locale viva su Taiping Road e dintorni: Banana R&B per band dal vivo, Huichun per livehouse, e musica di strada regolare a Wenchang e Jiaxiu. The Cave resta il punto expat.",
       "eventi": [
         {
           "nome": "The Cave Pub 美式餐吧",
           "tipo": "bar",
           "giorno": ["sempre"],
           "orario": "sera",
-          "locale": "The Cave Pub 美式餐吧, indirizzo non trovato",
-          "zona": "Guiyang",
+          "locale": "The Cave (B1), di fronte alla Chiesa Cattolica, Putuo Road",
+          "zona": "Yunyan, Guiyang",
           "prezzo": "consumazione",
-          "come": "Cerca «The Cave Pub美式餐吧» su WeChat, Amap o rednote per posizione e orari",
+          "come": "Cerca «The Cave Pub美式餐吧» su Amap; su rednote: ID 49329599683",
+          "url": "https://www.rednote.com/user/profile/69004b40000000003700acc4",
+          "conferma": "confermato",
+          "nota": "Pub americano, attivissimo a novembre 2026 (788 follower rednote). English Corner giovedì, Salsa Night mercoledì, Jazz Night e band live il venerdì. Pieno di stranieri ogni sera. Tu sei lun-mar: il lunedì c'è attività (post recenti su ballo latino e serate jazz anche fuori dai giorni fissi). Seminterrato B1."
+        },
+        {
+          "nome": "Banana R&B Bar 香蕉R&B酒吧",
+          "tipo": "live",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "Banana R&B Bar 香蕉R&B酒吧",
+          "zona": "Taiping Road / dintorni",
+          "prezzo": "consumazione",
+          "come": "Cerca su Amap o rednote",
           "url": null,
           "conferma": "da verificare",
-          "nota": "Pub americano, un anno compiuto a inizio novembre. Post di questa settimana parlano di tavoli pieni di stranieri. L'English Corner (7-9 PM, basta una consumazione) è ogni giovedì: tu a Guiyang sei lunedì e martedì, quindi non lo prendi. Non confermato che sia aperto e animato lunedì o martedì: chiedilo sul loro account WeChat prima di andarci. Martedì 17 alle 20:00 c'è l'amichevole Cina-Bahrain (a Zhaoqing, trasmissione non confermata): se la danno in TV, il pub è il posto."
+          "nota": "Band dal vivo ogni sera, cocktail bar. Molto citato su rednote a novembre 2026."
+        },
+        {
+          "nome": "回春 Huichun",
+          "tipo": "live",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "回春 Huichun",
+          "zona": "Guiyang",
+          "prezzo": "consumazione",
+          "come": "Cerca su Amap o rednote",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Livehouse, indie e rock dal vivo. Atmosfera energica."
+        },
+        {
+          "nome": "BOBO LOUNGE",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "BOBO LOUNGE",
+          "zona": "Guiyang",
+          "prezzo": "consumazione",
+          "come": "Cerca su Amap o rednote",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": null
+        },
+        {
+          "nome": "LIQUID WORKSHOP 液体工坊",
+          "tipo": "bar",
+          "giorno": ["sempre"],
+          "orario": "sera",
+          "locale": "LIQUID WORKSHOP 液体工坊",
+          "zona": "Taiping Road",
+          "prezzo": "consumazione",
+          "come": "Cerca su Amap o rednote",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Bar su Taiping Road, organizza anche eventi di musica di strada."
         }
       ],
       "ganci": [
-        "Guizhou University ha circa 200 stranieri in tutto e il campus è a Huaxi, ~20 km fuori: l'english corner della facoltà di lingue è roba interna d'ateneo, non ci vai da turista per una sera.",
-        "Ripiego coerente con la scelta dell'hotel: i bar di Taiping Road 太平路, la 网红街 sotto l'albergo. Giro di giovani locali, non internazionale."
+        "Musica di strada (路边音乐会): concerti spontanei regolari a Wenchang Pavilion (770 m dall'hotel) e Jiaxiu Tower (1,8 km). Cerca 贵阳路边音乐会 su rednote per orari.",
+        "Altri bar su Taiping Road: Trip Smith, Whisper. La 网红街 sotto l'albergo ha un giro serale di giovani locali.",
+        "Guizhou University ha circa 200 stranieri in tutto e il campus è a Huaxi, ~20 km fuori: l'english corner della facoltà di lingue è roba interna d'ateneo, non ci vai da turista per una sera."
       ]
     },
     {

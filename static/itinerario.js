@@ -33,7 +33,22 @@
 
   schede.forEach(function (d) { d.addEventListener("toggle", aggiornaBottone); });
 
+  function apriOggi() {
+    if (location.hash) return;
+    var oggi = new Date().toISOString().slice(0, 10);
+    for (var i = 0; i < schede.length; i++) {
+      var ci = schede[i].getAttribute("data-checkin");
+      var co = schede[i].getAttribute("data-checkout");
+      if (ci && co && oggi >= ci && oggi < co) {
+        schede[i].open = true;
+        schede[i].scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+    }
+  }
+
   window.addEventListener("hashchange", apriDaHash);
   apriDaHash();
+  apriOggi();
   aggiornaBottone();
 })();

@@ -37,13 +37,11 @@ OUT = ROOT / "docs"
 
 SEZIONI = [
     ("index.html", "Riepilogo"),
-    ("domenica.html", "Dom 8 sera"),
     ("itinerario.html", "Itinerario"),
     ("mappe.html", "Mappe"),
     ("serate.html", "Serate"),
     ("treni.html", "Treni"),
     ("hotel.html", "Hotel"),
-    ("checklist.html", "Checklist"),
 ]
 
 TIPI = {
@@ -392,7 +390,6 @@ prima di ogni partenza.</p>"""
          "sette tappe ma otto strutture: a Hong Kong il 25 in centro, il 26 in aeroporto", "hotel.html"),
         (f'{len(treni["tratte"])} tratte in treno + le gite in giornata',
          "le vendite aprono 15 giorni prima di ogni partenza", "treni.html"),
-        ("Preparativi", "VPN, eSIM, pagamenti, assicurazione", "checklist.html"),
     ]
     aperti_html = "".join(
         f'<div class="card"><div class="stop-head"><h3>{e(a)}</h3>'
@@ -496,7 +493,7 @@ def build_itinerario(viaggio):
             else ""
         )
         schede.append(
-            f'<details class="card stop" id="{e(t["id"])}">'
+            f'<details class="card stop" id="{e(t["id"])}" data-checkin="{e(t["checkin"])}" data-checkout="{e(t["checkout"])}">'
             f'<summary class="stop-head"><span class="tag grey">{i}</span>'
             f'<h3>{e(t["nome"])}</h3><span class="zh">{e(t["nome_zh"])}</span>{wk}'
             f'<span class="when">{e(etichetta(t["checkin"], t["checkout"]))}</span></summary>'
@@ -1462,9 +1459,7 @@ def main():
     viaggio = json.loads((DATA / "viaggio.json").read_text(encoding="utf-8"))
     treni = json.loads((DATA / "treni.json").read_text(encoding="utf-8"))
     voli = json.loads((DATA / "voli.json").read_text(encoding="utf-8"))
-    check = json.loads((DATA / "checklist.json").read_text(encoding="utf-8"))
     serate = json.loads((DATA / "serate.json").read_text(encoding="utf-8"))
-    domenica = json.loads((DATA / "domenica.json").read_text(encoding="utf-8"))
     mappe = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(MAPPE.glob("*.json"))]
 
     if OUT.exists():
@@ -1474,7 +1469,7 @@ def main():
     (OUT / "kml").mkdir()
     (OUT / "tiles").mkdir()
 
-    for nome in ("app.css", "mappa.js", "checklist.js", "countdown.js", "itinerario.js", "pwa.js"):
+    for nome in ("app.css", "mappa.js", "countdown.js", "itinerario.js", "pwa.js"):
         sorgente = STATIC / nome
         shutil.copy2(sorgente, OUT / "assets" / nome)
         VER[nome] = hashlib.md5(sorgente.read_bytes()).hexdigest()[:8]
@@ -1494,7 +1489,6 @@ def main():
         (OUT / nome).write_text(testo, encoding="utf-8")
 
     w("index.html", build_home(viaggio, treni, voli))
-    w("domenica.html", build_domenica(domenica))
     w("itinerario.html", build_itinerario(viaggio))
     w("mappe.html", build_mappe_index(mappe, viaggio))
     w("serate.html", build_serate(serate, viaggio))
@@ -1502,7 +1496,6 @@ def main():
     # build_voli() e data/voli.json restano nel repo, pronti a essere riattivati.
     w("treni.html", build_treni(treni))
     w("hotel.html", build_hotel(viaggio))
-    w("checklist.html", build_checklist(check))
 
     for d in mappe:
         w(f'mappe/{d["slug"]}.html', build_mappa(d))
@@ -1511,12 +1504,11 @@ def main():
     build_sw(mappe)
 
     n_locali = sum(len(d["venues"]) for d in mappe)
-    n_voci = sum(len(g["voci"]) for g in check["gruppi"])
     n_serate = sum(len(x["eventi"]) for x in serate["tappe"])
     print(f"  {len(SEZIONI)} sezioni")
     print(f"  {len(mappe)} mappe, {n_locali} locali, {len(mappe)} KML")
     print(f"  {n_serate} appuntamenti serali")
-    print(f'  {len(viaggio["tappe"])} tappe, {len(treni["tratte"])} tratte, {n_voci} voci checklist')
+    print(f'  {len(viaggio["tappe"])} tappe, {len(treni["tratte"])} tratte')
     print(f"  -> {OUT}")
 
 
