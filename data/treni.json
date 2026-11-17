@@ -1,6 +1,6 @@
 {
   "titolo": "Treni ad alta velocità",
-  "nota": "2ª classe posto seduto. Tratte 5 e 6 comprate su 12306 il 17 novembre, prezzi pagati. Le altre sono stime rilevate su Trip.com tra agosto e ottobre 2026: le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
+  "nota": "2ª classe posto seduto. Tratte 5 e 6 e la gita a Leshan comprate su 12306 il 17 novembre, prezzi pagati. Le altre sono stime rilevate su Trip.com tra agosto e ottobre 2026: le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
   "totale_cny": 1669,
   "totale_eur": 203.5,
   "escursioni": [
@@ -8,13 +8,13 @@
       "nome": "Leshan, il Grande Buddha",
       "da": "Chengdu East",
       "a": "Leshan",
-      "treno": "G2277 07:49 → 08:35, ritorno G2826 16:14 → 17:06",
-      "durata": "46-52 min",
-      "cny": 108,
-      "eur": 13,
+      "treno": "C6275 09:36 → 10:28, ritorno C5690 16:56 → 17:48",
+      "durata": "52 min",
+      "cny": 94,
+      "eur": 11.5,
       "data": "2026-11-19",
       "verificato": true,
-      "note": "Giovedì 19, fuori dal totale delle sette tratte. Diretti ogni 10-30 min, 54 CNY. I più economici (C5663 07:05 a 27 CNY, G3707 07:00 a 30 CNY) chiedono di uscire dall'ostello verso le 06:00. Dalla stazione al Buddha: Didi ~15 min, o bus C / 601 fino a Jiading Fang. Dall'ostello a Chengdu East (Amap): Didi 28 min, metro 42-47 min: in metro esci alle 06:30"
+      "note": "Giovedì 19, fuori dal totale delle sette tratte. Biglietti presi su 12306 il 17 novembre: andata C6275, seconda classe, posto 05A (carrozza 05), 43 CNY; ritorno C5690, seconda classe, posto 18C (carrozza 11), 51 CNY. Totale 94 CNY. Dalla stazione al Buddha: Didi ~15 min, o bus C / 601 fino a Jiading Fang. Dall'ostello a Chengdu East (Amap): Didi 28 min, metro 42-47 min: in metro esci alle 06:30"
     },
     {
       "nome": "Dazu Rock Carvings (大足石刻)",
