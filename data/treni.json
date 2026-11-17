@@ -1,8 +1,8 @@
 {
   "titolo": "Treni ad alta velocità",
-  "nota": "Prezzi rilevati su Trip.com ad agosto 2026, 2ª classe posto seduto. Le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
-  "totale_cny": 1712,
-  "totale_eur": 209,
+  "nota": "2ª classe posto seduto. Tratte 5 e 6 comprate su 12306 il 17 novembre, prezzi pagati. Le altre sono stime rilevate su Trip.com tra agosto e ottobre 2026: le tariffe cinesi sono fissate da China Railway e restano stabili (oscillazione max ±20% su alcune linee).",
+  "totale_cny": 1669,
+  "totale_eur": 203.5,
   "escursioni": [
     {
       "nome": "Leshan, il Grande Buddha",
@@ -92,23 +92,39 @@
       "a": "Chengdu East",
       "treno": "G2832, 09:37 → 13:28",
       "durata": "3h51",
-      "cny": 293,
-      "eur": 36,
+      "cny": 269,
+      "eur": 33,
       "data": "2026-11-18",
       "verificato": true,
-      "note": "Letta sul listino Trip.com a ottobre 2026: 35,97 €, il CNY è convertito. Il più economico della metà mattina, parte da North come la linea 1 dell'hotel. Alternativa G2822 10:16 → 13:18, 3h02, 39,71 €. Dall'hotel (Amap): Didi 23 min, metro 38 min con la linea 1"
+      "note": "Carrozza 07, posto 15A. Il più economico della metà mattina, parte da North come la linea 1 dell'hotel. La 2ª classe del G3582 da Guiyang (la stazione vecchia, più vicina all'hotel) era esaurita, restava solo la 1ª a 480 CNY. Dall'hotel (Amap): Didi 23 min, metro 38 min con la linea 1",
+      "prenotato": {
+        "data": "2026-11-17",
+        "dove": "12306.cn",
+        "biglietto_eur": 33.0,
+        "commissione_eur": 0.0,
+        "costo_eur": 33.0,
+        "stato": "biglietto emesso su 12306, passaporto come documento. 269 CNY, importo in euro stimato"
+      }
     },
     {
       "n": 6,
       "da": "Chengdu East",
-      "a": "Chongqing West",
-      "treno": "D997, 08:52 → 10:22",
-      "durata": "1h30",
-      "cny": 121,
-      "eur": 15,
+      "a": "Chongqing North",
+      "treno": "D368, 10:50 → 12:52",
+      "durata": "2h02",
+      "cny": 102,
+      "eur": 12.5,
       "data": "2026-11-22",
       "verificato": true,
-      "note": "Letta sul listino Trip.com a ottobre 2026. Il prezzo cambia da treno a treno, 99-243 CNY: il D997 è il più economico a un orario ragionevole, le altre corse della mattina costano 149-166 CNY. Arriva a Chongqing WEST, la stessa stazione da cui riparte il G905 il 25: molte corse vanno a North. Dall'ostello (Amap): Didi 39 min la domenica mattina, metro 42-47 min. Check-out alle 07:30, non alle 07:50"
+      "note": "Carrozza 12, posto 09B. Il D997 del piano non risultava più su 12306 per il 22: il D368 è il più economico dopo le 9:30 (102 CNY contro 141-149 per Chongqing West). Arriva a Chongqing NORTH (重庆北), non West: il G905 del 25 riparte invece da West. Da Chongqing North all'hotel di Jiaochangkou il percorso non è verificato, da controllare su Amap. Dall'ostello a Chengdu East (Amap): Didi 39 min, metro 42-47 min",
+      "prenotato": {
+        "data": "2026-11-17",
+        "dove": "12306.cn",
+        "biglietto_eur": 12.5,
+        "commissione_eur": 0.0,
+        "costo_eur": 12.5,
+        "stato": "biglietto emesso su 12306, passaporto come documento. 102 CNY, importo in euro stimato"
+      }
     },
     {
       "n": 7,

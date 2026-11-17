@@ -397,8 +397,7 @@
           "voci": [
             "Colazione con un changwang mian (肠旺面)",
             "Check-out verso le 08:30, metro linea 1 fino a Guiyang North: 38 min secondo Amap, 4 CNY, di cui 900 m a piedi fino a Penshuichi uscita H, poi 5 fermate. Didi 23 min alle 08:30, 10 km",
-            "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28, 35,97 € su Trip.com: il più economico della metà mattina. Alternativa G2822 10:16 → 13:18, 3h02, 39,71 €: parte 40 min dopo e arriva 10 min prima",
-            "Orari letti sul listino Trip.com di ottobre 2026: riverificarli quando apre la vendita, dal 3 novembre"
+            "Treno G2832 Guiyang North 09:37 → Chengdu East 13:28, 2ª classe carrozza 07 posto 15A, 269 CNY. Biglietto emesso su 12306 il 17 novembre: passaporto alla stazione"
           ]
         },
         {
@@ -525,10 +524,9 @@
           "giorno": "Dom 22",
           "titolo": "Partenza per Chongqing",
           "voci": [
-            "Check-out verso le 07:50, metro fino a Chengdu East: 42-47 min secondo Amap, come giovedì. Didi 39 min alle 07:45 di domenica, 11 km. ⚠️ Con il trolley arrivi alle 08:35-08:40 per un treno delle 08:52: meglio anticipare il check-out alle 07:30",
-            "Treno D997 Chengdu East 08:52 → Chongqing West 10:22, 121 CNY: il più economico tra le 8 e le 13. Le altre corse costano 149-166 CNY. Il D1822 delle 07:41 costa 99 CNY ma ci mette 2h28",
-            "Arriva a Chongqing WEST: molte corse vanno a North",
-            "Orari e prezzi letti sul listino di domenica 25 ottobre: riverificarli quando apre la vendita, dal 7 novembre"
+            "Check-out verso le 08:45, metro fino a Chengdu East: 42-47 min secondo Amap, come giovedì. Didi 39 min, 11 km. In stazione verso le 10:00 con il trolley, per un treno delle 10:50",
+            "Treno D368 Chengdu East 10:50 → Chongqing North 12:52, 2ª classe carrozza 12 posto 09B, 102 CNY. Biglietto emesso su 12306 il 17 novembre: passaporto alla stazione",
+            "Arriva a Chongqing NORTH (重庆北), non West: il G905 del 25 riparte da West. Percorso da Chongqing North all'hotel di Jiaochangkou da verificare su Amap"
           ]
         },
         {
@@ -550,7 +548,7 @@
       "nome_zh": "重庆",
       "checkin": "2026-11-22",
       "checkout": "2026-11-25",
-      "arrivo": "Treno D997 Chengdu East 08:52 → Chongqing West 10:22. Domenica. Arriva a Chongqing WEST, non Chongqing North: è la stazione da cui riparte il G905. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
+      "arrivo": "Treno D368 Chengdu East 10:50 → Chongqing North 12:52. Domenica. Arriva a Chongqing NORTH, non West: il G905 del 25 riparte invece da West. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
       "clima": {
         "max": 17,
         "min": 11,

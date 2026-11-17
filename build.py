@@ -1057,9 +1057,9 @@ il biglietto appena la vendita parte.</p>
 
 <h2>Note</h2>
 <div class="card">{lista([
-  "Il rientro G905 da solo vale il 49% del budget treni, quanto le altre sei messe insieme. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
-  "Tratta 6: il prezzo cambia da treno a treno, 99-243 CNY. Il D997 delle 08:52 è il più economico a un orario ragionevole.",
-  "Tratta 6: molte corse Chengdu → Chongqing arrivano a Chongqing NORTH. Tu devi scendere a WEST, la stessa stazione da cui riparte il G905 il 25.",
+  "Il rientro G905 da solo vale il 50% del budget treni, quanto le altre sei messe insieme. Il volo CKG → HKG a volte scende sotto i 100€: confronta.",
+  "Tratta 6: il D997 del piano non risultava più su 12306 per il 22 novembre. Preso il D368 delle 10:50 a 102 CNY, il più economico dopo le 9:30.",
+  "Tratta 6: il D368 arriva a Chongqing NORTH, non a West. Il G905 del 25 riparte invece da West. Il percorso da North all'hotel di Jiaochangkou è da verificare su Amap.",
   "Tratta 2: la prendi il giorno stesso (mar 10), senza prenotare prima. Biglietto in app o in stazione.",
   "Abbonamenti: per i turisti stranieri non esiste un rail pass cinese, i biglietti si comprano a tratta. Nelle città bastano metro con QR Alipay/WeChat. A Hong Kong il Tourist Day Pass MTR (24 h) non conviene in sole 2 notti: meglio Octopus.",
   "Tratta 2: esistono anche treni ordinari K/T a ~25 CNY, ma fermano in stazioni diverse e ci mettono il doppio.",
