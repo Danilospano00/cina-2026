@@ -310,12 +310,40 @@
           "come": "Ci si presenta; conferma prima su Douban",
           "url": "https://www.douban.com/note/867095807/",
           "conferma": "da verificare",
-          "nota": "Pomeridiano: cade nel giorno di arrivo da Chengdu, il treno è di un'ora e mezza."
+          "nota": "Pomeridiano: cade nel giorno di arrivo da Chengdu. Con il D368 arrivi a Chongqing North alle 12:52 e in hotel verso le 14:00: Shapingba non ci sta, lo manchi."
+        },
+        {
+          "nome": "Concerto tributo ai Beyond («Classic Echoes: Remembering Ka Kui»)",
+          "tipo": "live",
+          "giorno": ["dom"],
+          "orario": "da verificare",
+          "locale": "da verificare",
+          "zona": "Chongqing",
+          "prezzo": "da verificare",
+          "come": "Biglietti su Damai o Showstart: cerca il titolo",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Data 22 nov da un riepilogo di eventi di fine novembre su rednote (letto per intero). Sede, orario e prezzo non sono indicati."
+        },
+        {
+          "nome": "Stand-up Comedy Small Theater (Xiao Lu)",
+          "tipo": "live",
+          "giorno": ["dom"],
+          "orario": "da verificare",
+          "locale": "da verificare",
+          "zona": "Chongqing",
+          "prezzo": "da verificare",
+          "come": "Da verificare",
+          "url": null,
+          "conferma": "da verificare",
+          "nota": "Date 21-22 nov dallo stesso riepilogo. In cinese: ha senso solo se ti basta l'atmosfera."
         }
       ],
       "ganci": [
         "Cotton Club, The Celtic Man e True Color sono i vecchi expat bar di Jiefangbei, ma li documentano solo articoli eChinacities di anni fa: nessuna conferma che siano aperti nel 2026. Controllali su Dianping prima di andarci.",
-        "L'english corner della Chongqing University è il giovedì: lo manchi, riparti martedì."
+        "L'english corner della Chongqing University è il giovedì: lo manchi, riparti martedì.",
+        "Rednote mostra una scena internazionale viva a Jiujie: Solas pub, Neptune (bar con musica dal vivo, il 7 nov ha fatto una serata), un bar americano di quartiere, un locale con band straniera. Sono tutti titoli di post: verifica apertura e prezzi su Dianping. Un bar al 70º piano del WFC offre la vista sul fiume.",
+        "Il livehouse Old Addiction (旧瘾) pubblica il programma settimanale sul suo account rednote: quello del 23-29 nov esce a ridosso della settimana."
       ]
     },
     {

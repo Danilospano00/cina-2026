@@ -549,7 +549,7 @@
       "nome_zh": "重庆",
       "checkin": "2026-11-22",
       "checkout": "2026-11-25",
-      "arrivo": "Treno D368 Chengdu East 10:50 → Chongqing North 12:52. Domenica. Arriva a Chongqing NORTH, non West: il G905 del 25 riparte invece da West. La domenica sera Hongya Cave è al picco di folla, meglio spostare la visita serale a lunedì o martedì.",
+      "arrivo": "Treno D368 Chengdu East 10:50 → Chongqing North 12:52, domenica, già preso. Arriva a Chongqing NORTH, non West: il G905 del 25 riparte invece da West. Da Chongqing North a Dayuan Plaza (il palazzo dell'hotel), secondo Amap: metro linea 10 + linea 2, 36 min, 3 CNY, 653 m a piedi; Didi 23 min, 11,7 km. Hongya Cave la domenica sera è il picco di folla: meglio spostarla a lunedì o martedì.",
       "clima": {
         "max": 17,
         "min": 11,
@@ -578,7 +578,59 @@
         "prezzo": "44,22 € per 3 notti · 14,74 €/notte",
         "url": "https://it.trip.com/hotels/detail/?cityId=4&hotelId=128916214&checkIn=2026-11-22&checkOut=2026-11-25&adult=1&crn=1&curr=EUR&locale=it-IT",
         "costo_eur": 44.22
-      }
+      },
+      "programma": [
+        {
+          "giorno": "Dom 22",
+          "titolo": "Arrivo e primo giro intorno all'hotel",
+          "voci": [
+            "12:52 Chongqing North. Metro linea 10 + linea 2 fino al palazzo Dayuan Plaza (Jiaochangkou), 36 min, 3 CNY; Didi 23 min, 11,7 km (Amap). In hotel verso le 14:00. Deposito bagagli gratis; l'ora di check-in è da verificare",
+            "Pranzo: xiaomian (小面), una ciotola sta sui 10-15 CNY. Da verificare il posto: nessun nome confermato",
+            "Pomeriggio a piedi: Shibati (十八梯) e Jiefangbei (解放碑), entrambi a meno di 800 m dall'hotel",
+            "Tramonto: Liziba (李子坝), metro linea 2, la linea passa dentro il palazzo. Gratis. Orario del tramonto da verificare",
+            "Alternativa: Nanping International Convention & Exhibition Center, fiera dei consumi (20-23 nov) con carnevale jazz-caffè, che finisce oggi. Da verificare ingresso e biglietto",
+            "Sera: hotpot, 80-200 CNY (10-25 €) a persona secondo le guide. Nomi emersi: Mujiuge (sul tetto, Jiefangbei) e Yuzong (Sun Moon Plaza, Jiaochangkou). Da verificare prezzi e posti singoli su Dianping",
+            "Hongya Cave stasera no: domenica è il picco. Concerto tributo ai Beyond («Classic Echoes») e stand-up di Xiao Lu (in cinese) hanno data 22 nov: sede e orario da verificare"
+          ]
+        },
+        {
+          "giorno": "Lun 23",
+          "titolo": "Huangjueping, centro e Hongya Cave",
+          "voci": [
+            "Mattina: via dei graffiti di Huangjueping (黄桷坪涂鸦街), Jiulongpo, accanto all'Accademia di Belle Arti del Sichuan. Gratis, aperta 24 ore, circa 1 ora, meglio di giorno. Nei dintorni due locali storici: Hu Ji (胡记蹄花汤, zuppa di zampetto) e Jiaotong Teahouse (交通茶馆)",
+            "Pomeriggio: Liziba, Shibati e Jiefangbei, se non fatti domenica. Eventuale seconda visita ai ponti sul fiume dalla piazza di Chaotianmen",
+            "Sera: Hongya Cave (洪崖洞), struttura gratis, si paga solo il 5º piano. Accensione luci: le fonti dicono 18:00, 19:30 o 20:00, da verificare sull'account ufficiale. Chiude alle 23:00, ultimo ingresso 22:30. Dopo le 22 i vicoli si svuotano",
+            "Dopo: bar con vista al 70º piano del WFC (da verificare apertura e prezzi) oppure Neptune, bar con musica dal vivo. Entrambi emersi solo da titoli di post",
+            "Nanping: ultimo giorno della fiera dei consumi (da verificare ingresso)"
+          ]
+        },
+        {
+          "giorno": "Mar 24",
+          "titolo": "Museo, funivia e ultima sera",
+          "voci": [
+            "Mattina: Museo delle Tre Gole (中国三峡博物馆). Fonte vecchia: aperto mar-dom 9:00-17:00, chiuso il lunedì. Da verificare orario, prenotazione e se accettano il passaporto",
+            "Pomeriggio: Funivia sul Fiume Azzurro (长江索道), 8:00-22:00, ultimo ingresso 21:00. 30 CNY andata, 50 CNY andata e ritorno. Biglietti sul canale ufficiale, da 2 giorni prima; da verificare limiti di accesso",
+            "Panoramica: Explore Capsule (探索舱) del Raffles City Chaotianmen, circa 250 m, 120 CNY (15 €). Alternativa gratuita: i ponti sul fiume dalla piazza di Chaotianmen",
+            "Sera: zona Jiujie (九街), dove la scena internazionale è più viva. Da verificare locale per locale: Solas pub, un bar americano di quartiere, un bar con band straniera. Il programma settimanale del livehouse Old Addiction (旧瘾) esce sul suo account",
+            "Rientra entro mezzanotte: domani metro alle 06:50 per il G905. Dopo le 21 intorno al piazzale di Jiefangbei ci sono procacciatori di sale da tè (truffa nota): non seguirli"
+          ]
+        },
+        {
+          "giorno": "Mer 25",
+          "titolo": "Partenza per Hong Kong",
+          "voci": [
+            "G905 Chongqing West 08:44 → HK West Kowloon 15:57. Dall'hotel: metro 54 min, 5 CNY (linea 1 + linea 5), oppure Didi 32 min, 21 km. In stazione entro le 08:00: metro alle 06:50 (la linea 1 parte alle 06:06) o Didi alle 07:15. Passaporto in tasca"
+          ]
+        },
+        {
+          "giorno": "Fuori",
+          "titolo": "Alternative e cosa resta fuori",
+          "voci": [
+            "Dazu (大足石刻), UNESCO, una giornata intera: treno + bus, circa 100 CNY (12 €) tra andata e ritorno, più il biglietto. Prezzi in conflitto tra le fonti: 60 CNY, oppure 110-115 per Baodingshan, 58-70 per Beishan, 140 combinato. Da verificare sul canale ufficiale «大足石刻» (prenotazione col nome reale, se accettano il passaporto). Ultimo ingresso 16:30 secondo una fonte. Se lo fai lunedì, Hongya Cave passa a martedì sera",
+            "Meteo: 13-16 °C, cielo coperto, pioggia a tratti, nebbia alcune mattine (previsione del 15 nov, non c'è un dettaglio per il 22-24). Porta ombrello e un maglione"
+          ]
+        }
+      ]
     },
     {
       "id": "hongkong",
