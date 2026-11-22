@@ -1,7 +1,7 @@
 {
   "titolo": "Serate — eventi ricorrenti e community",
   "lede": "Non i locali (quelli stanno nelle mappe): gli appuntamenti fissi dove si incontra gente. English corner pubblici, social a pagamento, hostel bar. Il giorno della settimana è incrociato con le date del viaggio: quello che non cade nei tuoi giorni resta scritto, marcato.",
-  "aggiornato": "2026-08-30",
+  "aggiornato": "2026-11-22",
   "avvertenza": "Erasmus ed ESN non esistono in Cina: sono programmi UE. L'equivalente sono gli 英语角 (english corner) pubblici e gratuiti, gli operatori a pagamento su Eventbrite e i bar degli ostelli. Meetup in Cina continentale è morto dopo il Covid — quasi tutti i gruppi hanno l'ultimo evento tra il 2015 e il 2021. A Hong Kong Meetup funziona ancora.",
   "prossimo_passo": "Questo è un primo scan. Gli eventi datati di novembre 2026 non esistono ancora: english corner e serate si annunciano con 3-7 giorni di anticipo. Scan completo da rifare a ottobre, poi una verifica per tappa la settimana prima di arrivarci.",
   "tappe": [
@@ -313,6 +313,19 @@
           "nota": "Pomeridiano: cade nel giorno di arrivo da Chengdu. Con il D368 arrivi a Chongqing North alle 12:52 e in hotel verso le 14:00: Shapingba non ci sta, lo manchi."
         },
         {
+          "nome": "Spettacolo di droni «新韵重庆» — speciale «中国—东盟周»",
+          "tipo": "live",
+          "giorno": ["dom"],
+          "orario": "20:30",
+          "locale": "Chaotianmen, Jiangbeizui e Nanbinlu, lungo i due fiumi",
+          "zona": "Yuzhong, Jiangbei, Nan'an",
+          "prezzo": "gratis",
+          "come": "Si guarda dalle rive. Se il meteo non è adatto può essere annullato",
+          "url": null,
+          "conferma": "confermato",
+          "nota": "Fonte: post dell'account ufficiale WeChat 新韵重庆无人机灯光秀, pubblicato il 22 nov alle 13:20, riletto per intero. La durata non è indicata: nel 2025 il debutto durava circa 3 minuti di cerimonia e circa 15 di droni. Dopo lo spettacolo, 野草LIVE e DEDECO sono nello stesso complesso, Chaotianmen·城里."
+        },
+        {
           "nome": "Concerto tributo ai Beyond («Classic Echoes: Remembering Ka Kui»)",
           "tipo": "live",
           "giorno": ["dom"],
@@ -343,7 +356,10 @@
         "Cotton Club, The Celtic Man e True Color sono i vecchi expat bar di Jiefangbei, ma li documentano solo articoli eChinacities di anni fa: nessuna conferma che siano aperti nel 2026. Controllali su Dianping prima di andarci.",
         "L'english corner della Chongqing University è il giovedì: lo manchi, riparti martedì.",
         "Rednote mostra una scena internazionale viva a Jiujie: Solas pub, Neptune (bar con musica dal vivo, il 7 nov ha fatto una serata), un bar americano di quartiere, un locale con band straniera. Sono tutti titoli di post: verifica apertura e prezzi su Dianping. Un bar al 70º piano del WFC offre la vista sul fiume.",
-        "Il livehouse Old Addiction (旧瘾) pubblica il programma settimanale sul suo account rednote: quello del 23-29 nov esce a ridosso della settimana."
+        "Il livehouse Old Addiction (旧瘾) pubblica il programma settimanale sul suo account rednote: quello del 23-29 nov esce a ridosso della settimana.",
+        "野草LIVE (Yecao Live), 朝天门·城里 4F stanza 401, tel. 13224091522: palco folk sulla confluenza dei fiumi, focolare centrale dove gli sconosciuti brindano. Letto su post di 爱尚解放碑 (giugno e ottobre 2026) e video di due mesi fa. Orari, prezzi e programma di stasera non trovati: da chiedere o controllare su Dianping.",
+        "El Nido × 燕喜酒家, 鲁祖庙传统风貌区9号, tel. 18908316980: birra artigianale (post di 爱尚解放碑, 5 ott 2026). Apertura e distanza dall'hotel non verificate.",
+        "DEDECO, 朝天门城里 L4 409: hotpot piccante con cocktail bar e cantante dal vivo, sul balcone sul fiume. Prezzo non trovato."
       ]
     },
     {
