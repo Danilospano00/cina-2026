@@ -686,6 +686,33 @@
           "url": "https://it.trip.com/hotels/detail/?cityId=58&hotelId=92764015&checkIn=2026-11-26&checkOut=2026-11-27&adult=1&crn=1&curr=EUR&locale=it-IT",
           "costo_eur": 108.0
         }
+      ],
+      "programma": [
+        {
+          "giorno": "Mer 25",
+          "titolo": "Arrivo e serata a Tsim Sha Tsui",
+          "voci": [
+            "G905 arriva a West Kowloon alle 15:57. Check-in Merryland (Mirador Mansion, 62 Nathan Road) verso le 16:30: 20 min a piedi o Tuen Ma line fino a East Tsim Sha Tsui",
+            "17:30 Promenade di Tsim Sha Tsui, tramonto verso le 17:40 con lo skyline di Central dall'altra parte della baia. Gratis. Orario del tramonto da verificare",
+            "18:30 Temple Street Night Market (Jordan, ~15 min a piedi): banchi e street food per la cena. Orari dei banchi da verificare",
+            "20:00 Symphony of Lights: spettacolo gratuito di luci e laser sui grattacieli di Hong Kong Island, ~10 min, musica dagli altoparlanti della Promenade. Posto alla ringhiera verso le 19:45. Può saltare con maltempo o allerta tifone: da verificare",
+            "Serata corta: il 27 la sveglia è alle 05:30"
+          ]
+        },
+        {
+          "giorno": "Gio 26",
+          "titolo": "Ultima giornata piena, poi aeroporto",
+          "voci": [
+            "09:00 Check-out (entro le 11:30). Bagagli al Bounce dell'Unique Hotel, Chungking Mansions blocco E 9º piano, HK$35 a collo, apre alle 09:00. Se Merryland conferma il deposito, restano lì",
+            "09:30 Sham Shui Po (linea rossa, 4 fermate): colazione o dim sum in zona. I negozi di Ap Liu Street e Golden Computer Arcade aprono verso le 11, da verificare. Qui si compra il tech pesante: franchigia UE 430 €, batterie solo a mano",
+            "13:30 Star Ferry da Tsim Sha Tsui a Central, ~10 min a piedi dal molo",
+            "14:30 Peak Tram e Victoria Peak: salire presto per avere luce e tramonto (~17:30). Orari della tram da verificare",
+            "17:45 Discesa a Central. Ultimo dim sum o cena",
+            "19:30 Ritiro bagagli al Bounce (chiude alle 22:00)",
+            "20:30 Linea rossa fino a Lai King, poi Tung Chung line fino al capolinea e navetta gratuita al Regala Skycity. In hotel verso le 22:00",
+            "Sveglia 05:30, prima navetta alle 06:00, drop bagagli entro le 07:10"
+          ]
+        }
       ]
     }
   ],
